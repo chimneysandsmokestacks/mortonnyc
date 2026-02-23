@@ -58,13 +58,24 @@
       text-decoration: none;
     }
 
-    .categories {
-      list-style: none;
+    .category {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 1rem;
       margin-bottom: calc(16px + 1.5625vw);
     }
 
-    .categories li {
-      margin-bottom: 0.75em;
+    .category img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 600px) {
+      .category {
+        grid-template-columns: 1fr;
+      }
     }
 
     .back {
@@ -91,11 +102,18 @@
 <body>
   <main>
     <p>Here are a few Google Maps-based collections of restaurants, cultural sights, and stores in New York. I've curated and continually update these as I explore the streets of this city.</p>
-    <ul class="categories">
-      <li><a href="https://maps.app.goo.gl/yHcfVNjfeg61TzTPA" target="_blank" rel="noreferrer noopener">Restaurants/Bars</a></li>
-      <li><a href="https://maps.app.goo.gl/neK31B2aWmuPXKdy6" target="_blank" rel="noreferrer noopener">Culture</a></li>
-      <li><a href="https://maps.app.goo.gl/sq2F8dVb5LZ9xkew9" target="_blank" rel="noreferrer noopener">Stores</a></li>
-    </ul>
+    <div class="category">
+      <a href="https://maps.app.goo.gl/yHcfVNjfeg61TzTPA" target="_blank" rel="noreferrer noopener">Restaurants/Bars</a>
+      <a href="https://maps.app.goo.gl/yHcfVNjfeg61TzTPA" target="_blank" rel="noreferrer noopener"><img src="images/restaurants.png" alt="Map of restaurant and bar recommendations in NYC"></a>
+    </div>
+    <div class="category">
+      <a href="https://maps.app.goo.gl/neK31B2aWmuPXKdy6" target="_blank" rel="noreferrer noopener">Culture</a>
+      <a href="https://maps.app.goo.gl/neK31B2aWmuPXKdy6" target="_blank" rel="noreferrer noopener"><img src="images/culture.png" alt="Map of cultural sights in NYC"></a>
+    </div>
+    <div class="category">
+      <a href="https://maps.app.goo.gl/sq2F8dVb5LZ9xkew9" target="_blank" rel="noreferrer noopener">Stores</a>
+      <a href="https://maps.app.goo.gl/sq2F8dVb5LZ9xkew9" target="_blank" rel="noreferrer noopener"><img src="images/stores.png" alt="Map of store recommendations in NYC"></a>
+    </div>
     <a class="back" href="/">back</a>
   </main>
 </body>
