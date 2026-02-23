@@ -30,12 +30,16 @@
       font-family: "Inter", sans-serif;
       font-size: clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.375), 1.4rem);
       line-height: 1.7;
-      padding: calc(20px + 1.5625vw) calc(28px + 1.5625vw);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
     }
 
     main {
       max-width: 640px;
-      margin-top: calc(20px + 1.5625vw);
+      width: 100%;
     }
 
     h1 {
