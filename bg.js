@@ -86,14 +86,15 @@
   function drawSun() {
     var sx = W * 0.63;
     var sy = H * 0.19;
-    var r  = Math.min(W, H) * 0.055;   /* hard disc radius                  */
-    var gr = ctx.createRadialGradient(sx, sy, r * 0.1, sx, sy, r * 3.2);
-    gr.addColorStop(0,    'rgba(255, 145, 40, 0.62)');
-    gr.addColorStop(0.38, 'rgba(240, 110, 28, 0.32)');
-    gr.addColorStop(1,    'rgba(210,  80, 15, 0)');
+    var r  = Math.min(W, H) * 0.075;
+    var gr = ctx.createRadialGradient(sx, sy, 0, sx, sy, r);
+    gr.addColorStop(0.00, 'rgba(255, 150, 45, 0.72)'); /* solid centre      */
+    gr.addColorStop(0.70, 'rgba(255, 145, 40, 0.72)'); /* holds solid to 70%*/
+    gr.addColorStop(0.88, 'rgba(240, 110, 28, 0.18)'); /* sharp mist drop   */
+    gr.addColorStop(1.00, 'rgba(210,  80, 15, 0)');    /* fully gone at edge*/
     ctx.fillStyle = gr;
     ctx.beginPath();
-    ctx.arc(sx, sy, r * 3.2, 0, 6.2832);
+    ctx.arc(sx, sy, r, 0, 6.2832);
     ctx.fill();
   }
 
