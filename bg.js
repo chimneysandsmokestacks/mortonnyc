@@ -88,7 +88,7 @@
     var sy = H * 0.19;
     var r  = Math.min(W, H) * 0.075;
     var gr = ctx.createRadialGradient(sx, sy, 0, sx, sy, r);
-    gr.addColorStop(0.00, 'rgba(255, 192, 129, 0.3)'); /* solid centre      */
+    gr.addColorStop(0.00, 'rgba(255, 192, 129, 0.9)'); /* solid centre      */
     gr.addColorStop(0.60, 'rgba(255, 150, 45, 0.72)'); /* solid centre      */
     gr.addColorStop(0.70, 'rgba(255, 145, 40, 0.72)'); /* holds solid to 70%*/
     gr.addColorStop(0.88, 'rgba(240, 110, 28, 0.34)'); /* sharp mist drop   */
