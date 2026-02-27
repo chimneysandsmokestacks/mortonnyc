@@ -122,38 +122,59 @@
   /* sparse layout: small tight clusters (2-5) + occasional singles          */
   var CLUSTERS = [
     /* near – close to viewer */
+    { cx:  1.0, cz:  1.8, r: 0.4, n: 2 },   /* very close centre            */
+    { cx: -3.0, cz:  2.2, r: 0,   n: 1 },   /* single, close left           */
+    { cx:  3.5, cz:  2.5, r: 0.5, n: 3 },   /* close right cluster          */
     { cx: -6.0, cz:  2.8, r: 0,   n: 1 },   /* single, far left near        */
+    { cx:  0.0, cz:  3.0, r: 0,   n: 1 },   /* single, close centre         */
     { cx:  4.5, cz:  3.2, r: 0.4, n: 2 },
+    { cx: -4.5, cz:  3.6, r: 0.5, n: 2 },   /* left cluster                 */
+    { cx:  2.0, cz:  3.8, r: 0,   n: 1 },   /* single                       */
     { cx: -1.0, cz:  4.0, r: 0,   n: 1 },   /* single, centre near          */
+    { cx:  6.5, cz:  4.2, r: 0.4, n: 2 },   /* right cluster                */
+    { cx: -2.5, cz:  4.8, r: 0.5, n: 3 },   /* centre-left cluster          */
     { cx:  8.0, cz:  4.5, r: 0,   n: 1 },   /* single, far right near       */
 
     /* mid-distance, spread wide */
     { cx: -9.5, cz:  5.5, r: 0,   n: 1 },   /* single, hard left            */
     { cx:  0.5, cz:  5.0, r: 0,   n: 1 },   /* single                       */
     { cx: -2.5, cz:  6.2, r: 0.6, n: 3 },
-    { cx:  9.0, cz:  6.5, r: 0.5, n: 2 },   /* right side cluster           */
+    { cx:  9.0, cz:  6.5, r: 0.5, n: 2 },   /* right cluster                */
     { cx:  4.0, cz:  6.8, r: 0,   n: 1 },   /* single                       */
-    { cx: -8.0, cz:  7.8, r: 0.5, n: 2 },   /* left side cluster            */
+    { cx: -8.0, cz:  7.8, r: 0.5, n: 2 },   /* left cluster                 */
+    { cx:-13.0, cz:  7.5, r: 0,   n: 1 },   /* single, far left             */
     { cx: -0.5, cz:  8.0, r: 0.7, n: 4 },
     { cx:  7.0, cz:  8.8, r: 0,   n: 1 },   /* single, right                */
+    { cx: 14.0, cz:  8.5, r: 0.5, n: 2 },   /* far right cluster            */
     { cx:  3.5, cz:  9.2, r: 0,   n: 1 },   /* single                       */
     { cx: -4.5, cz:  9.8, r: 0.5, n: 2 },
     { cx:-10.5, cz: 10.5, r: 0,   n: 1 },   /* single, hard left            */
+    { cx: 13.0, cz: 10.2, r: 0,   n: 1 },   /* single, far right            */
+    { cx: -15.0,cz: 10.8, r: 0.6, n: 3 },   /* far left cluster             */
     { cx:  1.5, cz: 11.0, r: 0.8, n: 5 },
-    { cx: 10.0, cz: 11.5, r: 0.6, n: 3 },   /* right side cluster           */
+    { cx: 10.0, cz: 11.5, r: 0.6, n: 3 },   /* right cluster                */
     { cx: -2.0, cz: 12.0, r: 0,   n: 1 },   /* single                       */
     { cx:  5.5, cz: 12.5, r: 0.6, n: 3 },
     { cx: -8.5, cz: 12.8, r: 0,   n: 1 },   /* single, left                 */
+    { cx: 16.0, cz: 12.2, r: 0,   n: 1 },   /* single, far right            */
+    { cx:-14.5, cz: 13.0, r: 0.5, n: 2 },   /* far left cluster             */
     { cx: -1.0, cz: 13.8, r: 0.5, n: 2 },
-    { cx:  8.5, cz: 14.0, r: 0.5, n: 2 },   /* right side                   */
+    { cx:  8.5, cz: 14.0, r: 0.5, n: 2 },   /* right cluster                */
+    { cx: 15.0, cz: 14.2, r: 0.6, n: 3 },   /* far right cluster            */
     { cx:  2.5, cz: 14.5, r: 0,   n: 1 },   /* single                       */
     { cx: -4.0, cz: 15.5, r: 0.7, n: 4 },
+    { cx:-13.5, cz: 15.0, r: 0,   n: 1 },   /* single, far left             */
+    { cx: 13.0, cz: 15.8, r: 0.5, n: 2 },   /* far right cluster            */
 
     /* far – distant horizon */
-    { cx: -7.0, cz: 16.2, r: 0,   n: 1 },   /* single, far left             */
+    { cx:-16.0, cz: 16.0, r: 0.6, n: 3 },   /* far left cluster             */
+    { cx: -7.0, cz: 16.2, r: 0,   n: 1 },   /* single                       */
     { cx:  3.0, cz: 16.5, r: 0.6, n: 3 },
+    { cx: 17.0, cz: 16.3, r: 0,   n: 1 },   /* single, far right            */
+    { cx:-12.0, cz: 17.0, r: 0,   n: 1 },   /* single, far left             */
     { cx: -1.5, cz: 17.0, r: 0,   n: 1 },   /* single                       */
-    { cx:  7.5, cz: 17.3, r: 0.5, n: 2 },   /* far right                    */
+    { cx:  7.5, cz: 17.3, r: 0.5, n: 2 },
+    { cx: 15.5, cz: 17.2, r: 0.6, n: 3 },   /* far right cluster            */
   ];
 
   var DUCKS = [];
