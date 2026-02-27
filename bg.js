@@ -54,9 +54,11 @@
   }
 
   /* ── lighting: linear approx – no sqrt in the render loop ────────────── */
-  /* LIGHT = norm3({-0.6, 1.0, -0.4}), FLAT_D = dot({0,1,0}, LIGHT) ≈ 0.811
-     d(diff)/d(slope) ≈ 0.325 (first-order Taylor)                          */
-  var FLAT_D = 0.811, D_DS = 0.325, L_SCALE = 42;
+  /* LIGHT = norm3({0.5, 1.0, 0.4}) ≈ {0.421, 0.842, 0.337}               */
+  /* matches sun position: upper-right, ahead in the scene                  */
+  /* FLAT_D = LIGHT.y ≈ 0.842  |  D_DS = -LIGHT.z ≈ -0.337 (negative:     */
+  /* forward sun brightens wave fronts, not backs)                           */
+  var FLAT_D = 0.842, D_DS = -0.337, L_SCALE = 42;
   var BG_D   = (FLAT_D * L_SCALE) | 0;   /* ≈ 34 – background brightness   */
 
   function ldelta(slope) {
