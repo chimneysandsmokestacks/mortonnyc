@@ -35,7 +35,7 @@
   var AMP   = 0.48;
   var OMEGA = 0.28;
   var STRIPS = 55;
-  var Z_NEAR = 0.5, Z_FAR = 18.0, X_HALF = 22;
+  var Z_NEAR = 0.5, Z_FAR = 18.0, X_L = 24, X_R = 36; /* asymmetric: camera is left-offset */
 
   var K0 = (2 * Math.PI) / 4.5, PH0 = 0.00, OW0 = 1.00;
   var K1 = (2 * Math.PI) / 7.5, PH1 = 3.80, OW1 = 0.62, A1 = 0.55;
@@ -115,8 +115,8 @@
     for (var i = 0; i <= STRIPS; i++) {
       var z  = Z_FAR - i * dz;
       var wv = wave(z, t);
-      var pL = project(-X_HALF, wv.y, z);
-      var pR = project( X_HALF, wv.y, z);
+      var pL = project(-X_L, wv.y, z);
+      var pR = project( X_R, wv.y, z);
       var ld = ldelta(wv.slope);
 
       if (prev && pL && pR) {
