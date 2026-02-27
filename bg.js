@@ -39,6 +39,7 @@
   var OMEGA = 0.28;
   var STRIPS = 55;
   var Z_NEAR = 0.5, Z_FAR = 18.0, X_L = 24, X_R = 36; /* asymmetric: camera is left-offset */
+  var dz = (Z_FAR - Z_NEAR) / STRIPS;
 
   var K0 = (2 * Math.PI) / 4.5, PH0 = 0.00, OW0 = 1.00;
   var K1 = (2 * Math.PI) / 7.5, PH1 = 3.80, OW1 = 0.62, A1 = 0.55;
@@ -171,33 +172,38 @@
   }
   DUCKS.sort(function(a, b) { return b.wz - a.wz; });
 
+  /* bin ducks into wave strips for painter's-algorithm occlusion */
+  var STRIP_DUCKS = [];
+  for (var ki = 0; ki <= STRIPS; ki++) STRIP_DUCKS.push([]);
+  for (var ki = 0; ki < DUCKS.length; ki++) {
+    var si = Math.max(1, Math.min(STRIPS, Math.ceil((Z_FAR - DUCKS[ki].wz) / dz)));
+    STRIP_DUCKS[si].push(DUCKS[ki]);
+  }
+
   var DUCK_SZ = 0.38;
 
-  function drawDucks(t) {
-    for (var i = 0; i < DUCKS.length; i++) {
-      var dk  = DUCKS[i];
-      var img = DUCK_IMGS[dk.img];
-      if (!img.complete || !img.naturalWidth) continue;
-      var wv  = wave(dk.wz, t);
-      var wy  = wv.y + 0.06;
-      var p   = project(dk.wx, wy, dk.wz);
-      if (!p) continue;
-      var ddx = dk.wx - eye.x, ddy = wy - eye.y, ddz = dk.wz - eye.z;
-      var cz  = ddx * FWD.x + ddy * FWD.y + ddz * FWD.z;
-      if (cz < 0.01) continue;
-      var sz = Math.max(4, DUCK_SZ * FOCAL * H * 0.5 / cz * (cz > 5.0 ? Math.pow(5.0 / cz, 0.3) : 1.0));
-      var w  = sz * img.naturalWidth / img.naturalHeight;
-      ctx.save();
-      ctx.translate(p.x, p.y);
-      ctx.rotate(wv.slope * 0.45);
-      if (dk.flip) ctx.scale(-1, 1);       /* mirror horizontally             */
-      ctx.drawImage(img, -w * 0.5, -sz * 0.5, w, sz);
-      ctx.restore();
-    }
+  function drawOneDuck(dk, t) {
+    var img = DUCK_IMGS[dk.img];
+    if (!img.complete || !img.naturalWidth) return;
+    var wv  = wave(dk.wz, t);
+    var wy  = wv.y + 0.06;
+    var p   = project(dk.wx, wy, dk.wz);
+    if (!p) return;
+    var ddx = dk.wx - eye.x, ddy = wy - eye.y, ddz = dk.wz - eye.z;
+    var cz  = ddx * FWD.x + ddy * FWD.y + ddz * FWD.z;
+    if (cz < 0.01) return;
+    var sz = Math.max(4, DUCK_SZ * FOCAL * H * 0.5 / cz * (cz > 5.0 ? Math.pow(5.0 / cz, 0.3) : 1.0));
+    var w  = sz * img.naturalWidth / img.naturalHeight;
+    ctx.save();
+    ctx.translate(p.x, p.y);
+    ctx.rotate(wv.slope * 0.45);
+    if (dk.flip) ctx.scale(-1, 1);       /* mirror horizontally             */
+    ctx.drawImage(img, -w * 0.5, -sz * 0.5, w, sz);
+    ctx.restore();
   }
 
   /* ── render loop ──────────────────────────────────────────────────────── */
-  var t0 = performance.now(), dz = (Z_FAR - Z_NEAR) / STRIPS;
+  var t0 = performance.now();
 
   function render() {
     var t = (performance.now() - t0) * 0.001;
@@ -227,9 +233,11 @@
       }
 
       if (pL && pR) prev = { L: pL, R: pR };
-    }
 
-    drawDucks(t);
+      /* draw ducks in this depth slice – nearer strips will paint over them  */
+      var sd = STRIP_DUCKS[i];
+      for (var j = 0; j < sd.length; j++) drawOneDuck(sd[j], t);
+    }
 
     requestAnimationFrame(render);
   }
