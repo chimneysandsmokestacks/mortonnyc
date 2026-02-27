@@ -2,6 +2,9 @@
 (function () {
   'use strict';
 
+  /* base URL of this script file – works whether loaded from root or /nyc/ */
+  var _base = (document.currentScript || {src: ''}).src.replace(/[^/]*$/, '');
+
   /* ── canvas ───────────────────────────────────────────────────────────── */
   var canvas = document.createElement('canvas');
   canvas.style.cssText =
@@ -102,6 +105,97 @@
     ctx.fill();
   }
 
+  /* ── rubber ducks ─────────────────────────────────────────────────────── */
+  var _rs = 137;
+  function rng() { _rs = (_rs * 1664525 + 1013904223) >>> 0; return _rs / 4294967296; }
+
+  /* 6 duck varieties (no duck-d)                                            */
+  var DUCK_NAMES = ['duck-a','duck-b','duck-d','duck-e','duck-f','duck-g'];
+  var DUCK_IMGS  = [];
+  for (var ii = 0; ii < DUCK_NAMES.length; ii++) {
+    var im = new Image();
+    im.src = _base + DUCK_NAMES[ii] + '.png';
+    DUCK_IMGS.push(im);
+  }
+
+  /* sparse layout: small tight clusters (2-5) + occasional singles          */
+  var CLUSTERS = [
+    /* near – close to viewer */
+    { cx: -6.0, cz:  2.8, r: 0,   n: 1 },   /* single, far left near        */
+    { cx:  4.5, cz:  3.2, r: 0.4, n: 2 },
+    { cx: -1.0, cz:  4.0, r: 0,   n: 1 },   /* single, centre near          */
+    { cx:  8.0, cz:  4.5, r: 0,   n: 1 },   /* single, far right near       */
+
+    /* mid-distance, spread wide */
+    { cx: -9.5, cz:  5.5, r: 0,   n: 1 },   /* single, hard left            */
+    { cx:  0.5, cz:  5.0, r: 0,   n: 1 },   /* single                       */
+    { cx: -2.5, cz:  6.2, r: 0.6, n: 3 },
+    { cx:  9.0, cz:  6.5, r: 0.5, n: 2 },   /* right side cluster           */
+    { cx:  4.0, cz:  6.8, r: 0,   n: 1 },   /* single                       */
+    { cx: -8.0, cz:  7.8, r: 0.5, n: 2 },   /* left side cluster            */
+    { cx: -0.5, cz:  8.0, r: 0.7, n: 4 },
+    { cx:  7.0, cz:  8.8, r: 0,   n: 1 },   /* single, right                */
+    { cx:  3.5, cz:  9.2, r: 0,   n: 1 },   /* single                       */
+    { cx: -4.5, cz:  9.8, r: 0.5, n: 2 },
+    { cx:-10.5, cz: 10.5, r: 0,   n: 1 },   /* single, hard left            */
+    { cx:  1.5, cz: 11.0, r: 0.8, n: 5 },
+    { cx: 10.0, cz: 11.5, r: 0.6, n: 3 },   /* right side cluster           */
+    { cx: -2.0, cz: 12.0, r: 0,   n: 1 },   /* single                       */
+    { cx:  5.5, cz: 12.5, r: 0.6, n: 3 },
+    { cx: -8.5, cz: 12.8, r: 0,   n: 1 },   /* single, left                 */
+    { cx: -1.0, cz: 13.8, r: 0.5, n: 2 },
+    { cx:  8.5, cz: 14.0, r: 0.5, n: 2 },   /* right side                   */
+    { cx:  2.5, cz: 14.5, r: 0,   n: 1 },   /* single                       */
+    { cx: -4.0, cz: 15.5, r: 0.7, n: 4 },
+
+    /* far – distant horizon */
+    { cx: -7.0, cz: 16.2, r: 0,   n: 1 },   /* single, far left             */
+    { cx:  3.0, cz: 16.5, r: 0.6, n: 3 },
+    { cx: -1.5, cz: 17.0, r: 0,   n: 1 },   /* single                       */
+    { cx:  7.5, cz: 17.3, r: 0.5, n: 2 },   /* far right                    */
+  ];
+
+  var DUCKS = [];
+  for (var ci = 0; ci < CLUSTERS.length; ci++) {
+    var cl = CLUSTERS[ci];
+    for (var di = 0; di < cl.n; di++) {
+      var ang = rng() * 6.2832;
+      var rad = cl.r > 0 ? Math.sqrt(rng()) * cl.r : 0;
+      DUCKS.push({
+        wx:   cl.cx + Math.cos(ang) * rad,
+        wz:   cl.cz + Math.sin(ang) * rad,
+        img:  Math.floor(rng() * DUCK_NAMES.length),
+        flip: rng() > 0.5                  /* face left ~half the time        */
+      });
+    }
+  }
+  DUCKS.sort(function(a, b) { return b.wz - a.wz; });
+
+  var DUCK_SZ = 0.38;
+
+  function drawDucks(t) {
+    for (var i = 0; i < DUCKS.length; i++) {
+      var dk  = DUCKS[i];
+      var img = DUCK_IMGS[dk.img];
+      if (!img.complete || !img.naturalWidth) continue;
+      var wv  = wave(dk.wz, t);
+      var wy  = wv.y + 0.06;
+      var p   = project(dk.wx, wy, dk.wz);
+      if (!p) continue;
+      var ddx = dk.wx - eye.x, ddy = wy - eye.y, ddz = dk.wz - eye.z;
+      var cz  = ddx * FWD.x + ddy * FWD.y + ddz * FWD.z;
+      if (cz < 0.01) continue;
+      var sz = Math.max(4, DUCK_SZ * FOCAL * H * 0.5 / cz * (cz > 5.0 ? Math.pow(5.0 / cz, 0.3) : 1.0));
+      var w  = sz * img.naturalWidth / img.naturalHeight;
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(wv.slope * 0.45);
+      if (dk.flip) ctx.scale(-1, 1);       /* mirror horizontally             */
+      ctx.drawImage(img, -w * 0.5, -sz * 0.5, w, sz);
+      ctx.restore();
+    }
+  }
+
   /* ── render loop ──────────────────────────────────────────────────────── */
   var t0 = performance.now(), dz = (Z_FAR - Z_NEAR) / STRIPS;
 
@@ -134,6 +228,8 @@
 
       if (pL && pR) prev = { L: pL, R: pR };
     }
+
+    drawDucks(t);
 
     requestAnimationFrame(render);
   }
