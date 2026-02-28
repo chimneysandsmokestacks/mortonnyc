@@ -114,7 +114,7 @@
   /* drawn before the fabric so the waves sit in front of it (behind smog)  */
   function drawSun() {
     var sx = W * 0.63;
-    var sy = H * 0.19;
+    var sy = H * 0.19 + cam_pitch * FOCAL * H * 0.5;
     var r  = Math.min(W, H) * 0.075;
     var gr = ctx.createRadialGradient(sx, sy, 0, sx, sy, r);
     gr.addColorStop(0.00, 'rgba(255, 192, 129, 0.9)'); /* solid centre      */
