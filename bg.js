@@ -16,8 +16,12 @@
 
   var W, H;
   function resize() {
-    W = canvas.width  = window.innerWidth;
-    H = canvas.height = window.innerHeight;
+    var dpr = window.devicePixelRatio || 1;
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width  = W * dpr;
+    canvas.height = H * dpr;
+    ctx.scale(dpr, dpr);  /* render at physical pixels, coords stay in CSS px */
   }
   window.addEventListener('resize', resize);
   resize();
