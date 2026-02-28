@@ -107,7 +107,7 @@
   }
 
   /* ── rubber ducks ─────────────────────────────────────────────────────── */
-  var _rs = 137;
+  var _rs = Date.now() & 0xffffffff;
   function rng() { _rs = (_rs * 1664525 + 1013904223) >>> 0; return _rs / 4294967296; }
 
   /* 6 duck varieties (no duck-d)                                            */
