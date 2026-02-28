@@ -36,7 +36,7 @@
 
   /* ── wave: 2 harmonics, slow motion ──────────────────────────────────── */
   var AMP   = 0.48;
-  var OMEGA = 0.28;
+  var OMEGA = 0.62;
   var STRIPS = 55;
   var Z_NEAR = 0.5, Z_FAR = 18.0, X_L = 24, X_R = 36; /* asymmetric: camera is left-offset */
   var dz = (Z_FAR - Z_NEAR) / STRIPS;
