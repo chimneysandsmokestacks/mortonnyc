@@ -85,7 +85,11 @@
   }
 
   /* ── camera (unchanged) ───────────────────────────────────────────────── */
-  var eye = { x: -1.2, y: 3.8, z: -1.5 }, target = { x: 0.3, y: 0.0, z: 8.0 };
+  var eye = { x: -1.2, y: 1.8, z: -1.5 }, target = { x: 0.3, y: 0.0, z: 8.0 };
+  var cam_bob_y = 0, cam_pitch = 0;     /* updated each frame via spring   */
+  var bob_y = 0, bob_vy = 0;           /* heave spring state               */
+  var bob_p = 0, bob_vp = 0;           /* pitch spring state               */
+  var t_prev = 0;
   var FOCAL = 1.4;
   function n3(v) { var l=Math.sqrt(v.x*v.x+v.y*v.y+v.z*v.z); return {x:v.x/l,y:v.y/l,z:v.z/l}; }
   function cx3(a,b) { return {x:a.y*b.z-a.z*b.y,y:a.z*b.x-a.x*b.z,z:a.x*b.y-a.y*b.x}; }
@@ -94,12 +98,12 @@
   var RT=n3(cx3(UW,FWD)), UP=cx3(FWD,RT);
 
   function project(wx, wy, wz) {
-    var dx=wx-eye.x, dy=wy-eye.y, dz=wz-eye.z;
+    var dx=wx-eye.x, dy=wy-(eye.y+cam_bob_y), dz=wz-eye.z;
     var cz=dx*FWD.x+dy*FWD.y+dz*FWD.z;
     if (cz < 0.01) return null;
     var s=FOCAL*H*0.5/cz;
     return { x:(dx*RT.x+dy*RT.y+dz*RT.z)*s+W*0.5,
-             y:-(dx*UP.x+dy*UP.y+dz*UP.z)*s+H*0.5 };
+             y:-(dx*UP.x+dy*UP.y+dz*UP.z)*s+H*0.5+cam_pitch*FOCAL*H*0.5 };
   }
 
   /* ── sun ──────────────────────────────────────────────────────────────── */
@@ -231,7 +235,7 @@
     var wz_d = dk.wz + wv.dz;               /* horizontal orbital displacement */
     var p   = project(dk.wx, wy, wz_d);
     if (!p) return;
-    var ddx = dk.wx - eye.x, ddy = wy - eye.y, ddz = wz_d - eye.z;
+    var ddx = dk.wx - eye.x, ddy = wy - (eye.y+cam_bob_y), ddz = wz_d - eye.z;
     var cz  = ddx * FWD.x + ddy * FWD.y + ddz * FWD.z;
     if (cz < 0.01) return;
     var sz = Math.max(4, DUCK_SZ * FOCAL * H * 0.5 / cz * (cz > 5.0 ? Math.pow(5.0 / cz, 0.3) : 1.0));
@@ -249,6 +253,16 @@
 
   function render() {
     var t = (performance.now() - t0) * 0.001;
+    var dt = Math.min(0.05, t - t_prev);  t_prev = t;
+    var wv_cam = wave(1.5, t);
+    /* heave spring: ω_n=0.9, ζ=0.55 — lags behind wave, partial response */
+    bob_vy += (0.81 * (wv_cam.y           - bob_y) - 0.99 * bob_vy) * dt;
+    bob_y  += bob_vy * dt;
+    cam_bob_y = bob_y;
+    /* pitch spring: ω_n=1.0, ζ=0.55 — tilts with wave slope, mediated  */
+    bob_vp += (1.00 * (wv_cam.slope * 0.28 - bob_p) - 1.10 * bob_vp) * dt;
+    bob_p  += bob_vp * dt;
+    cam_pitch = bob_p;
 
     ctx.fillStyle = rgb(BG_D);
     ctx.fillRect(0, 0, W, H);
