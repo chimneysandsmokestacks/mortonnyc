@@ -10,7 +10,7 @@
   canvas.style.cssText =
     'position:fixed;top:0;left:0;width:100%;height:100%;' +
     'z-index:-1;display:block;pointer-events:none;' +
-    'filter:blur(1.5px);';   /* GPU-accelerated edge smoothing – zero JS cost */
+    'filter:blur(1.2px);';   /* GPU-accelerated edge smoothing – zero JS cost */
   document.body.insertBefore(canvas, document.body.firstChild);
   var ctx = canvas.getContext('2d');
 
@@ -36,7 +36,7 @@
 
   /* ── wave: 2 harmonics, slow motion ──────────────────────────────────── */
   var AMP   = 0.48;
-  var OMEGA = 0.62;
+  var OMEGA = 0.94;  /* 150 mHz → 2π × 0.150 ≈ 0.94 rad/s */
   var STRIPS = 55;
   var Z_NEAR = 0.5, Z_FAR = 18.0, X_L = 24, X_R = 36; /* asymmetric: camera is left-offset */
   var dz = (Z_FAR - Z_NEAR) / STRIPS;
@@ -45,15 +45,29 @@
   var K1 = (2 * Math.PI) / 7.5, PH1 = 3.80, OW1 = 0.62, A1 = 0.55;
   var A_NORM = 1 / (1.00 + A1);
 
+  /* nonlinear phase warp: s → s + NL·sin(s)
+     NL < 0  →  d(s_mapped)/dt ∝ (1 + NL·cos(s))
+       rising phase (cos>0): slower  → gradual climb up back face
+       falling phase (cos<0): faster → duck accelerates down front face
+       at crest (cos=0): unchanged  → brief stillness at peak
+     Produces trochoidal-style asymmetry: slow rise, fast fall           */
+  var NL = -0.05;
+
   /* compute height + slope together (reuses trig values) */
   function wave(wz, t) {
-    var e   = Math.min(1.0, Math.max(0.0, (wz - Z_NEAR) / 3.2)); /* envelope */
+    var e   = Math.min(1.0, Math.max(0.0, (wz - Z_NEAR) / 0.8)); /* envelope */
     var s0  = K0 * wz + OMEGA * OW0 * t + PH0;
     var s1  = K1 * wz + OMEGA * OW1 * t + PH1;
-    var f   = AMP * A_NORM * e;
+    var cs0 = Math.cos(s0), cs1 = Math.cos(s1);
+    var s0n = s0 + NL * Math.sin(s0);  /* warped phases                    */
+    var s1n = s1 + NL * Math.sin(s1);
+    var grp = 0.75 + 0.15 * Math.sin(0.07 * t + 0.208 * wz)
+                   + 0.10 * Math.sin(0.11 * t + 0.327 * wz + 1.3);
+    var f   = AMP * A_NORM * e * grp;
     return {
-      y:     f * (Math.sin(s0) + A1 * Math.sin(s1)),
-      slope: f * (K0 * Math.cos(s0) + A1 * K1 * Math.cos(s1))
+      y:     f * (Math.sin(s0n) + A1 * Math.sin(s1n)),
+      slope: f * (K0 * Math.cos(s0n) * (1 + NL * cs0) +
+                  A1 * K1 * Math.cos(s1n) * (1 + NL * cs1))
     };
   }
 
