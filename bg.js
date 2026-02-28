@@ -67,7 +67,8 @@
     return {
       y:     f * (Math.sin(s0n) + A1 * Math.sin(s1n)),
       slope: f * (K0 * Math.cos(s0n) * (1 + NL * cs0) +
-                  A1 * K1 * Math.cos(s1n) * (1 + NL * cs1))
+                  A1 * K1 * Math.cos(s1n) * (1 + NL * cs1)),
+      dz:    f * (Math.cos(s0n) + A1 * Math.cos(s1n))  /* horizontal orbital */
     };
   }
 
@@ -227,9 +228,10 @@
     if (!img.complete || !img.naturalWidth) return;
     var wv  = wave(dk.wz, t);
     var wy  = wv.y + 0.06;
-    var p   = project(dk.wx, wy, dk.wz);
+    var wz_d = dk.wz + wv.dz;               /* horizontal orbital displacement */
+    var p   = project(dk.wx, wy, wz_d);
     if (!p) return;
-    var ddx = dk.wx - eye.x, ddy = wy - eye.y, ddz = dk.wz - eye.z;
+    var ddx = dk.wx - eye.x, ddy = wy - eye.y, ddz = wz_d - eye.z;
     var cz  = ddx * FWD.x + ddy * FWD.y + ddz * FWD.z;
     if (cz < 0.01) return;
     var sz = Math.max(4, DUCK_SZ * FOCAL * H * 0.5 / cz * (cz > 5.0 ? Math.pow(5.0 / cz, 0.3) : 1.0));
