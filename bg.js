@@ -193,12 +193,17 @@
   }
   DUCKS.sort(function(a, b) { return b.wz - a.wz; });
 
-  /* bin ducks into wave strips for painter's-algorithm occlusion */
-  var STRIP_DUCKS = [];
+  /* bin ducks into wave strips for painter's-algorithm occlusion.
+     Near ducks (wz < 4.5) are exempt: dynamic wave crests can move between
+     camera and a near duck mid-animation, causing jarring pop-behind.
+     Drawing them last keeps them always visible in the foreground.        */
+  var STRIP_DUCKS = [], NEAR_DUCKS = [];
   for (var ki = 0; ki <= STRIPS; ki++) STRIP_DUCKS.push([]);
   for (var ki = 0; ki < DUCKS.length; ki++) {
-    var si = Math.max(1, Math.min(STRIPS, Math.ceil((Z_FAR - DUCKS[ki].wz) / dz)));
-    STRIP_DUCKS[si].push(DUCKS[ki]);
+    var dk = DUCKS[ki];
+    if (dk.wz < 4.5) { NEAR_DUCKS.push(dk); continue; }
+    var si = Math.max(1, Math.min(STRIPS, Math.ceil((Z_FAR - dk.wz) / dz)));
+    STRIP_DUCKS[si].push(dk);
   }
 
   var DUCK_SZ = 0.38;
@@ -259,6 +264,9 @@
       var sd = STRIP_DUCKS[i];
       for (var j = 0; j < sd.length; j++) drawOneDuck(sd[j], t);
     }
+
+    /* near ducks always on top – exempt from wave occlusion                 */
+    for (var j = 0; j < NEAR_DUCKS.length; j++) drawOneDuck(NEAR_DUCKS[j], t);
 
     requestAnimationFrame(render);
   }
