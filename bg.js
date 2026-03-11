@@ -27,7 +27,7 @@
   resize();
 
   /* ── colour: base teal #113d3d – pre-computed LUT, no allocs in loop ─── */
-  var BR = 17, BG = 61, BB = 61;
+  var BR = 17, BG = 61, BB = 77;
   var LUT = [], LUT_OFF = 64;           /* covers delta range –64 … +63      */
   for (var i = 0; i < 128; i++) {
     var d = i - LUT_OFF;
