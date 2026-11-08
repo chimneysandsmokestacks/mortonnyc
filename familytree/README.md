@@ -7,7 +7,7 @@ are listed in the details panel; tapping one opens a record viewer that slides i
 from the right, with a tab for each of the person's records.
 
 - Blue = male, pink = female, grey = unknown gender. A dashed outline means living.
-- Czech National Archives scans show right inside the viewer. FamilySearch, GenTeam,
+- Czech National Archives scans and Google Drive files show right inside the viewer. FamilySearch, GenTeam,
   USC and most other sites don't allow being shown inside another site, so the viewer
   offers an "Open record" button for those instead. If you find another site that does
   allow it, add its domain to `EMBEDDABLE` near the top of `app.js`.

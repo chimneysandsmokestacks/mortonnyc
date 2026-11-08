@@ -59,6 +59,8 @@
     "USC Shoah Foundation": ["USC", "#9d2235"],
     "Geni photo": ["G", "#6b4fbb"],
     "Facebook": ["f", "#1877f2"],
+    "Family documents": ["FD", "#1a73e8"],
+    "Geni": ["G", "#6b4fbb"],
   };
   const siteBadge = (site) => {
     const [t, c] = SITE_STYLE[site] || [site.replace(/^www\./, "").charAt(0).toUpperCase(), "#555c73"];
@@ -67,7 +69,9 @@
     return el;
   };
   // Sites that allow their pages to be shown inside this one (others refuse to load in a frame).
-  const EMBEDDABLE = new Set(["vademecum.nacr.cz"]);
+  const EMBEDDABLE = new Set(["vademecum.nacr.cz", "drive.google.com"]);
+  // Google Drive files are shown through their "preview" page, which allows embedding
+  const embedUrl = (u) => u.replace(/^(https:\/\/drive\.google\.com\/file\/d\/[^/?#]+)(\/[^?#]*)?(\?.*)?$/, "$1/preview");
   const host = (u) => { try { return new URL(u).hostname; } catch { return ""; } };
   const recTitle = (l) => l.label || (l.context && l.context !== "Person" ? l.context : l.site);
   const recSub = (l) => [l.context && l.context !== "Person" ? l.context : "", l.label].filter(Boolean).join(": ") || "Linked record";
@@ -432,7 +436,7 @@
     }
     if (EMBEDDABLE.has(host(l.url))) {
       const loading = h("div", { class: "v-loading", text: `Loading ${l.site}` });
-      const frame = h("iframe", { src: l.url, title: `${l.site}: ${recSub(l)}`, allow: "fullscreen" });
+      const frame = h("iframe", { src: embedUrl(l.url), title: `${l.site}: ${recSub(l)}`, allow: "fullscreen" });
       frame.addEventListener("load", () => loading.remove(), { once: true });
       vBody.replaceChildren(frame, loading);
     } else {

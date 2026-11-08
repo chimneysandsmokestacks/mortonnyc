@@ -57,7 +57,75 @@
    "death": {
     "date": "21 Jul 2007",
     "place": "Wien"
-   }
+   },
+   "links": [
+    {
+     "url": "https://drive.google.com/file/d/1MEfB2xjbTXUSnfGeUt7Lqq4pMFdTMdLw/view",
+     "site": "Family documents",
+     "label": "Birth notice, Jewish Community of Vienna, 1914",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1fxxZ-6_iT0iaj7Y9Ce-L6XhkWujaVT7S/view",
+     "site": "Family documents",
+     "label": "Birth certificate",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1vP4MpywD5abtxa1pxIt7krt5r8XNr669/view",
+     "site": "Family documents",
+     "label": "Birth certificate, scan",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1r_mKJT_MsB90KHtaMtuiKLzr1PDR1tHY/view",
+     "site": "Family documents",
+     "label": "Name change, Mondschein to Morton",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1aPqVjYSah41o4oVtUeaoYWdlbeXVrenb/view",
+     "site": "Family documents",
+     "label": "Name change notice, scan",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1DNaHx3B5J74pOLFTISim0N9sb0Nz4-zZ/view",
+     "site": "Family documents",
+     "label": "School leaving certificate",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1sK8VbeSoY1C4OYKo_j2PCi9JE2zqHr71/view",
+     "site": "Family documents",
+     "label": "Heimatschein, certificate of home rights",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1LyevkKaZO2KOk2-xg7GdFqnR7nh3iBdl/view",
+     "site": "Family documents",
+     "label": "Heimatrolle extract, home-rights register",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1qdRl16vcd2LDp4JQZmrECJ1TQrS1j-Wb/view",
+     "site": "Family documents",
+     "label": "Lehmann address book 1938, Ernst and Heinz",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1SGORNnnaSoN1WMpYuikiIuuqBX8CQ8I3/view",
+     "site": "Family documents",
+     "label": "Metropolitan Police file, UK National Archives MEPO 35/37/6",
+     "context": "Person"
+    },
+    {
+     "url": "https://drive.google.com/file/d/1Kgby--0Ba8NlWhX4QpQGA1Lt1NFz0R4m/view",
+     "site": "Family documents",
+     "label": "Photo",
+     "context": "Person"
+    }
+   ]
   },
   "I0004": {
    "id": "I0004",
@@ -1401,9 +1469,9 @@
      "context": "Person"
     },
     {
-     "url": "https://photos.geni.com/p13/c5/6f/03/a8/5344483d159c1aa9/mondscheinfranz19520118_original.jpg",
-     "site": "Geni photo",
-     "label": null,
+     "url": "https://www.geni.com/photo/view/6000000020758283233?album_type=photos_of_me&photo_id=6000000030757100201",
+     "site": "Geni",
+     "label": "Photo on Geni",
      "context": "Person"
     }
    ]
