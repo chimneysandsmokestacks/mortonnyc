@@ -35,17 +35,28 @@ asks search engines not to index it, but anyone with the link can view it.
 
 ## Update the tree after editing in Gramps
 
-Close Gramps, then run from this folder:
+The export reads your tree straight from `~/Documents/Gramps/624864cb` (Gramps 6).
+Close Gramps, then from this folder run:
 
 ```
-python3 scripts/export_gramps.py ~/Downloads/624864cb/sqlite.db data/tree.json
+python3 scripts/export_gramps.py
 ```
 
 Commit and push the new `data/tree.json`. The script needs only Python 3, no extra packages.
+To use a different tree: `python3 scripts/export_gramps.py /path/to/tree-folder`.
 
-To change the title shown in the top bar, edit `"title"` near the top of `data/tree.json`
-(or the `"title"` line in the script so it survives re-exports). The starting person is
-the Home Person set in Gramps.
+## Add a link to someone without opening Gramps
+
+```
+python3 scripts/add_link.py I0005 "https://example.org/record" "birth record"
+```
+
+This adds the link as a note on that person, exactly as if you'd added it in Gramps.
+Gramps must be closed; a backup of the database is saved to `~/Documents/Gramps/backups/`
+before every change. Then run the export above.
+
+To change the title shown in the top bar, edit `"title"` in the export script.
+The starting person is the Home Person set in Gramps.
 
 ## Preview locally
 
