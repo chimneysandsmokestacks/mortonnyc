@@ -783,8 +783,8 @@
   const wholeView = $("wholeView"), wSvg = $("wSvg"), wLayer = $("wLayer"), wHint = $("wHint");
   let wholeMode = false, wSel = null, wRel = null, wLayout = null, wLayoutKey = null;
   const layoutCache = new Map();
-  let wOnly = true;
-  try { wOnly = localStorage.getItem("ft-only") !== "0"; } catch {}
+  let wOnly = false;                       // "Line" (true) or "Everyone" (false), set from the address
+  const W = () => (wOnly ? "line" : "all");
   const view = { x: 0, y: 0, k: 1 };
   const NW = 172, NH = 58, FW = 8;
   const SVGNS = "http://www.w3.org/2000/svg";
@@ -853,16 +853,34 @@
     const pos = new Map(g.children.map((n) => [n.id, n]));
     // Children of one family share a single trunk and crossbar: draw every child line along
     // the same route so they overlap exactly and read as one line, then branch at the bar.
-    const famRoutes = new Map();
-    const fams = [...new Set(g.edges.filter((e) => e.id.startsWith("ce:")).map((e) => e.sources[0]))];
+    const cx = (n) => n.x + n.width / 2;
+    const parentsOf = new Map(), kidsOf = new Map();
+    for (const e of g.edges) {
+      if (e.id.startsWith("pe:")) { const k = e.targets[0]; (parentsOf.get(k) || parentsOf.set(k, []).get(k)).push(pos.get(e.sources[0])); }
+      else { const k = e.sources[0]; (kidsOf.get(k) || kidsOf.set(k, []).get(k)).push(pos.get(e.targets[0])); }
+    }
+    // Where each family joint sits. If a parent or child is (almost) straight above or below,
+    // line the joint up with it so that connection is one straight line, not a small jog.
+    const joint = new Map();
+    for (const n of g.children) {
+      if (!n.id.startsWith("fam:")) continue;
+      let fx = cx(n);
+      const fy = n.y + n.height / 2;
+      const kids = kidsOf.get(n.id) || [], top = kids.length ? Math.min(...kids.map((k) => k.y)) : Infinity;
+      const near = kids.filter((k) => Math.abs(k.y - top) < 4);
+      const adjParents = (parentsOf.get(n.id) || []).filter((p) => fy - (p.y + p.height) < 70);
+      const cands = [...(near.length === 1 ? [cx(near[0])] : []), ...adjParents.map(cx), ...near.map(cx)];
+      const best = cands.map((x) => [Math.abs(x - fx), x]).filter(([d]) => d < 16).sort((p, q) => p[0] - q[0])[0];
+      if (best) fx = best[1];
+      joint.set(n.id, { x: fx, y: fy, near, top, adjParents });
+    }
+    // Children of one family share a single trunk and crossbar: every child line follows the
+    // same route so they overlap exactly and read as one line, then branch at the bar.
     const buses = [];
-    for (const fid of fams) {
-      const f = pos.get(fid);
-      const kids = g.edges.filter((e) => e.id.startsWith("ce:") && e.sources[0] === fid).map((e) => pos.get(e.targets[0]));
-      const top = Math.min(...kids.map((k) => k.y));
-      const near = kids.filter((k) => Math.abs(k.y - top) < 4);   // children in the next row
-      const xs = [f.x + f.width / 2, ...near.map((k) => k.x + k.width / 2)];
-      buses.push({ fid, f, near, top, lo: Math.min(...xs), hi: Math.max(...xs) });
+    for (const [fid, j] of joint) {
+      if (!j.near.length) continue;
+      const xs = [j.x, ...j.near.map(cx)];
+      buses.push({ fid, j, lo: Math.min(...xs), hi: Math.max(...xs), top: j.top });
     }
     // families whose crossbars would sit on top of each other get stacked a few px apart
     const byRow = new Map();
@@ -877,21 +895,41 @@
         b.y = b.top - 16 - slot * 7;
       }
     }
+    const routes = new Map();
     for (const b of buses) {
-      const fx = b.f.x + b.f.width / 2, fy = b.f.y + b.f.height / 2;
-      for (const k of b.near) famRoutes.set(`${b.fid}>${k.id}`, [{ x: fx, y: fy }, { x: fx, y: b.y }, { x: k.x + k.width / 2, y: b.y }, { x: k.x + k.width / 2, y: k.y }]);
+      for (const k of b.j.near) {
+        const kx = cx(k);
+        routes.set(`${b.fid}>${k.id}`, Math.abs(kx - b.j.x) < 4
+          ? [{ x: kx, y: b.j.y }, { x: kx, y: k.y }]                        // straight down under the joint
+          : [{ x: b.j.x, y: b.j.y }, { x: b.j.x, y: b.y }, { x: kx, y: b.y }, { x: kx, y: k.y }]);
+      }
     }
+    for (const [fid, j] of joint) {
+      // parent straight down to the joint's height, then across to the joint
+      for (const p of j.adjParents) {
+        const px = cx(p);
+        routes.set(`${p.id}>${fid}`, Math.abs(px - j.x) < 4
+          ? [{ x: px, y: p.y + p.height }, { x: px, y: j.y }]                 // straight down into the joint
+          : [{ x: px, y: p.y + p.height }, { x: px, y: j.y }, { x: j.x, y: j.y }]);
+      }
+    }
+    const clean = (pts) => pts.filter((p, i, arr) => i === 0 || Math.abs(p.x - arr[i - 1].x) > 0.5 || Math.abs(p.y - arr[i - 1].y) > 0.5);
     for (const e of g.edges) {
-      const custom = famRoutes.get(`${e.sources[0]}>${e.targets[0]}`);
-      if (custom) { gEdges.append(S("path", { d: roundedPath(custom.filter((p, i, arr) => i === 0 || p.x !== arr[i - 1].x || p.y !== arr[i - 1].y)), "data-e": e.id })); continue; }
+      const custom = routes.get(`${e.sources[0]}>${e.targets[0]}`);
+      if (custom) { gEdges.append(S("path", { d: roundedPath(clean(custom)), "data-e": e.id })); continue; }
       for (const sec of e.sections || []) {
         const pts = [sec.startPoint, ...(sec.bendPoints || []), sec.endPoint];
-        gEdges.append(S("path", { d: roundedPath(pts), "data-e": e.id }));
+        // keep long routes attached to the (possibly moved) family joint
+        const jt = joint.get(e.targets[0]) || joint.get(e.sources[0]);
+        if (jt && joint.has(e.targets[0])) pts[pts.length - 1] = { x: jt.x, y: jt.y };
+        else if (jt) pts[0] = { x: jt.x, y: jt.y };
+        gEdges.append(S("path", { d: roundedPath(clean(pts)), "data-e": e.id }));
       }
     }
     for (const n of g.children) {
       if (n.id.startsWith("fam:")) {
-        gFams.append(S("circle", { class: "w-fam", cx: n.x + n.width / 2, cy: n.y + n.height / 2, r: 3.5, "data-n": n.id }));
+        const jt = joint.get(n.id);
+        gFams.append(S("circle", { class: "w-fam", cx: jt.x, cy: jt.y, r: 3.5, "data-n": n.id }));
         continue;
       }
       const p = P[n.id];
@@ -944,14 +982,15 @@
     const anc = new Set(), desc = new Set();
     const up = [id]; while (up.length) { const x = up.pop(); for (const p of parentIds(x)) if (!anc.has(p)) { anc.add(p); up.push(p); } }
     const dn = [id]; while (dn.length) { const x = dn.pop(); for (const c of childIds(x)) if (!desc.has(c)) { desc.add(c); dn.push(c); } }
-    const people = new Set([id, ...anc, ...desc, ...spouseIds(id)]);
+    const blood = new Set([id, ...anc, ...desc]);
+    const people = new Set([...blood, ...spouseIds(id)]);   // partners are drawn, but aren't on the line
     // family joints that connect a highlighted parent to a highlighted child
     const fams = Object.values(F).filter((f) =>
-      [f.father, f.mother].some((x) => people.has(x)) && f.children.some((c) => people.has(c)) &&
+      [f.father, f.mother].some((x) => blood.has(x)) && f.children.some((c) => blood.has(c)) &&
       // the child must be on the line: either the focus's descendant or the focus/ancestor itself
       f.children.some((c) => (desc.has(c) && [f.father, f.mother].some((x) => x === id || desc.has(x))) || ((c === id || anc.has(c)) && [f.father, f.mother].some((x) => anc.has(x))))
     ).map((f) => f.id);
-    return { people: [...people], fams, anc, desc };
+    return { people: [...people], blood: [...blood], fams, anc, desc };
   }
 
   function pathFams(path) {
@@ -1059,7 +1098,7 @@
     const n = downNode || e.target.closest(".w-node");
     downNode = null;
     if (n) go(n.dataset.n, null);
-    else if (wSel && !pickFrom && !wRel) {
+    else if (wSel && !pickFrom && !wRel && !wOnly) {
       // wait a moment so a double-click (zoom) doesn't also clear the selection
       clearTimeout(clearTimer);
       clearTimer = setTimeout(() => { location.hash = "all"; }, 280);
@@ -1085,7 +1124,8 @@
 
   /* entering / leaving */
   function setViewToggle() {
-    for (const b of document.querySelectorAll(".views button")) b.setAttribute("aria-pressed", String((b.dataset.view === "all") === wholeMode));
+    const cur = !wholeMode ? "family" : wOnly ? "line" : "all";
+    for (const b of document.querySelectorAll(".views button")) b.setAttribute("aria-pressed", String(b.dataset.view === cur));
   }
   async function showWhole(selId, rel) {
     const entering = !wholeMode;
@@ -1104,7 +1144,6 @@
     wHint.hidden = true;
     const relaid = before !== wLayoutKey;
     const anim = !entering && !relaid;
-    renderOnlyToggle(!!(rel || selId));
     document.body.classList.toggle("no-sheet", !(rel || selId));
     // the close button sits at the end of the name row, after Compare
     const addClose = () => {
@@ -1116,7 +1155,7 @@
     if (rel) {
       highlight(path ? path.nodes : [rel.a, rel.b], path ? pathFams(path) : [], "path");
       renderRelSheet(rel.a, rel.b, path);
-      sheetBody.prepend(h("button", { type: "button", class: "rel-btn whole-back", "data-goto": `all/${rel.a}` }, "Clear comparison"));
+      sheetBody.prepend(h("button", { type: "button", class: "rel-btn whole-back", "data-goto": `${W()}/${rel.a}` }, "Clear comparison"));
       addClose();
       const ids = path ? path.nodes : [rel.a, rel.b];
       const [x0, y0, x1, y1] = boxOf(ids);
@@ -1125,14 +1164,14 @@
       return;
     }
     if (selId) {
-      highlight(L.people, L.fams, "lineage");
+      highlight(L.blood, L.fams, "lineage");
       renderSheet(P[selId]);
       const extra = h("p", { class: "whole-note" },
         `Highlighted: ${L.anc.size} ancestor${L.anc.size === 1 ? "" : "s"} and ${L.desc.size} descendant${L.desc.size === 1 ? "" : "s"} of ${fullName(P[selId])}.`);
       const who = sheetBody.querySelector(".who");
       const compare = who.querySelector(".rel-start");
       who.after(extra, h("div", { class: "whole-actions" },
-        compare, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in focus view")));
+        compare, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in Family view")));
       addClose();
       const [x0, y0, x1, y1] = boxOf(L.people);
       const { w, h: vh } = visibleBox(), pad = 40;
@@ -1152,17 +1191,6 @@
       document.title = `Whole tree | ${DATA.title}`;
     }
   }
-  const onlyBtn = $("wOnly");
-  function renderOnlyToggle(show) {
-    onlyBtn.hidden = !show;
-    onlyBtn.setAttribute("aria-pressed", String(wOnly));
-    onlyBtn.textContent = wOnly ? "Show everyone" : "Just this line";
-  }
-  onlyBtn.addEventListener("click", () => {
-    wOnly = !wOnly;
-    try { localStorage.setItem("ft-only", wOnly ? "1" : "0"); } catch {}
-    route();
-  });
   function hideWhole() {
     if (!wholeMode) return false;
     wholeMode = false; wSel = null; wRel = null;
@@ -1177,11 +1205,12 @@
   document.querySelector(".views").addEventListener("click", (e) => {
     const b = e.target.closest("button[data-view]");
     if (!b) return;
-    if (b.dataset.view === "all") {
-      // keep an active comparison when switching views
-      if (relMode) location.hash = `all/rel/${relMode.a}/${relMode.b}`;
-      else if (wRel) location.hash = `all/rel/${wRel.a}/${wRel.b}`;
-      else location.hash = `all/${wSel || focusId || DATA.home}`;
+    const v = b.dataset.view;
+    if (v === "line" || v === "all") {
+      // keep the current person or comparison when switching views
+      if (relMode) location.hash = `${v}/rel/${relMode.a}/${relMode.b}`;
+      else if (wRel) location.hash = `${v}/rel/${wRel.a}/${wRel.b}`;
+      else location.hash = `${v}/${wSel || focusId || DATA.home}`;
     }
     else location.hash = wRel ? `rel/${wRel.a}/${wRel.b}` : (wSel || focusId || DATA.home);
   });
@@ -1198,10 +1227,13 @@
 
   function route() {
     const hash = decodeURIComponent(location.hash.slice(1));
-    const w = hash.match(/^all(?:\/rel\/([^/]+)\/([^/]+)|\/([^/]+))?$/);
+    const w = hash.match(/^(all|line)(?:\/rel\/([^/]+)\/([^/]+)|\/([^/]+))?$/);
     if (w) {
-      if (w[1] && P[w[1]] && P[w[2]]) showWhole(null, { a: w[1], b: w[2] });
-      else showWhole(P[w[3]] ? w[3] : null);
+      wOnly = w[1] === "line";
+      if (w[2] && P[w[2]] && P[w[3]]) showWhole(null, { a: w[2], b: w[3] });
+      else if (P[w[4]]) showWhole(w[4]);
+      else if (wOnly) location.replace(`#line/${wSel || focusId || DATA.home}`);  // a line needs a person
+      else showWhole(null);
       return;
     }
     const wasWhole = hideWhole();
@@ -1221,10 +1253,10 @@
       const a = pickFrom;
       if (id === a) return;
       cancelPick();
-      location.hash = `${wholeMode ? "all/" : ""}rel/${a}/${id}`;
+      location.hash = `${wholeMode ? W() + "/" : ""}rel/${a}/${id}`;
       return;
     }
-    if (wholeMode) { location.hash = `all/${id}`; return; }
+    if (wholeMode) { location.hash = `${W()}/${id}`; return; }
     if (id === focusId && !relMode) { if (!wide.matches) setSheet(!sheet.classList.contains("open")); return; }
     pendingRect = fromEl ? fromEl.getBoundingClientRect() : null;
     if (location.hash.slice(1) !== id) location.hash = id;

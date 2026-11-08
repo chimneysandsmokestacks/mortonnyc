@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=17">
+<link rel="stylesheet" href="style.css?v=18">
 </head>
 <body>
 <header class="bar">
@@ -33,8 +33,9 @@
 
 <div class="subbar">
 <div class="views" role="group" aria-label="View">
-  <button type="button" data-view="focus" aria-pressed="true">Focus</button>
-  <button type="button" data-view="all" aria-pressed="false">Whole tree</button>
+  <button type="button" data-view="family" aria-pressed="true" title="One person with their parents, grandparents, partner and children">Family</button>
+  <button type="button" data-view="line" aria-pressed="false" title="Everyone in the selected person's line: all ancestors and descendants">Line</button>
+  <button type="button" data-view="all" aria-pressed="false" title="The whole tree, with the selected line highlighted">Everyone</button>
 </div>
 <div class="legend" aria-hidden="true">
   <span><i class="dot m"></i>Male</span>
@@ -60,7 +61,6 @@
       <button type="button" data-zoom="out" aria-label="Zoom out">−</button>
       <button type="button" data-zoom="fit" aria-label="Show the whole tree">Fit</button>
     </div>
-    <button type="button" class="rel-btn w-only" id="wOnly" hidden></button>
     <p class="w-hint" id="wHint" hidden></p>
   </section>
   <section class="stage" id="stage" aria-label="Family tree">
@@ -105,6 +105,6 @@
 </section>
 
 <noscript><p class="noscript">This family tree needs JavaScript to display.</p></noscript>
-<script src="app.js?v=19"></script>
+<script src="app.js?v=22"></script>
 </body>
 </html>
