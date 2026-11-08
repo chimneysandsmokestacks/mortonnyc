@@ -872,7 +872,10 @@
       const cands = [...(near.length === 1 ? [cx(near[0])] : []), ...adjParents.map(cx), ...near.map(cx)];
       const best = cands.map((x) => [Math.abs(x - fx), x]).filter(([d]) => d < 16).sort((p, q) => p[0] - q[0])[0];
       if (best) fx = best[1];
-      joint.set(n.id, { x: fx, y: fy, near, top, adjParents });
+      // a couple with no children: join them just under their cards, with nothing hanging below
+      let jy = fy;
+      if (!kids.length && adjParents.length) jy = Math.max(...adjParents.map((p) => p.y + p.height)) + 14;
+      joint.set(n.id, { x: fx, y: jy, near, top, adjParents });
     }
     // Children of one family share a single trunk and crossbar: every child line follows the
     // same route so they overlap exactly and read as one line, then branch at the bar.
