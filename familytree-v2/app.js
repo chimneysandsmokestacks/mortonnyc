@@ -968,7 +968,12 @@
   }
 
   /* pan & zoom */
-  function applyView() { wLayer.setAttribute("transform", `translate(${view.x},${view.y}) scale(${view.k})`); }
+  function applyView() {
+    wLayer.setAttribute("transform", `translate(${view.x},${view.y}) scale(${view.k})`);
+    // lines scale with the cards, but never get thinner than a hairline on screen
+    wSvg.style.setProperty("--sw", `${Math.max(1.6, 0.7 / view.k)}px`);
+    wSvg.style.setProperty("--sw-hi", `${Math.max(3.5, 1.4 / view.k)}px`);
+  }
   function animateTo(t, ms = 420) {
     if (reduceMotion.matches) { Object.assign(view, t); applyView(); return; }
     const from = { ...view }, t0 = performance.now();

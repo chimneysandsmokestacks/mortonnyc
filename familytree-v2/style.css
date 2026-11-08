@@ -498,7 +498,7 @@ body.whole-mode .stage { display: none; }
 }
 .w-svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
 .w-svg:active { cursor: grabbing; }
-.w-edges path { fill: none; stroke: var(--wire); stroke-width: 1.6; vector-effect: non-scaling-stroke; }
+.w-edges path { fill: none; stroke: var(--wire); stroke-width: var(--sw, 1.6px); }
 .w-fam { fill: var(--surface); stroke: var(--wire); stroke-width: 1.6; }
 .w-node { cursor: pointer; }
 .w-node:focus { outline: none; }
@@ -520,7 +520,7 @@ body.whole-mode .stage { display: none; }
 /* selection: everything else fades back */
 .w-svg .w-node, .w-svg .w-edges path, .w-svg .w-fam { transition: opacity .25s; }
 /* nothing fades: the selected line is drawn thicker and in purple on top */
-.w-svg.has-sel .w-edges path.hi { stroke: #8a5cf0; stroke-width: 3.5; }
+.w-svg.has-sel .w-edges path.hi { stroke: #8a5cf0; stroke-width: var(--sw-hi, 3.5px); }
 .w-svg.has-sel .w-fam.hi { fill: #8a5cf0; stroke: #8a5cf0; }
 .w-node.sel .w-card { stroke: #8a5cf0; stroke-width: 3; }
 
