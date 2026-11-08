@@ -1165,7 +1165,12 @@
   document.querySelector(".views").addEventListener("click", (e) => {
     const b = e.target.closest("button[data-view]");
     if (!b) return;
-    if (b.dataset.view === "all") location.hash = `all/${wSel || (relMode ? relMode.a : focusId) || DATA.home}`;
+    if (b.dataset.view === "all") {
+      // keep an active comparison when switching views
+      if (relMode) location.hash = `all/rel/${relMode.a}/${relMode.b}`;
+      else if (wRel) location.hash = `all/rel/${wRel.a}/${wRel.b}`;
+      else location.hash = `all/${wSel || focusId || DATA.home}`;
+    }
     else location.hash = wRel ? `rel/${wRel.a}/${wRel.b}` : (wSel || focusId || DATA.home);
   });
 
