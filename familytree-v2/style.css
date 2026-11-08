@@ -519,8 +519,8 @@ body.whole-mode .stage { display: none; }
 
 /* selection: everything else fades back */
 .w-svg .w-node, .w-svg .w-edges path, .w-svg .w-fam { transition: opacity .25s; }
-.w-svg.has-sel .w-node:not(.hi), .w-svg.has-sel .w-fam:not(.hi), .w-svg.has-sel .w-edges path:not(.hi) { opacity: .22; }
-.w-svg.has-sel .w-edges path.hi { stroke: #8a5cf0; stroke-width: 3; }
+/* nothing fades: the selected line is drawn thicker and in purple on top */
+.w-svg.has-sel .w-edges path.hi { stroke: #8a5cf0; stroke-width: 3.5; }
 .w-svg.has-sel .w-fam.hi { fill: #8a5cf0; stroke: #8a5cf0; }
 .w-node.sel .w-card { stroke: #8a5cf0; stroke-width: 3; }
 

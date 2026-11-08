@@ -819,7 +819,7 @@
           "elk.algorithm": "layered",
           "elk.direction": "DOWN",
           "elk.edgeRouting": "ORTHOGONAL",
-          "elk.layered.spacing.nodeNodeBetweenLayers": "34",
+          "elk.layered.spacing.nodeNodeBetweenLayers": "44",
           "elk.layered.spacing.edgeNodeBetweenLayers": "14",
           "elk.spacing.nodeNode": "16",
           "elk.spacing.edgeNode": "10",
@@ -847,7 +847,40 @@
   function drawWhole(g) {
     wLayer.replaceChildren();
     const gEdges = S("g", { class: "w-edges" }), gFams = S("g"), gNodes = S("g");
+    const pos = new Map(g.children.map((n) => [n.id, n]));
+    // Children of one family share a single trunk and crossbar: draw every child line along
+    // the same route so they overlap exactly and read as one line, then branch at the bar.
+    const famRoutes = new Map();
+    const fams = [...new Set(g.edges.filter((e) => e.id.startsWith("ce:")).map((e) => e.sources[0]))];
+    const buses = [];
+    for (const fid of fams) {
+      const f = pos.get(fid);
+      const kids = g.edges.filter((e) => e.id.startsWith("ce:") && e.sources[0] === fid).map((e) => pos.get(e.targets[0]));
+      const top = Math.min(...kids.map((k) => k.y));
+      const near = kids.filter((k) => Math.abs(k.y - top) < 4);   // children in the next row
+      const xs = [f.x + f.width / 2, ...near.map((k) => k.x + k.width / 2)];
+      buses.push({ fid, f, near, top, lo: Math.min(...xs), hi: Math.max(...xs) });
+    }
+    // families whose crossbars would sit on top of each other get stacked a few px apart
+    const byRow = new Map();
+    for (const b of buses) { const k = Math.round(b.top); if (!byRow.has(k)) byRow.set(k, []); byRow.get(k).push(b); }
+    for (const row of byRow.values()) {
+      row.sort((p, q) => p.lo - q.lo);
+      const ends = [];
+      for (const b of row) {
+        let slot = ends.findIndex((end) => end < b.lo - 6);
+        if (slot < 0) { slot = ends.length; ends.push(0); }
+        ends[slot] = b.hi;
+        b.y = b.top - 16 - slot * 7;
+      }
+    }
+    for (const b of buses) {
+      const fx = b.f.x + b.f.width / 2, fy = b.f.y + b.f.height / 2;
+      for (const k of b.near) famRoutes.set(`${b.fid}>${k.id}`, [{ x: fx, y: fy }, { x: fx, y: b.y }, { x: k.x + k.width / 2, y: b.y }, { x: k.x + k.width / 2, y: k.y }]);
+    }
     for (const e of g.edges) {
+      const custom = famRoutes.get(`${e.sources[0]}>${e.targets[0]}`);
+      if (custom) { gEdges.append(S("path", { d: roundedPath(custom.filter((p, i, arr) => i === 0 || p.x !== arr[i - 1].x || p.y !== arr[i - 1].y)), "data-e": e.id })); continue; }
       for (const sec of e.sections || []) {
         const pts = [sec.startPoint, ...(sec.bendPoints || []), sec.endPoint];
         gEdges.append(S("path", { d: roundedPath(pts), "data-e": e.id }));
