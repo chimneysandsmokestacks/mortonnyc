@@ -448,3 +448,25 @@ body.rel-mode .canvas { display: none; }
 
 .node.living .av { font-size: 10.5px; letter-spacing: 0; }
 .node.focus.living .av { font-size: 18px; }
+
+/* ---------- shared records ---------- */
+.shared-line {
+  display: inline-flex; align-items: center; gap: 5px; margin-top: 3px;
+  font-size: 12.5px; font-weight: 600; color: #7a4fd6;
+}
+.shared-line svg { width: 13px; height: 13px; flex: none; align-self: flex-start; margin-top: 2px; }
+.rec .shared-line { white-space: normal; }
+.v-tab .tab-shared { display: inline-flex; flex: none; }
+.v-tab .tab-shared svg { width: 13px; height: 13px; }
+.v-shared {
+  flex: none; padding: 12px 18px 14px; border-bottom: 1px solid var(--line);
+  background: linear-gradient(90deg, rgba(61,107,245,.06), rgba(239,79,122,.06));
+}
+.v-shared[hidden] { display: none; }
+.vs-title { margin: 0 0 8px; display: flex; align-items: center; gap: 6px; font-size: 13.5px; font-weight: 600; color: #7a4fd6; }
+.vs-title svg { width: 15px; height: 15px; }
+.vs-people { display: flex; flex-wrap: wrap; gap: 6px; }
+.vs-people .chip { background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); }
+.vs-rel { color: var(--ink-3); font-size: 13px; }
+.vs-why { margin: 8px 0 0; font-size: 13.5px; color: var(--ink-2); max-width: 75ch; }
+@media (max-width: 720px) { .v-shared { max-height: 34vh; overflow: auto; } }

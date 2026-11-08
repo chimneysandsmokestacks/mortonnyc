@@ -318,7 +318,14 @@
             siteBadge(l.site),
             h("span", { class: "rec-text" },
               h("span", { class: "site", text: l.site }),
-              h("span", { class: "ctx", text: recSub(l) })),
+              h("span", { class: "ctx", text: recSub(l) }),
+              (() => {
+                const o = sharedWith(l.url, p.id);
+                if (!o.length) return null;
+                const first = fullName(P[o[0]]);
+                return h("span", { class: "shared-line" }, linkIcon(),
+                  o.length === 1 ? `Shared with ${first}` : `Shared with ${o.length} other people`);
+              })()),
           ),
           h("a", { class: "rec-ext", href: l.url, target: "_blank", rel: "noopener noreferrer", "aria-label": `Open ${l.site} record in a new tab` }, extIcon()),
         ))));
@@ -347,19 +354,56 @@
 
   const extIcon = () => svg('<path d="M9 2h5v5M14 2 7.5 8.5M12 9.5V14H2V4h4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>');
 
+  /* ---------- records shared between people ---------- */
+  let SHARED = new Map();   // url -> [person ids]
+  function buildShared() {
+    SHARED = new Map();
+    for (const p of Object.values(P)) {
+      if (p.living) continue;
+      for (const l of allLinks(p)) {
+        if (!SHARED.has(l.url)) SHARED.set(l.url, []);
+        SHARED.get(l.url).push(p.id);
+      }
+    }
+  }
+  const sharedWith = (url, id) => (SHARED.get(url) || []).filter((x) => x !== id);
+  function relWord(fromId, toId) {
+    const path = findPath(fromId, toId);
+    return path ? describe(path) : "not linked in the tree";
+  }
+  function sharedReason(l, fromId, others) {
+    const kinds = others.map((o) => {
+      const path = findPath(fromId, o);
+      if (!path) return "other";
+      if (path.blood && path.a + path.b === 1) return "parent";
+      if (path.blood && path.a === 1 && path.b === 1) return "sibling";
+      if (!path.blood && path.edges.length === 1 && path.edges[0] === "spouse") return "spouse";
+      return "other";
+    });
+    if (/marriage/i.test(l.context || "")) return "This is a marriage record. Marriage entries name the bride and groom and often their parents, so the same record is linked from each person it mentions.";
+    if (kinds.includes("parent")) return "One register entry often names several people. A birth record, for example, lists the child together with the father and mother, so the same record is linked from each of them.";
+    if (kinds.every((k) => k === "spouse")) return "It names both partners, as a marriage entry does, or a child’s birth entry that lists both parents.";
+    if (kinds.includes("sibling")) return "Archive scans show a whole register page, and siblings were often registered close together, so their entries can share a page.";
+    return "Archive scans show a whole register page, so entries for several relatives can appear on the same page.";
+  }
+  const linkIcon = () => svg('<path d="M6.5 9.5 9.5 6.5M7 4.5l1.2-1.2a2.6 2.6 0 0 1 3.7 3.7L10.7 8.2M9 11.5l-1.2 1.2a2.6 2.6 0 0 1-3.7-3.7L5.3 7.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>');
+
   /* ---------- record viewer ---------- */
   const viewer = $("viewer"), vBackdrop = $("vBackdrop"), vTabs = $("vTabs"), vBody = $("vBody");
-  let vLinks = [], vReturnFocus = null;
+  let vLinks = [], vReturnFocus = null, vPerson = null;
+  const vShared = $("vShared");
 
   function openViewer(p, index) {
     vLinks = allLinks(p);
     if (!vLinks.length) return;
+    vPerson = p.id;
     vReturnFocus = document.activeElement;
     $("vName").textContent = fullName(p);
     $("vSub").textContent = `${lifespan(p) || "Dates unknown"}, ${vLinks.length} record${vLinks.length > 1 ? "s" : ""}`;
     vTabs.replaceChildren(...vLinks.map((l, i) => h("button", {
       type: "button", class: "v-tab", role: "tab", "data-i": String(i), title: `${l.site}: ${recSub(l)}`,
-    }, siteBadge(l.site), h("span", { text: `${i + 1}. ${recTitle(l)}` }))));
+    }, siteBadge(l.site), h("span", { text: `${i + 1}. ${recTitle(l)}` }),
+      sharedWith(l.url, p.id).length ? h("span", { class: "tab-shared", "aria-label": "shared record" }, linkIcon()) : null)));
     vTabs.hidden = vLinks.length < 2;
     showRecord(index);
     viewer.setAttribute("aria-hidden", "false");
@@ -373,6 +417,19 @@
     const tab = vTabs.children[i];
     if (tab) tab.scrollIntoView({ block: "nearest", inline: "nearest" });
     $("vExt").href = l.url;
+    const others = sharedWith(l.url, vPerson);
+    if (others.length) {
+      vShared.replaceChildren(
+        h("p", { class: "vs-title" }, linkIcon(), `Shared record: also linked to ${others.length === 1 ? "1 other person" : others.length + " other people"}`),
+        h("div", { class: "vs-people" }, others.map((o) => h("button", { type: "button", class: "chip", "data-id": o },
+          marker(P[o]), fullName(P[o]), h("span", { class: "vs-rel", text: relWord(vPerson, o) })))),
+        h("p", { class: "vs-why", text: sharedReason(l, vPerson, others) }),
+      );
+      vShared.hidden = false;
+    } else {
+      vShared.hidden = true;
+      vShared.replaceChildren();
+    }
     if (EMBEDDABLE.has(host(l.url))) {
       const loading = h("div", { class: "v-loading", text: `Loading ${l.site}` });
       const frame = h("iframe", { src: l.url, title: `${l.site}: ${recSub(l)}`, allow: "fullscreen" });
@@ -396,6 +453,13 @@
     if (vReturnFocus && vReturnFocus.focus) vReturnFocus.focus({ preventScroll: true });
     return true;
   }
+  vShared.addEventListener("click", (e) => {
+    const c = e.target.closest(".chip");
+    if (!c) return;
+    closeViewer();
+    if (!wide.matches) setSheet(false);
+    go(c.dataset.id, null);
+  });
   vTabs.addEventListener("click", (e) => { const t = e.target.closest(".v-tab"); if (t) showRecord(+t.dataset.i); });
   vTabs.addEventListener("keydown", (e) => {
     if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
@@ -812,6 +876,7 @@
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((data) => {
       DATA = data; P = data.people; F = data.families;
+      buildShared();
       $("siteTitle").textContent = data.title;
       index = Object.values(P)
         .map((p) => ({ p, key: norm(`${fullName(p)} ${p.nick || ""} ${lifespan(p)}`) }))
