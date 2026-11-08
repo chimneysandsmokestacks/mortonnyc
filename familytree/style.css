@@ -23,7 +23,7 @@
   --col: 184px;
   --node-w: 124px;
   --gp-w: 88px;
-  --focus-w: 176px;
+  --focus-w: 146px;
   --row-gap: 46px;
   --bar-h: 58px;
   --peek: 156px;
@@ -31,10 +31,10 @@
   --shadow: 0 1px 2px rgba(23,27,44,.06), 0 6px 18px -8px rgba(23,27,44,.18);
 }
 @media (min-width: 560px) {
-  :root { --col: 260px; --node-w: 152px; --gp-w: 120px; --focus-w: 230px; --row-gap: 56px; }
+  :root { --col: 260px; --node-w: 152px; --gp-w: 120px; --focus-w: 180px; --row-gap: 56px; }
 }
 @media (min-width: 1100px) {
-  :root { --col: 300px; --node-w: 164px; --gp-w: 136px; --focus-w: 250px; --row-gap: 64px; }
+  :root { --col: 300px; --node-w: 164px; --gp-w: 136px; --focus-w: 192px; --row-gap: 64px; }
 }
 
 * { box-sizing: border-box; }
@@ -191,6 +191,7 @@ button { font: inherit; color: inherit; }
 @media (max-width: 559px) {
   .node { grid-template-columns: 1fr; padding: 10px 10px 11px; }
   .node .av { grid-row: auto; width: 28px; height: 28px; font-size: 11.5px; margin-bottom: 7px; }
+  .node.focus .av { width: 34px; height: 34px; font-size: 13px; }
 }
 
 /* grandparents: compact, avatar on top */
@@ -208,21 +209,20 @@ button { font: inherit; color: inherit; }
 }
 .par .ghost { width: var(--node-w); min-height: 60px; border-radius: var(--r); }
 
-/* the focused person: gradient ring, large avatar */
+/* the focused person: same card layout as the others, a touch larger, with a gradient ring */
 .node.focus {
-  width: var(--focus-w); padding: 14px 14px 13px; border-radius: 22px;
-  border: 3px solid transparent;
+  width: var(--focus-w); padding: 11px 11px 12px; border-radius: 18px;
+  border: 2.5px solid transparent;
   background: linear-gradient(var(--surface), var(--surface)) padding-box, var(--ring) border-box;
-  grid-template-columns: 1fr; text-align: left;
-  box-shadow: 0 2px 4px rgba(23,27,44,.06), 0 22px 44px -16px rgba(23,27,44,.35);
+  box-shadow: 0 2px 4px rgba(23,27,44,.06), 0 16px 32px -14px rgba(23,27,44,.32);
 }
 .node.focus:hover { transform: none; }
-.node.focus .av { grid-row: auto; width: 54px; height: 54px; font-size: 19px; margin-bottom: 10px; box-shadow: 0 0 0 4px var(--c-soft); }
-.node.focus.living .av { box-shadow: inset 0 0 0 2.5px var(--c), 0 0 0 4px var(--c-soft); }
-.node.focus .given { font-size: 21px; font-weight: 700; letter-spacing: -.015em; line-height: 1.1; }
-.node.focus .sur { font: 500 16px var(--display); color: var(--ink-2); margin-top: 1px; }
-.node.focus .yrs { font-size: 14px; margin-top: 6px; }
-.node.focus .badge { font-size: 12.5px; padding: 3px 10px 3px 8px; margin-top: 12px; }
+.node.focus .av { width: 40px; height: 40px; font-size: 15px; box-shadow: 0 0 0 3px var(--c-soft); }
+.node.focus.living .av { box-shadow: inset 0 0 0 2px var(--c), 0 0 0 3px var(--c-soft); }
+.node.focus .given { font-size: 16.5px; font-weight: 700; letter-spacing: -.01em; }
+.node.focus .sur { font-size: 14px; }
+.node.focus .yrs { font-size: 13px; }
+.node.focus .badge { font-size: 12px; }
 .node.focus.living { background: linear-gradient(var(--surface), var(--surface)) padding-box, var(--ring) border-box; box-shadow: 0 22px 44px -16px rgba(23,27,44,.35); }
 
 /* ---------- details sheet ---------- */
@@ -459,7 +459,7 @@ body.rel-mode .canvas { display: none; }
 }
 
 .node.living .av { font-size: 10.5px; letter-spacing: 0; }
-.node.focus.living .av { font-size: 18px; }
+.node.focus.living .av { font-size: 13px; }
 
 /* ---------- shared records ---------- */
 .shared-line {
