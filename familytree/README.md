@@ -19,6 +19,10 @@ from the right, with a tab for each of the person's records.
   them, with the relationship in words (e.g. "second cousin once removed", "wife's
   grandmother") and a step-by-step list. These views have their own links too, e.g.
   `.../#rel/I0003/I0068`.
+- **Whole tree** (switch at the top) lays out everyone at once. Tap a person to
+  light up all their ancestors and descendants; with "Just this line" on, only that
+  line is drawn so it stays readable. Compare works here too and highlights the path.
+  Drag to move, pinch or use + / − to zoom. Links look like `.../#all/I0013`.
 - Each person has their own URL, e.g. `.../#I0005`, so you can share a direct link.
 
 ## Publish on GitHub Pages

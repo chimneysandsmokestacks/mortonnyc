@@ -84,10 +84,22 @@ button { font: inherit; color: inherit; }
 .results .yrs { margin-left: auto; color: var(--ink-3); font-size: 13.5px; font-variant-numeric: tabular-nums; }
 .results .empty { color: var(--ink-3); cursor: default; }
 
-.legend {
-  display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
-  padding: 8px 12px; font-size: 13px; color: var(--ink-2);
+.subbar {
+  height: 46px; display: flex; align-items: center; gap: 14px;
+  padding: 0 12px; overflow-x: auto; scrollbar-width: none; white-space: nowrap;
 }
+.subbar::-webkit-scrollbar { display: none; }
+.views { flex: none; display: inline-flex; padding: 3px; gap: 2px; border-radius: 999px; background: rgba(255,255,255,.75); box-shadow: inset 0 0 0 1px var(--line); }
+.views button {
+  border: 0; background: none; cursor: pointer; height: 30px; padding: 0 14px; border-radius: 999px;
+  font-size: 13.5px; font-weight: 600; color: var(--ink-2);
+}
+.views button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.legend {
+  display: flex; gap: 8px; flex-wrap: nowrap; margin-left: auto;
+  font-size: 13px; color: var(--ink-2);
+}
+@media (min-width: 900px) { .legend { margin-left: 0; } .subbar { justify-content: center; } }
 .legend span { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 7px; border-radius: 999px; background: rgba(255,255,255,.7); }
 
 /* ---------- color dots (gender is color only) ---------- */
@@ -100,7 +112,7 @@ button { font: inherit; color: inherit; }
 .legend .dot.living { box-shadow: none; border: 1.5px dashed var(--ink-3); }
 
 /* ---------- layout ---------- */
-.layout { position: relative; height: calc(100% - var(--bar-h) - 38px); }
+.layout { position: relative; height: calc(100% - var(--bar-h) - 46px); }
 .stage {
   position: absolute; inset: 0; overflow: auto; overscroll-behavior: contain;
   padding-bottom: var(--peek);
@@ -367,8 +379,8 @@ button { font: inherit; color: inherit; }
 .who .rel-start svg { width: 15px; height: 15px; }
 
 .pick-banner {
-  position: sticky; top: 10px; left: 0; z-index: 6;
-  width: min(560px, calc(100vw - 24px)); margin: 10px auto 0;
+  position: absolute; top: 10px; left: 50%; translate: -50% 0; z-index: 30;
+  width: min(560px, calc(100vw - 24px));
   display: flex; align-items: center; gap: 12px;
   padding: 10px 10px 10px 16px; border-radius: 16px;
   background: var(--ink); color: #fff; font-size: 14.5px;
@@ -378,7 +390,7 @@ button { font: inherit; color: inherit; }
 .pick-banner span { flex: 1; }
 .pick-banner .rel-btn { background: rgba(255,255,255,.14); color: #fff; }
 .pick-banner .rel-btn:hover { background: rgba(255,255,255,.24); }
-@media (min-width: 900px) { .pick-banner { position: sticky; left: 50%; translate: 0 0; } }
+@media (min-width: 900px) { .pick-banner { left: calc((100% - 414px) / 2); } }
 
 .rel-view { display: none; }
 body.rel-mode .rel-view { display: block; }
@@ -470,3 +482,82 @@ body.rel-mode .canvas { display: none; }
 .vs-rel { color: var(--ink-3); font-size: 13px; }
 .vs-why { margin: 8px 0 0; font-size: 13.5px; color: var(--ink-2); max-width: 75ch; }
 @media (max-width: 720px) { .v-shared { max-height: 34vh; overflow: auto; } }
+
+/* ---------- descendant count on child cards ---------- */
+.node .desc { grid-column: 1 / -1; margin-top: 6px; font-size: 12px; color: var(--ink-3); }
+.node .desc::before { content: "↓ "; }
+
+/* ---------- whole tree view ---------- */
+.whole { display: none; position: absolute; inset: 0; overflow: hidden;
+  background-image: radial-gradient(var(--dot) 1.2px, transparent 1.3px); background-size: 22px 22px; }
+body.whole-mode .whole { display: block; }
+body.whole-mode .stage { display: none; }
+@media (min-width: 900px) {
+  .stage, .whole { grid-area: 1 / 1; }
+  .whole { position: relative; inset: auto; }
+}
+.w-svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+.w-svg:active { cursor: grabbing; }
+.w-edges path { fill: none; stroke: var(--wire); stroke-width: var(--sw, 1.6px); }
+.w-fam { fill: var(--surface); stroke: var(--wire); stroke-width: 1.6; }
+.w-node { cursor: pointer; }
+.w-node:focus { outline: none; }
+.w-node:focus-visible .w-card { stroke: var(--male); stroke-width: 2; }
+.w-card { fill: var(--surface); stroke: var(--line); stroke-width: 1; filter: drop-shadow(0 2px 4px rgba(23,27,44,.08)); }
+.w-node.living .w-card { fill: #f7f8fb; stroke: var(--wire); stroke-dasharray: 4 3; }
+.w-av { fill: var(--unknown); }
+.w-node.m .w-av { fill: var(--male); }
+.w-node.f .w-av { fill: var(--female); }
+.w-node.living .w-av { fill: var(--surface); stroke-width: 2; stroke: var(--unknown); stroke-dasharray: 3 2.5; }
+.w-node.living.m .w-av { stroke: var(--male); }
+.w-node.living.f .w-av { stroke: var(--female); }
+.w-ini { font: 700 11px var(--display); fill: #fff; pointer-events: none; }
+.w-node.living .w-ini { fill: var(--ink-2); }
+.w-name { font: 600 14px var(--display); fill: var(--ink); pointer-events: none; }
+.w-sub { font: 400 12px var(--text); fill: var(--ink-3); pointer-events: none; }
+.w-node:hover .w-card { stroke: var(--ink-3); }
+
+/* selection: everything else fades back */
+.w-svg .w-node, .w-svg .w-edges path, .w-svg .w-fam { transition: opacity .25s; }
+/* nothing fades: the selected line is drawn thicker and in purple on top */
+.w-svg.has-sel .w-edges path.hi { stroke: #8a5cf0; stroke-width: var(--sw-hi, 3.5px); }
+.w-svg.has-sel .w-fam.hi { fill: #8a5cf0; stroke: #8a5cf0; }
+.w-node.sel .w-card { stroke: #8a5cf0; stroke-width: 3; }
+
+.w-zoom { position: absolute; right: 14px; top: 14px; display: flex; flex-direction: column; gap: 6px; z-index: 3; }
+.w-zoom button {
+  width: 40px; height: 40px; border: 0; border-radius: 12px; cursor: pointer;
+  background: var(--surface); box-shadow: var(--shadow); font: 600 18px var(--text); color: var(--ink);
+}
+.w-zoom button[data-zoom="fit"] { font-size: 12.5px; }
+.w-zoom button:hover { background: var(--surface-2); }
+.w-hint { position: absolute; left: 50%; top: 40%; translate: -50% 0; margin: 0; padding: 10px 16px; border-radius: 12px; background: var(--surface); box-shadow: var(--shadow); color: var(--ink-2); font-size: 14px; }
+.w-hint[hidden] { display: none; }
+.whole-note { margin: 14px 0 0; font-size: 14px; color: var(--ink-2); }
+.rel-btn.whole-back { margin-top: 12px; box-shadow: inset 0 0 0 1px var(--line); }
+.w-only { position: absolute; left: 14px; top: 14px; z-index: 3; }
+.w-only[hidden] { display: none; }
+
+/* details panel: close button, and no panel in the whole tree when nobody is selected */
+.sheet-close {
+  flex: none; align-self: flex-start; width: 34px; height: 34px; border: 0; border-radius: 50%; cursor: pointer;
+  display: grid; place-items: center; background: var(--surface-2); color: var(--ink-2);
+}
+.who .rel-start + .sheet-close { margin-left: -6px; }
+.who > .sheet-close:first-of-type:not(.rel-start + .sheet-close) { margin-left: auto; }
+.sheet-close:hover { background: #e3e6f0; color: var(--ink); }
+.sheet-close svg { width: 15px; height: 15px; }
+.who > div { min-width: 0; }
+.who .rel-start { gap: 5px; padding: 0 11px; }
+body.no-sheet .sheet { display: none; }
+@media (min-width: 900px) {
+  body.no-sheet .layout { grid-template-columns: 1fr; }
+}
+.whole-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
+.whole-actions .rel-start {
+  display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border: 0; border-radius: 999px; cursor: pointer;
+  background: var(--ink); color: #fff; font-size: 14px; font-weight: 600;
+}
+.whole-actions .rel-start svg { width: 15px; height: 15px; }
+.whole-actions .whole-back { margin-top: 0; height: 36px; }
+.who > .sheet-close { margin-left: auto; }

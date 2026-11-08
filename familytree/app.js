@@ -12,7 +12,7 @@
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   let DATA = null, P = {}, F = {};
-  let focusId = null, pendingRect = null;
+  let focusId = null, pendingRect = null, sheetPid = null;
 
   /* ---------- helpers ---------- */
   function h(tag, attrs, ...kids) {
@@ -171,7 +171,11 @@
 
     const groups = us.filter((u) => u.children.length);
     for (const u of groups) {
-      rowC.append(h("div", { class: "group", "data-fam": u.fam.id }, u.children.map((c) => node(c))));
+      rowC.append(h("div", { class: "group", "data-fam": u.fam.id }, u.children.map((c) => {
+        const el = node(c), n = descendantCount(c.id);
+        if (n) el.append(h("span", { class: "desc", text: `${n} descendant${n > 1 ? "s" : ""}` }));
+        return el;
+      })));
     }
     if (groups.length) {
       const n = groups.reduce((t, u) => t + u.children.length, 0);
@@ -280,6 +284,7 @@
   }
 
   function renderSheet(p) {
+    sheetPid = p.id;
     const links = p.living ? [] : allLinks(p);
     const us = unions(p), pr = parentsOf(p), sibs = siblingsOf(p);
     const body = [];
@@ -341,7 +346,7 @@
     }
 
     const kin = [];
-    const row = (label, people) => { if (people.length) kin.push(h("dt", { text: label }), h("dd", {}, people.map(chip))); };
+    const row = (label, people) => { people = people.filter((x, i) => people.findIndex((y) => y.id === x.id) === i); if (people.length) kin.push(h("dt", { text: label }), h("dd", {}, people.map(chip))); };
     row("Parents", pr ? [pr.father, pr.mother].filter(Boolean) : []);
     row(us.filter((u) => u.spouse).length > 1 ? "Partners" : "Partner", us.map((u) => u.spouse).filter(Boolean));
     row("Siblings", sibs);
@@ -745,6 +750,7 @@
   }
 
   function redraw() {
+    if (wholeMode) return;
     if (relMode) drawRelWires(findPath(relMode.a, relMode.b));
     else if (focusId && P[focusId]) { const p = P[focusId]; drawWires(p, parentsOf(p), unions(p)); }
   }
@@ -774,8 +780,433 @@
   });
   pickBanner.addEventListener("click", (e) => { if (e.target.closest("#pickCancel")) cancelPick(); });
 
+  /* ---------- whole tree view ---------- */
+  const wholeView = $("wholeView"), wSvg = $("wSvg"), wLayer = $("wLayer"), wHint = $("wHint");
+  let wholeMode = false, wSel = null, wRel = null, wLayout = null, wLayoutKey = null;
+  const layoutCache = new Map();
+  let wOnly = true;
+  try { wOnly = localStorage.getItem("ft-only") !== "0"; } catch {}
+  const view = { x: 0, y: 0, k: 1 };
+  const NW = 172, NH = 58, FW = 8;
+  const SVGNS = "http://www.w3.org/2000/svg";
+
+  function loadElk() {
+    if (window.ELK) return Promise.resolve();
+    return new Promise((res, rej) => {
+      const s = document.createElement("script");
+      s.src = "vendor/elk.bundled.js"; s.onload = res; s.onerror = rej;
+      document.head.append(s);
+    });
+  }
+
+  // lay out everyone, or only the given people (cached per set)
+  function buildLayout(ids) {
+    const key = ids ? [...ids].sort().join(",") : "*";
+    if (wLayoutKey === key) return Promise.resolve(wLayout);
+    if (!layoutCache.has(key)) layoutCache.set(key, loadElk().then(() => {
+      const keep = ids ? new Set(ids) : null, inSet = (x) => x && P[x] && (!keep || keep.has(x));
+      const children = [], edges = [];
+      for (const p of Object.values(P)) if (inSet(p.id)) children.push({ id: p.id, width: NW, height: NH });
+      for (const f of Object.values(F)) {
+        const parents = [f.father, f.mother].filter(inSet);
+        const kids = f.children.filter(inSet);
+        if (!parents.length) continue;
+        if (!kids.length && parents.length < 2) continue;
+        const fid = "fam:" + f.id;
+        children.push({ id: fid, width: FW, height: FW });
+        parents.forEach((x) => edges.push({ id: `pe:${x}:${f.id}`, sources: [x], targets: [fid] }));
+        kids.forEach((c) => edges.push({ id: `ce:${f.id}:${c}`, sources: [fid], targets: [c] }));
+      }
+      return new window.ELK().layout({
+        id: "root",
+        layoutOptions: {
+          "elk.algorithm": "layered",
+          "elk.direction": "DOWN",
+          "elk.edgeRouting": "ORTHOGONAL",
+          "elk.layered.spacing.nodeNodeBetweenLayers": "44",
+          "elk.layered.spacing.edgeNodeBetweenLayers": "14",
+          "elk.spacing.nodeNode": "16",
+          "elk.spacing.edgeNode": "10",
+          "elk.layered.nodePlacement.strategy": "NETWORK_SIMPLEX",
+          "elk.layered.considerModelOrder.strategy": "NODES_AND_EDGES",
+          "elk.separateConnectedComponents": "true",
+          "elk.spacing.componentComponent": "70",
+        },
+        children, edges,
+      });
+    }));
+    return layoutCache.get(key).then((g) => {
+      if (wLayoutKey !== key) { wLayout = g; wLayoutKey = key; drawWhole(g); }
+      return g;
+    });
+  }
+
+  const S = (tag, attrs) => {
+    const el = document.createElementNS(SVGNS, tag);
+    for (const [k, v] of Object.entries(attrs || {})) el.setAttribute(k, v);
+    return el;
+  };
+  const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
+
+  function drawWhole(g) {
+    wLayer.replaceChildren();
+    const gEdges = S("g", { class: "w-edges" }), gFams = S("g"), gNodes = S("g");
+    const pos = new Map(g.children.map((n) => [n.id, n]));
+    // Children of one family share a single trunk and crossbar: draw every child line along
+    // the same route so they overlap exactly and read as one line, then branch at the bar.
+    const famRoutes = new Map();
+    const fams = [...new Set(g.edges.filter((e) => e.id.startsWith("ce:")).map((e) => e.sources[0]))];
+    const buses = [];
+    for (const fid of fams) {
+      const f = pos.get(fid);
+      const kids = g.edges.filter((e) => e.id.startsWith("ce:") && e.sources[0] === fid).map((e) => pos.get(e.targets[0]));
+      const top = Math.min(...kids.map((k) => k.y));
+      const near = kids.filter((k) => Math.abs(k.y - top) < 4);   // children in the next row
+      const xs = [f.x + f.width / 2, ...near.map((k) => k.x + k.width / 2)];
+      buses.push({ fid, f, near, top, lo: Math.min(...xs), hi: Math.max(...xs) });
+    }
+    // families whose crossbars would sit on top of each other get stacked a few px apart
+    const byRow = new Map();
+    for (const b of buses) { const k = Math.round(b.top); if (!byRow.has(k)) byRow.set(k, []); byRow.get(k).push(b); }
+    for (const row of byRow.values()) {
+      row.sort((p, q) => p.lo - q.lo);
+      const ends = [];
+      for (const b of row) {
+        let slot = ends.findIndex((end) => end < b.lo - 6);
+        if (slot < 0) { slot = ends.length; ends.push(0); }
+        ends[slot] = b.hi;
+        b.y = b.top - 16 - slot * 7;
+      }
+    }
+    for (const b of buses) {
+      const fx = b.f.x + b.f.width / 2, fy = b.f.y + b.f.height / 2;
+      for (const k of b.near) famRoutes.set(`${b.fid}>${k.id}`, [{ x: fx, y: fy }, { x: fx, y: b.y }, { x: k.x + k.width / 2, y: b.y }, { x: k.x + k.width / 2, y: k.y }]);
+    }
+    for (const e of g.edges) {
+      const custom = famRoutes.get(`${e.sources[0]}>${e.targets[0]}`);
+      if (custom) { gEdges.append(S("path", { d: roundedPath(custom.filter((p, i, arr) => i === 0 || p.x !== arr[i - 1].x || p.y !== arr[i - 1].y)), "data-e": e.id })); continue; }
+      for (const sec of e.sections || []) {
+        const pts = [sec.startPoint, ...(sec.bendPoints || []), sec.endPoint];
+        gEdges.append(S("path", { d: roundedPath(pts), "data-e": e.id }));
+      }
+    }
+    for (const n of g.children) {
+      if (n.id.startsWith("fam:")) {
+        gFams.append(S("circle", { class: "w-fam", cx: n.x + n.width / 2, cy: n.y + n.height / 2, r: 3.5, "data-n": n.id }));
+        continue;
+      }
+      const p = P[n.id];
+      const grp = S("g", { class: `w-node ${p.gender} ${p.living ? "living" : ""}`, transform: `translate(${n.x},${n.y})`, "data-n": p.id, tabindex: "0", role: "button", "aria-label": fullName(p) });
+      grp.append(S("rect", { class: "w-card", width: NW, height: NH, rx: 12 }));
+      grp.append(S("circle", { class: "w-av", cx: 24, cy: NH / 2, r: 14 }));
+      const ini = S("text", { class: "w-ini", x: 24, y: NH / 2 + 4, "text-anchor": "middle" }); ini.textContent = initials(p);
+      const nm = S("text", { class: "w-name", x: 46, y: 24 }); nm.textContent = clip(p.given || "Unknown", 17);
+      const sub = S("text", { class: "w-sub", x: 46, y: 41 });
+      sub.textContent = clip([p.surname, p.living ? "" : lifespan(p)].filter(Boolean).join("  "), 21);
+      grp.append(ini, nm, sub);
+      gNodes.append(grp);
+    }
+    wLayer.append(gEdges, gFams, gNodes);
+  }
+
+  function roundedPath(pts, r = 8) {
+    let d = `M${pts[0].x},${pts[0].y}`;
+    for (let i = 1; i < pts.length - 1; i++) {
+      const a = pts[i - 1], b = pts[i], c = pts[i + 1];
+      const d1 = Math.hypot(b.x - a.x, b.y - a.y), d2 = Math.hypot(c.x - b.x, c.y - b.y);
+      const rr = Math.min(r, d1 / 2, d2 / 2);
+      const p1 = { x: b.x - ((b.x - a.x) / d1) * rr, y: b.y - ((b.y - a.y) / d1) * rr };
+      const p2 = { x: b.x + ((c.x - b.x) / d2) * rr, y: b.y + ((c.y - b.y) / d2) * rr };
+      d += `L${p1.x},${p1.y}Q${b.x},${b.y} ${p2.x},${p2.y}`;
+    }
+    const z = pts[pts.length - 1];
+    return d + `L${z.x},${z.y}`;
+  }
+
+  /* highlight a set of people (+ the family joints between them) */
+  function highlight(people, famIds, mode) {
+    const hiN = new Set(people), hiF = new Set(famIds.map((f) => "fam:" + f));
+    wSvg.classList.toggle("has-sel", people.length > 0);
+    wSvg.classList.toggle("path-mode", mode === "path");
+    for (const el of wLayer.querySelectorAll(".w-node")) {
+      el.classList.toggle("hi", hiN.has(el.dataset.n));
+      el.classList.toggle("sel", el.dataset.n === wSel || (wRel && (el.dataset.n === wRel.a || el.dataset.n === wRel.b)));
+    }
+    for (const el of wLayer.querySelectorAll(".w-fam")) el.classList.toggle("hi", hiF.has(el.dataset.n));
+    for (const el of wLayer.querySelectorAll(".w-edges path")) {
+      const [kind, a, b] = el.dataset.e.split(":");
+      const on = kind === "pe" ? hiN.has(a) && hiF.has("fam:" + b) : hiF.has("fam:" + a) && hiN.has(b);
+      el.classList.toggle("hi", on);
+      if (on) el.parentNode.append(el); // draw highlighted lines on top
+    }
+  }
+
+  function lineage(id) {
+    const anc = new Set(), desc = new Set();
+    const up = [id]; while (up.length) { const x = up.pop(); for (const p of parentIds(x)) if (!anc.has(p)) { anc.add(p); up.push(p); } }
+    const dn = [id]; while (dn.length) { const x = dn.pop(); for (const c of childIds(x)) if (!desc.has(c)) { desc.add(c); dn.push(c); } }
+    const people = new Set([id, ...anc, ...desc, ...spouseIds(id)]);
+    // family joints that connect a highlighted parent to a highlighted child
+    const fams = Object.values(F).filter((f) =>
+      [f.father, f.mother].some((x) => people.has(x)) && f.children.some((c) => people.has(c)) &&
+      // the child must be on the line: either the focus's descendant or the focus/ancestor itself
+      f.children.some((c) => (desc.has(c) && [f.father, f.mother].some((x) => x === id || desc.has(x))) || ((c === id || anc.has(c)) && [f.father, f.mother].some((x) => anc.has(x))))
+    ).map((f) => f.id);
+    return { people: [...people], fams, anc, desc };
+  }
+
+  function pathFams(path) {
+    const out = [];
+    path.edges.forEach((e, i) => {
+      const x = path.nodes[i], y = path.nodes[i + 1];
+      const f = Object.values(F).find((f) => e === "spouse"
+        ? [f.father, f.mother].includes(x) && [f.father, f.mother].includes(y)
+        : (e === "up" ? f.children.includes(x) && [f.father, f.mother].includes(y) : f.children.includes(y) && [f.father, f.mother].includes(x)));
+      if (f) out.push(f.id);
+    });
+    return out;
+  }
+
+  /* pan & zoom */
+  function applyView() {
+    wLayer.setAttribute("transform", `translate(${view.x},${view.y}) scale(${view.k})`);
+    // lines scale with the cards, but never get thinner than a hairline on screen
+    wSvg.style.setProperty("--sw", `${Math.max(1.6, 0.7 / view.k)}px`);
+    wSvg.style.setProperty("--sw-hi", `${Math.max(3.5, 1.4 / view.k)}px`);
+  }
+  function animateTo(t, ms = 420) {
+    if (reduceMotion.matches) { Object.assign(view, t); applyView(); return; }
+    const from = { ...view }, t0 = performance.now();
+    const step = (now) => {
+      const u = Math.min(1, (now - t0) / ms), e = 1 - Math.pow(1 - u, 3);
+      view.x = from.x + (t.x - from.x) * e; view.y = from.y + (t.y - from.y) * e; view.k = from.k + (t.k - from.k) * e;
+      applyView();
+      if (u < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+  function visibleBox() {
+    const r = wSvg.getBoundingClientRect();
+    let h = r.height;
+    if (!wide.matches && !document.body.classList.contains("no-sheet")) h = Math.min(h, sheet.getBoundingClientRect().top - r.top);
+    return { w: r.width, h };
+  }
+  function fitBox(minX, minY, maxX, maxY, maxK = 1.1, animate = true) {
+    const { w, h } = visibleBox(), pad = 40;
+    const k = Math.min(maxK, (w - pad * 2) / (maxX - minX), (h - pad * 2) / (maxY - minY));
+    const t = { k, x: (w - (maxX + minX) * k) / 2, y: (h - (maxY + minY) * k) / 2 };
+    animate ? animateTo(t) : (Object.assign(view, t), applyView());
+  }
+  function boxOf(ids) {
+    const ns = wLayout.children.filter((n) => ids.includes(n.id));
+    return [Math.min(...ns.map((n) => n.x)), Math.min(...ns.map((n) => n.y)), Math.max(...ns.map((n) => n.x + n.width)), Math.max(...ns.map((n) => n.y + n.height))];
+  }
+  function fitAll(animate = true) { fitBox(0, 0, wLayout.width, wLayout.height, 1, animate); }
+  function zoomBy(f, cx, cy) {
+    const { w, h } = visibleBox();
+    cx ??= w / 2; cy ??= h / 2;
+    const k = Math.max(0.12, Math.min(2.5, view.k * f));
+    view.x = cx - ((cx - view.x) * k) / view.k; view.y = cy - ((cy - view.y) * k) / view.k; view.k = k;
+    applyView();
+  }
+
+  function zoomAnimated(f, cx, cy) {
+    const k = Math.max(0.12, Math.min(2.5, view.k * f));
+    animateTo({ k, x: cx - ((cx - view.x) * k) / view.k, y: cy - ((cy - view.y) * k) / view.k }, 260);
+  }
+  const ptrs = new Map();
+  let dragMoved = 0, pinch0 = null, downNode = null;
+  wSvg.addEventListener("pointerdown", (e) => {
+    downNode = e.target.closest(".w-node");
+    wSvg.setPointerCapture(e.pointerId);
+    ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    dragMoved = 0;
+    if (ptrs.size === 2) {
+      const [a, b] = [...ptrs.values()];
+      pinch0 = { d: Math.hypot(a.x - b.x, a.y - b.y), k: view.k };
+    }
+  });
+  wSvg.addEventListener("pointermove", (e) => {
+    const prev = ptrs.get(e.pointerId);
+    if (!prev) return;
+    const cur = { x: e.clientX, y: e.clientY };
+    ptrs.set(e.pointerId, cur);
+    if (ptrs.size === 1) {
+      view.x += cur.x - prev.x; view.y += cur.y - prev.y;
+      dragMoved += Math.abs(cur.x - prev.x) + Math.abs(cur.y - prev.y);
+      applyView();
+    } else if (ptrs.size === 2 && pinch0) {
+      const [a, b] = [...ptrs.values()];
+      const r = wSvg.getBoundingClientRect();
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      zoomBy((pinch0.k * d) / pinch0.d / view.k, (a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top);
+      dragMoved = 99;
+    }
+  });
+  const endPtr = (e) => { ptrs.delete(e.pointerId); if (ptrs.size < 2) pinch0 = null; };
+  wSvg.addEventListener("pointerup", endPtr);
+  wSvg.addEventListener("pointercancel", endPtr);
+  wSvg.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const r = wSvg.getBoundingClientRect();
+    if (e.ctrlKey || e.metaKey || Math.abs(e.deltaY) > 0 && e.deltaMode === 1) {
+      zoomBy(Math.exp(-e.deltaY * (e.ctrlKey ? 0.01 : 0.0025)), e.clientX - r.left, e.clientY - r.top);
+    } else {
+      view.x -= e.deltaX; view.y -= e.deltaY; applyView();
+    }
+  }, { passive: false });
+  wSvg.addEventListener("click", (e) => {
+    if (dragMoved > 6) return;
+    const n = downNode || e.target.closest(".w-node");
+    downNode = null;
+    if (n) go(n.dataset.n, null);
+    else if (wSel && !pickFrom && !wRel) {
+      // wait a moment so a double-click (zoom) doesn't also clear the selection
+      clearTimeout(clearTimer);
+      clearTimer = setTimeout(() => { location.hash = "all"; }, 280);
+    }
+  });
+  let clearTimer = null;
+  wSvg.addEventListener("dblclick", (e) => {
+    e.preventDefault();
+    clearTimeout(clearTimer);
+    const r = wSvg.getBoundingClientRect();
+    zoomAnimated(e.shiftKey ? 1 / 1.8 : 1.8, e.clientX - r.left, e.clientY - r.top);
+  });
+  wSvg.addEventListener("keydown", (e) => {
+    const n = e.target.closest && e.target.closest(".w-node");
+    if (n && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); go(n.dataset.n, null); }
+  });
+  wholeView.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-zoom]");
+    if (!b || !wLayout) return;
+    const z = b.dataset.zoom;
+    if (z === "in") zoomBy(1.3); else if (z === "out") zoomBy(1 / 1.3); else fitAll();
+  });
+
+  /* entering / leaving */
+  function setViewToggle() {
+    for (const b of document.querySelectorAll(".views button")) b.setAttribute("aria-pressed", String((b.dataset.view === "all") === wholeMode));
+  }
+  async function showWhole(selId, rel) {
+    const entering = !wholeMode;
+    wholeMode = true;
+    closeViewer();
+    hideRelation();
+    document.body.classList.add("whole-mode");
+    setViewToggle();
+    wSel = rel ? null : selId; wRel = rel || null;
+    const path = rel ? findPath(rel.a, rel.b) : null;
+    const L = selId && !rel ? lineage(selId) : null;
+    const subset = !wOnly ? null : rel ? (path ? path.nodes : null) : L ? L.people : null;
+    const before = wLayoutKey;
+    if (!layoutCache.size) { wHint.textContent = "Laying out the whole tree…"; wHint.hidden = false; }
+    await buildLayout(subset);
+    wHint.hidden = true;
+    const relaid = before !== wLayoutKey;
+    const anim = !entering && !relaid;
+    renderOnlyToggle(!!(rel || selId));
+    document.body.classList.toggle("no-sheet", !(rel || selId));
+    // the close button sits at the end of the name row, after Compare
+    const addClose = () => {
+      const btn = h("button", { type: "button", class: "sheet-close", "data-goto": "all", "aria-label": "Close details", title: "Close" },
+        svg('<path d="m4 4 8 8m0-8-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>'));
+      const who = sheetBody.querySelector(".who");
+      who ? who.append(btn) : sheetBody.prepend(btn);
+    };
+    if (rel) {
+      highlight(path ? path.nodes : [rel.a, rel.b], path ? pathFams(path) : [], "path");
+      renderRelSheet(rel.a, rel.b, path);
+      sheetBody.prepend(h("button", { type: "button", class: "rel-btn whole-back", "data-goto": `all/${rel.a}` }, "Clear comparison"));
+      addClose();
+      const ids = path ? path.nodes : [rel.a, rel.b];
+      const [x0, y0, x1, y1] = boxOf(ids);
+      fitBox(x0, y0, x1, y1, 1, anim);
+      document.title = `${fullName(P[rel.a])} and ${fullName(P[rel.b])} | ${DATA.title}`;
+      return;
+    }
+    if (selId) {
+      highlight(L.people, L.fams, "lineage");
+      renderSheet(P[selId]);
+      const extra = h("p", { class: "whole-note" },
+        `Highlighted: ${L.anc.size} ancestor${L.anc.size === 1 ? "" : "s"} and ${L.desc.size} descendant${L.desc.size === 1 ? "" : "s"} of ${fullName(P[selId])}.`);
+      const who = sheetBody.querySelector(".who");
+      const compare = who.querySelector(".rel-start");
+      who.after(extra, h("div", { class: "whole-actions" },
+        compare, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in focus view")));
+      addClose();
+      const [x0, y0, x1, y1] = boxOf(L.people);
+      const { w, h: vh } = visibleBox(), pad = 40;
+      const kFit = Math.min(1, (w - pad * 2) / (x1 - x0), (vh - pad * 2) / (y1 - y0));
+      if (kFit >= 0.45) fitBox(x0, y0, x1, y1, 1, anim);
+      else {
+        // too big to read when fitted: stay readable and center on the person instead
+        const n = wLayout.children.find((c) => c.id === selId), k = 0.6;
+        const t = { k, x: w / 2 - (n.x + NW / 2) * k, y: Math.max(pad, vh / 2 - (n.y + NH / 2) * k) };
+        anim ? animateTo(t) : (Object.assign(view, t), applyView());
+      }
+      document.title = `${fullName(P[selId])} | ${DATA.title}`;
+    } else {
+      highlight([], [], null);
+      sheetBody.replaceChildren();
+      if (entering || relaid) fitAll(false);
+      document.title = `Whole tree | ${DATA.title}`;
+    }
+  }
+  const onlyBtn = $("wOnly");
+  function renderOnlyToggle(show) {
+    onlyBtn.hidden = !show;
+    onlyBtn.setAttribute("aria-pressed", String(wOnly));
+    onlyBtn.textContent = wOnly ? "Show everyone" : "Just this line";
+  }
+  onlyBtn.addEventListener("click", () => {
+    wOnly = !wOnly;
+    try { localStorage.setItem("ft-only", wOnly ? "1" : "0"); } catch {}
+    route();
+  });
+  function hideWhole() {
+    if (!wholeMode) return false;
+    wholeMode = false; wSel = null; wRel = null;
+    document.body.classList.remove("whole-mode", "no-sheet");
+    setViewToggle();
+    return true;
+  }
+  sheetBody.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-goto]");
+    if (b) { e.stopPropagation(); location.hash = b.dataset.goto; }
+  }, true);
+  document.querySelector(".views").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-view]");
+    if (!b) return;
+    if (b.dataset.view === "all") {
+      // keep an active comparison when switching views
+      if (relMode) location.hash = `all/rel/${relMode.a}/${relMode.b}`;
+      else if (wRel) location.hash = `all/rel/${wRel.a}/${wRel.b}`;
+      else location.hash = `all/${wSel || focusId || DATA.home}`;
+    }
+    else location.hash = wRel ? `rel/${wRel.a}/${wRel.b}` : (wSel || focusId || DATA.home);
+  });
+
+  /* descendant counts for the focus view */
+  const descMemo = new Map();
+  function descendantCount(id) {
+    if (descMemo.has(id)) return descMemo.get(id);
+    const seen = new Set(), st = [id];
+    while (st.length) { const x = st.pop(); for (const c of childIds(x)) if (!seen.has(c)) { seen.add(c); st.push(c); } }
+    descMemo.set(id, seen.size);
+    return seen.size;
+  }
+
   function route() {
     const hash = decodeURIComponent(location.hash.slice(1));
+    const w = hash.match(/^all(?:\/rel\/([^/]+)\/([^/]+)|\/([^/]+))?$/);
+    if (w) {
+      if (w[1] && P[w[1]] && P[w[2]]) showWhole(null, { a: w[1], b: w[2] });
+      else showWhole(P[w[3]] ? w[3] : null);
+      return;
+    }
+    const wasWhole = hideWhole();
+    if (wasWhole) { focusId = null; pendingRect = null; }
     const m = hash.match(/^rel\/([^/]+)\/([^/]+)$/);
     if (m && P[m[1]] && P[m[2]]) { showRelation(m[1], m[2]); return; }
     const id = P[hash] ? hash : DATA.home;
@@ -791,9 +1222,10 @@
       const a = pickFrom;
       if (id === a) return;
       cancelPick();
-      location.hash = `rel/${a}/${id}`;
+      location.hash = `${wholeMode ? "all/" : ""}rel/${a}/${id}`;
       return;
     }
+    if (wholeMode) { location.hash = `all/${id}`; return; }
     if (id === focusId && !relMode) { if (!wide.matches) setSheet(!sheet.classList.contains("open")); return; }
     pendingRect = fromEl ? fromEl.getBoundingClientRect() : null;
     if (location.hash.slice(1) !== id) location.hash = id;
@@ -808,7 +1240,7 @@
     const rs = e.target.closest(".rel-start");
     if (rs) { e.stopPropagation(); startPick(rs.dataset.rel); return; }
     const r = e.target.closest(".rec-open");
-    if (r) { openViewer(P[focusId], +r.dataset.rec); return; }
+    if (r) { openViewer(P[sheetPid], +r.dataset.rec); return; }
     const c = e.target.closest(".chip");
     if (c) {
       const target = rowGP.querySelector(`[data-id="${CSS.escape(c.dataset.id)}"]`) ||
@@ -825,7 +1257,7 @@
   window.addEventListener("hashchange", route);
   $("homeBtn").addEventListener("click", () => go(DATA.home, rowF.querySelector(".focus")));
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { if (closeViewer()) return; if (!results.hidden) closeResults(); else if (pickFrom) cancelPick(); else setSheet(false); }
+    if (e.key === "Escape") { if (closeViewer()) return; if (!results.hidden) closeResults(); else if (pickFrom) cancelPick(); else if (wholeMode && (wSel || wRel)) location.hash = "all"; else setSheet(false); }
   });
 
   // simple swipe on the sheet's top area (mobile)
