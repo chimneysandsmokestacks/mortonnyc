@@ -315,13 +315,15 @@ button { font: inherit; color: inherit; }
 .viewer-backdrop.show { opacity: 1; pointer-events: auto; }
 .viewer {
   position: fixed; z-index: 41; top: 0; right: 0; bottom: 0;
-  width: min(1040px, calc(100vw - 96px));
+  /* leaves part of the tree visible beside it, which stays scrollable and draggable */
+  width: min(880px, 62vw);
   background: var(--surface); display: flex; flex-direction: column;
   box-shadow: -30px 0 60px -20px rgba(23,27,44,.4);
   transform: translateX(104%); transition: transform .34s cubic-bezier(.2,.8,.2,1);
   visibility: hidden;
 }
 .viewer.show { transform: none; visibility: visible; }
+@media (max-width: 900px) { .viewer { width: min(100vw, 640px); } }
 @media (max-width: 720px) { .viewer { width: 100vw; } }
 
 .v-head { flex: none; padding: 12px 14px 0 18px; border-bottom: 1px solid var(--line); }

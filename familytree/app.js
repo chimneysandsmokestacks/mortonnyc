@@ -398,7 +398,7 @@
   const linkIcon = () => svg('<path d="M6.5 9.5 9.5 6.5M7 4.5l1.2-1.2a2.6 2.6 0 0 1 3.7 3.7L10.7 8.2M9 11.5l-1.2 1.2a2.6 2.6 0 0 1-3.7-3.7L5.3 7.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>');
 
   /* ---------- record viewer ---------- */
-  const viewer = $("viewer"), vBackdrop = $("vBackdrop"), vTabs = $("vTabs"), vBody = $("vBody");
+  const viewer = $("viewer"), vTabs = $("vTabs"), vBody = $("vBody");
   let vLinks = [], vReturnFocus = null, vPerson = null;
   const vShared = $("vShared");
 
@@ -416,7 +416,7 @@
     vTabs.hidden = vLinks.length < 2;
     showRecord(index);
     viewer.setAttribute("aria-hidden", "false");
-    viewer.classList.add("show"); vBackdrop.classList.add("show");
+    viewer.classList.add("show");
     $("vClose").focus({ preventScroll: true });
   }
 
@@ -456,7 +456,7 @@
 
   function closeViewer() {
     if (!viewer.classList.contains("show")) return false;
-    viewer.classList.remove("show"); vBackdrop.classList.remove("show");
+    viewer.classList.remove("show");
     viewer.setAttribute("aria-hidden", "true");
     setTimeout(() => { if (!viewer.classList.contains("show")) vBody.replaceChildren(); }, 350);
     if (vReturnFocus && vReturnFocus.focus) vReturnFocus.focus({ preventScroll: true });
@@ -477,7 +477,6 @@
     showRecord(next); vTabs.children[next].focus();
   });
   $("vClose").addEventListener("click", closeViewer);
-  vBackdrop.addEventListener("click", closeViewer);
 
   function setSheet(open) {
     sheet.classList.toggle("open", open);
