@@ -1,0 +1,2780 @@
+{
+ "title": "Family Tree",
+ "home": "I0013",
+ "generated": "2026-11-08",
+ "people": {
+  "I0000": {
+   "id": "I0000",
+   "gender": "m",
+   "surname": "Morton",
+   "parents": [
+    "F0000"
+   ],
+   "families": [],
+   "living": true,
+   "given": "James Stephen"
+  },
+  "I0001": {
+   "id": "I0001",
+   "gender": "m",
+   "surname": "Yanko",
+   "parents": [],
+   "families": [
+    "F0000"
+   ],
+   "living": true,
+   "given": "Stephen William"
+  },
+  "I0002": {
+   "id": "I0002",
+   "gender": "f",
+   "surname": "Morton",
+   "parents": [
+    "F0001"
+   ],
+   "families": [
+    "F0000"
+   ],
+   "living": true,
+   "given": "Monica Barbara"
+  },
+  "I0003": {
+   "id": "I0003",
+   "gender": "m",
+   "surname": "Morton",
+   "parents": [
+    "F0002"
+   ],
+   "families": [
+    "F0001"
+   ],
+   "given": "Ernest Fred",
+   "living": false,
+   "birth": {
+    "date": "2 Oct 1914",
+    "place": "Wien"
+   },
+   "death": {
+    "date": "21 Jul 2007",
+    "place": "Wien"
+   }
+  },
+  "I0004": {
+   "id": "I0004",
+   "gender": "f",
+   "surname": "Morton",
+   "parents": [
+    "F0006"
+   ],
+   "families": [
+    "F0001"
+   ],
+   "given": "Eva Maria Julia",
+   "living": false,
+   "birth": {
+    "date": "1928-30-06"
+   },
+   "death": {
+    "date": "7 Sep 2018",
+    "place": "Wien"
+   }
+  },
+  "I0005": {
+   "id": "I0005",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [
+    "F0002"
+   ],
+   "given": "Karl",
+   "living": false,
+   "birth": {
+    "date": "24 Mar 1866",
+    "place": "Bohuslavice (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
+     "site": "Czech National Archives",
+     "label": "kn 932",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=044dd2526eeaaa3da3f7a2b45279f986",
+     "site": "Czech National Archives",
+     "label": "kn 417, copy of 932",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0006": {
+   "id": "I0006",
+   "gender": "f",
+   "surname": "Schwarz",
+   "parents": [
+    "F0003"
+   ],
+   "families": [
+    "F0002"
+   ],
+   "given": "Rosa",
+   "living": false,
+   "birth": {
+    "date": "5 Dec 1874",
+    "place": "Göttlesbrunn, Wien"
+   },
+   "links": [
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=15591&limitstart=30&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0007": {
+   "id": "I0007",
+   "gender": "m",
+   "surname": "Schwarz",
+   "parents": [
+    "F0007"
+   ],
+   "families": [
+    "F0003"
+   ],
+   "given": "Moriz",
+   "living": false,
+   "birth": {
+    "date": "1847",
+    "place": "Svätý Jur (Sankt Georgen)"
+   }
+  },
+  "I0008": {
+   "id": "I0008",
+   "gender": "f",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [
+    "F0003"
+   ],
+   "given": "Nety/Netti",
+   "living": false,
+   "birth": {
+    "date": "10 Feb 1848",
+    "place": "Frauenkirchen, Burgenland"
+   },
+   "events": [
+    {
+     "type": "Marriage",
+     "date": "2 Jan 1872"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959Z-DK?cc=1787825",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-9598-FK?cc=1787825",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0009": {
+   "id": "I0009",
+   "gender": "f",
+   "surname": "Schwarz",
+   "parents": [
+    "F0003"
+   ],
+   "families": [],
+   "given": "Regina",
+   "living": false,
+   "birth": {
+    "date": "1 Jan 1873",
+    "place": "Frauenkirchen, Burgenland"
+   },
+   "links": [
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=15588&limitstart=30&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0010": {
+   "id": "I0010",
+   "gender": "m",
+   "surname": "Schwarz",
+   "parents": [
+    "F0003"
+   ],
+   "families": [],
+   "given": "Leopold",
+   "living": false,
+   "birth": {
+    "date": "30 Jun 1881",
+    "place": "Göttlesbrunn, Wien"
+   },
+   "death": {
+    "date": "23 Oct 1882",
+    "place": "Göttlesbrunn, Wien"
+   }
+  },
+  "I0011": {
+   "id": "I0011",
+   "gender": "f",
+   "surname": "Schwarz",
+   "parents": [
+    "F0003"
+   ],
+   "families": [],
+   "given": "Mathilde",
+   "living": false,
+   "birth": {
+    "date": "25 Nov 1873",
+    "place": "Wies, Melk, Niederösterreich"
+   },
+   "links": [
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=15565&limitstart=20&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0012": {
+   "id": "I0012",
+   "gender": "f",
+   "surname": "Schwarz",
+   "parents": [
+    "F0003"
+   ],
+   "families": [],
+   "given": "Kavi",
+   "living": false,
+   "birth": {
+    "date": "15 Oct 1876",
+    "place": "Frauenkirchen, Burgenland"
+   }
+  },
+  "I0013": {
+   "id": "I0013",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [
+    "F0004"
+   ],
+   "given": "Heinrich",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0014": {
+   "id": "I0014",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [
+    "F0004"
+   ],
+   "given": "Netty/Natti",
+   "living": false,
+   "birth": {
+    "date": "20 Apr 1848",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0015": {
+   "id": "I0015",
+   "gender": "f",
+   "surname": "Morton",
+   "parents": [
+    "F0001"
+   ],
+   "families": [
+    "F0005"
+   ],
+   "living": true,
+   "given": "Marina"
+  },
+  "I0016": {
+   "id": "I0016",
+   "gender": "m",
+   "surname": "Morton",
+   "parents": [
+    "F0005"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Tobias"
+  },
+  "I0017": {
+   "id": "I0017",
+   "gender": "m",
+   "surname": "",
+   "parents": [],
+   "families": [
+    "F0005"
+   ],
+   "living": true,
+   "given": "Kalim"
+  },
+  "I0018": {
+   "id": "I0018",
+   "gender": "m",
+   "surname": "Morton",
+   "parents": [
+    "F0005"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Robin"
+  },
+  "I0019": {
+   "id": "I0019",
+   "gender": "m",
+   "surname": "Wolf",
+   "parents": [],
+   "families": [
+    "F0006"
+   ],
+   "given": "Sigmund",
+   "living": false,
+   "birth": {
+    "date": "7 Aug 1872",
+    "place": "Nový Jičín"
+   }
+  },
+  "I0020": {
+   "id": "I0020",
+   "gender": "f",
+   "surname": "Lucchesi",
+   "parents": [],
+   "families": [
+    "F0006"
+   ],
+   "given": "Frida",
+   "living": false
+  },
+  "I0021": {
+   "id": "I0021",
+   "gender": "m",
+   "surname": "Schvaz",
+   "parents": [],
+   "families": [
+    "F0007"
+   ],
+   "given": "N(athan?)",
+   "living": false,
+   "birth": {
+    "place": "Svätý Jur (Sankt Georgen)"
+   }
+  },
+  "I0022": {
+   "id": "I0022",
+   "gender": "f",
+   "surname": "",
+   "parents": [],
+   "families": [
+    "F0007"
+   ],
+   "given": "Unknown",
+   "living": false
+  },
+  "I0023": {
+   "id": "I0023",
+   "gender": "m",
+   "surname": "Klein",
+   "parents": [],
+   "families": [
+    "F0008"
+   ],
+   "given": "Jonas",
+   "living": false,
+   "birth": {
+    "date": "1810"
+   },
+   "death": {
+    "date": "21 May 1883"
+   },
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-9598-GC?cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FVJW",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Händler"
+   ]
+  },
+  "I0024": {
+   "id": "I0024",
+   "gender": "f",
+   "surname": "Fischer?",
+   "parents": [
+    "F0034"
+   ],
+   "families": [
+    "F0008"
+   ],
+   "given": "Marie/Marja",
+   "living": false,
+   "links": [
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=7966&limitstart=10&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0025": {
+   "id": "I0025",
+   "gender": "m",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [],
+   "given": "Elias",
+   "living": false,
+   "birth": {
+    "date": "19 Feb 1847"
+   },
+   "death": {
+    "date": "1 Aug 1850"
+   },
+   "links": [
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=7950&limitstart=0&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=7951&limitstart=0&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0026": {
+   "id": "I0026",
+   "gender": "f",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [],
+   "given": "Charlotta (Csarlota)",
+   "living": false,
+   "birth": {
+    "date": "15 May 1838"
+   },
+   "links": [
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=7945&limitstart=0&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959C-3T?i=121&cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FNCQ",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959Z-9H?cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FF98",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0027": {
+   "id": "I0027",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0035"
+   ],
+   "families": [
+    "F0009"
+   ],
+   "given": "Lazar",
+   "living": false,
+   "birth": {
+    "date": "29 Jan 1818"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=868425f8f7c23e27410f06b1c77d3784",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "birth year 1811?"
+   ]
+  },
+  "I0028": {
+   "id": "I0028",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [],
+   "families": [
+    "F0010"
+   ],
+   "given": "Bernard",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=d446fc843be70b8450d48df386edbace",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0029": {
+   "id": "I0029",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0002"
+   ],
+   "families": [],
+   "given": "Heinrich/Heinz",
+   "living": false,
+   "birth": {
+    "date": "3 Dec 1903",
+    "place": "Wien"
+   }
+  },
+  "I0030": {
+   "id": "I0030",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0002"
+   ],
+   "families": [],
+   "given": "Erna",
+   "living": false,
+   "birth": {
+    "date": "28 Nov 1902",
+    "place": "Wien"
+   }
+  },
+  "I0031": {
+   "id": "I0031",
+   "gender": "m",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [],
+   "given": "Löbl",
+   "living": false,
+   "birth": {
+    "date": "8 Apr 1842",
+    "place": "Frauenkirchen, Burgenland"
+   },
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959C-HV?cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FXBP",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=7977&limitstart=10&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0032": {
+   "id": "I0032",
+   "gender": "f",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [],
+   "given": "Malka",
+   "living": false,
+   "birth": {
+    "date": "8 Apr 1842"
+   },
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959C-HV?cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FXBP",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=7978&limitstart=10&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0033": {
+   "id": "I0033",
+   "gender": "f",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [],
+   "given": "Maria",
+   "living": false,
+   "birth": {
+    "date": "1839",
+    "place": "Frauenkirchen, Burgenland"
+   },
+   "death": {
+    "date": "2 Mar 1840",
+    "place": "Frauenkirchen, Burgenland"
+   }
+  },
+  "I0034": {
+   "id": "I0034",
+   "gender": "m",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [],
+   "given": "Alexander",
+   "living": false,
+   "birth": {
+    "date": "3 Aug 1845"
+   },
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959C-57?cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FF16",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-9598-H6?cc=1787825",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0035": {
+   "id": "I0035",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "Katarina",
+   "living": false,
+   "birth": {
+    "date": "15 Apr 1875",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=38c0324e2927c29fea755b2ec6431a26",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0036": {
+   "id": "I0036",
+   "gender": "f",
+   "surname": "Fischer",
+   "parents": [
+    "F0036"
+   ],
+   "families": [
+    "F0009"
+   ],
+   "given": "Hanni (Fanni?)",
+   "living": false,
+   "birth": {
+    "date": "1818",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0037": {
+   "id": "I0037",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "Ernst",
+   "living": false,
+   "birth": {
+    "date": "24 Oct 1876",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=a38ecc91dbc0dea1f2b2f12e15778bab",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0038": {
+   "id": "I0038",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [
+    "F0011"
+   ],
+   "given": "Alois",
+   "living": false,
+   "birth": {
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0039": {
+   "id": "I0039",
+   "gender": "f",
+   "surname": "Hoffman",
+   "parents": [],
+   "families": [
+    "F0011"
+   ],
+   "given": "Berta",
+   "living": false,
+   "birth": {
+    "place": "Kroměříž"
+   }
+  },
+  "I0041": {
+   "id": "I0041",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0011",
+    "F0009"
+   ],
+   "families": [],
+   "given": "Mathilde",
+   "living": false,
+   "birth": {
+    "date": "2 Aug 1879",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=f09741d440ab572694d8942659474aae",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0042": {
+   "id": "I0042",
+   "gender": "f",
+   "surname": "Mondschein Fischer",
+   "parents": [
+    "F0004"
+   ],
+   "families": [
+    "F0017"
+   ],
+   "given": "Emilie",
+   "living": false,
+   "birth": {
+    "date": "6 Dec 1879",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=708d38219563ae58324f6d495eb72d1a",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0043": {
+   "id": "I0043",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [
+    "F0018",
+    "F0019"
+   ],
+   "given": "Leo",
+   "living": false,
+   "birth": {
+    "date": "22 Mar 1882",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=91ba9eb4c8e7a5ef2ed05e7375f04392",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0044": {
+   "id": "I0044",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [
+    "F0013"
+   ],
+   "given": "Emanuel",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=cb3d694faa33d83c38305fd77779f7d4",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0045": {
+   "id": "I0045",
+   "gender": "f",
+   "surname": "Morgenstern",
+   "parents": [
+    "F0014"
+   ],
+   "families": [
+    "F0013"
+   ],
+   "given": "Ernestine",
+   "living": false,
+   "birth": {
+    "place": "Strassnitz"
+   }
+  },
+  "I0046": {
+   "id": "I0046",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Camilla",
+   "living": false,
+   "birth": {
+    "date": "18 Jul 1885",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=cb3d694faa33d83c38305fd77779f7d4",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0047": {
+   "id": "I0047",
+   "gender": "m",
+   "surname": "Morgenstern",
+   "parents": [],
+   "families": [
+    "F0014"
+   ],
+   "given": "Emanuel",
+   "living": false,
+   "birth": {
+    "place": "Strassnitz"
+   }
+  },
+  "I0048": {
+   "id": "I0048",
+   "gender": "f",
+   "surname": "Silberstein",
+   "parents": [],
+   "families": [
+    "F0014"
+   ],
+   "given": "Netty",
+   "living": false,
+   "birth": {
+    "place": "Lipnik"
+   }
+  },
+  "I0049": {
+   "id": "I0049",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0011"
+   ],
+   "families": [],
+   "given": "Florentine",
+   "living": false,
+   "birth": {
+    "date": "28 Sep 1885",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=908af895e6047c49230c4ff2c19e0207",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0050": {
+   "id": "I0050",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Cornelia",
+   "living": false,
+   "birth": {
+    "date": "27 Mar 1887",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=568758affeadb9e2ad81ed8e96a54240",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0051": {
+   "id": "I0051",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Oswald",
+   "living": false,
+   "birth": {
+    "date": "31 Dec 1889",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=95460d639e6f702af04f2800d72d3512",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0052": {
+   "id": "I0052",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Ludwig",
+   "living": false,
+   "birth": {
+    "date": "29 Jan 1891",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=294ee703610cd800fc7f940eea5ac69a",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vhaonline.usc.edu/viewingPage?testimonyID=17236",
+     "site": "USC Shoah Foundation",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "(interview with son)"
+   ]
+  },
+  "I0053": {
+   "id": "I0053",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Karl",
+   "living": false,
+   "birth": {
+    "date": "19 Dec 1892",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=b25b172c357f79a90bdd081b63339f67",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0054": {
+   "id": "I0054",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [
+    "F0015"
+   ],
+   "given": "Henriette",
+   "living": false,
+   "birth": {
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0055": {
+   "id": "I0055",
+   "gender": "m",
+   "surname": "Fischer",
+   "parents": [],
+   "families": [
+    "F0015",
+    "F0017"
+   ],
+   "given": "Bernhard",
+   "living": false
+  },
+  "I0056": {
+   "id": "I0056",
+   "gender": "f",
+   "surname": "Fischer",
+   "parents": [
+    "F0015"
+   ],
+   "families": [
+    "F0019"
+   ],
+   "given": "Erna",
+   "living": false,
+   "birth": {
+    "date": "31 Aug 1893",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c013658ec29c96cc360931b5a887bb20",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0057": {
+   "id": "I0057",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Erich",
+   "living": false,
+   "birth": {
+    "date": "8 Dec 1895",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=a2fdff6642a6b23eca598c22037fa279",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0058": {
+   "id": "I0058",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Otto",
+   "living": false,
+   "birth": {
+    "date": "9 Aug 1897",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "7 Sep 1897",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=3c1dfc717bfca4781476111822fb31fd",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0059": {
+   "id": "I0059",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [
+    "F0016"
+   ],
+   "given": "Berthold",
+   "living": false,
+   "birth": {
+    "date": "19 Feb 1863",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=08d8f855e8296e1cf786fe3c70ee22b9",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0060": {
+   "id": "I0060",
+   "gender": "f",
+   "surname": "Jarolin",
+   "parents": [],
+   "families": [
+    "F0016"
+   ],
+   "given": "Clara",
+   "living": false,
+   "birth": {
+    "date": "1874"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=106b8616216bbadb7817ec0dc0b5f308",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0061": {
+   "id": "I0061",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0016"
+   ],
+   "families": [],
+   "given": "Herta",
+   "living": false,
+   "birth": {
+    "date": "1 Feb 1902",
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0062": {
+   "id": "I0062",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0016"
+   ],
+   "families": [],
+   "given": "Kurt",
+   "living": false,
+   "birth": {
+    "date": "24 Aug 1903",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=d68b87a05cba575cd6bf9b811f040fb9",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0063": {
+   "id": "I0063",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Marianne",
+   "living": false,
+   "birth": {
+    "date": "16 Aug 1904",
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0064": {
+   "id": "I0064",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0016"
+   ],
+   "families": [],
+   "given": "Grete",
+   "living": false,
+   "birth": {
+    "date": "25 Mar 1905",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=5890bd0c645b8825f2409e1c6816e0ce",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0065": {
+   "id": "I0065",
+   "gender": "f",
+   "surname": "Fischer",
+   "parents": [
+    "F0017"
+   ],
+   "families": [],
+   "given": "Ilse",
+   "living": false,
+   "birth": {
+    "date": "12 Jun 1911",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=873c0865d43c2b7e0c8903a3904acf90",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0066": {
+   "id": "I0066",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0016"
+   ],
+   "families": [],
+   "given": "Friede",
+   "living": false,
+   "birth": {
+    "date": "22 Mar 1914",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=5a5b16f774175f5cdef812cd6e0b9710",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0068": {
+   "id": "I0068",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0019"
+   ],
+   "families": [
+    "F0020"
+   ],
+   "given": "Franz Wilhelm",
+   "living": false,
+   "birth": {
+    "date": "30 Jul 1915"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=f2839b10ea26bf57c034b72ee440d5e9",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://photos.geni.com/p13/c5/6f/03/a8/5344483d159c1aa9/mondscheinfranz19520118_original.jpg",
+     "site": "Geni photo",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0069": {
+   "id": "I0069",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0020"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Susana"
+  },
+  "I0070": {
+   "id": "I0070",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [],
+   "families": [
+    "F0021"
+   ],
+   "given": "Mathias",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=f79eaad3787ffcbbc678a038fd9a79b3",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=224b1f9fe1f0f1667175f30914988b8d",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=41e143ef0e0327a7e4f77807bcdf872e",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Mehlhändler zu Gaya"
+   ]
+  },
+  "I0071": {
+   "id": "I0071",
+   "gender": "f",
+   "surname": "Schiff",
+   "parents": [
+    "F0032"
+   ],
+   "families": [
+    "F0021"
+   ],
+   "given": "Ernestina",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=224b1f9fe1f0f1667175f30914988b8d",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=41e143ef0e0327a7e4f77807bcdf872e",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Ehrgatting des Mathias Mondschein"
+   ]
+  },
+  "I0072": {
+   "id": "I0072",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0021"
+   ],
+   "families": [],
+   "given": "Fanni",
+   "living": false,
+   "birth": {
+    "date": "11 Jul 1848",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=41e143ef0e0327a7e4f77807bcdf872e",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=e84cc22e16db36ecf578a2f4c1480938",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Father:\nMathias Mondschein, Mehlhändler, ..... zu Gaya Nro. 16, ... N. 19  ...ligt mit Ernestina Schiff, zufolge J. ...achlichter .. den 27. Mai 1938\nMother:\nErnestina Mondschein\nEhegattin des Mathias Mondschein\nTochter des Jonas Schiff, Familianten aus Hollschau und jüdischer Schullehrers zu Gaya, ... Ehe-gattin Karl Schiff, geborene Salomon Füchsel aus Ostra"
+   ]
+  },
+  "I0073": {
+   "id": "I0073",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [],
+   "given": "Betti?",
+   "living": false,
+   "birth": {
+    "date": "27 Mar 1854",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c8a323c03e12b648e122786833f6105c",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0074": {
+   "id": "I0074",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0022"
+   ],
+   "families": [],
+   "given": "Betti",
+   "living": false,
+   "birth": {
+    "date": "1 Jun 1854",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=ba03eae6e188e6fd6cfbb7abd5575595",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0075": {
+   "id": "I0075",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [],
+   "families": [
+    "F0022"
+   ],
+   "given": "Markus",
+   "living": false
+  },
+  "I0076": {
+   "id": "I0076",
+   "gender": "f",
+   "surname": "?",
+   "parents": [],
+   "families": [
+    "F0022"
+   ],
+   "given": "?",
+   "living": false
+  },
+  "I0077": {
+   "id": "I0077",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "Rosalie",
+   "living": false,
+   "birth": {
+    "date": "24 Oct 1873"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c11489dd10df294e34ec00963643ff4e",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0078": {
+   "id": "I0078",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [],
+   "families": [
+    "F0023",
+    "F0037"
+   ],
+   "given": "Abraham",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=f614ef0f-bb4f-4eb5-9902-24d30d38a96e&scan=c026d098aae6395df8e13418447661ec",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Possibly his record - born 1803-03-10"
+   ]
+  },
+  "I0080": {
+   "id": "I0080",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [
+    "F0025",
+    "F0027"
+   ],
+   "given": "Gerson",
+   "living": false,
+   "birth": {
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
+     "site": "Czech National Archives",
+     "label": "Pathe?",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0081": {
+   "id": "I0081",
+   "gender": "m",
+   "surname": "Platzek",
+   "parents": [],
+   "families": [
+    "F0024"
+   ],
+   "given": "Abraham",
+   "living": false
+  },
+  "I0082": {
+   "id": "I0082",
+   "gender": "f",
+   "surname": "Herschau",
+   "parents": [],
+   "families": [
+    "F0024"
+   ],
+   "given": "Babet",
+   "living": false,
+   "birth": {
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0083": {
+   "id": "I0083",
+   "gender": "f",
+   "surname": "Platzek",
+   "parents": [
+    "F0024"
+   ],
+   "families": [
+    "F0025",
+    "F0028",
+    "F0029",
+    "F0030"
+   ],
+   "given": "Franziska",
+   "living": false,
+   "birth": {
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0084": {
+   "id": "I0084",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0022"
+   ],
+   "families": [],
+   "given": "?",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=04ac3a1492662c723556c17df3a0a447",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0085": {
+   "id": "I0085",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [],
+   "given": "Josephina",
+   "living": false,
+   "birth": {
+    "date": "8 Jun 1852",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=6d57d2d602d37029c67398977c390f94",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0086": {
+   "id": "I0086",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0021"
+   ],
+   "families": [
+    "F0026"
+   ],
+   "given": "Juli",
+   "living": false,
+   "birth": {
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0087": {
+   "id": "I0087",
+   "gender": "m",
+   "surname": "",
+   "parents": [
+    "F0026"
+   ],
+   "families": [],
+   "given": "Julius",
+   "living": false,
+   "birth": {
+    "date": "18 Jun 1865",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0088": {
+   "id": "I0088",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "Albert",
+   "living": false,
+   "birth": {
+    "date": "13 Jul 1865",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0089": {
+   "id": "I0089",
+   "gender": "f",
+   "surname": "",
+   "parents": [],
+   "families": [
+    "F0010"
+   ],
+   "given": "?",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0090": {
+   "id": "I0090",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "? Freiada",
+   "living": false,
+   "birth": {
+    "date": "22 May 1868",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=1dec7d3dcce0bf9058c54db653f96953",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0091": {
+   "id": "I0091",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0027"
+   ],
+   "families": [],
+   "given": "Regina",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=030b4f4d968d817487499fa8fc2f8ec8",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0092": {
+   "id": "I0092",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "Siegfried",
+   "living": false,
+   "birth": {
+    "date": "20 Dec 1869",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=17b7bc28720f34a19889d4a3349a4e70",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0093": {
+   "id": "I0093",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0028",
+    "F0029",
+    "F0030"
+   ],
+   "families": [],
+   "given": "Emil",
+   "living": false,
+   "birth": {
+    "date": "7 Dec 1869",
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0094": {
+   "id": "I0094",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0028",
+    "F0029",
+    "F0030"
+   ],
+   "families": [],
+   "given": "Moritz",
+   "living": false,
+   "birth": {
+    "date": "7 Dec 1869",
+    "place": "Gaya (Kyjov)"
+   },
+   "notes": [
+    "36570\n25428\tMondschein, Moritz\t07.12.1869 Gaya\tWien 2, Glockengasse 6/7\t11/2/1941WienLitzmannstadt\t\t10(Lo) 21 \tkflos., wirklich zwei Personen ?"
+   ]
+  },
+  "I0095": {
+   "id": "I0095",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [],
+   "families": [
+    "F0029"
+   ],
+   "given": "?",
+   "living": false
+  },
+  "I0096": {
+   "id": "I0096",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [
+    "F0030"
+   ],
+   "given": "? (Gerson?)",
+   "living": false
+  },
+  "I0097": {
+   "id": "I0097",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [
+    "F0031"
+   ],
+   "given": "Gerson",
+   "living": false
+  },
+  "I0098": {
+   "id": "I0098",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [
+    "F0031"
+   ],
+   "given": "Kati (Katarina)",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0099": {
+   "id": "I0099",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0031"
+   ],
+   "families": [],
+   "given": "Emil",
+   "living": false,
+   "birth": {
+    "date": "1 Oct 1870",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0100": {
+   "id": "I0100",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "Josephina",
+   "living": false,
+   "birth": {
+    "date": "30 Jan 1872",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=be681402c0cd69c4c56b50ebcd7263d3",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0101": {
+   "id": "I0101",
+   "gender": "f",
+   "surname": "Redlich",
+   "parents": [
+    "F0009"
+   ],
+   "families": [],
+   "given": "Katarina",
+   "living": false,
+   "birth": {
+    "place": "Gaya (Kyjov)"
+   }
+  },
+  "I0102": {
+   "id": "I0102",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0031"
+   ],
+   "families": [],
+   "given": "Gisela",
+   "living": false,
+   "birth": {
+    "date": "3 Aug 1872",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=f2fe87e3426175fd8c58fc056da9e4fb",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0103": {
+   "id": "I0103",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [
+    "F0013"
+   ],
+   "families": [],
+   "given": "Arthur",
+   "living": false,
+   "birth": {
+    "date": "23 May 1883",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=f3202423315df9002368c2cadc714064",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0104": {
+   "id": "I0104",
+   "gender": "m",
+   "surname": "Schiff",
+   "parents": [],
+   "families": [
+    "F0032"
+   ],
+   "given": "Jonas",
+   "living": false,
+   "birth": {
+    "date": "1794",
+    "place": "Holešov (Holleschau)"
+   },
+   "death": {
+    "date": "17 Sep 1851",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=41e143ef0e0327a7e4f77807bcdf872e",
+     "site": "Czech National Archives",
+     "label": "birth certificate of granchild Fanni Mondschein (daughter of Mathias and Ernestina",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=3dc5f42145ca959e4ec43d8259d6b2b5",
+     "site": "Czech National Archives",
+     "label": "marriage certificate of daughter",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=1dd227d85ae915247d48f854ff12bb9e",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Jonas Schiff, .. .Lehrer an der jüdischen ...-Schule zu Gaya\nDied at 57"
+   ]
+  },
+  "I0105": {
+   "id": "I0105",
+   "gender": "f",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [
+    "F0033"
+   ],
+   "given": "Ester",
+   "living": false,
+   "birth": {
+    "date": "10 Oct 1839",
+    "place": "Frauenkirchen, Burgenland"
+   }
+  },
+  "I0106": {
+   "id": "I0106",
+   "gender": "m",
+   "surname": "Österreicher",
+   "parents": [],
+   "families": [
+    "F0033"
+   ],
+   "given": "Karl",
+   "living": false,
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959C-3T?i=121&cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FNCQ",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0107": {
+   "id": "I0107",
+   "gender": "m",
+   "surname": "Klein",
+   "parents": [
+    "F0008"
+   ],
+   "families": [],
+   "given": "Salomon",
+   "living": false,
+   "birth": {
+    "date": "25 Nov 1836",
+    "place": "Frauenkirchen, Burgenland"
+   },
+   "death": {
+    "date": "5 May 1837"
+   },
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959C-J5?cc=1787825",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=8006&limitstart=20&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:9398-959C-J5?cc=1787825&personaUrl=%2Fark%3A%2F61903%2F1%3A1%3AQ2S1-FFS5",
+     "site": "FamilySearch",
+     "label": null,
+     "context": "Birth record"
+    }
+   ]
+  },
+  "I0108": {
+   "id": "I0108",
+   "gender": "m",
+   "surname": "Fischer?",
+   "parents": [],
+   "families": [
+    "F0034"
+   ],
+   "given": "L?",
+   "living": false,
+   "links": [
+    {
+     "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=7966&limitstart=10&view=detail&lang=en",
+     "site": "GenTeam",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0109": {
+   "id": "I0109",
+   "gender": "m",
+   "surname": "Redlich",
+   "parents": [],
+   "families": [
+    "F0035"
+   ],
+   "given": "Nathan?",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=88e2864969c111168a4d2c0b5c9ccf91",
+     "site": "Czech National Archives",
+     "label": "children's birth certificate",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0110": {
+   "id": "I0110",
+   "gender": "m",
+   "surname": "Fischer",
+   "parents": [],
+   "families": [
+    "F0036"
+   ],
+   "given": "Elias?",
+   "living": false
+  },
+  "I0111": {
+   "id": "I0111",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023",
+    "F0037"
+   ],
+   "families": [],
+   "given": "Henriette",
+   "living": false,
+   "birth": {
+    "date": "1832"
+   },
+   "death": {
+    "date": "6 Feb 1847",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=c3e44c0c57e88c69deff6fc00f144168",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0112": {
+   "id": "I0112",
+   "gender": "f",
+   "surname": "Fischer",
+   "parents": [],
+   "families": [
+    "F0023"
+   ],
+   "given": "Saly",
+   "living": false
+  },
+  "I0113": {
+   "id": "I0113",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0038"
+   ],
+   "families": [],
+   "given": "Marina",
+   "living": false,
+   "birth": {
+    "date": "15 Jun 1795",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=f614ef0f-bb4f-4eb5-9902-24d30d38a96e&scan=794bea3ef81376012234776ed71fcafc",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0114": {
+   "id": "I0114",
+   "gender": "f",
+   "surname": "",
+   "parents": [],
+   "families": [
+    "F0038"
+   ],
+   "given": "Sara",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=f614ef0f-bb4f-4eb5-9902-24d30d38a96e&scan=794bea3ef81376012234776ed71fcafc",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  },
+  "I0115": {
+   "id": "I0115",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [],
+   "families": [
+    "F0038"
+   ],
+   "given": "Unknown",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=f614ef0f-bb4f-4eb5-9902-24d30d38a96e&scan=794bea3ef81376012234776ed71fcafc",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Person"
+    }
+   ]
+  }
+ },
+ "families": {
+  "F0000": {
+   "id": "F0000",
+   "father": "I0001",
+   "mother": "I0002",
+   "children": [
+    "I0000"
+   ]
+  },
+  "F0001": {
+   "id": "F0001",
+   "father": "I0003",
+   "mother": "I0004",
+   "children": [
+    "I0002",
+    "I0015"
+   ]
+  },
+  "F0002": {
+   "id": "F0002",
+   "father": "I0005",
+   "mother": "I0006",
+   "children": [
+    "I0003",
+    "I0029",
+    "I0030"
+   ]
+  },
+  "F0003": {
+   "id": "F0003",
+   "father": "I0007",
+   "mother": "I0008",
+   "children": [
+    "I0006",
+    "I0009",
+    "I0010",
+    "I0011",
+    "I0012"
+   ]
+  },
+  "F0004": {
+   "id": "F0004",
+   "father": "I0013",
+   "mother": "I0014",
+   "children": [
+    "I0005",
+    "I0035",
+    "I0037",
+    "I0042",
+    "I0043",
+    "I0059",
+    "I0077",
+    "I0088",
+    "I0090",
+    "I0092",
+    "I0100"
+   ]
+  },
+  "F0005": {
+   "id": "F0005",
+   "father": "I0017",
+   "mother": "I0015",
+   "children": [
+    "I0016",
+    "I0018"
+   ]
+  },
+  "F0006": {
+   "id": "F0006",
+   "father": "I0019",
+   "mother": "I0020",
+   "children": [
+    "I0004"
+   ]
+  },
+  "F0007": {
+   "id": "F0007",
+   "father": "I0021",
+   "mother": "I0022",
+   "children": [
+    "I0007"
+   ]
+  },
+  "F0008": {
+   "id": "F0008",
+   "father": "I0023",
+   "mother": "I0024",
+   "children": [
+    "I0008",
+    "I0025",
+    "I0026",
+    "I0031",
+    "I0032",
+    "I0033",
+    "I0034",
+    "I0105",
+    "I0107"
+   ]
+  },
+  "F0009": {
+   "id": "F0009",
+   "father": "I0027",
+   "mother": "I0036",
+   "children": [
+    "I0014",
+    "I0038",
+    "I0044",
+    "I0041",
+    "I0054",
+    "I0073",
+    "I0085",
+    "I0098",
+    "I0101"
+   ],
+   "marriage": {
+    "date": "23 Jan 1839"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=88e2864969c111168a4d2c0b5c9ccf91",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Marriage record"
+    }
+   ]
+  },
+  "F0010": {
+   "id": "F0010",
+   "father": "I0028",
+   "mother": "I0089",
+   "children": [
+    "I0013",
+    "I0097"
+   ]
+  },
+  "F0011": {
+   "id": "F0011",
+   "father": "I0038",
+   "mother": "I0039",
+   "children": [
+    "I0041",
+    "I0049"
+   ]
+  },
+  "F0013": {
+   "id": "F0013",
+   "father": "I0044",
+   "mother": "I0045",
+   "children": [
+    "I0046",
+    "I0050",
+    "I0051",
+    "I0052",
+    "I0053",
+    "I0057",
+    "I0058",
+    "I0063",
+    "I0103"
+   ]
+  },
+  "F0014": {
+   "id": "F0014",
+   "father": "I0047",
+   "mother": "I0048",
+   "children": [
+    "I0045"
+   ]
+  },
+  "F0015": {
+   "id": "F0015",
+   "father": "I0055",
+   "mother": "I0054",
+   "children": [
+    "I0056"
+   ]
+  },
+  "F0016": {
+   "id": "F0016",
+   "father": "I0059",
+   "mother": "I0060",
+   "children": [
+    "I0061",
+    "I0062",
+    "I0064",
+    "I0066"
+   ]
+  },
+  "F0017": {
+   "id": "F0017",
+   "father": "I0055",
+   "mother": "I0042",
+   "children": [
+    "I0065"
+   ]
+  },
+  "F0018": {
+   "id": "F0018",
+   "father": "I0043",
+   "mother": null,
+   "children": []
+  },
+  "F0019": {
+   "id": "F0019",
+   "father": "I0043",
+   "mother": "I0056",
+   "children": [
+    "I0068"
+   ]
+  },
+  "F0020": {
+   "id": "F0020",
+   "father": "I0068",
+   "mother": null,
+   "children": [
+    "I0069"
+   ]
+  },
+  "F0021": {
+   "id": "F0021",
+   "father": "I0070",
+   "mother": "I0071",
+   "children": [
+    "I0072",
+    "I0086"
+   ],
+   "marriage": {
+    "date": "27 May 1838",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=3dc5f42145ca959e4ec43d8259d6b2b5",
+     "site": "Czech National Archives",
+     "label": "Marriage entry",
+     "context": "Marriage record"
+    }
+   ]
+  },
+  "F0022": {
+   "id": "F0022",
+   "father": "I0075",
+   "mother": "I0076",
+   "children": [
+    "I0074",
+    "I0084"
+   ],
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=ba03eae6e188e6fd6cfbb7abd5575595",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Marriage record"
+    }
+   ]
+  },
+  "F0023": {
+   "id": "F0023",
+   "father": "I0078",
+   "mother": "I0112",
+   "children": [
+    "I0080",
+    "I0096",
+    "I0111"
+   ]
+  },
+  "F0024": {
+   "id": "F0024",
+   "father": "I0081",
+   "mother": "I0082",
+   "children": [
+    "I0083"
+   ]
+  },
+  "F0025": {
+   "id": "F0025",
+   "father": "I0080",
+   "mother": "I0083",
+   "children": []
+  },
+  "F0026": {
+   "id": "F0026",
+   "father": null,
+   "mother": "I0086",
+   "children": [
+    "I0087"
+   ]
+  },
+  "F0027": {
+   "id": "F0027",
+   "father": "I0080",
+   "mother": null,
+   "children": [
+    "I0091"
+   ],
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=030b4f4d968d817487499fa8fc2f8ec8",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Marriage record"
+    }
+   ]
+  },
+  "F0028": {
+   "id": "F0028",
+   "father": null,
+   "mother": "I0083",
+   "children": [
+    "I0093",
+    "I0094"
+   ]
+  },
+  "F0029": {
+   "id": "F0029",
+   "father": "I0095",
+   "mother": "I0083",
+   "children": [
+    "I0093",
+    "I0094"
+   ]
+  },
+  "F0030": {
+   "id": "F0030",
+   "father": "I0096",
+   "mother": "I0083",
+   "children": [
+    "I0093",
+    "I0094"
+   ],
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Marriage record"
+    }
+   ]
+  },
+  "F0031": {
+   "id": "F0031",
+   "father": "I0097",
+   "mother": "I0098",
+   "children": [
+    "I0099",
+    "I0102"
+   ],
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Marriage record"
+    }
+   ]
+  },
+  "F0032": {
+   "id": "F0032",
+   "father": "I0104",
+   "mother": null,
+   "children": [
+    "I0071"
+   ]
+  },
+  "F0033": {
+   "id": "F0033",
+   "father": "I0106",
+   "mother": "I0105",
+   "children": []
+  },
+  "F0034": {
+   "id": "F0034",
+   "father": "I0108",
+   "mother": null,
+   "children": [
+    "I0024"
+   ]
+  },
+  "F0035": {
+   "id": "F0035",
+   "father": "I0109",
+   "mother": null,
+   "children": [
+    "I0027"
+   ]
+  },
+  "F0036": {
+   "id": "F0036",
+   "father": "I0110",
+   "mother": null,
+   "children": [
+    "I0036"
+   ]
+  },
+  "F0037": {
+   "id": "F0037",
+   "father": "I0078",
+   "mother": null,
+   "children": [
+    "I0111"
+   ],
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=c3e44c0c57e88c69deff6fc00f144168",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Marriage record"
+    }
+   ]
+  },
+  "F0038": {
+   "id": "F0038",
+   "father": "I0115",
+   "mother": "I0114",
+   "children": [
+    "I0113"
+   ]
+  }
+ }
+}

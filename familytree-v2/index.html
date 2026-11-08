@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Family Tree</title>
+<meta name="description" content="An interactive family tree.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 4 4%27%3E%3Crect width=%274%27 height=%274%27 fill=%27%231d2826%27/%3E%3Ccircle cx=%271.2%27 cy=%271.2%27 r=%27.7%27 fill=%27%233d6bf5%27/%3E%3Ccircle cx=%272.8%27 cy=%271.2%27 r=%27.7%27 fill=%27%23ef4f7a%27/%3E%3Ccircle cx=%272%27 cy=%272.9%27 r=%27.7%27 fill=%27%23fff%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=9">
+</head>
+<body>
+<header class="bar">
+  <button class="title" id="homeBtn" type="button" title="Back to the starting person">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+      <rect width="32" height="32" rx="9" fill="#171b2c"/>
+      <path d="M10 11.5 16 20.5 22 11.5" fill="none" stroke="#8a90a5" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="10" cy="10.5" r="3.6" fill="#3d6bf5"/><circle cx="22" cy="10.5" r="3.6" fill="#ef4f7a"/>
+      <circle cx="16" cy="21.5" r="3.6" fill="#fff"/>
+    </svg>
+    <span class="title-text" id="siteTitle">Family Tree</span>
+  </button>
+  <div class="search">
+    <label for="q" class="sr-only">Find a person</label>
+    <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m11 11 3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <input id="q" type="search" placeholder="Find a person" autocomplete="off" spellcheck="false">
+    <ul id="results" class="results" role="listbox" hidden></ul>
+  </div>
+</header>
+
+<div class="subbar">
+<div class="views" role="group" aria-label="View">
+  <button type="button" data-view="focus" aria-pressed="true">Focus</button>
+  <button type="button" data-view="all" aria-pressed="false">Whole tree</button>
+</div>
+<div class="legend" aria-hidden="true">
+  <span><i class="dot m"></i>Male</span>
+  <span><i class="dot f"></i>Female</span>
+  <span><i class="dot u"></i>Unknown</span>
+  <span><i class="dot living"></i>Living</span>
+</div>
+</div>
+
+<main class="layout">
+  <div class="pick-banner" id="pickBanner" role="status" hidden></div>
+  <section class="whole" id="wholeView" aria-label="Whole family tree">
+    <svg id="wSvg" class="w-svg" role="group" aria-label="All people in the tree. Drag to move, pinch or use the buttons to zoom.">
+      <defs>
+        <linearGradient id="wGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#3d6bf5"/><stop offset=".5" stop-color="#9a5cf0"/><stop offset="1" stop-color="#ef4f7a"/>
+        </linearGradient>
+      </defs>
+      <g id="wLayer"></g>
+    </svg>
+    <div class="w-zoom">
+      <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+      <button type="button" data-zoom="out" aria-label="Zoom out">−</button>
+      <button type="button" data-zoom="fit" aria-label="Show the whole tree">Fit</button>
+    </div>
+    <button type="button" class="rel-btn w-only" id="wOnly" hidden></button>
+    <p class="w-hint" id="wHint" hidden></p>
+  </section>
+  <section class="stage" id="stage" aria-label="Family tree">
+    <div class="rel-view" id="relView" aria-label="Relationship path">
+      <div class="rel-bar" id="relBar"></div>
+      <div class="rel-canvas" id="relCanvas"><svg class="wires" id="relWires" aria-hidden="true"></svg></div>
+    </div>
+    <div class="canvas" id="canvas">
+      <svg class="wires" id="wires" aria-hidden="true"></svg>
+      <div class="gen gp" id="rowGP"></div>
+      <div class="gen par" id="rowP"></div>
+      <div class="gen focus-row" id="rowF"></div>
+      <div class="gen kids" id="rowC"></div>
+    </div>
+  </section>
+
+  <aside class="sheet" id="sheet" aria-label="Person details">
+    <button class="grip" id="grip" type="button" aria-expanded="false" aria-controls="sheetBody">
+      <span class="grip-bar" aria-hidden="true"></span>
+      <span class="sr-only">Show or hide details</span>
+    </button>
+    <div class="sheet-body" id="sheetBody"></div>
+  </aside>
+</main>
+
+<div class="viewer-backdrop" id="vBackdrop"></div>
+<section class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="vName" aria-hidden="true">
+  <div class="v-head">
+    <div class="v-top">
+      <div class="v-who"><strong id="vName"></strong><span id="vSub"></span></div>
+      <a class="v-btn" id="vExt" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M9 2h5v5M14 2 7.5 8.5M12 9.5V14H2V4h4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>New tab</span>
+      </a>
+      <button class="v-btn icon" id="vClose" type="button" aria-label="Close record viewer">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m3.5 3.5 9 9m0-9-9 9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="v-tabs" id="vTabs" role="tablist" aria-label="Records"></div>
+  </div>
+  <div class="v-shared" id="vShared" hidden></div>
+  <div class="v-body" id="vBody"></div>
+</section>
+
+<noscript><p class="noscript">This family tree needs JavaScript to display.</p></noscript>
+<script src="app.js?v=9"></script>
+</body>
+</html>
