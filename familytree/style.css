@@ -445,3 +445,6 @@ body.rel-mode .canvas { display: none; }
   .rel-canvas { column-gap: 10px; padding: 26px 8px 40px; }
   .rel-canvas .node { width: 106px; }
 }
+
+.node.living .av { font-size: 10.5px; letter-spacing: 0; }
+.node.focus.living .av { font-size: 18px; }

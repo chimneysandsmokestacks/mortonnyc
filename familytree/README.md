@@ -12,8 +12,8 @@ from the right, with a tab for each of the person's records.
   offers an "Open record" button for those instead. If you find another site that does
   allow it, add its domain to `EMBEDDABLE` near the top of `app.js`.
 - Living relatives (no death record and born within the last 100 years, or with no
-  dates at all) appear only as "Living" + surname, with no dates, notes or links.
-  This happens in the export script, so their details are never published.
+  dates at all) are shown by name only, with no dates, places, notes or links.
+  This happens in the export script, so those details are never published.
 - **Compare** (in the details panel) shows how two people are related: pick a second
   person by tapping them or searching, and the tree switches to just the path between
   them, with the relationship in words (e.g. "second cousin once removed", "wife's

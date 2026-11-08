@@ -40,7 +40,6 @@
   const fullName = (p) => [p.given, p.surname].filter(Boolean).join(" ");
   const marker = (p) => h("i", { class: `dot ${p.gender} ${p.living ? "living" : ""}`.trim(), "aria-hidden": "true" });
   function initials(p) {
-    if (p.living) return (p.surname || "?").charAt(0).toUpperCase();
     const g = (p.given || "").replace(/[^\p{L}]/gu, " ").trim(), s = (p.surname || "").trim();
     return ((g.charAt(0) || "?") + (s.charAt(0) || "")).toUpperCase();
   }
@@ -298,7 +297,7 @@
     ));
 
     if (p.living) {
-      body.push(h("p", { class: "private-note", text: "Details are hidden for living relatives." }));
+      body.push(h("p", { class: "private-note", text: "Dates, places and records are kept private for living relatives." }));
     } else {
       const facts = [];
       const fact = (label, ev) => {
@@ -786,8 +785,8 @@
     sel = hits.length ? 0 : -1;
     results.replaceChildren(...(hits.length ? hits.map((x, i) =>
       h("li", { role: "option", "data-id": x.p.id, "aria-selected": String(i === 0) },
-        marker(x.p), h("span", { text: fullName(x.p) }), h("span", { class: "yrs", text: lifespan(x.p) })))
-      : [h("li", { class: "empty", text: "No one by that name. Living relatives are not searchable." })]));
+        marker(x.p), h("span", { text: fullName(x.p) }), h("span", { class: "yrs", text: x.p.living ? "Living" : lifespan(x.p) })))
+      : [h("li", { class: "empty", text: "No one by that name." })]));
     results.hidden = false;
   }
   function closeResults() { results.hidden = true; sel = -1; }
@@ -814,7 +813,7 @@
     .then((data) => {
       DATA = data; P = data.people; F = data.families;
       $("siteTitle").textContent = data.title;
-      index = Object.values(P).filter((p) => !p.living)
+      index = Object.values(P)
         .map((p) => ({ p, key: norm(`${fullName(p)} ${p.nick || ""} ${lifespan(p)}`) }))
         .sort((a, b) => fullName(a.p).localeCompare(fullName(b.p)));
       route();

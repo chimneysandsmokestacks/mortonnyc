@@ -5,8 +5,8 @@ Export a Gramps (5.1, SQLite backend) family tree to data/tree.json for the webs
 Usage:
     python3 scripts/export_gramps.py /path/to/gramps/tree/folder/sqlite.db data/tree.json
 
-Privacy: anyone who is probably alive is reduced to "Living <Surname>" with
-gender and family links only - no given names, dates, places, notes or links.
+Privacy: for anyone who is probably alive, only their name, gender and family
+links are exported - no dates, places, notes or links.
 Records marked private in Gramps are never exported.
 """
 import io
@@ -207,7 +207,10 @@ def export(db_path, out_path):
             "families": [fid[f] for f in p[8] if f in fid],
         }
         if is_living(h):
-            rec.update(living=True, given="Living")
+            # living: name only - no dates, places, notes or links
+            rec.update(living=True, given=given or "Unknown")
+            if nick:
+                rec["nick"] = nick
             out_people[p[1]] = rec
             continue
 
