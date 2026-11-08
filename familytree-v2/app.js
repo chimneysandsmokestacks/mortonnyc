@@ -983,7 +983,7 @@
   function visibleBox() {
     const r = wSvg.getBoundingClientRect();
     let h = r.height;
-    if (!wide.matches) h = Math.min(h, sheet.getBoundingClientRect().top - r.top);
+    if (!wide.matches && !document.body.classList.contains("no-sheet")) h = Math.min(h, sheet.getBoundingClientRect().top - r.top);
     return { w: r.width, h };
   }
   function fitBox(minX, minY, maxX, maxY, maxK = 1.1, animate = true) {
@@ -1101,10 +1101,19 @@
     const relaid = before !== wLayoutKey;
     const anim = !entering && !relaid;
     renderOnlyToggle(!!(rel || selId));
+    document.body.classList.toggle("no-sheet", !(rel || selId));
+    // the close button sits at the end of the name row, after Compare
+    const addClose = () => {
+      const btn = h("button", { type: "button", class: "sheet-close", "data-goto": "all", "aria-label": "Close details", title: "Close" },
+        svg('<path d="m4 4 8 8m0-8-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>'));
+      const who = sheetBody.querySelector(".who");
+      who ? who.append(btn) : sheetBody.prepend(btn);
+    };
     if (rel) {
       highlight(path ? path.nodes : [rel.a, rel.b], path ? pathFams(path) : [], "path");
       renderRelSheet(rel.a, rel.b, path);
       sheetBody.prepend(h("button", { type: "button", class: "rel-btn whole-back", "data-goto": `all/${rel.a}` }, "Clear comparison"));
+      addClose();
       const ids = path ? path.nodes : [rel.a, rel.b];
       const [x0, y0, x1, y1] = boxOf(ids);
       fitBox(x0, y0, x1, y1, 1, anim);
@@ -1117,7 +1126,10 @@
       const extra = h("p", { class: "whole-note" },
         `Highlighted: ${L.anc.size} ancestor${L.anc.size === 1 ? "" : "s"} and ${L.desc.size} descendant${L.desc.size === 1 ? "" : "s"} of ${fullName(P[selId])}.`);
       const who = sheetBody.querySelector(".who");
-      who.after(extra, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in focus view"));
+      const compare = who.querySelector(".rel-start");
+      who.after(extra, h("div", { class: "whole-actions" },
+        compare, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in focus view")));
+      addClose();
       const [x0, y0, x1, y1] = boxOf(L.people);
       const { w, h: vh } = visibleBox(), pad = 40;
       const kFit = Math.min(1, (w - pad * 2) / (x1 - x0), (vh - pad * 2) / (y1 - y0));
@@ -1131,11 +1143,7 @@
       document.title = `${fullName(P[selId])} | ${DATA.title}`;
     } else {
       highlight([], [], null);
-      sheetBody.replaceChildren(
-        h("div", { class: "who" }, h("div", {},
-          h("h1", { text: "Whole tree" }),
-          h("p", { class: "lifespan", text: `${Object.keys(P).length} people. Tap anyone to light up their ancestors and descendants.` }))),
-      );
+      sheetBody.replaceChildren();
       if (entering || relaid) fitAll(false);
       document.title = `Whole tree | ${DATA.title}`;
     }
@@ -1154,7 +1162,7 @@
   function hideWhole() {
     if (!wholeMode) return false;
     wholeMode = false; wSel = null; wRel = null;
-    document.body.classList.remove("whole-mode");
+    document.body.classList.remove("whole-mode", "no-sheet");
     setViewToggle();
     return true;
   }
@@ -1244,7 +1252,7 @@
   window.addEventListener("hashchange", route);
   $("homeBtn").addEventListener("click", () => go(DATA.home, rowF.querySelector(".focus")));
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { if (closeViewer()) return; if (!results.hidden) closeResults(); else if (pickFrom) cancelPick(); else setSheet(false); }
+    if (e.key === "Escape") { if (closeViewer()) return; if (!results.hidden) closeResults(); else if (pickFrom) cancelPick(); else if (wholeMode && (wSel || wRel)) location.hash = "all"; else setSheet(false); }
   });
 
   // simple swipe on the sheet's top area (mobile)

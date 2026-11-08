@@ -537,3 +537,27 @@ body.whole-mode .stage { display: none; }
 .rel-btn.whole-back { margin-top: 12px; box-shadow: inset 0 0 0 1px var(--line); }
 .w-only { position: absolute; left: 14px; top: 14px; z-index: 3; }
 .w-only[hidden] { display: none; }
+
+/* details panel: close button, and no panel in the whole tree when nobody is selected */
+.sheet-close {
+  flex: none; align-self: flex-start; width: 34px; height: 34px; border: 0; border-radius: 50%; cursor: pointer;
+  display: grid; place-items: center; background: var(--surface-2); color: var(--ink-2);
+}
+.who .rel-start + .sheet-close { margin-left: -6px; }
+.who > .sheet-close:first-of-type:not(.rel-start + .sheet-close) { margin-left: auto; }
+.sheet-close:hover { background: #e3e6f0; color: var(--ink); }
+.sheet-close svg { width: 15px; height: 15px; }
+.who > div { min-width: 0; }
+.who .rel-start { gap: 5px; padding: 0 11px; }
+body.no-sheet .sheet { display: none; }
+@media (min-width: 900px) {
+  body.no-sheet .layout { grid-template-columns: 1fr; }
+}
+.whole-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
+.whole-actions .rel-start {
+  display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border: 0; border-radius: 999px; cursor: pointer;
+  background: var(--ink); color: #fff; font-size: 14px; font-weight: 600;
+}
+.whole-actions .rel-start svg { width: 15px; height: 15px; }
+.whole-actions .whole-back { margin-top: 0; height: 36px; }
+.who > .sheet-close { margin-left: auto; }
