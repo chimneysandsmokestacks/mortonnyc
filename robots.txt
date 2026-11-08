@@ -1,3 +1,2 @@
 User-agent: *
 Disallow: /familytree/
-Disallow: /familytree-v2/
