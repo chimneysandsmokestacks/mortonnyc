@@ -1001,6 +1001,10 @@
     applyView();
   }
 
+  function zoomAnimated(f, cx, cy) {
+    const k = Math.max(0.12, Math.min(2.5, view.k * f));
+    animateTo({ k, x: cx - ((cx - view.x) * k) / view.k, y: cy - ((cy - view.y) * k) / view.k }, 260);
+  }
   const ptrs = new Map();
   let dragMoved = 0, pinch0 = null, downNode = null;
   wSvg.addEventListener("pointerdown", (e) => {
@@ -1047,7 +1051,18 @@
     const n = downNode || e.target.closest(".w-node");
     downNode = null;
     if (n) go(n.dataset.n, null);
-    else if (wSel && !pickFrom && !wRel) location.hash = "all";
+    else if (wSel && !pickFrom && !wRel) {
+      // wait a moment so a double-click (zoom) doesn't also clear the selection
+      clearTimeout(clearTimer);
+      clearTimer = setTimeout(() => { location.hash = "all"; }, 280);
+    }
+  });
+  let clearTimer = null;
+  wSvg.addEventListener("dblclick", (e) => {
+    e.preventDefault();
+    clearTimeout(clearTimer);
+    const r = wSvg.getBoundingClientRect();
+    zoomAnimated(e.shiftKey ? 1 / 1.8 : 1.8, e.clientX - r.left, e.clientY - r.top);
   });
   wSvg.addEventListener("keydown", (e) => {
     const n = e.target.closest && e.target.closest(".w-node");
