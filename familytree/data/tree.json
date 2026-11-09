@@ -2100,12 +2100,12 @@
    "birth": {
     "place": "Gaya (Kyjov)"
    },
-   "links": [
+   "events": [
     {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
-     "site": "Czech National Archives",
-     "label": "Pathe?",
-     "context": "Person"
+     "type": "Occupation",
+     "desc": "Leather dealer (Lederhändler)",
+     "date": "1869",
+     "place": "Gaya (Kyjov)"
     }
    ]
   },
@@ -2367,7 +2367,7 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
      "site": "Czech National Archives",
-     "label": "kn 932, birth entry, 1869",
+     "label": "kn 932, p. 156, birth entry, 1869",
      "context": "Person"
     }
    ]
@@ -2385,7 +2385,18 @@
    "birth": {
     "date": "7 Dec 1869",
     "place": "Gaya (Kyjov)"
-   }
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
+     "site": "Czech National Archives",
+     "label": "kn 932, p. 156, birth entry, twins, 7 Dec 1869",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 156, row 46: twins Emil and Moritz, born 7 Dec 1869 in Gaya, house no. 134; circumcised 14 Dec 1869. Father: Gerson, son of Abraham Mondschein, leather dealer (Lederhändler) in Gaya. Mother: Franziska, daughter of Abraham Platzek and Babet Herschau. Godfather: Simon Pentzak(?) of Gaya."
+   ]
   },
   "I0094": {
    "id": "I0094",
@@ -2401,8 +2412,17 @@
     "date": "7 Dec 1869",
     "place": "Gaya (Kyjov)"
    },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
+     "site": "Czech National Archives",
+     "label": "kn 932, p. 156, birth entry, twins, 7 Dec 1869",
+     "context": "Person"
+    }
+   ],
    "notes": [
-    "36570\n25428\tMondschein, Moritz\t07.12.1869 Gaya\tWien 2, Glockengasse 6/7\t11/2/1941WienLitzmannstadt\t\t10(Lo) 21 \tkflos., wirklich zwei Personen ?"
+    "36570\n25428\tMondschein, Moritz\t07.12.1869 Gaya\tWien 2, Glockengasse 6/7\t11/2/1941WienLitzmannstadt\t\t10(Lo) 21 \tkflos., wirklich zwei Personen ?",
+    "Birth entry, kn 932, p. 156, row 46: twins Emil and Moritz, born 7 Dec 1869 in Gaya, house no. 134; circumcised 14 Dec 1869. Father: Gerson, son of Abraham Mondschein, leather dealer (Lederhändler) in Gaya. Mother: Franziska, daughter of Abraham Platzek and Babet Herschau. Godfather: Simon Pentzak(?) of Gaya."
    ]
   },
   "I0097": {
@@ -2416,7 +2436,15 @@
     "F0031"
    ],
    "given": "Gerson",
-   "living": false
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
+     "site": "Czech National Archives",
+     "label": "Pathe? godfather at his nephew Karl Mondschein's birth, 1866",
+     "context": "Person"
+    }
+   ]
   },
   "I0098": {
    "id": "I0098",
@@ -2457,9 +2485,12 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 162, birth entry, 1 Oct 1870",
      "context": "Person"
     }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 162: born 1 Oct 1870 in Gaya, house no. 45. Father: Gerson Mondschein, businessman, son of Bernard Mondschein of Gaya. Mother: Kati, daughter of Lazar Redlich and Chani Fischer of Gaya. Godfather: Mathias Mondschein."
    ]
   },
   "I0100": {
@@ -3323,14 +3354,6 @@
    "children": [
     "I0093",
     "I0094"
-   ],
-   "links": [
-    {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
-     "site": "Czech National Archives",
-     "label": null,
-     "context": "Marriage record"
-    }
    ]
   },
   "F0031": {
@@ -3341,14 +3364,6 @@
     "I0091",
     "I0099",
     "I0102"
-   ],
-   "links": [
-    {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
-     "site": "Czech National Archives",
-     "label": null,
-     "context": "Marriage record"
-    }
    ]
   },
   "F0032": {
