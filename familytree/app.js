@@ -656,7 +656,7 @@
       relCanvas.append(h("div", { class: "rel-empty" },
         h("p", { text: `No connection between ${fullName(P[aId])} and ${fullName(P[bId])} was found in the tree.` })));
       renderRelSheet(aId, bId, null);
-      relWires.innerHTML = "";
+      relWires.innerHTML = ""; relPath = null;
       return;
     }
     const pos = layoutPath(path);
