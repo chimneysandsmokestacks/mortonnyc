@@ -434,6 +434,12 @@
    ],
    "given": "Heinrich",
    "living": false,
+   "birth": {
+    "date": "about 1835"
+   },
+   "death": {
+    "date": "26 May 1888"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
@@ -445,6 +451,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=872fd544-18b0-4581-8c7c-cbc6004d8402&scan=18e7f2c0e0a0316589bcc10f4598613b",
+     "site": "Czech National Archives",
+     "label": "kn 939, death entry, 1888, age 53",
      "context": "Person"
     }
    ]
