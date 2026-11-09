@@ -300,7 +300,7 @@
         h("p", { class: "lifespan", text: p.living ? "Living" : (lifespan(p) || "Dates unknown") }),
         h("p", { class: "peek-hint" }, links.length ? docIcon() : null, links.length ? `${links.length} record${links.length > 1 ? "s" : ""}. Tap to see them.` : "Tap for family and details"),
       ),
-      h("button", { type: "button", class: "rel-start", "data-rel": p.id, title: `See how ${fullName(p)} is related to someone else` },
+      h("button", { type: "button", class: "rel-start", "data-rel": p.id, "aria-label": "Compare", title: `See how ${fullName(p)} is related to someone else` },
         svg('<circle cx="4" cy="4" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4 6.5v1.5a3 3 0 0 0 3 3h2.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>'),
         h("span", { text: "Compare" })),
     ));
@@ -1172,7 +1172,7 @@
       const extra = h("p", { class: "whole-note" },
         `Highlighted: ${L.anc.size} ancestor${L.anc.size === 1 ? "" : "s"} and ${L.desc.size} descendant${L.desc.size === 1 ? "" : "s"} of ${fullName(P[selId])}.`);
       const who = sheetBody.querySelector(".who");
-      const compare = who.querySelector(".rel-start");
+      const compare = who.querySelector(".rel-start").cloneNode(true);  // round icon stays in the name row on phones
       who.after(extra, h("div", { class: "whole-actions" },
         compare, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in Family view")));
       addClose();

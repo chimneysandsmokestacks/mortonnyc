@@ -571,3 +571,13 @@ body.whole-mode.no-sheet:not(.searched) .search input {
   border: 2px solid var(--male); background: var(--surface);
   animation: search-attn 1.8s ease-out 4;
 }
+
+/* Compare: a round icon button in the name row on phones, so it shows while the panel is collapsed */
+@media (max-width: 899px) {
+  .who .rel-start { width: 38px; height: 38px; padding: 0; justify-content: center; border-radius: 50%; }
+  .who .rel-start svg { width: 17px; height: 17px; }
+  .who .rel-start span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .who .rel-start + .sheet-close { margin-left: 0; width: 38px; height: 38px; }
+  .whole-actions .rel-start { display: none; }
+}
+@media (min-width: 900px) { body.whole-mode .who .rel-start { display: none; } }
