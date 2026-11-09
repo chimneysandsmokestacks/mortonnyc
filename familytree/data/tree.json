@@ -805,7 +805,9 @@
    "id": "I0028",
    "gender": "m",
    "surname": "Mondschein",
-   "parents": [],
+   "parents": [
+    "F0045"
+   ],
    "families": [
     "F0010"
    ],
@@ -2967,6 +2969,42 @@
      "context": "Person"
     }
    ]
+  },
+  "I0128": {
+   "id": "I0128",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [],
+   "families": [
+    "F0045"
+   ],
+   "given": "Bernard",
+   "living": false,
+   "nick": "der Alte",
+   "birth": {
+    "date": "about 1768"
+   },
+   "death": {
+    "date": "23 Aug 1835",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=54666d12-896a-4758-a76a-e43e940849ca&scan=4fcc12481e3daaf06b824e28481fa7b1",
+     "site": "Czech National Archives",
+     "label": "kn 943, death index 1830-1846: Mondschein Bernard der alte, folio 20",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=6bd1e7d2-60bf-417a-976f-d93645742b35&scan=1037b52cced7ae0640c300740378fa00",
+     "site": "Czech National Archives",
+     "label": "kn 938, p. 20, death entry, 23 Aug 1835, age 67",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Relationship: listed as 'der Alte' (the elder), distinguishing him from the younger Bernard Mondschein (Familiant No 20, house 144), father of Heinrich. The elder Bernard died at house 150 aged 67, two weeks after Heinrich's birth. That he was the younger Bernard's father is inferred from name, place and age; no record found yet states it."
+   ]
   }
  },
  "families": {
@@ -3435,6 +3473,14 @@
    "mother": "I0127",
    "children": [
     "I0019"
+   ]
+  },
+  "F0045": {
+   "id": "F0045",
+   "father": "I0128",
+   "mother": null,
+   "children": [
+    "I0028"
    ]
   }
  }
