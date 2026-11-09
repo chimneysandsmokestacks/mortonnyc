@@ -29,7 +29,7 @@ DEFAULT_OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "da
 
 LIVING_CUTOFF_YEARS = 100   # born within this many years and no death record => living
 GENERATION_GAP = 25         # used to estimate birth years from relatives
-MAX_NOTE_TEXT = 500         # longer free-text notes (pasted web pages etc.) are skipped
+MAX_NOTE_TEXT = 1000        # longer free-text notes (pasted web pages etc.) are skipped
 
 EVT_BIRTH, EVT_DEATH, EVT_MARRIAGE = 12, 13, 1
 # Gramps EventType values
