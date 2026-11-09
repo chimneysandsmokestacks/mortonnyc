@@ -2363,6 +2363,12 @@
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
+     "site": "Czech National Archives",
+     "label": "kn 932, birth entry, 1869",
+     "context": "Person"
     }
    ]
   },
