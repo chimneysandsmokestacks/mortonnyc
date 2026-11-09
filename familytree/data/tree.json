@@ -2146,6 +2146,12 @@
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=kmz&datum=18961101&query=%22mondschein%22&ref=anno-search&seite=8",
+     "site": "ANNO newspapers",
+     "label": "Newspaper, 1 Nov 1896, p. 8",
+     "context": "Person"
     }
    ]
   },
