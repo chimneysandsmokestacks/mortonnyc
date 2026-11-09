@@ -1183,7 +1183,7 @@
       else {
         // too big to read when fitted: stay readable and center on the person instead
         const n = wLayout.children.find((c) => c.id === selId), k = 0.6;
-        const t = { k, x: w / 2 - (n.x + NW / 2) * k, y: Math.max(pad, vh / 2 - (n.y + NH / 2) * k) };
+        const t = { k, x: w / 2 - (n.x + NW / 2) * k, y: vh / 2 - (n.y + NH / 2) * k };
         anim ? animateTo(t) : (Object.assign(view, t), applyView());
       }
       document.title = `${fullName(P[selId])} | ${DATA.title}`;
@@ -1229,7 +1229,8 @@
   }
 
   function route() {
-    const hash = decodeURIComponent(location.hash.slice(1));
+    let hash = decodeURIComponent(location.hash.slice(1));
+    if (!hash) { hash = "all"; history.replaceState(null, "", "#all"); }
     const w = hash.match(/^(all|line)(?:\/rel\/([^/]+)\/([^/]+)|\/([^/]+))?$/);
     if (w) {
       wOnly = w[1] === "line";
@@ -1309,6 +1310,10 @@
     resizeT = setTimeout(redraw, 120);
   });
 
+  /* ---------- no page zoom: the canvas zooms itself ---------- */
+  for (const t of ["gesturestart", "gesturechange", "gestureend"]) document.addEventListener(t, (e) => e.preventDefault(), { passive: false });
+  document.addEventListener("touchmove", (e) => { if (e.touches.length > 1) e.preventDefault(); }, { passive: false });
+
   /* ---------- search ---------- */
   const norm = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   let index = [], sel = -1;
@@ -1325,7 +1330,11 @@
   }
   function closeResults() { results.hidden = true; sel = -1; }
   function pick(id) { closeResults(); q.value = ""; q.blur(); go(id, null); }
-  q.addEventListener("input", () => search(q.value));
+  q.addEventListener("input", () => {
+    search(q.value);
+    if (pickFrom) pickBanner.hidden = q.value.trim() !== "";
+  });
+  q.addEventListener("focus", () => document.body.classList.add("searched"), { once: true });
   q.addEventListener("keydown", (e) => {
     const items = [...results.querySelectorAll("li[data-id]")];
     if (e.key === "ArrowDown" || e.key === "ArrowUp") {

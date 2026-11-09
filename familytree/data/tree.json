@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-08",
+ "generated": "2026-11-09",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -1520,6 +1520,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=41e143ef0e0327a7e4f77807bcdf872e",
      "site": "Czech National Archives",
      "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=872fd544-18b0-4581-8c7c-cbc6004d8402&scan=1a31f1b51382f10846119a5ec8167ebe",
+     "site": "Czech National Archives",
+     "label": "kn 939, Kyjov death register 1874-1949",
      "context": "Person"
     }
    ],
