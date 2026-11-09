@@ -2773,7 +2773,9 @@
    "parents": [
     "F0040"
    ],
-   "families": [],
+   "families": [
+    "F0042"
+   ],
    "living": true,
    "given": "Catrina"
   },
@@ -2784,9 +2786,66 @@
    "parents": [
     "F0040"
    ],
-   "families": [],
+   "families": [
+    "F0041"
+   ],
    "living": true,
    "given": "Julia"
+  },
+  "I0120": {
+   "id": "I0120",
+   "gender": "m",
+   "surname": "Stegmüller",
+   "parents": [
+    "F0041"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Johan"
+  },
+  "I0121": {
+   "id": "I0121",
+   "gender": "m",
+   "surname": "Stegmüller",
+   "parents": [
+    "F0041"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Luis"
+  },
+  "I0122": {
+   "id": "I0122",
+   "gender": "f",
+   "surname": "Stegmüller",
+   "parents": [
+    "F0041"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Frida"
+  },
+  "I0123": {
+   "id": "I0123",
+   "gender": "f",
+   "surname": "Stemmer",
+   "parents": [
+    "F0042"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Sofia"
+  },
+  "I0124": {
+   "id": "I0124",
+   "gender": "f",
+   "surname": "Stemmer",
+   "parents": [
+    "F0042"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Seija"
   }
  },
  "families": {
@@ -3222,6 +3281,25 @@
    "children": [
     "I0118",
     "I0119"
+   ]
+  },
+  "F0041": {
+   "id": "F0041",
+   "father": null,
+   "mother": "I0119",
+   "children": [
+    "I0120",
+    "I0121",
+    "I0122"
+   ]
+  },
+  "F0042": {
+   "id": "F0042",
+   "father": null,
+   "mother": "I0118",
+   "children": [
+    "I0123",
+    "I0124"
    ]
   }
  }
