@@ -1051,6 +1051,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1931",
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19340628&query=%22ernst+mondschein%22&ref=anno-search&seite=14",
+     "site": "ANNO newspapers",
+     "label": "Obituary, Neue Freie Presse, 28 Jun 1934, p. 14",
+     "context": "Person"
     }
    ]
   },
