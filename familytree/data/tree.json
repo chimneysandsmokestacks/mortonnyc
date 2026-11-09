@@ -136,6 +136,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1931",
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19360510&query=%22heinz+mondschein%22&ref=anno-search&seite=42",
+     "site": "ANNO newspapers",
+     "label": "Newspaper, 10 May 1936, p. 42",
+     "context": "Person"
     }
    ]
   },
@@ -830,6 +836,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1931",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19360510&query=%22heinz+mondschein%22&ref=anno-search&seite=42",
+     "site": "ANNO newspapers",
+     "label": "Newspaper, 10 May 1936, p. 42",
      "context": "Person"
     }
    ]

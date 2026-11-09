@@ -48,6 +48,7 @@ SITE_NAMES = {
     "drive.google.com": "Family documents",
     "www.digital.wienbibliothek.at": "Wienbibliothek",
     "digital.wienbibliothek.at": "Wienbibliothek",
+    "anno.onb.ac.at": "ANNO newspapers",
     "www.geni.com": "Geni",
 }
 URL_RE = re.compile(r"https?://[^\s<>\"')\]]+")
