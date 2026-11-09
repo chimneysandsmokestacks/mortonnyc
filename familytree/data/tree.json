@@ -1529,13 +1529,23 @@
    "id": "I0055",
    "gender": "m",
    "surname": "Fischer",
-   "parents": [],
+   "parents": [
+    "F0046"
+   ],
    "families": [
     "F0015",
     "F0017"
    ],
    "given": "Bernhard",
-   "living": false
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c013658ec29c96cc360931b5a887bb20",
+     "site": "Czech National Archives",
+     "label": "Bernhard Fischer's birth entry, names his parents",
+     "context": "Person"
+    }
+   ]
   },
   "I0056": {
    "id": "I0056",
@@ -3005,6 +3015,47 @@
    "notes": [
     "Relationship: listed as 'der Alte' (the elder), distinguishing him from the younger Bernard Mondschein (Familiant No 20, house 144), father of Heinrich. The elder Bernard died at house 150 aged 67, two weeks after Heinrich's birth. That he was the younger Bernard's father is inferred from name, place and age; no record found yet states it."
    ]
+  },
+  "I0129": {
+   "id": "I0129",
+   "gender": "m",
+   "surname": "Fischer",
+   "parents": [],
+   "families": [
+    "F0046"
+   ],
+   "given": "Salomon",
+   "living": false,
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c013658ec29c96cc360931b5a887bb20",
+     "site": "Czech National Archives",
+     "label": "Bernhard Fischer's birth entry, names his parents",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0130": {
+   "id": "I0130",
+   "gender": "f",
+   "surname": "Freund",
+   "parents": [],
+   "families": [
+    "F0046"
+   ],
+   "given": "Julie",
+   "living": false,
+   "aka": [
+    "married name Fischer"
+   ],
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c013658ec29c96cc360931b5a887bb20",
+     "site": "Czech National Archives",
+     "label": "Bernhard Fischer's birth entry, names his parents",
+     "context": "Person"
+    }
+   ]
   }
  },
  "families": {
@@ -3481,6 +3532,14 @@
    "mother": null,
    "children": [
     "I0028"
+   ]
+  },
+  "F0046": {
+   "id": "F0046",
+   "father": "I0129",
+   "mother": "I0130",
+   "children": [
+    "I0055"
    ]
   }
  }
