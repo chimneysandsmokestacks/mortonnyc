@@ -1039,6 +1039,9 @@
     "date": "24 Oct 1876",
     "place": "Gaya (Kyjov)"
    },
+   "death": {
+    "date": "26 Jun 1934"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=a38ecc91dbc0dea1f2b2f12e15778bab",
@@ -1056,6 +1059,12 @@
      "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19340628&query=%22ernst+mondschein%22&ref=anno-search&seite=14",
      "site": "ANNO newspapers",
      "label": "Obituary, Neue Freie Presse, 28 Jun 1934, p. 14",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19340628&query=%22ernst+mondschein%22&ref=anno-search&seite=26",
+     "site": "ANNO newspapers",
+     "label": "Obituary, 28 Jun 1934, p. 26",
      "context": "Person"
     }
    ]
