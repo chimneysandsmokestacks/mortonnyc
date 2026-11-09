@@ -2093,8 +2093,7 @@
     "F0023"
    ],
    "families": [
-    "F0025",
-    "F0027"
+    "F0030"
    ],
    "given": "Gerson",
    "living": false,
@@ -2143,9 +2142,6 @@
     "F0024"
    ],
    "families": [
-    "F0025",
-    "F0028",
-    "F0029",
     "F0030"
    ],
    "given": "Franziska",
@@ -2329,16 +2325,20 @@
    "gender": "f",
    "surname": "Mondschein",
    "parents": [
-    "F0027"
+    "F0031"
    ],
    "families": [],
    "given": "Regina",
    "living": false,
+   "birth": {
+    "date": "19 Jul 1868",
+    "place": "Gaya (Kyjov)"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=030b4f4d968d817487499fa8fc2f8ec8",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 146, birth entry, 19 Jul 1868",
      "context": "Person"
     }
    ]
@@ -2377,8 +2377,6 @@
    "gender": "m",
    "surname": "Mondschein",
    "parents": [
-    "F0028",
-    "F0029",
     "F0030"
    ],
    "families": [],
@@ -2394,8 +2392,6 @@
    "gender": "m",
    "surname": "Mondschein",
    "parents": [
-    "F0028",
-    "F0029",
     "F0030"
    ],
    "families": [],
@@ -2408,30 +2404,6 @@
    "notes": [
     "36570\n25428\tMondschein, Moritz\t07.12.1869 Gaya\tWien 2, Glockengasse 6/7\t11/2/1941WienLitzmannstadt\t\t10(Lo) 21 \tkflos., wirklich zwei Personen ?"
    ]
-  },
-  "I0095": {
-   "id": "I0095",
-   "gender": "m",
-   "surname": "Mondschein",
-   "parents": [],
-   "families": [
-    "F0029"
-   ],
-   "given": "?",
-   "living": false
-  },
-  "I0096": {
-   "id": "I0096",
-   "gender": "m",
-   "surname": "Mondschein",
-   "parents": [
-    "F0023"
-   ],
-   "families": [
-    "F0030"
-   ],
-   "given": "? (Gerson?)",
-   "living": false
   },
   "I0097": {
    "id": "I0097",
@@ -3325,7 +3297,6 @@
    "mother": "I0112",
    "children": [
     "I0080",
-    "I0096",
     "I0111"
    ]
   },
@@ -3337,12 +3308,6 @@
     "I0083"
    ]
   },
-  "F0025": {
-   "id": "F0025",
-   "father": "I0080",
-   "mother": "I0083",
-   "children": []
-  },
   "F0026": {
    "id": "F0026",
    "father": null,
@@ -3351,43 +3316,9 @@
     "I0087"
    ]
   },
-  "F0027": {
-   "id": "F0027",
-   "father": "I0080",
-   "mother": null,
-   "children": [
-    "I0091"
-   ],
-   "links": [
-    {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=030b4f4d968d817487499fa8fc2f8ec8",
-     "site": "Czech National Archives",
-     "label": null,
-     "context": "Marriage record"
-    }
-   ]
-  },
-  "F0028": {
-   "id": "F0028",
-   "father": null,
-   "mother": "I0083",
-   "children": [
-    "I0093",
-    "I0094"
-   ]
-  },
-  "F0029": {
-   "id": "F0029",
-   "father": "I0095",
-   "mother": "I0083",
-   "children": [
-    "I0093",
-    "I0094"
-   ]
-  },
   "F0030": {
    "id": "F0030",
-   "father": "I0096",
+   "father": "I0080",
    "mother": "I0083",
    "children": [
     "I0093",
@@ -3407,6 +3338,7 @@
    "father": "I0097",
    "mother": "I0098",
    "children": [
+    "I0091",
     "I0099",
     "I0102"
    ],
