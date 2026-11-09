@@ -2710,7 +2710,8 @@
    "given": "Henriette",
    "living": false,
    "birth": {
-    "date": "1832"
+    "date": "1 Jun 1831",
+    "place": "Gaya (Kyjov)"
    },
    "death": {
     "date": "6 Feb 1847",
