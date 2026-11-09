@@ -32,8 +32,11 @@ GENERATION_GAP = 25         # used to estimate birth years from relatives
 MAX_NOTE_TEXT = 500         # longer free-text notes (pasted web pages etc.) are skipped
 
 EVT_BIRTH, EVT_DEATH, EVT_MARRIAGE = 12, 13, 1
-EVT_LABELS = {1: "Marriage", 12: "Birth", 13: "Death", 4: "Baptism", 5: "Burial",
-              6: "Christening", 7: "Confirmation", 8: "Cremation", 11: "Bar Mitzvah"}
+# Gramps EventType values
+EVT_LABELS = {1: "Marriage", 7: "Divorce", 12: "Birth", 13: "Death", 15: "Baptism", 16: "Bar Mitzvah",
+              19: "Burial", 21: "Census", 22: "Christening", 23: "Confirmation", 24: "Cremation",
+              26: "Education", 28: "Emigration", 30: "Immigration", 33: "Military service",
+              37: "Occupation", 40: "Property", 41: "Religion", 42: "Residence"}
 MONTHS = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 SITE_NAMES = {
     "vademecum.nacr.cz": "Czech National Archives",
@@ -180,7 +183,7 @@ def export(db_path, out_path):
         b = person_event(p, p.get("birth_ref_index", -1))
         birth_year[h] = fmt_date(b.get("date"))[1] if b else None
         has_death[h] = bool(person_event(p, p.get("death_ref_index", -1))) or any(
-            (e := evt(r)) and etype(e) in (EVT_DEATH, 5, 8) for r in p.get("event_ref_list") or [])
+            (e := evt(r)) and etype(e) in (EVT_DEATH, 19, 24) for r in p.get("event_ref_list") or [])
 
     est = dict(birth_year)
     for _ in range(8):  # propagate through the tree a few times
@@ -265,9 +268,10 @@ def export(db_path, out_path):
             if etype(e) not in (EVT_BIRTH, EVT_DEATH):
                 ds, _ = fmt_date(e.get("date"))
                 pl = place_name(places, e.get("place"))
-                if ds or pl:
+                desc = (e.get("description") or "").strip()
+                if ds or pl or desc:
                     rec.setdefault("events", []).append(
-                        {k: v for k, v in (("type", label), ("date", ds), ("place", pl)) if v})
+                        {k: v for k, v in (("type", label), ("desc", desc), ("date", ds), ("place", pl)) if v})
         seen, uniq = set(), []
         for lk in links:
             if lk["url"] not in seen:

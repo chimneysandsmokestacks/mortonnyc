@@ -78,3 +78,9 @@ Then open http://localhost:8000. (Opening `index.html` directly from disk won't 
 adds people as children of a parent (optionally `--other-parent ID`). It uses the family the
 parent already has with that partner, or creates one. Close Gramps first; pass `--backup-dir`
 to keep a copy of the database from before the change.
+
+### Adding events (occupation, residence, census, ...)
+
+`scripts/add_event.py --tree ~/Documents/Gramps/624864cb --person I0019 --type occupation --year 1931 --place "Wien" --desc "Fabrikant"`
+adds a dated event to a person. Places are matched by exact name and created if missing.
+The site shows these under the person's facts (type, description, date and place).

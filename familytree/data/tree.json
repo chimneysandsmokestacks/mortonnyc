@@ -449,6 +449,19 @@
     "date": "7 Aug 1872",
     "place": "Nový Jičín"
    },
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Fabrikant (factory owner)",
+     "date": "1931",
+     "place": "Wien"
+    },
+    {
+     "type": "Residence",
+     "date": "1931",
+     "place": "Dänenstraße 5, Wien XIX/1"
+    }
+   ],
    "links": [
     {
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/201213",

@@ -311,7 +311,8 @@
       const facts = [];
       const fact = (label, ev) => {
         if (!ev) return;
-        const txt = [ev.date, ev.place && (ev.date ? `in ${ev.place}` : ev.place)].filter(Boolean).join(" ");
+        const where = [ev.date, ev.place && (ev.date ? `in ${ev.place}` : ev.place)].filter(Boolean).join(" ");
+        const txt = [ev.desc, where].filter(Boolean).join(", ");
         if (txt) facts.push(h("dt", { text: label }), h("dd", { text: txt }));
       };
       fact("Born", p.birth);
