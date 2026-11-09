@@ -33,7 +33,8 @@
     "F0001"
    ],
    "families": [
-    "F0000"
+    "F0000",
+    "F0040"
    ],
    "living": true,
    "given": "Monica Barbara"
@@ -2764,6 +2765,28 @@
    "families": [],
    "living": true,
    "given": "Daniela"
+  },
+  "I0118": {
+   "id": "I0118",
+   "gender": "f",
+   "surname": "Stemmer",
+   "parents": [
+    "F0040"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Catrina"
+  },
+  "I0119": {
+   "id": "I0119",
+   "gender": "f",
+   "surname": "Stemmer",
+   "parents": [
+    "F0040"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Julia"
   }
  },
  "families": {
@@ -3190,6 +3213,15 @@
    "children": [
     "I0116",
     "I0117"
+   ]
+  },
+  "F0040": {
+   "id": "F0040",
+   "father": null,
+   "mother": "I0002",
+   "children": [
+    "I0118",
+    "I0119"
    ]
   }
  }
