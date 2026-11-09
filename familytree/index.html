@@ -41,8 +41,8 @@
 
 <div class="subbar">
 <div class="views" role="group" aria-label="View">
-  <button type="button" data-view="family" aria-pressed="false" title="One person with their parents, grandparents, partner and children">Family</button>
-  <button type="button" data-view="all" aria-pressed="false" title="The whole tree, with the selected person's line highlighted">Tree</button>
+  <button type="button" data-view="family" aria-pressed="false" title="One person with their parents, grandparents, partner and children">Person</button>
+  <button type="button" data-view="all" aria-pressed="false" title="The whole tree, with the selected person's line highlighted">Everyone</button>
 </div>
 <script>document.querySelector('.views [data-view="' + document.documentElement.dataset.startView + '"]').setAttribute("aria-pressed", "true");</script>
 <div class="legend" aria-hidden="true">
@@ -118,6 +118,6 @@
 </section>
 
 <noscript><p class="noscript">This family tree needs JavaScript to display.</p></noscript>
-<script src="app.js?v=34"></script>
+<script src="app.js?v=35"></script>
 </body>
 </html>

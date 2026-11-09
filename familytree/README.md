@@ -20,8 +20,8 @@ from the right, with a tab for each of the person's records.
   grandmother") and a step-by-step list. These views have their own links too, e.g.
   `.../#rel/I0003/I0068`.
 - Two views, switched at the top:
-  - **Family**: one person with their grandparents, parents, partner and children.
-  - **Tree**: the whole tree, with the selected person's line (all ancestors and
+  - **Person**: one person with their grandparents, parents, partner and children.
+  - **Everyone**: the whole tree, with the selected person's line (all ancestors and
     descendants) or a comparison in purple. Links: `.../#all/I0013`. Old `#line/...`
     links open here.
   Drag to move, pinch / double-click / + and - to zoom.

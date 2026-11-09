@@ -1247,7 +1247,7 @@
       const who = sheetBody.querySelector(".who");
       const compare = who.querySelector(".rel-start").cloneNode(true);  // round icon stays in the name row on phones
       who.after(extra, h("div", { class: "whole-actions" },
-        compare, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in Family view")));
+        compare, h("button", { type: "button", class: "rel-btn whole-back", "data-goto": selId }, "Open in Person view")));
       addClose();
       const [x0, y0, x1, y1] = boxOf(L.people);
       const { w, h: vh } = visibleBox(), pad = 40;
@@ -1330,7 +1330,7 @@
       const a = pickFrom;
       if (id === a) return;
       cancelPick();
-      location.hash = `rel/${a}/${id}`;  // comparisons open in the Family view
+      location.hash = `rel/${a}/${id}`;  // comparisons open in the Person view
       return;
     }
     if (wholeMode) { location.hash = `${W()}/${id}`; return; }
