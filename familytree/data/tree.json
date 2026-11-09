@@ -468,6 +468,18 @@
      "site": "Wienbibliothek",
      "label": "Lehmann Vienna address book 1931, p. 1944",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/204440",
+     "site": "Wienbibliothek",
+     "label": "Lehmann Vienna address book 1932",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212684",
+     "site": "Wienbibliothek",
+     "label": "Lehmann Vienna address book 1934",
+     "context": "Person"
     }
    ]
   },
