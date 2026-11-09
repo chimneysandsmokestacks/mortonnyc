@@ -735,6 +735,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/6973",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book",
+     "context": "Person"
     }
    ]
   },
