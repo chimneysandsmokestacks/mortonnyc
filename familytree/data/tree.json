@@ -729,6 +729,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/269481",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book",
+     "context": "Person"
     }
    ]
   },
