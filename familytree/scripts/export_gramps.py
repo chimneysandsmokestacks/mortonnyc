@@ -244,6 +244,16 @@ def export(db_path, out_path):
         rec.update(given=given or "Unknown", living=False)
         if nick:
             rec["nick"] = nick
+        # other names: birth name (née) and married names
+        aka = []
+        for an in p.get("alternate_names") or []:
+            asur = " ".join(x.get("surname", "") for x in an.get("surname_list") or [] if x.get("surname")).strip()
+            if not asur or asur == surname:
+                continue
+            kind = {2: "born", 3: "married name"}.get((an.get("type") or {}).get("value"), "also")
+            aka.append(f"{kind} {asur}")
+        if aka:
+            rec["aka"] = aka
         for key, ev in (("birth", person_event(p, p.get("birth_ref_index", -1))),
                         ("death", person_event(p, p.get("death_ref_index", -1)))):
             if ev:

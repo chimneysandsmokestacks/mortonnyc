@@ -297,6 +297,7 @@
       h("div", {},
         h("h1", { text: fullName(p) }),
         p.nick ? h("div", { class: "nick", text: `“${p.nick}”` }) : null,
+        p.aka ? h("div", { class: "nick", text: p.aka.join(", ") }) : null,
         h("p", { class: "lifespan", text: p.living ? "Living" : (lifespan(p) || "Dates unknown") }),
         h("p", { class: "peek-hint" }, links.length ? docIcon() : null, links.length ? `${links.length} record${links.length > 1 ? "s" : ""}. Tap to see them.` : "Tap for family and details"),
       ),
@@ -1470,7 +1471,7 @@
       buildShared();
       $("siteTitle").textContent = data.title;
       index = Object.values(P)
-        .map((p) => ({ p, key: norm(`${fullName(p)} ${p.nick || ""} ${lifespan(p)}`) }))
+        .map((p) => ({ p, key: norm(`${fullName(p)} ${p.nick || ""} ${(p.aka || []).join(" ")} ${lifespan(p)}`) }))
         .sort((a, b) => fullName(a.p).localeCompare(fullName(b.p)));
       route();
       if (document.fonts) document.fonts.ready.then(redraw);

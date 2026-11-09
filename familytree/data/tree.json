@@ -51,6 +51,9 @@
    ],
    "given": "Ernest Fred",
    "living": false,
+   "aka": [
+    "born Mondschein"
+   ],
    "birth": {
     "date": "2 Oct 1914",
     "place": "Wien"
@@ -164,6 +167,9 @@
    ],
    "given": "Eva Maria Julia",
    "living": false,
+   "aka": [
+    "married name Wolf"
+   ],
    "birth": {
     "date": "1928-30-06"
    },
@@ -187,6 +193,9 @@
    "birth": {
     "date": "24 Mar 1866",
     "place": "Bohuslavice (Kyjov)"
+   },
+   "death": {
+    "date": "1940"
    },
    "links": [
     {
@@ -266,6 +275,9 @@
    "birth": {
     "date": "5 Dec 1874",
     "place": "Göttlesbrunn, Wien"
+   },
+   "death": {
+    "date": "1938"
    },
    "links": [
     {
@@ -479,7 +491,7 @@
     "F0005"
    ],
    "living": true,
-   "given": "Marina"
+   "given": "Marina Elisabeth"
   },
   "I0016": {
    "id": "I0016",
@@ -490,18 +502,25 @@
    ],
    "families": [],
    "living": true,
-   "given": "Tobias"
+   "given": "Tobias Adriano"
   },
   "I0017": {
    "id": "I0017",
    "gender": "m",
-   "surname": "",
+   "surname": "Padiwy",
    "parents": [],
    "families": [
     "F0005"
    ],
-   "living": true,
-   "given": "Kalim"
+   "given": "Karl",
+   "living": false,
+   "nick": "Kalim",
+   "birth": {
+    "date": "30 Jan 1942"
+   },
+   "death": {
+    "date": "5 Jun 2015"
+   }
   },
   "I0018": {
    "id": "I0018",
@@ -512,7 +531,7 @@
    ],
    "families": [],
    "living": true,
-   "given": "Robin"
+   "given": "Robin Amadeus"
   },
   "I0019": {
    "id": "I0019",
@@ -527,6 +546,9 @@
    "birth": {
     "date": "7 Aug 1872",
     "place": "Nový Jičín"
+   },
+   "death": {
+    "date": "20 Aug 1938"
    },
    "events": [
     {
@@ -565,13 +587,23 @@
   "I0020": {
    "id": "I0020",
    "gender": "f",
-   "surname": "Lucchesi",
+   "surname": "Luchesi",
    "parents": [],
    "families": [
     "F0006"
    ],
-   "given": "Frida",
-   "living": false
+   "given": "Gottfrieda",
+   "living": false,
+   "nick": "Frieda",
+   "aka": [
+    "married name Wolf"
+   ],
+   "birth": {
+    "date": "23 Jun 1894"
+   },
+   "death": {
+    "date": "4 Jun 1974"
+   }
   },
   "I0021": {
    "id": "I0021",
@@ -771,12 +803,18 @@
    "parents": [
     "F0002"
    ],
-   "families": [],
+   "families": [
+    "F0043"
+   ],
    "given": "Heinrich/Heinz",
    "living": false,
+   "nick": "Henry",
    "birth": {
     "date": "3 Dec 1903",
     "place": "Wien"
+   },
+   "death": {
+    "date": "1972"
    },
    "links": [
     {
@@ -872,6 +910,9 @@
    "birth": {
     "date": "28 Nov 1902",
     "place": "Wien"
+   },
+   "death": {
+    "date": "1953"
    }
   },
   "I0031": {
@@ -2846,6 +2887,21 @@
    "families": [],
    "living": true,
    "given": "Seija"
+  },
+  "I0125": {
+   "id": "I0125",
+   "gender": "f",
+   "surname": "",
+   "parents": [],
+   "families": [
+    "F0043"
+   ],
+   "given": "Herta",
+   "living": false,
+   "nick": "Hazel",
+   "birth": {
+    "date": "20 Sep 1914"
+   }
   }
  },
  "families": {
@@ -3301,6 +3357,12 @@
     "I0123",
     "I0124"
    ]
+  },
+  "F0043": {
+   "id": "F0043",
+   "father": "I0029",
+   "mother": "I0125",
+   "children": []
   }
  }
 }
