@@ -2902,6 +2902,17 @@
    "birth": {
     "date": "20 Sep 1914"
    }
+  },
+  "I0126": {
+   "id": "I0126",
+   "gender": "m",
+   "surname": "Engel",
+   "parents": [],
+   "families": [
+    "F0039"
+   ],
+   "living": true,
+   "given": "Eduardo"
   }
  },
  "families": {
@@ -3323,7 +3334,7 @@
   },
   "F0039": {
    "id": "F0039",
-   "father": null,
+   "father": "I0126",
    "mother": "I0069",
    "children": [
     "I0116",
