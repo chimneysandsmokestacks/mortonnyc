@@ -845,8 +845,32 @@
     if (e.target.closest("#relExit")) { location.hash = relMode.a; return; }
     if (e.target.closest("#relSwap")) { location.hash = `rel/${relMode.b}/${relMode.a}`; return; }
     const n = e.target.closest(".node");
-    if (n) location.hash = n.dataset.id;
+    if (n) showRelPerson(n.dataset.id);
   });
+
+  /* clicking someone during a comparison shows their details without leaving the comparison */
+  function markRelPick(id) {
+    for (const el of document.querySelectorAll(".rel-canvas .node.picked, .w-node.picked")) el.classList.remove("picked");
+    if (!id) return;
+    relCanvas.querySelector(`.node[data-id="${CSS.escape(id)}"]`)?.classList.add("picked");
+    document.querySelector(`.w-node[data-n="${CSS.escape(id)}"]`)?.classList.add("picked");
+  }
+  function showRelPerson(id) {
+    if (!P[id]) return;
+    renderSheet(P[id]);
+    sheetBody.prepend(h("button", { type: "button", class: "rel-btn whole-back rel-back" },
+      svg('<path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>'),
+      "Back to comparison"));
+    markRelPick(id);
+    sheetBody.scrollTop = 0;
+    if (!wide.matches) setSheet(true);
+  }
+  function backToComparison() {
+    markRelPick(null);
+    if (relMode) renderRelSheet(relMode.a, relMode.b, findPath(relMode.a, relMode.b));
+    else if (wRel) showWhole(null, wRel);
+    sheetBody.scrollTop = 0;
+  }
   pickBanner.addEventListener("click", (e) => { if (e.target.closest("#pickCancel")) cancelPick(); });
 
   /* ---------- whole tree view ---------- */
@@ -1181,7 +1205,7 @@
     if (dragMoved > 6) return;
     const n = downNode || e.target.closest(".w-node");
     downNode = null;
-    if (n) go(n.dataset.n, null);
+    if (n) { if (wRel && !pickFrom) showRelPerson(n.dataset.n); else go(n.dataset.n, null); }
     else if (wSel && !pickFrom && !wRel && !wOnly) {
       // wait a moment so a double-click (zoom) doesn't also clear the selection
       clearTimeout(clearTimer);
@@ -1353,11 +1377,13 @@
     if (n) go(n.dataset.id, n);
   });
   sheetBody.addEventListener("click", (e) => {
+    if (e.target.closest(".rel-back")) { e.stopPropagation(); backToComparison(); return; }
     const rs = e.target.closest(".rel-start");
     if (rs) { e.stopPropagation(); startPick(rs.dataset.rel); return; }
     const r = e.target.closest(".rec-open");
     if (r) { openViewer(P[sheetPid], +r.dataset.rec); return; }
     const c = e.target.closest(".chip");
+    if (c && (relMode || wRel) && !pickFrom) { showRelPerson(c.dataset.id); return; }
     if (c) {
       const target = rowGP.querySelector(`[data-id="${CSS.escape(c.dataset.id)}"]`) ||
         rowP.querySelector(`[data-id="${CSS.escape(c.dataset.id)}"]`) ||

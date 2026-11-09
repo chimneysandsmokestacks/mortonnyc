@@ -594,3 +594,7 @@ body.whole-mode.no-sheet:not(.searched) .search input {
 .rel-zoom { display: none; position: fixed; top: 118px; right: 14px; z-index: 6; }
 body.rel-mode .rel-zoom { display: flex; }
 @media (min-width: 900px) { .rel-zoom { right: 428px; } }
+
+/* the person whose details are open during a comparison */
+.rel-canvas .node.picked { outline: 3px solid #8a5cf0; outline-offset: 3px; }
+.w-node.picked .w-card { stroke: #8a5cf0; stroke-width: 3; }
