@@ -691,8 +691,8 @@
     relCanvas.style.zoom = "1"; relK = 1;
     const s = stage.getBoundingClientRect();
     const sheetTop = wide.matches ? s.bottom : Math.min(s.bottom, sheet.getBoundingClientRect().top);
-    // phones: keep clear of the zoom buttons
-    const kw = (s.width - (wide.matches ? 8 : 128)) / relCanvas.offsetWidth, kh = (sheetTop - s.top - 50) / relCanvas.offsetHeight;
+    // keep clear of the zoom buttons
+    const kw = (s.width - 128) / relCanvas.offsetWidth, kh = (sheetTop - s.top - 50) / relCanvas.offsetHeight;
     const k = Math.max(0.3, Math.min(1, kw, kh));
     relK = k; relCanvas.style.zoom = String(k);
     if (redraw) drawRelWires(relPath, false);
