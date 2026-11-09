@@ -559,7 +559,9 @@
    "id": "I0019",
    "gender": "m",
    "surname": "Wolf",
-   "parents": [],
+   "parents": [
+    "F0044"
+   ],
    "families": [
     "F0006"
    ],
@@ -2946,6 +2948,25 @@
    ],
    "living": true,
    "given": "Eduardo"
+  },
+  "I0127": {
+   "id": "I0127",
+   "gender": "f",
+   "surname": "Wolf",
+   "parents": [],
+   "families": [
+    "F0044"
+   ],
+   "given": "Julie",
+   "living": false,
+   "links": [
+    {
+     "url": "https://digi.archives.cz/da/permalink?xid=0f91c6ce-0146-4926-a13d-15d79e5410c7128091&scan=1#scan1",
+     "site": "digi.archives.cz",
+     "label": "Marriage record",
+     "context": "Person"
+    }
+   ]
   }
  },
  "families": {
@@ -3407,6 +3428,14 @@
    "father": "I0029",
    "mother": "I0125",
    "children": []
+  },
+  "F0044": {
+   "id": "F0044",
+   "father": null,
+   "mother": "I0127",
+   "children": [
+    "I0019"
+   ]
   }
  }
 }
