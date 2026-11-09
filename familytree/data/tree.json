@@ -187,6 +187,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/6211",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1937, p. 874",
+     "context": "Person"
     }
    ]
   },
@@ -1029,6 +1035,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/6211",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1937, p. 874",
      "context": "Person"
     }
    ]
