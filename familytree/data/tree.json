@@ -211,6 +211,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1934",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1933",
+     "context": "Person"
     }
    ]
   },
@@ -789,6 +795,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1934",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1933",
+     "context": "Person"
     }
    ]
   },
@@ -1119,6 +1131,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1934",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1933",
      "context": "Person"
     }
    ]
@@ -1639,6 +1657,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1934",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1933",
      "context": "Person"
     }
    ]
