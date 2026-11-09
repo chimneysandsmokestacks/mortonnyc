@@ -672,17 +672,60 @@
       relCanvas.append(el);
     });
     renderRelSheet(aId, bId, path);
-    requestAnimationFrame(() => { drawRelWires(path); centerRel(); });
+    requestAnimationFrame(() => { drawRelWires(path); relFit(); });
   }
+
+  /* zoom for the comparison path (pinch, ctrl/⌘ + wheel, and the +/−/Fit buttons) */
+  let relK = 1;
+  function setRelZoom(k, cx, cy) {
+    k = Math.max(0.3, Math.min(1.6, k));
+    const s = stage.getBoundingClientRect();
+    cx ??= s.width / 2; cy ??= s.height / 2;
+    const px = (stage.scrollLeft + cx) / relK, py = (stage.scrollTop + cy) / relK;   // content point under the finger
+    relK = k;
+    relCanvas.style.zoom = String(k);
+    stage.scrollLeft = px * k - cx; stage.scrollTop = py * k - cy;
+  }
+  function relFit() {
+    relCanvas.style.zoom = "1"; relK = 1;
+    const s = stage.getBoundingClientRect();
+    const sheetTop = wide.matches ? s.bottom : Math.min(s.bottom, sheet.getBoundingClientRect().top);
+    const kw = (s.width - 8) / relCanvas.offsetWidth, kh = (sheetTop - s.top - 50) / relCanvas.offsetHeight;
+    const k = Math.max(0.3, Math.min(1, kw, kh));
+    relK = k; relCanvas.style.zoom = String(k);
+    centerRel();
+  }
+  $("relZoom").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-rz]");
+    if (!b) return;
+    const z = b.dataset.rz;
+    if (z === "fit") relFit(); else setRelZoom(relK * (z === "in" ? 1.25 : 0.8));
+  });
+  stage.addEventListener("wheel", (e) => {
+    if (!relMode || !(e.ctrlKey || e.metaKey)) return;
+    e.preventDefault();
+    const s = stage.getBoundingClientRect();
+    setRelZoom(relK * Math.exp(-e.deltaY * 0.01), e.clientX - s.left, e.clientY - s.top);
+  }, { passive: false });
+  let relPinch = null;
+  const tdist = (t) => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+  stage.addEventListener("touchstart", (e) => {
+    if (relMode && e.touches.length === 2) relPinch = { d: tdist(e.touches), k: relK };
+  }, { passive: true });
+  stage.addEventListener("touchmove", (e) => {
+    if (!relPinch || e.touches.length !== 2) return;
+    e.preventDefault();
+    const s = stage.getBoundingClientRect(), t = e.touches;
+    setRelZoom(relPinch.k * tdist(t) / relPinch.d, (t[0].clientX + t[1].clientX) / 2 - s.left, (t[0].clientY + t[1].clientY) / 2 - s.top);
+  }, { passive: false });
+  stage.addEventListener("touchend", (e) => { if (e.touches.length < 2) relPinch = null; }, { passive: true });
 
   function drawRelWires(path) {
     if (!path) return;
-    const c = relCanvas.getBoundingClientRect();
-    relWires.setAttribute("width", relCanvas.scrollWidth);
-    relWires.setAttribute("height", relCanvas.scrollHeight);
     const box = (i) => {
-      const r = relCanvas.querySelector(`[data-step="${i}"]`).getBoundingClientRect();
-      return { l: r.left - c.left, r: r.right - c.left, t: r.top - c.top, b: r.bottom - c.top, cx: r.left - c.left + r.width / 2, cy: r.top - c.top + r.height / 2 };
+      const n = relCanvas.querySelector(`[data-step="${i}"]`);
+      const l = n.offsetLeft, t = n.offsetTop, w = n.offsetWidth, hh = n.offsetHeight;
+      return { l, r: l + w, t, b: t + hh, cx: l + w / 2, cy: t + hh / 2 };
     };
     let d = "", dots = "", minX = Infinity, maxX = -Infinity;
     for (let i = 0; i < path.edges.length; i++) {

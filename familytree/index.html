@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=22">
+<link rel="stylesheet" href="style.css?v=23">
 </head>
 <body>
 <script>
@@ -72,7 +72,12 @@
     </div>
     <p class="w-hint" id="wHint" hidden></p>
   </section>
-  <section class="stage" id="stage" aria-label="Family tree">
+  <div class="w-zoom rel-zoom" id="relZoom">
+      <button type="button" data-rz="in" aria-label="Zoom in">+</button>
+      <button type="button" data-rz="out" aria-label="Zoom out">−</button>
+      <button type="button" data-rz="fit" data-zoom="fit" aria-label="Fit the whole path">Fit</button>
+    </div>
+    <section class="stage" id="stage" aria-label="Family tree">
     <div class="rel-view" id="relView" aria-label="Relationship path">
       <div class="rel-bar" id="relBar"></div>
       <div class="rel-canvas" id="relCanvas"><svg class="wires" id="relWires" aria-hidden="true"></svg></div>
@@ -114,6 +119,6 @@
 </section>
 
 <noscript><p class="noscript">This family tree needs JavaScript to display.</p></noscript>
-<script src="app.js?v=27"></script>
+<script src="app.js?v=28"></script>
 </body>
 </html>

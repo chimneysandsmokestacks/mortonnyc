@@ -589,3 +589,8 @@ body.whole-mode.no-sheet:not(.searched) .search input {
 
 /* "Clear comparison" sits above the overlapping pair of avatars: give it room */
 .sheet-body > .whole-back:first-child { display: inline-flex; margin: 4px 0 18px; }
+
+/* zoom buttons for the comparison path (Family view) */
+.rel-zoom { display: none; position: fixed; top: 118px; right: 14px; z-index: 6; }
+body.rel-mode .rel-zoom { display: flex; }
+@media (min-width: 900px) { .rel-zoom { right: 428px; } }
