@@ -861,6 +861,11 @@
     sheetBody.prepend(h("button", { type: "button", class: "rel-btn whole-back rel-back" },
       svg('<path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>'),
       "Back to comparison"));
+    // here Compare leaves the comparison: it opens Everyone with this person selected
+    for (const b of sheetBody.querySelectorAll(".rel-start")) {
+      b.dataset.goto = `all/${id}`;
+      b.title = `Show ${fullName(P[id])} in the Everyone view`;
+    }
     markRelPick(id);
     sheetBody.scrollTop = 0;
     if (!wide.matches) setSheet(true);
