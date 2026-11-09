@@ -586,3 +586,6 @@ body.whole-mode.no-sheet:not(.searched) .search input {
 @media (max-width: 899px) {
   .sheet:not(.open) .sheet-body > .who ~ * { visibility: hidden; }
 }
+
+/* "Clear comparison" sits above the overlapping pair of avatars: give it room */
+.sheet-body > .whole-back:first-child { display: inline-flex; margin: 4px 0 18px; }

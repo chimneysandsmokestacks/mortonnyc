@@ -10,11 +10,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=21">
+<link rel="stylesheet" href="style.css?v=22">
 </head>
 <body>
+<script>
+  // pick the starting view before anything paints, so the toggle doesn't flash Family first
+  (function () {
+    var h = location.hash.slice(1), v = !h || /^all(\/|$)/.test(h) ? "all" : /^line(\/|$)/.test(h) ? "line" : "family";
+    if (v !== "family") document.body.className = "whole-mode" + (h && h !== "all" ? "" : " no-sheet");
+    document.documentElement.dataset.startView = v;
+  })();
+</script>
 <header class="bar">
-  <button class="title" id="homeBtn" type="button" title="Back to the starting person">
+  <button class="title" id="homeBtn" type="button" title="Back to the whole tree">
     <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
       <rect width="32" height="32" rx="9" fill="#171b2c"/>
       <path d="M10 11.5 16 20.5 22 11.5" fill="none" stroke="#8a90a5" stroke-width="1.6" stroke-linecap="round"/>
@@ -33,10 +41,11 @@
 
 <div class="subbar">
 <div class="views" role="group" aria-label="View">
-  <button type="button" data-view="family" aria-pressed="true" title="One person with their parents, grandparents, partner and children">Family</button>
+  <button type="button" data-view="family" aria-pressed="false" title="One person with their parents, grandparents, partner and children">Family</button>
   <button type="button" data-view="line" aria-pressed="false" title="Everyone in the selected person's line: all ancestors and descendants">Line</button>
   <button type="button" data-view="all" aria-pressed="false" title="The whole tree, with the selected line highlighted">Everyone</button>
 </div>
+<script>document.querySelector('.views [data-view="' + document.documentElement.dataset.startView + '"]').setAttribute("aria-pressed", "true");</script>
 <div class="legend" aria-hidden="true">
   <span><i class="dot m"></i>Male</span>
   <span><i class="dot f"></i>Female</span>
@@ -105,6 +114,6 @@
 </section>
 
 <noscript><p class="noscript">This family tree needs JavaScript to display.</p></noscript>
-<script src="app.js?v=26"></script>
+<script src="app.js?v=27"></script>
 </body>
 </html>

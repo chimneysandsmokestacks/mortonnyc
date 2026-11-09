@@ -1056,6 +1056,17 @@
     const ns = wLayout.children.filter((n) => ids.includes(n.id));
     return [Math.min(...ns.map((n) => n.x)), Math.min(...ns.map((n) => n.y)), Math.max(...ns.map((n) => n.x + n.width)), Math.max(...ns.map((n) => n.y + n.height))];
   }
+  function startView() {
+    const { w, h } = visibleBox(), pad = 40;
+    const kFit = Math.min(1, (w - pad * 2) / wLayout.width, (h - pad * 2) / wLayout.height);
+    if (wide.matches || kFit >= 0.42) return fitAll(false);
+    // phones: readable zoom, centered where most people are (median card position)
+    const xs = wLayout.children.filter((n) => !n.id.startsWith("fam:")).map((n) => n.x + n.width / 2).sort((a, b) => a - b);
+    const ys = wLayout.children.filter((n) => !n.id.startsWith("fam:")).map((n) => n.y + n.height / 2).sort((a, b) => a - b);
+    const k = 0.42, cx = xs[xs.length >> 1], cy = ys[ys.length >> 1];
+    Object.assign(view, { k, x: w / 2 - cx * k, y: h / 2 - cy * k });
+    applyView();
+  }
   function fitAll(animate = true) { fitBox(0, 0, wLayout.width, wLayout.height, 1, animate); }
   function zoomBy(f, cx, cy) {
     const { w, h } = visibleBox();
@@ -1204,7 +1215,7 @@
     } else {
       highlight([], [], null);
       sheetBody.replaceChildren();
-      if (entering || relaid) fitAll(false);
+      if (entering || relaid) startView();
       document.title = `Whole tree | ${DATA.title}`;
     }
   }
@@ -1271,7 +1282,7 @@
       const a = pickFrom;
       if (id === a) return;
       cancelPick();
-      location.hash = `${wholeMode ? W() + "/" : ""}rel/${a}/${id}`;
+      location.hash = `rel/${a}/${id}`;  // comparisons open in the Family view
       return;
     }
     if (wholeMode) { location.hash = `${W()}/${id}`; return; }
@@ -1304,7 +1315,7 @@
   });
   grip.addEventListener("click", () => setSheet(!sheet.classList.contains("open")));
   window.addEventListener("hashchange", route);
-  $("homeBtn").addEventListener("click", () => go(DATA.home, rowF.querySelector(".focus")));
+  $("homeBtn").addEventListener("click", () => { cancelPick(); location.hash = "all"; });  // back to the opening view
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { if (closeViewer()) return; if (!results.hidden) closeResults(); else if (pickFrom) cancelPick(); else if (wholeMode && (wSel || wRel)) location.hash = "all"; else setSheet(false); }
   });
