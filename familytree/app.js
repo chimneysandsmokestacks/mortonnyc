@@ -584,7 +584,14 @@
   function describe(path) {
     const { nodes, edges } = path;
     if (path.blood) {
-      const half = path.a > 0 && path.b > 0 && path.apexes.length < 2;
+      // half-relation only when the two lines come down from the common ancestor through
+      // different families (different partners). Two children of the same family are full
+      // siblings even when the other parent isn't recorded.
+      let half = false;
+      if (path.a > 0 && path.b > 0 && path.apexes.length < 2) {
+        const ca = P[nodes[path.a - 1]], cb = P[nodes[path.a + 1]];
+        half = !(ca.parents || []).some((f) => (cb.parents || []).includes(f));
+      }
       return kinTerm(path.a, path.b, P[nodes[nodes.length - 1]], half);
     }
     const terms = [];
