@@ -672,7 +672,7 @@
       relCanvas.append(el);
     });
     renderRelSheet(aId, bId, path);
-    requestAnimationFrame(() => { drawRelWires(path); relFit(); });
+    requestAnimationFrame(() => { relFit(false); drawRelWires(path); });
   }
 
   /* zoom for the comparison path (pinch, ctrl/⌘ + wheel, and the +/−/Fit buttons) */
@@ -684,9 +684,10 @@
     const px = (stage.scrollLeft + cx) / relK, py = (stage.scrollTop + cy) / relK;   // content point under the finger
     relK = k;
     relCanvas.style.zoom = String(k);
+    drawRelWires(relPath, false);   // the canvas re-centers its cards at a new zoom
     stage.scrollLeft = px * k - cx; stage.scrollTop = py * k - cy;
   }
-  function relFit() {
+  function relFit(redraw = true) {
     relCanvas.style.zoom = "1"; relK = 1;
     const s = stage.getBoundingClientRect();
     const sheetTop = wide.matches ? s.bottom : Math.min(s.bottom, sheet.getBoundingClientRect().top);
@@ -694,6 +695,7 @@
     const kw = (s.width - (wide.matches ? 8 : 128)) / relCanvas.offsetWidth, kh = (sheetTop - s.top - 50) / relCanvas.offsetHeight;
     const k = Math.max(0.3, Math.min(1, kw, kh));
     relK = k; relCanvas.style.zoom = String(k);
+    if (redraw) drawRelWires(relPath, false);
     centerRel();
   }
   $("relZoom").addEventListener("click", (e) => {
@@ -721,7 +723,9 @@
   }, { passive: false });
   stage.addEventListener("touchend", (e) => { if (e.touches.length < 2) relPinch = null; }, { passive: true });
 
-  function drawRelWires(path) {
+  let relPath = null;
+  function drawRelWires(path, anim = true) {
+    relPath = path;
     if (!path) return;
     const box = (i) => {
       const n = relCanvas.querySelector(`[data-step="${i}"]`);
@@ -746,7 +750,7 @@
       `<stop offset="0" stop-color="#3d6bf5"/><stop offset=".5" stop-color="#9a5cf0"/><stop offset="1" stop-color="#ef4f7a"/></linearGradient></defs>` +
       `<path class="rel-path" d="${d}"/><path class="rel-dots" d="${dots}"/>`;
     const line = relWires.querySelector(".rel-path");
-    if (!reduceMotion.matches && line.getTotalLength) {
+    if (anim && !reduceMotion.matches && line.getTotalLength) {
       const len = line.getTotalLength();
       line.style.strokeDasharray = `${len}`; line.style.strokeDashoffset = `${len}`;
       line.getBoundingClientRect();
