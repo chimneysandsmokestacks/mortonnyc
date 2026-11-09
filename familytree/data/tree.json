@@ -2266,13 +2266,23 @@
    "families": [
     "F0010"
    ],
-   "given": "?",
+   "given": "Frumet",
    "living": false,
+   "nick": "Frumit",
+   "birth": {
+    "place": "Dambořice (Damboržitz)"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
      "site": "Czech National Archives",
      "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=98a75aad-db81-410e-8587-ffa0c136f8ac&scan=06ab4b99e3a526bfa14d937cece89ba7",
+     "site": "Czech National Archives",
+     "label": "kn 931, p. 24, named as mother in Heinrich's (Hirschel Löbel's) birth entry, 1835",
      "context": "Person"
     }
    ]
