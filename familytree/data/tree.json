@@ -124,6 +124,12 @@
      "site": "Family documents",
      "label": "Photo",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/216683",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1935, business listing",
+     "context": "Person"
     }
    ]
   },
