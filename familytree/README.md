@@ -71,3 +71,10 @@ python3 -m http.server 8000
 ```
 
 Then open http://localhost:8000. (Opening `index.html` directly from disk won't load the data.)
+
+### Adding children
+
+`scripts/add_children.py --tree ~/Documents/Gramps/624864cb --parent I0069 "Gabriel|Engel|m" "Daniela|Engel|f"`
+adds people as children of a parent (optionally `--other-parent ID`). It uses the family the
+parent already has with that partner, or creates one. Close Gramps first; pass `--backup-dir`
+to keep a copy of the database from before the change.

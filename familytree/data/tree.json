@@ -1489,7 +1489,9 @@
    "parents": [
     "F0020"
    ],
-   "families": [],
+   "families": [
+    "F0039"
+   ],
    "living": true,
    "given": "Susana"
   },
@@ -2443,6 +2445,28 @@
      "context": "Person"
     }
    ]
+  },
+  "I0116": {
+   "id": "I0116",
+   "gender": "m",
+   "surname": "Engel",
+   "parents": [
+    "F0039"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Gabriel"
+  },
+  "I0117": {
+   "id": "I0117",
+   "gender": "f",
+   "surname": "Engel",
+   "parents": [
+    "F0039"
+   ],
+   "families": [],
+   "living": true,
+   "given": "Daniela"
   }
  },
  "families": {
@@ -2860,6 +2884,15 @@
    "mother": "I0114",
    "children": [
     "I0113"
+   ]
+  },
+  "F0039": {
+   "id": "F0039",
+   "father": null,
+   "mother": "I0069",
+   "children": [
+    "I0116",
+    "I0117"
    ]
   }
  }
