@@ -485,6 +485,20 @@
     if (f) f.setAttribute("aria-expanded", String(open));
   }
 
+  // phones: make the collapsed panel exactly tall enough for the name row (names can wrap to 2-3 lines)
+  function fitPeek() {
+    const who = sheetBody.querySelector(".who");
+    if (wide.matches || !who) { document.documentElement.style.removeProperty("--peek-fit"); return; }
+    const top = sheet.getBoundingClientRect().top;
+    const px = Math.ceil(who.getBoundingClientRect().bottom + sheetBody.scrollTop - top + 18);
+    document.documentElement.style.setProperty("--peek-fit", `calc(${Math.max(110, px)}px + env(safe-area-inset-bottom))`);
+  }
+  let peekRaf = 0;
+  const queuePeek = () => { cancelAnimationFrame(peekRaf); peekRaf = requestAnimationFrame(fitPeek); };
+  new MutationObserver(queuePeek).observe(sheetBody, { childList: true });
+  window.addEventListener("resize", queuePeek);
+  if (document.fonts) document.fonts.ready.then(queuePeek);
+
   /* ---------- relationships between two people ---------- */
   const relView = $("relView"), relCanvas = $("relCanvas"), relWires = $("relWires"), relBar = $("relBar"), pickBanner = $("pickBanner");
   let relMode = null;      // { a, b } while the path view is showing

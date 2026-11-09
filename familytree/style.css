@@ -229,7 +229,7 @@ button { font: inherit; color: inherit; }
 /* ---------- details sheet ---------- */
 .sheet {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 15;
-  height: var(--peek);
+  height: var(--peek-fit, var(--peek));
   background: var(--surface);
   box-shadow: 0 -12px 40px -10px rgba(23,27,44,.28);
   border-radius: 22px 22px 0 0;
@@ -581,3 +581,8 @@ body.whole-mode.no-sheet:not(.searched) .search input {
   .whole-actions .rel-start { display: none; }
 }
 @media (min-width: 900px) { body.whole-mode .who .rel-start { display: none; } }
+
+/* collapsed panel on phones: sized to the name row, nothing half-shown below it */
+@media (max-width: 899px) {
+  .sheet:not(.open) .sheet-body > .who ~ * { visibility: hidden; }
+}
