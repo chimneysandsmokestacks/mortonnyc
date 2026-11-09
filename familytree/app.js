@@ -1200,7 +1200,7 @@
 
   /* entering / leaving */
   function setViewToggle() {
-    const cur = !wholeMode ? "family" : wOnly ? "line" : "all";
+    const cur = !wholeMode ? "family" : "all";
     for (const b of document.querySelectorAll(".views button")) b.setAttribute("aria-pressed", String(b.dataset.view === cur));
   }
   async function showWhole(selId, rel) {
@@ -1282,7 +1282,7 @@
     const b = e.target.closest("button[data-view]");
     if (!b) return;
     const v = b.dataset.view;
-    if (v === "line" || v === "all") {
+    if (v === "all") {
       // keep the current person or comparison when switching views
       if (relMode) location.hash = `${v}/rel/${relMode.a}/${relMode.b}`;
       else if (wRel) location.hash = `${v}/rel/${wRel.a}/${wRel.b}`;
@@ -1305,11 +1305,11 @@
     let hash = decodeURIComponent(location.hash.slice(1));
     if (!hash) { hash = "all"; history.replaceState(null, "", "#all"); }
     const w = hash.match(/^(all|line)(?:\/rel\/([^/]+)\/([^/]+)|\/([^/]+))?$/);
+    if (w && w[1] === "line") { location.replace("#all" + hash.slice(4)); return; }  // old Line links open in Tree
     if (w) {
-      wOnly = w[1] === "line";
+      wOnly = false;
       if (w[2] && P[w[2]] && P[w[3]]) showWhole(null, { a: w[2], b: w[3] });
       else if (P[w[4]]) showWhole(w[4]);
-      else if (wOnly) location.replace(`#line/${wSel || focusId || DATA.home}`);  // a line needs a person
       else showWhole(null);
       return;
     }

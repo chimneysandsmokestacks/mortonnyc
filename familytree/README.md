@@ -19,11 +19,11 @@ from the right, with a tab for each of the person's records.
   them, with the relationship in words (e.g. "second cousin once removed", "wife's
   grandmother") and a step-by-step list. These views have their own links too, e.g.
   `.../#rel/I0003/I0068`.
-- Three views, switched at the top:
+- Two views, switched at the top:
   - **Family**: one person with their grandparents, parents, partner and children.
-  - **Line**: the selected person's whole line (all ancestors and descendants), laid out on
-    its own; during a comparison, just the path between the two people. Links: `.../#line/I0013`.
-  - **Everyone**: the whole tree, with the selected line or comparison in purple. Links: `.../#all/I0013`.
+  - **Tree**: the whole tree, with the selected person's line (all ancestors and
+    descendants) or a comparison in purple. Links: `.../#all/I0013`. Old `#line/...`
+    links open here.
   Drag to move, pinch / double-click / + and - to zoom.
 - Each person has their own URL, e.g. `.../#I0005`, so you can share a direct link.
 
