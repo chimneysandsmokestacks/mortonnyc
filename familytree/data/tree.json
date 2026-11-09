@@ -448,7 +448,15 @@
    "birth": {
     "date": "7 Aug 1872",
     "place": "Nový Jičín"
-   }
+   },
+   "links": [
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/201213",
+     "site": "Wienbibliothek",
+     "label": "Lehmann Vienna address book 1931, p. 1944",
+     "context": "Person"
+    }
+   ]
   },
   "I0020": {
    "id": "I0020",

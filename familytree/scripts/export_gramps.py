@@ -43,6 +43,8 @@ SITE_NAMES = {
     "www.facebook.com": "Facebook",
     "vhaonline.usc.edu": "USC Shoah Foundation",
     "drive.google.com": "Family documents",
+    "www.digital.wienbibliothek.at": "Wienbibliothek",
+    "digital.wienbibliothek.at": "Wienbibliothek",
     "www.geni.com": "Geni",
 }
 URL_RE = re.compile(r"https?://[^\s<>\"')\]]+")
