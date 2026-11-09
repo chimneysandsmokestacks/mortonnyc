@@ -435,7 +435,8 @@
    "given": "Heinrich",
    "living": false,
    "birth": {
-    "date": "about 1835"
+    "date": "6 Aug 1835",
+    "place": "Gaya (Kyjov)"
    },
    "death": {
     "date": "26 May 1888"
@@ -457,6 +458,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=872fd544-18b0-4581-8c7c-cbc6004d8402&scan=18e7f2c0e0a0316589bcc10f4598613b",
      "site": "Czech National Archives",
      "label": "kn 939, death entry, 1888, age 53",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=98a75aad-db81-410e-8587-ffa0c136f8ac&scan=06ab4b99e3a526bfa14d937cece89ba7",
+     "site": "Czech National Archives",
+     "label": "kn 931, p. 24, birth entry as Hirschel Löbel Mondschein, 6 Aug 1835",
      "context": "Person"
     }
    ]
