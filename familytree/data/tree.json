@@ -181,6 +181,12 @@
      "site": "Czech National Archives",
      "label": "kn 417, copy of 932",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1938, p. 855, Mondschein entries",
+     "context": "Person"
     }
    ]
   },
@@ -360,6 +366,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
      "site": "Czech National Archives",
      "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1938, p. 855, Mondschein entries",
      "context": "Person"
     }
    ]
@@ -704,7 +716,15 @@
    "birth": {
     "date": "3 Dec 1903",
     "place": "Wien"
-   }
+   },
+   "links": [
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1938, p. 855, Mondschein entries",
+     "context": "Person"
+    }
+   ]
   },
   "I0030": {
    "id": "I0030",
@@ -1003,6 +1023,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4f7cf525-e30e-47db-9a03-055e805b976b&scan=f97d4d5936ca77472ba4cf6912d2a4e8",
      "site": "Czech National Archives",
      "label": "kn 940, Kyjov birth index 1874-1941",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1938, p. 855, Mondschein entries",
      "context": "Person"
     }
    ]
@@ -1567,6 +1593,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=872fd544-18b0-4581-8c7c-cbc6004d8402&scan=1a31f1b51382f10846119a5ec8167ebe",
      "site": "Czech National Archives",
      "label": "kn 939, Kyjov death register 1874-1949",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
+     "site": "Wienbibliothek",
+     "label": "Lehmann address book 1938, p. 855, Mondschein entries",
      "context": "Person"
     }
    ],
