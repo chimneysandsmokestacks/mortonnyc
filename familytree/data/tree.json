@@ -1902,6 +1902,14 @@
    ],
    "given": "Mathias",
    "living": false,
+   "birth": {
+    "date": "about 1807",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "19 Oct 1885",
+    "place": "Gaya (Kyjov)"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=f79eaad3787ffcbbc678a038fd9a79b3",
@@ -1932,10 +1940,17 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000084131730848",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ],
    "notes": [
-    "Mehlhändler zu Gaya"
+    "Mehlhändler zu Gaya",
+    "Flour dealer (Mehlhändler) in Gaya; Familiant as a later-born son (Nachgeborener). Married Ernestine Schiff by permission of 27 May 1838. No parents on Geni; several children were born in house no. 150, the house where Gerson Bernard Mondschein died in 1835 and his wife Verona Dwora in 1843, which suggests he was their son."
    ]
   },
   "I0071": {
@@ -1948,8 +1963,16 @@
    "families": [
     "F0021"
    ],
-   "given": "Ernestina",
+   "given": "Ernestine Ester",
    "living": false,
+   "birth": {
+    "date": "about 1812",
+    "place": "Holešov (Holleschau)"
+   },
+   "death": {
+    "date": "3 Mar 1866",
+    "place": "Gaya (Kyjov)"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=224b1f9fe1f0f1667175f30914988b8d",
@@ -1962,10 +1985,17 @@
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000084131671842",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ],
    "notes": [
-    "Ehrgatting des Mathias Mondschein"
+    "Ehrgatting des Mathias Mondschein",
+    "Daughter of Jonas Schiff, Jewish schoolteacher in Gaya, and Perl (Paulina) née Fischl of Ostra."
    ]
   },
   "I0072": {
@@ -1999,6 +2029,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=224b1f9fe1f0f1667175f30914988b8d",
      "site": "Czech National Archives",
      "label": "kn 932, p. 7, birth entry, 7 Jul 1848",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000084173572247",
+     "site": "Geni",
+     "label": "Geni profile",
      "context": "Person"
     }
    ],
@@ -3950,6 +3986,136 @@
      "context": "Person"
     }
    ]
+  },
+  "I0157": {
+   "id": "I0157",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0021"
+   ],
+   "families": [],
+   "given": "Fani",
+   "living": false,
+   "birth": {
+    "date": "about Aug 1838",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "2 Sep 1850",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084323152851",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0158": {
+   "id": "I0158",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0021"
+   ],
+   "families": [],
+   "given": "Rosalie",
+   "living": false,
+   "birth": {
+    "date": "1840",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "17 Sep 1912",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000020638470850",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Emanuel Gallia; sons Julius, Siegfried, Emil (Geni)."
+   ]
+  },
+  "I0159": {
+   "id": "I0159",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0021"
+   ],
+   "families": [],
+   "given": "Sara",
+   "living": false,
+   "birth": {
+    "date": "24 Jan 1841",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084454260879",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0160": {
+   "id": "I0160",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0021"
+   ],
+   "families": [],
+   "given": "Karl",
+   "living": false,
+   "birth": {
+    "date": "12 Jul 1844",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "23 Jul 1844",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084131694863",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0161": {
+   "id": "I0161",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0021"
+   ],
+   "families": [],
+   "given": "Peppi",
+   "living": false,
+   "birth": {
+    "date": "27 Jul 1846",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084131616010",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
   }
  },
  "families": {
@@ -4194,6 +4360,11 @@
    "father": "I0070",
    "mother": "I0071",
    "children": [
+    "I0157",
+    "I0158",
+    "I0159",
+    "I0160",
+    "I0161",
     "I0072",
     "I0086"
    ],
