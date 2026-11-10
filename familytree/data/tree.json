@@ -3063,7 +3063,15 @@
     "F0036"
    ],
    "given": "Elias?",
-   "living": false
+   "living": false,
+   "links": [
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/5595fb91-17f2-43ec-a573-48d9cc239d82",
+     "site": "mza.cz",
+     "label": "Jewish house land register, Gruntovní kniha židovských domů 19–155",
+     "context": "Person"
+    }
+   ]
   },
   "I0111": {
    "id": "I0111",
