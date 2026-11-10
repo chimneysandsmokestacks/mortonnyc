@@ -838,6 +838,12 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/2ce87d12-f975-4d8a-a5a3-9b76c1850711",
+     "site": "mza.cz",
+     "label": "Jewish house land register, house 144 brandy house (fol. 151): bought 1832 from Benedikt Mareczek estate",
+     "context": "Person"
     }
    ]
   },
@@ -1958,6 +1964,12 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/58d1cbfd-321c-49fa-8e75-ff26e28983b9",
+     "site": "mza.cz",
+     "label": "Jewish house land register, house 19 (fol. 2): bought both halves 1842-43",
+     "context": "Person"
     }
    ],
    "notes": [
@@ -2196,6 +2208,12 @@
      "url": "https://www.geni.com/people/x/6000000057904203058",
      "site": "Geni",
      "label": "Geni profile",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/58d1cbfd-321c-49fa-8e75-ff26e28983b9",
+     "site": "mza.cz",
+     "label": "Jewish house land register, house 19 (fol. 2): co-owner 1842, sold to Mathias 1843",
      "context": "Person"
     }
    ],
