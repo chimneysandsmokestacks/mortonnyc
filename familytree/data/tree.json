@@ -468,7 +468,8 @@
     }
    ],
    "notes": [
-    "Name: In his 1835 birth entry he is registered under his Jewish name, Hirschel Löbel. Moravian Jews at the time commonly had a Jewish name (used in synagogue and often in the registers) and a German name for civil life, usually chosen to sound like it or share its first letter. Hirsch/Hirschel/Herschel was very commonly rendered as Heinrich (Löbel/Löw usually as Leopold). By the 1860s, when his own children were registered, families used the German names, so as an adult he appears as Heinrich. The match rests on: father Bernard Mondschein, the same household (house no. 144), and a birth date consistent with his age (53) at death in 1888."
+    "Name: In his 1835 birth entry he is registered under his Jewish name, Hirschel Löbel. Moravian Jews at the time commonly had a Jewish name (used in synagogue and often in the registers) and a German name for civil life, usually chosen to sound like it or share its first letter. Hirsch/Hirschel/Herschel was very commonly rendered as Heinrich (Löbel/Löw usually as Leopold). By the 1860s, when his own children were registered, families used the German names, so as an adult he appears as Heinrich. The match rests on: father Bernard Mondschein, the same household (house no. 144), and a birth date consistent with his age (53) at death in 1888.",
+    "Death date: Geni gives 6 Aug 1888; the Kyjov death register (kn 939) gives 26 May 1888, aged 53, used here."
    ]
   },
   "I0014": {
@@ -2104,7 +2105,6 @@
    ],
    "families": [
     "F0023",
-    "F0037",
     "F0048"
    ],
    "given": "Abraham",
@@ -2207,7 +2207,7 @@
   "I0082": {
    "id": "I0082",
    "gender": "f",
-   "surname": "Herschau",
+   "surname": "Herschan",
    "parents": [],
    "families": [
     "F0024",
@@ -2216,8 +2216,17 @@
    "given": "Babet",
    "living": false,
    "birth": {
+    "date": "1822",
     "place": "Gaya (Kyjov)"
    },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000026784714952",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
    "notes": [
     "Babette (Bertha Babet), daughter of Sara Herschan of Gaya. At her marriage to Abraham Mondschein on 1 Jul 1862 she was the widow of Platzek, aged 41. Mother of Franziska Platzek and of Leopold Mondschein (1863)."
    ]
@@ -2353,6 +2362,12 @@
      "site": "Czech National Archives",
      "label": "kn 932, p. 120, birth entry, 13 Jul 1865",
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000057737345057",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ],
    "notes": [
@@ -2405,7 +2420,7 @@
     "F0004"
    ],
    "families": [],
-   "given": "Freida",
+   "given": "Frieda",
    "living": false,
    "birth": {
     "date": "22 May 1868",
@@ -2442,6 +2457,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=030b4f4d968d817487499fa8fc2f8ec8",
      "site": "Czech National Archives",
      "label": "kn 932, p. 146, birth entry, 19 Jul 1868",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000058372917192",
+     "site": "Geni",
+     "label": "Geni profile",
      "context": "Person"
     }
    ]
@@ -2587,11 +2608,25 @@
    ],
    "given": "Kati (Katarina)",
    "living": false,
+   "birth": {
+    "date": "about Feb 1843",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "19 Sep 1874",
+    "place": "Gaya (Kyjov)"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
      "site": "Czech National Archives",
      "label": "kn 932, p. 162, her son Emil's birth entry, 1870",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000017689419727",
+     "site": "Geni",
+     "label": "Geni profile",
      "context": "Person"
     }
    ]
@@ -2615,6 +2650,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
      "site": "Czech National Archives",
      "label": "kn 932, p. 162, birth entry, 1 Oct 1870",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000058371959928",
+     "site": "Geni",
+     "label": "Geni profile",
      "context": "Person"
     }
    ],
@@ -2668,10 +2709,17 @@
      "site": "Czech National Archives",
      "label": "kn 932, p. 177, birth entry, 27 Jul 1872",
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000017687884947",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ],
    "notes": [
-    "Birth entry, kn 932, p. 177: born 27 Jul 1872 in Gaya, house no. 45; named 3 Aug. Father: Gerson Mondschein, businessman, son of Bernard Mondschein. Mother: Katharina, daughter of Lazar Redlich and Chani Fischer. Godfather: Heinrich Mondschein (her uncle)."
+    "Birth entry, kn 932, p. 177: born 27 Jul 1872 in Gaya, house no. 45; named 3 Aug. Father: Gerson Mondschein, businessman, son of Bernard Mondschein. Mother: Katharina, daughter of Lazar Redlich and Chani Fischer. Godfather: Heinrich Mondschein (her uncle).",
+    "Married Deutsch (Geni)."
    ]
   },
   "I0103": {
@@ -2867,11 +2915,10 @@
    "gender": "f",
    "surname": "Mondschein",
    "parents": [
-    "F0023",
-    "F0037"
+    "F0023"
    ],
    "families": [],
-   "given": "Henriette",
+   "given": "Franziska Henriette",
    "living": false,
    "birth": {
     "date": "1 Jun 1831",
@@ -2887,6 +2934,12 @@
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000084132586274",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ]
   },
@@ -2899,7 +2952,26 @@
     "F0023"
    ],
    "given": "Saly",
-   "living": false
+   "living": false,
+   "birth": {
+    "date": "about 1801",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "11 Jan 1862",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084131724042",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Daughter of Markus Emanuel Fischer (Geni)."
+   ]
   },
   "I0113": {
    "id": "I0113",
@@ -3210,7 +3282,8 @@
     "date": "about 1772"
    },
    "death": {
-    "date": "about 1843"
+    "date": "about 21 Oct 1843",
+    "place": "Gaya (Kyjov)"
    },
    "links": [
     {
@@ -3263,6 +3336,9 @@
     "date": "26 Oct 1863",
     "place": "Gaya (Kyjov)"
    },
+   "death": {
+    "date": "12 May 1942"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=7d52f2d4ef85e83fd95009b5df401415",
@@ -3278,7 +3354,8 @@
     }
    ],
    "notes": [
-    "Birth entry, kn 932, p. 105: born 26 Oct 1863 in Gaya, house no. 137; circumcised 2 Nov. Father: Abraham Mondschein, leather dealer, son of Gerson Mondschein. Mother: Babet, daughter of Sara Herschan. Godfather: Mathias Mondschein. Later JUDr. (doctor of law), per Geni."
+    "Birth entry, kn 932, p. 105: born 26 Oct 1863 in Gaya, house no. 137; circumcised 2 Nov. Father: Abraham Mondschein, leather dealer, son of Gerson Mondschein. Mother: Babet, daughter of Sara Herschan. Godfather: Mathias Mondschein. Later JUDr. (doctor of law), per Geni.",
+    "JUDr. (doctor of law). Married Olga; children Elise (Lise) Bellák and Paul (Geni). Died in Terezín, 12 May 1942."
    ]
   },
   "I0135": {
@@ -3362,28 +3439,516 @@
   },
   "I0138": {
    "id": "I0138",
-   "gender": "m",
+   "gender": "f",
    "surname": "Mondschein",
    "parents": [
     "F0031"
    ],
    "families": [],
-   "given": "Friedrich",
+   "given": "Frieda",
    "living": false,
    "birth": {
-    "date": "29 Dec 1866",
+    "date": "24 Dec 1866",
     "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "13 Apr 1935",
+    "place": "Wien"
    },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=864f508e87023e1b139d3d49bfc4c381",
      "site": "Czech National Archives",
-     "label": "kn 932, p. 133, birth entry, 29 Dec 1866",
+     "label": "kn 932, p. 133, birth entry, 24 Dec 1866",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000018948329410",
+     "site": "Geni",
+     "label": "Geni profile",
      "context": "Person"
     }
    ],
    "notes": [
-    "Birth entry, kn 932, p. 133: born 29 Dec 1866 in Gaya, house no. 146. Father: Gerson Mondschein, businessman, son of Bernard Mondschein of Gaya (he signed the entry). Mother: Katharina, daughter of Lazar Redlich and Chani Fischer of Gaya."
+    "Birth entry, kn 932, p. 133 (child's name read as 'Friedr.'; Geni has Frieda, born 24 Dec 1866): born 24 Dec 1866 in Gaya, house no. 146. Father: Gerson Mondschein, businessman, son of Bernard Mondschein of Gaya (he signed the entry). Mother: Katharina, daughter of Lazar Redlich and Chani Fischer of Gaya.",
+    "Married Gottlieb Leichter; children Martha Leichter and Margarethe Ferber (Geni)."
+   ]
+  },
+  "I0139": {
+   "id": "I0139",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0045"
+   ],
+   "families": [],
+   "given": "Elisabeth",
+   "living": false,
+   "birth": {
+    "date": "12 Mar 1793",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000057903327018",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0140": {
+   "id": "I0140",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0045"
+   ],
+   "families": [],
+   "given": "Rösal",
+   "living": false,
+   "birth": {
+    "date": "20 Apr 1801",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000057903849872",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0141": {
+   "id": "I0141",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0045"
+   ],
+   "families": [],
+   "given": "Ernestine",
+   "living": false,
+   "birth": {
+    "date": "about 1813",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000018948526360",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Israel Placzek; many children (Geni)."
+   ]
+  },
+  "I0142": {
+   "id": "I0142",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Rusel?",
+   "living": false,
+   "birth": {
+    "date": "26 Mar 1820",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084157417231",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0143": {
+   "id": "I0143",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Esterl",
+   "living": false,
+   "birth": {
+    "date": "5 Nov 1821",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000057838977216",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Israel Platzek (Geni)."
+   ]
+  },
+  "I0144": {
+   "id": "I0144",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "David",
+   "living": false,
+   "birth": {
+    "date": "26 Jan 1824",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "6 Mar 1824",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000057839806126",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0145": {
+   "id": "I0145",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Amalia Lisa",
+   "living": false,
+   "birth": {
+    "date": "about 1 Apr 1825",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "17 Aug 1881",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000020530484546",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Rudolf Ruben Kämpf (Geni)."
+   ]
+  },
+  "I0146": {
+   "id": "I0146",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Adelheid",
+   "living": false,
+   "birth": {
+    "date": "1828",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "17 Mar 1903",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000018948532342",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Moriz Leichter (Geni)."
+   ]
+  },
+  "I0147": {
+   "id": "I0147",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Josephine Rosel",
+   "living": false,
+   "birth": {
+    "date": "10 Feb 1829",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000020664452602",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Salomon Buxbaum (Geni)."
+   ]
+  },
+  "I0148": {
+   "id": "I0148",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Fani",
+   "living": false,
+   "birth": {
+    "date": "1 Sep 1832",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "16 Nov 1873",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000028996242534",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Jakob (Juda) Tauber (Geni). Her 1832 birth entry is kn 931, p. 11 (as Fradel/Fanny, house 144)."
+   ]
+  },
+  "I0149": {
+   "id": "I0149",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Katty",
+   "living": false,
+   "birth": {
+    "date": "9 Dec 1836",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "12 Jan 1837",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000057741238984",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0150": {
+   "id": "I0150",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0010"
+   ],
+   "families": [],
+   "given": "Rösy Rosalie",
+   "living": false,
+   "birth": {
+    "date": "1 Jul 1840",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "1 Feb 1843",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000057740586898",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0151": {
+   "id": "I0151",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [],
+   "given": "Ernestine",
+   "living": false,
+   "birth": {
+    "date": "16 Feb 1833",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000027000048312",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Mandl (Geni). Birth entry kn 931, p. 12."
+   ]
+  },
+  "I0152": {
+   "id": "I0152",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [],
+   "given": "Blüme",
+   "living": false,
+   "birth": {
+    "date": "25 Jun 1834",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084132196471",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Birth entry kn 931, p. 20."
+   ]
+  },
+  "I0153": {
+   "id": "I0153",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [],
+   "given": "Elisabeth",
+   "living": false,
+   "birth": {
+    "date": "27 Oct 1835",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084132309314",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0154": {
+   "id": "I0154",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [],
+   "given": "Isak",
+   "living": false,
+   "birth": {
+    "date": "26 Sep 1836",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "20 Oct 1836",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084132168424",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0155": {
+   "id": "I0155",
+   "gender": "f",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [],
+   "given": "Marie",
+   "living": false,
+   "birth": {
+    "date": "13 Jan 1838",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "28 Sep 1915",
+    "place": "Wien"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000007014359378",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Married Ignaz Isaak Leopold Redlich; died in Vienna (Geni)."
+   ]
+  },
+  "I0156": {
+   "id": "I0156",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0023"
+   ],
+   "families": [],
+   "given": "Emanuel",
+   "living": false,
+   "birth": {
+    "date": "6 Sep 1839",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "19 Mar 1860",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084132334058",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
    ]
   }
  },
@@ -3529,8 +4094,17 @@
    "father": "I0028",
    "mother": "I0089",
    "children": [
+    "I0142",
+    "I0143",
+    "I0144",
+    "I0145",
+    "I0146",
+    "I0147",
+    "I0148",
     "I0013",
-    "I0097"
+    "I0149",
+    "I0097",
+    "I0150"
    ]
   },
   "F0011": {
@@ -3658,8 +4232,14 @@
    "father": "I0078",
    "mother": "I0112",
    "children": [
-    "I0080",
-    "I0111"
+    "I0111",
+    "I0151",
+    "I0152",
+    "I0153",
+    "I0154",
+    "I0155",
+    "I0156",
+    "I0080"
    ]
   },
   "F0024": {
@@ -3739,22 +4319,6 @@
     "I0036"
    ]
   },
-  "F0037": {
-   "id": "F0037",
-   "father": "I0078",
-   "mother": null,
-   "children": [
-    "I0111"
-   ],
-   "links": [
-    {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=c3e44c0c57e88c69deff6fc00f144168",
-     "site": "Czech National Archives",
-     "label": null,
-     "context": "Marriage record"
-    }
-   ]
-  },
   "F0038": {
    "id": "F0038",
    "father": "I0115",
@@ -3819,8 +4383,11 @@
    "father": "I0128",
    "mother": "I0131",
    "children": [
+    "I0139",
     "I0028",
-    "I0078"
+    "I0140",
+    "I0078",
+    "I0141"
    ]
   },
   "F0046": {
