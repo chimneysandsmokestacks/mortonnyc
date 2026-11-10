@@ -297,11 +297,11 @@ button { font: inherit; color: inherit; }
 
 @media (min-width: 900px) {
   :root { --peek: 0px; }
-  .layout { display: grid; grid-template-columns: 1fr 400px; }
+  .layout { display: grid; grid-template-columns: 1fr 400px; grid-template-rows: minmax(0, 1fr); }
   .stage { position: relative; inset: auto; padding-bottom: 0; }
   .sheet, .sheet.open {
     position: relative; height: auto; margin: 0 14px 14px 0; border-radius: 22px;
-    box-shadow: var(--shadow); transition: none;
+    box-shadow: var(--shadow); transition: none; min-height: 0;
   }
   .grip, .peek-hint { display: none; }
   .sheet-body, .sheet:not(.open) .sheet-body { overflow: auto; padding: 24px 24px 36px; }
