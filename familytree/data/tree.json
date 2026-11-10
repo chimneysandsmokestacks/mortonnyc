@@ -471,11 +471,18 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/2ce87d12-f975-4d8a-a5a3-9b76c1850711",
+     "site": "mza.cz",
+     "label": "Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | 1860: \"nach der ",
+     "context": "Person"
     }
    ],
    "notes": [
     "Name: In his 1835 birth entry he is registered under his Jewish name, Hirschel Löbel. Moravian Jews at the time commonly had a Jewish name (used in synagogue and often in the registers) and a German name for civil life, usually chosen to sound like it or share its first letter. Hirsch/Hirschel/Herschel was very commonly rendered as Heinrich (Löbel/Löw usually as Leopold). By the 1860s, when his own children were registered, families used the German names, so as an adult he appears as Heinrich. The match rests on: father Bernard Mondschein, the same household (house no. 144), and a birth date consistent with his age (53) at death in 1888.",
-    "Death date: Geni gives 6 Aug 1888; the Kyjov death register (kn 939) gives 26 May 1888, aged 53, used here."
+    "Death date: Geni gives 6 Aug 1888; the Kyjov death register (kn 939) gives 26 May 1888, aged 53, used here.",
+    "(Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | 1860: \"nach der am 16. März 1855. verstorbenen Fanni Mondschein, wird das Eigenthumsrecht für die erblasserischen Söhne: Mondschein Heinrich und Gerson beide minderjährig im Werthe zu 6575. Gulden österr. Währ. einverleibt.\" | \"Gemäß des Kaufvertrages d. Gaya am 22. Juli 1859. geschlossen zwischen Rudolf Kämpf und den am 7 Juli 1859 N. 3895 et 4332 für großjährig erklärten Brüdern Heinrich und Gerson Mondschein, wird auf dieses Brantweinhaus und den Keller fol. 110. das Eigenthumsrecht für Kämpf Rudolf in Kunewald um den Preis zu 5775 Gulden österr. Währ. einverleibt.\", eingetragen 24. September 1860)"
    ]
   },
   "I0014": {
@@ -842,9 +849,12 @@
     {
      "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/2ce87d12-f975-4d8a-a5a3-9b76c1850711",
      "site": "mza.cz",
-     "label": "Jewish house land register, house 144 brandy house (fol. 151): bought 1832 from Benedikt Mareczek estate",
+     "label": "Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | 3. Mondschein Be",
      "context": "Person"
     }
+   ],
+   "notes": [
+    "(Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | 3. Mondschein Bernard, Präs. 22 Juni 1832: \"Derselbe hat diesen Antheil gemäß der am 23. Juni 1832. Nr. 853. Jud. intabulirten Einantwortungsurkunde dto 23. Juni 1832. Nr. 853 Jud. bei dem Lizitationsprotokolle vom 13. April 1832. Nr. 575. Jud. aus der Benedikt Mareczekschen Verlassenschaft erstanden um den meistgebothenen Kaufschilling von Conv. 3002\" | 1860: \"Auf Grund der Einantwortungsurkunde d. 26. Mai 1852. N. 4054. nach dem am 21. Oktober 1851. verstorbenen Bernard Mondschein wird das Eigenthumsrecht für die Witwe: Mondschein Fanni im Werthe zu 2100. Gulden Conv. Münze\" – NB: register gives death 21 Oct 1851)"
    ]
   },
   "I0029": {
@@ -2472,10 +2482,17 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/2ce87d12-f975-4d8a-a5a3-9b76c1850711",
+     "site": "mza.cz",
+     "label": "Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | \"...nach dem am ",
+     "context": "Person"
     }
    ],
    "notes": [
-    "Surname: Hikl/Hickel per Geni; the 1862 marriage entry of her son Heinrich names her 'Frumet' with a surname read as 'Z…' (Kurrent H can resemble Z)."
+    "Surname: Hikl/Hickel per Geni; the 1862 marriage entry of her son Heinrich names her 'Frumet' with a surname read as 'Z…' (Kurrent H can resemble Z).",
+    "(Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | \"...nach dem am 21. Oktober 1851. verstorbenen Bernard Mondschein wird das Eigenthumsrecht für die Witwe: 4 Mondschein Fanni im Werthe zu 2100. Gulden Conv. Münze, und auf Grund der Einantwortungsurkunde d. 19. April 1859. N. 2075. nach der am 16. März 1855. verstorbenen Fanni Mondschein, wird das Eigenthumsrecht für die erblasserischen Söhne: 5 Mondschein Heinrich und Gerson beide minderjährig im Werthe zu 6575. Gulden österr. Währ. einverleibt.\" – Fanni = Frumet, died 16 Mar 1855)"
    ]
   },
   "I0090": {
@@ -2659,7 +2676,16 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/2ce87d12-f975-4d8a-a5a3-9b76c1850711",
+     "site": "mza.cz",
+     "label": "Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | 1860: \"nach der ",
+     "context": "Person"
     }
+   ],
+   "notes": [
+    "(Gruntovní kniha židovských domů 19–155, SOkA Hodonín, AM Kyjov, Nro. 144 Brantweinhaus, fol. 151v–152 | 1860: \"nach der am 16. März 1855. verstorbenen Fanni Mondschein, wird das Eigenthumsrecht für die erblasserischen Söhne: Mondschein Heinrich und Gerson beide minderjährig im Werthe zu 6575. Gulden österr. Währ. einverleibt.\" | \"Gemäß des Kaufvertrages d. Gaya am 22. Juli 1859. geschlossen zwischen Rudolf Kämpf und den am 7 Juli 1859 N. 3895 et 4332 für großjährig erklärten Brüdern Heinrich und Gerson Mondschein, wird auf dieses Brantweinhaus und den Keller fol. 110. das Eigenthumsrecht für Kämpf Rudolf in Kunewald um den Preis zu 5775 Gulden österr. Währ. einverleibt.\", eingetragen 24. September 1860)"
    ]
   },
   "I0098": {
