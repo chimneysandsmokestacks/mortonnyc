@@ -257,6 +257,12 @@
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1931",
      "context": "Person"
+    },
+    {
+     "url": "https://jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0012_0_11725.html",
+     "site": "jewishvirtuallibrary.org",
+     "label": "Encyclopaedia Judaica (Jewish Virtual Library",
+     "context": "Person"
     }
    ]
   },
@@ -1309,6 +1315,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1931",
+     "context": "Person"
+    },
+    {
+     "url": "https://jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0012_0_11725.html",
+     "site": "jewishvirtuallibrary.org",
+     "label": "Encyclopaedia Judaica (Jewish Virtual Library",
      "context": "Person"
     }
    ]
