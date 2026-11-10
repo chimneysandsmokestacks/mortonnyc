@@ -443,12 +443,6 @@
    },
    "links": [
     {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
-     "site": "Czech National Archives",
-     "label": null,
-     "context": "Person"
-    },
-    {
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
@@ -494,12 +488,6 @@
     "place": "Gaya (Kyjov)"
    },
    "links": [
-    {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
-     "site": "Czech National Archives",
-     "label": null,
-     "context": "Person"
-    },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
      "site": "Czech National Archives",
@@ -1684,9 +1672,12 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=08d8f855e8296e1cf786fe3c70ee22b9",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 100, birth entry, 19 Feb 1863",
      "context": "Person"
     }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 100: born 19 Feb 1863 in Gaya, house no. 28. Father: Hermann (Heinrich) Mondschein, grain dealer, son of Bernard and Frumet Mondschein. Mother: Netti, daughter of Lazar Redlich and Chani Fischer. Godfather: Lazar Redlich (her father)."
    ]
   },
   "I0060": {
@@ -2347,7 +2338,7 @@
    "gender": "m",
    "surname": "Mondschein",
    "parents": [
-    "F0004"
+    "F0031"
    ],
    "families": [],
    "given": "Albert",
@@ -2360,9 +2351,12 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 120, birth entry, 13 Jul 1865",
      "context": "Person"
     }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 120: born 13 Jul 1865 in Gaya, house no. 146. Father: Gerson Mondschein, son of Bernard and Frumet Mondschein. Mother: Katti, daughter of Lazar Redlich and Chani Fischer. Godfather: Lazar Redlich."
    ]
   },
   "I0089": {
@@ -2386,12 +2380,6 @@
     "place": "Dambořice (Damboržitz)"
    },
    "links": [
-    {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=058600bab49dffbdd65ff0a8c2b79639",
-     "site": "Czech National Archives",
-     "label": null,
-     "context": "Person"
-    },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=98a75aad-db81-410e-8587-ffa0c136f8ac&scan=06ab4b99e3a526bfa14d937cece89ba7",
      "site": "Czech National Archives",
@@ -2417,7 +2405,7 @@
     "F0004"
    ],
    "families": [],
-   "given": "? Freiada",
+   "given": "Freida",
    "living": false,
    "birth": {
     "date": "22 May 1868",
@@ -2427,9 +2415,12 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=1dec7d3dcce0bf9058c54db653f96953",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 144, birth entry, 22 May 1868",
      "context": "Person"
     }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 144: born 22 May 1868 in Gaya, house no. 76; named 6 Jun. Father: Heinrich Mondschein, businessman, son of Bernard Mondschein (he signed the entry). Mother: Netti, daughter of Lazar Redlich and Chani Fischer. Name read as Freida (possibly Frieda)."
    ]
   },
   "I0091": {
@@ -2600,7 +2591,7 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=a4d6367653ab2a7488e06b07e39a0a67",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 162, her son Emil's birth entry, 1870",
      "context": "Person"
     }
    ]
@@ -2649,24 +2640,13 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=be681402c0cd69c4c56b50ebcd7263d3",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 172, birth entry, 30 Jan 1872",
      "context": "Person"
     }
-   ]
-  },
-  "I0101": {
-   "id": "I0101",
-   "gender": "f",
-   "surname": "Redlich",
-   "parents": [
-    "F0009"
    ],
-   "families": [],
-   "given": "Katarina",
-   "living": false,
-   "birth": {
-    "place": "Gaya (Kyjov)"
-   }
+   "notes": [
+    "Birth entry, kn 932, p. 172: born 30 Jan 1872 in Gaya, house no. 45. Father: Heinrich Mondschein, businessman, son of Bernard Mondschein (he signed 'Heinrich Mondschein, Gaya Nr. 45'). Mother: Nanette, daughter of Lazar Redlich and Chani Fischer."
+   ]
   },
   "I0102": {
    "id": "I0102",
@@ -2679,16 +2659,19 @@
    "given": "Gisela",
    "living": false,
    "birth": {
-    "date": "3 Aug 1872",
+    "date": "27 Jul 1872",
     "place": "Gaya (Kyjov)"
    },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=f2fe87e3426175fd8c58fc056da9e4fb",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "kn 932, p. 177, birth entry, 27 Jul 1872",
      "context": "Person"
     }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 177: born 27 Jul 1872 in Gaya, house no. 45; named 3 Aug. Father: Gerson Mondschein, businessman, son of Bernard Mondschein. Mother: Katharina, daughter of Lazar Redlich and Chani Fischer. Godfather: Heinrich Mondschein (her uncle)."
    ]
   },
   "I0103": {
@@ -3350,6 +3333,58 @@
      "context": "Person"
     }
    ]
+  },
+  "I0137": {
+   "id": "I0137",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0004"
+   ],
+   "families": [],
+   "given": "Alois",
+   "living": false,
+   "birth": {
+    "date": "27 Sep 1864",
+    "place": "Bohuslavice (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=39fb1dfa8f47039f5554fa400ed4b71d",
+     "site": "Czech National Archives",
+     "label": "kn 932, p. 112, birth entry, 27 Sep 1864",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 112: born 27 Sep 1864 in Bohuslavice, house no. 77. Father: Hermann (Heinrich), son of Bernard Mondschein of Gaya. Mother: Netti, daughter of Lazar Redlich and Chani Fischer of Gaya."
+   ]
+  },
+  "I0138": {
+   "id": "I0138",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0031"
+   ],
+   "families": [],
+   "given": "Friedrich",
+   "living": false,
+   "birth": {
+    "date": "29 Dec 1866",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=864f508e87023e1b139d3d49bfc4c381",
+     "site": "Czech National Archives",
+     "label": "kn 932, p. 133, birth entry, 29 Dec 1866",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 133: born 29 Dec 1866 in Gaya, house no. 146. Father: Gerson Mondschein, businessman, son of Bernard Mondschein of Gaya (he signed the entry). Mother: Katharina, daughter of Lazar Redlich and Chani Fischer of Gaya."
+   ]
   }
  },
  "families": {
@@ -3397,17 +3432,17 @@
    "father": "I0013",
    "mother": "I0014",
    "children": [
+    "I0059",
+    "I0137",
     "I0005",
+    "I0090",
+    "I0092",
+    "I0100",
+    "I0077",
     "I0035",
     "I0037",
     "I0042",
-    "I0043",
-    "I0059",
-    "I0077",
-    "I0088",
-    "I0090",
-    "I0092",
-    "I0100"
+    "I0043"
    ],
    "marriage": {
     "date": "18 May 1862",
@@ -3475,8 +3510,7 @@
     "I0054",
     "I0073",
     "I0085",
-    "I0098",
-    "I0101"
+    "I0098"
    ],
    "marriage": {
     "date": "23 Jan 1839"
@@ -3660,6 +3694,8 @@
    "father": "I0097",
    "mother": "I0098",
    "children": [
+    "I0088",
+    "I0138",
     "I0091",
     "I0099",
     "I0102"
