@@ -3019,6 +3019,12 @@
      "site": "Czech National Archives",
      "label": "children's birth certificate",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/d143afad-b69b-4e3b-896c-13328e694f9f",
+     "site": "mza.cz",
+     "label": "Jewish house land register, Gruntovní kniha židovských domů 19–155",
+     "context": "Person"
     }
    ]
   },
