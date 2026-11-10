@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -465,6 +465,12 @@
      "site": "Czech National Archives",
      "label": "kn 931, p. 24, birth entry as Hirschel Löbel Mondschein, 6 Aug 1835",
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000016901008223",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ],
    "notes": [
@@ -484,7 +490,7 @@
    "given": "Netty/Natti",
    "living": false,
    "birth": {
-    "date": "20 Apr 1848",
+    "date": "about 1840",
     "place": "Gaya (Kyjov)"
    },
    "links": [
@@ -500,6 +506,9 @@
      "label": null,
      "context": "Person"
     }
+   ],
+   "notes": [
+    "Birth year: the 20 Apr 1848 birth previously recorded here belongs to her sister Jetti (Henriette); the 1848 entry (kn 932, p. 7) reads 'Jetti Redlich'. Netti's age at marriage in May 1862 (22 y 4 m) puts her birth about Jan 1840; Geni gives 1839."
    ]
   },
   "I0015": {
@@ -798,7 +807,8 @@
     }
    ],
    "notes": [
-    "birth year 1811?"
+    "birth year 1811?",
+    "Grain dealer (Getreidehändler), Familiant of Gaya, house no. 167 (1848). Marriage to Chani Fischer permitted by district office decree of 8 Jan 1839, no. 79 (from the 1848 birth entry of his daughter Jetti, kn 932, p. 7)."
    ]
   },
   "I0028": {
@@ -813,11 +823,25 @@
    ],
    "given": "Bernard",
    "living": false,
+   "birth": {
+    "date": "1 Mar 1798",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "7 Sep 1851",
+    "place": "Gaya (Kyjov)"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=d446fc843be70b8450d48df386edbace",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "Familianten book: Bernard Mondschein junior, firstborn; governor's decree 19 Sep 1818, no. 15445",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000016899070886",
+     "site": "Geni",
+     "label": "Geni profile",
      "context": "Person"
     }
    ]
@@ -1078,7 +1102,7 @@
    "families": [
     "F0009"
    ],
-   "given": "Hanni (Fanni?)",
+   "given": "Chani",
    "living": false,
    "birth": {
     "date": "1818",
@@ -1091,6 +1115,9 @@
      "label": null,
      "context": "Person"
     }
+   ],
+   "notes": [
+    "Daughter of Elias(?) Fischer senior, Familiant of Gaya, and Nehama née Platschek(?), per the 1848 birth entry of her daughter Jetti (kn 932, p. 7)."
    ]
   },
   "I0037": {
@@ -1522,8 +1549,23 @@
    "given": "Henriette",
    "living": false,
    "birth": {
+    "date": "20 Apr 1848",
     "place": "Gaya (Kyjov)"
-   }
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=224b1f9fe1f0f1667175f30914988b8d",
+     "site": "Czech National Archives",
+     "label": "kn 932, p. 7, birth entry as Jetti, 20 Apr 1848",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Birth record"
+    }
+   ]
   },
   "I0055": {
    "id": "I0055",
@@ -1872,7 +1914,7 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=f79eaad3787ffcbbc678a038fd9a79b3",
      "site": "Czech National Archives",
-     "label": null,
+     "label": "Familianten book: Mathias Mondschein, later-born son (Nachgeborener); district office decree",
      "context": "Person"
     },
     {
@@ -1945,7 +1987,7 @@
    "given": "Fanni",
    "living": false,
    "birth": {
-    "date": "11 Jul 1848",
+    "date": "7 Jul 1848",
     "place": "Gaya (Kyjov)"
    },
    "links": [
@@ -1959,6 +2001,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=e84cc22e16db36ecf578a2f4c1480938",
      "site": "Czech National Archives",
      "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=224b1f9fe1f0f1667175f30914988b8d",
+     "site": "Czech National Archives",
+     "label": "kn 932, p. 7, birth entry, 7 Jul 1848",
      "context": "Person"
     }
    ],
@@ -2060,13 +2108,32 @@
    "id": "I0078",
    "gender": "m",
    "surname": "Mondschein",
-   "parents": [],
+   "parents": [
+    "F0045"
+   ],
    "families": [
     "F0023",
-    "F0037"
+    "F0037",
+    "F0048"
    ],
    "given": "Abraham",
    "living": false,
+   "birth": {
+    "date": "4 Mar 1803",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "19 Jan 1889",
+    "place": "Gaya (Kyjov)"
+   },
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Leather dealer (Lederhändler)",
+     "date": "1862",
+     "place": "Gaya (Kyjov)"
+    }
+   ],
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=f614ef0f-bb4f-4eb5-9902-24d30d38a96e&scan=c026d098aae6395df8e13418447661ec",
@@ -2079,10 +2146,23 @@
      "site": "Czech National Archives",
      "label": "kn 939, Kyjov death register 1874-1949",
      "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=c4a043ebf288780c00d2d8e0cc758a0d",
+     "site": "Czech National Archives",
+     "label": "Familianten book: Abraham Mondschein, firstborn; governor's decree 20 Jan or Jun 1830",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000057904203058",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ],
    "notes": [
-    "Possibly his record - born 1803-03-10"
+    "Possibly his record - born 1803-03-10",
+    "Father: his 1862 marriage entry calls him 'son of Bernard Mondschein'; his son Leopold's 1863 birth entry calls him 'son of Gerson'. Both refer to Gerson Bernard Mondschein (c.1767–1835). Children per Geni: Georg Gerson, Franziska Henriette, Ernestine (m. Mandl), Blüme, Elisabeth, Isak, Marie (m. Redlich), Emanuel; with his second wife Babet: JUDr. Leopold."
    ]
   },
   "I0080": {
@@ -2095,9 +2175,14 @@
    "families": [
     "F0030"
    ],
-   "given": "Gerson",
+   "given": "Georg Gerson",
    "living": false,
    "birth": {
+    "date": "22 Dec 1843",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "25 Oct 1883",
     "place": "Gaya (Kyjov)"
    },
    "events": [
@@ -2106,6 +2191,14 @@
      "desc": "Leather dealer (Lederhändler)",
      "date": "1869",
      "place": "Gaya (Kyjov)"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000084131958921",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ]
   },
@@ -2126,13 +2219,17 @@
    "surname": "Herschau",
    "parents": [],
    "families": [
-    "F0024"
+    "F0024",
+    "F0048"
    ],
    "given": "Babet",
    "living": false,
    "birth": {
     "place": "Gaya (Kyjov)"
-   }
+   },
+   "notes": [
+    "Babette (Bertha Babet), daughter of Sara Herschan of Gaya. At her marriage to Abraham Mondschein on 1 Jul 1862 she was the widow of Platzek, aged 41. Mother of Franziska Platzek and of Leopold Mondschein (1863)."
+   ]
   },
   "I0083": {
    "id": "I0083",
@@ -2271,15 +2368,21 @@
   "I0089": {
    "id": "I0089",
    "gender": "f",
-   "surname": "",
-   "parents": [],
+   "surname": "Hikl",
+   "parents": [
+    "F0047"
+   ],
    "families": [
     "F0010"
    ],
    "given": "Frumet",
    "living": false,
    "nick": "Frumit",
+   "aka": [
+    "also Hickel"
+   ],
    "birth": {
+    "date": "1800",
     "place": "Dambořice (Damboržitz)"
    },
    "links": [
@@ -2294,7 +2397,16 @@
      "site": "Czech National Archives",
      "label": "kn 931, p. 24, named as mother in Heinrich's (Hirschel Löbel's) birth entry, 1835",
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000028996397095",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
+   ],
+   "notes": [
+    "Surname: Hikl/Hickel per Geni; the 1862 marriage entry of her son Heinrich names her 'Frumet' with a surname read as 'Z…' (Kurrent H can resemble Z)."
    ]
   },
   "I0090": {
@@ -2437,11 +2549,37 @@
    ],
    "given": "Gerson",
    "living": false,
+   "birth": {
+    "date": "13 Apr 1838",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "30 Jul 1913",
+    "place": "Gaya (Kyjov)"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
      "site": "Czech National Archives",
      "label": "Pathe? godfather at his nephew Karl Mondschein's birth, 1866",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=98a75aad-db81-410e-8587-ffa0c136f8ac&scan=11a59ae6ef3963abdd3cd4530275bf4a",
+     "site": "Czech National Archives",
+     "label": "kn 931, p. 37, birth entry, 13 Apr 1838",
+     "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=872fd544-18b0-4581-8c7c-cbc6004d8402&scan=c8851223441827482472e32357559e35",
+     "site": "Czech National Archives",
+     "label": "kn 939, death entry, 30 Jul 1913",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000017689419733",
+     "site": "Geni",
+     "label": "Geni profile",
      "context": "Person"
     }
    ]
@@ -2997,7 +3135,7 @@
    "families": [
     "F0045"
    ],
-   "given": "Bernard",
+   "given": "Gerson Bernard",
    "living": false,
    "nick": "der Alte",
    "birth": {
@@ -3019,10 +3157,16 @@
      "site": "Czech National Archives",
      "label": "kn 938, p. 20, death entry, 23 Aug 1835, age 67",
      "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000057903238876",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
     }
    ],
    "notes": [
-    "Relationship: listed as 'der Alte' (the elder), distinguishing him from the younger Bernard Mondschein (Familiant No 20, house 144), father of Heinrich. The elder Bernard died at house 150 aged 67, two weeks after Heinrich's birth. That he was the younger Bernard's father is inferred from name, place and age; no record found yet states it."
+    "Names: known both as Gerson (Jewish name) and Bernard (civil name). Abraham's 1862 marriage entry names Abraham's father 'Bernard Mondschein'; the 1863 birth entry of Abraham's son Leopold calls him 'Gerson'. Geni (profile managed by Randy Schoenberg and Dr. Markéta Fischerová) has him as Gerson Bernard Mondschein (c.1767 – 23 Aug 1835, house 150, Kyjov), husband of Verona Dwora, father of Bernard (1798–1851), Abraham (1803–1889), Mariana Brindel Barbara Veronika (m. Leichter), Elisabeth, Rösal and Ernestine (m. Placzek)."
    ]
   },
   "I0129": {
@@ -3062,6 +3206,147 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c013658ec29c96cc360931b5a887bb20",
      "site": "Czech National Archives",
      "label": "Bernhard Fischer's birth entry, names his parents",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0131": {
+   "id": "I0131",
+   "gender": "f",
+   "surname": "Mandl",
+   "parents": [],
+   "families": [
+    "F0045"
+   ],
+   "given": "Verona Dwora",
+   "living": false,
+   "aka": [
+    "married name Mondschein"
+   ],
+   "birth": {
+    "date": "about 1772"
+   },
+   "death": {
+    "date": "about 1843"
+   },
+   "links": [
+    {
+     "url": "https://www.geni.com/people/x/6000000018948700214",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ]
+  },
+  "I0132": {
+   "id": "I0132",
+   "gender": "m",
+   "surname": "Hiekel",
+   "parents": [],
+   "families": [
+    "F0047"
+   ],
+   "given": "Moses",
+   "living": false,
+   "birth": {
+    "date": "about 1770"
+   },
+   "death": {
+    "date": "about 1833"
+   }
+  },
+  "I0133": {
+   "id": "I0133",
+   "gender": "f",
+   "surname": "Hickel",
+   "parents": [],
+   "families": [
+    "F0047"
+   ],
+   "given": "Anna",
+   "living": false
+  },
+  "I0134": {
+   "id": "I0134",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0048"
+   ],
+   "families": [],
+   "given": "Leopold",
+   "living": false,
+   "birth": {
+    "date": "26 Oct 1863",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=7d52f2d4ef85e83fd95009b5df401415",
+     "site": "Czech National Archives",
+     "label": "kn 932, p. 105, birth entry, 26 Oct 1863",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.geni.com/people/x/6000000026028463526",
+     "site": "Geni",
+     "label": "Geni profile",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Birth entry, kn 932, p. 105: born 26 Oct 1863 in Gaya, house no. 137; circumcised 2 Nov. Father: Abraham Mondschein, leather dealer, son of Gerson Mondschein. Mother: Babet, daughter of Sara Herschan. Godfather: Mathias Mondschein. Later JUDr. (doctor of law), per Geni."
+   ]
+  },
+  "I0135": {
+   "id": "I0135",
+   "gender": "m",
+   "surname": "Mondschein",
+   "parents": [
+    "F0030"
+   ],
+   "families": [],
+   "given": "Theodor",
+   "living": false,
+   "birth": {
+    "date": "1873",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4f7cf525-e30e-47db-9a03-055e805b976b&scan=55e8958c77ce080ca4adf32e5e463356",
+     "site": "Czech National Archives",
+     "label": "Czech birth index, 1873, entry 2-13: Bohdan, father Gerson, mother Františka",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Recorded as Bohdan in the Czech-language birth index; listed as Theodor on Geni."
+   ]
+  },
+  "I0136": {
+   "id": "I0136",
+   "gender": "u",
+   "surname": "Mondschein",
+   "parents": [
+    "F0030"
+   ],
+   "families": [],
+   "given": "(stillborn)",
+   "living": false,
+   "birth": {
+    "date": "1874",
+    "place": "Gaya (Kyjov)"
+   },
+   "death": {
+    "date": "1874",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4f7cf525-e30e-47db-9a03-055e805b976b&scan=55e8958c77ce080ca4adf32e5e463356",
+     "site": "Czech National Archives",
+     "label": "Czech birth index, 1874, entry 3-9: stillborn child of Gerson",
      "context": "Person"
     }
    ]
@@ -3123,6 +3408,18 @@
     "I0090",
     "I0092",
     "I0100"
+   ],
+   "marriage": {
+    "date": "18 May 1862",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=48a573b8-bfb0-4e53-8601-0cf413d96c8b&scan=f466e62bf46b0e65f869525cee198ffc",
+     "site": "Czech National Archives",
+     "label": "Gaya marriage register 1862, entry 4",
+     "context": "Marriage record"
+    }
    ]
   },
   "F0005": {
@@ -3353,7 +3650,9 @@
    "mother": "I0083",
    "children": [
     "I0093",
-    "I0094"
+    "I0094",
+    "I0135",
+    "I0136"
    ]
   },
   "F0031": {
@@ -3482,9 +3781,10 @@
   "F0045": {
    "id": "F0045",
    "father": "I0128",
-   "mother": null,
+   "mother": "I0131",
    "children": [
-    "I0028"
+    "I0028",
+    "I0078"
    ]
   },
   "F0046": {
@@ -3493,6 +3793,34 @@
    "mother": "I0130",
    "children": [
     "I0055"
+   ]
+  },
+  "F0047": {
+   "id": "F0047",
+   "father": "I0132",
+   "mother": "I0133",
+   "children": [
+    "I0089"
+   ]
+  },
+  "F0048": {
+   "id": "F0048",
+   "father": "I0078",
+   "mother": "I0082",
+   "children": [
+    "I0134"
+   ],
+   "marriage": {
+    "date": "1 Jul 1862",
+    "place": "Gaya (Kyjov)"
+   },
+   "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=48a573b8-bfb0-4e53-8601-0cf413d96c8b&scan=4bd6babdd0677ee080f5426bf2dbd74a",
+     "site": "Czech National Archives",
+     "label": "Gaya marriage register 1862, entry 9",
+     "context": "Marriage record"
+    }
    ]
   }
  }
