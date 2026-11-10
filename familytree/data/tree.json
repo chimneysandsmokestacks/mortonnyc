@@ -812,11 +812,18 @@
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/9d4442d0-0174-4f39-8444-1dbdafd52394",
+     "site": "mza.cz",
+     "label": "Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Haftung 4: \"De Praes. 23. resol. 25ten April 1846 Zahl ",
+     "context": "Person"
     }
    ],
    "notes": [
     "birth year 1811?",
-    "Grain dealer (Getreidehändler), Familiant of Gaya, house no. 167 (1848). Marriage to Chani Fischer permitted by district office decree of 8 Jan 1839, no. 79 (from the 1848 birth entry of his daughter Jetti, kn 932, p. 7)."
+    "Grain dealer (Getreidehändler), Familiant of Gaya, house no. 167 (1848). Marriage to Chani Fischer permitted by district office decree of 8 Jan 1839, no. 79 (from the 1848 birth entry of his daughter Jetti, kn 932, p. 7).",
+    "(Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Haftung 4: \"De Praes. 23. resol. 25ten April 1846 Zahl 951. Jud. wurde für Lazar Redlich intabulirt die Obligation des Nathan Redlich dto 15ten Februar 1846 bezüglich der Rückerstellung des Kapitals zu … Conv. 50 und den bedungenen 5 % Interessen. U. L. Tom. IV Folio 146 et 147.\")"
    ]
   },
   "I0028": {
@@ -1998,12 +2005,19 @@
      "site": "mza.cz",
      "label": "Jewish house land register, house 144 continued, fol. 152v–153: Benedikt Mareczek heirs 1837 – Moyses, Elias?, Leopold?,",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/9d4442d0-0174-4f39-8444-1dbdafd52394",
+     "site": "mza.cz",
+     "label": "Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Mathias: \"de praes. 2. Oktober resol. 5. Okt",
+     "context": "Person"
     }
    ],
    "notes": [
     "Mehlhändler zu Gaya",
     "Flour dealer (Mehlhändler) in Gaya; Familiant as a later-born son (Nachgeborener). Married Ernestine Schiff by permission of 27 May 1838. No parents on Geni; several children were born in house no. 150, the house where Gerson Bernard Mondschein died in 1835 and his wife Verona Dwora in 1843, which suggests he was their son.",
-    "(Jewish house land register, house 144 continued, fol. 152v–153: Benedikt Mareczek heirs 1837 – Moyses, Elias?, Leopold?, Josefa, Ernestina?, no Mathias)"
+    "(Jewish house land register, house 144 continued, fol. 152v–153: Benedikt Mareczek heirs 1837 – Moyses, Elias?, Leopold?, Josefa, Ernestina?, no Mathias)",
+    "(Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Mathias: \"de praes. 2. Oktober resol. 5. Oktbr 1833. N. 1492. Jud. Derselbe hat das Eigenthum dieses Judenhauses auf Grund der Schenkungs?urkunde seines Vaters Bernard Mondschein dto 1. intab. 5. Oktober 1833. N. 1492. Jud. erworben im Werthe von … Conv. 400. Vide U. L. Tom II. fol. 266. et pr.\" | 1833: Schätzungsurkunde dto 19. Oktober 1833 N. 1540, Werth 322 | Dawid Herschl Sonnenschein \"hat dieses Judenhaus laut des Kontrakts dto 8. Februar intab 2. April 1842. N. 549. Jud. von Mathias Mondschein erkauft um … Conv. 500\")"
    ]
   },
   "I0071": {
@@ -3025,7 +3039,16 @@
      "site": "mza.cz",
      "label": "Jewish house land register, Gruntovní kniha židovských domů 19–155",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/9d4442d0-0174-4f39-8444-1dbdafd52394",
+     "site": "mza.cz",
+     "label": "Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Nathan Redlich: \"Demselben wurde über seine Protokollar",
+     "context": "Person"
     }
+   ],
+   "notes": [
+    "(Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Nathan Redlich: \"Demselben wurde über seine Protokollaransuchen de Praes. et resol. 24ten Februar 1846 Z. 665. Jud. das Judenhaus N. 150. laut des zwischen ihm als Käufer und David Herschel Sonnenschein als Verkäufer abgeschlossenen Kauf- und Verkaufskontraktes dto 16. Februar 1846 zum Eigenthume zugeschrieben, um den Kaufschilling von … Conv. 360. U. L. Tom. IV Folio 142 et s.\" | Haftungen 4–7, 1846–48: Obligation des Nathan Redlich für Lazar Redlich 50 fl, Schuldschein des Nathan Redlich 19. August 1846 für Joseph Lamm 100 fl)"
    ]
   },
   "I0110": {
@@ -3347,10 +3370,17 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/9d4442d0-0174-4f39-8444-1dbdafd52394",
+     "site": "mza.cz",
+     "label": "Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Bernard: \"Laut Kontrakt vom 7 Sept. 800 vid.",
+     "context": "Person"
     }
    ],
    "notes": [
-    "Names: known both as Gerson (Jewish name) and Bernard (civil name). Abraham's 1862 marriage entry names Abraham's father 'Bernard Mondschein'; the 1863 birth entry of Abraham's son Leopold calls him 'Gerson'. Geni (profile managed by Randy Schoenberg and Dr. Markéta Fischerová) has him as Gerson Bernard Mondschein (c.1767 – 23 Aug 1835, house 150, Kyjov), husband of Verona Dwora, father of Bernard (1798–1851), Abraham (1803–1889), Mariana Brindel Barbara Veronika (m. Leichter), Elisabeth, Rösal and Ernestine (m. Placzek)."
+    "Names: known both as Gerson (Jewish name) and Bernard (civil name). Abraham's 1862 marriage entry names Abraham's father 'Bernard Mondschein'; the 1863 birth entry of Abraham's son Leopold calls him 'Gerson'. Geni (profile managed by Randy Schoenberg and Dr. Markéta Fischerová) has him as Gerson Bernard Mondschein (c.1767 – 23 Aug 1835, house 150, Kyjov), husband of Verona Dwora, father of Bernard (1798–1851), Abraham (1803–1889), Mariana Brindel Barbara Veronika (m. Leichter), Elisabeth, Rösal and Ernestine (m. Placzek).",
+    "(Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Bernard: \"Laut Kontrakt vom 7 Sept. 800 vid. fol 181 hat derselbe dieses Wohnhaus von der Judengemeinde mittelst Kaufs ohne Bestimmung eines Werthes übernommen.\" | Mondschein Mathias, 1833: \"Derselbe hat das Eigenthum dieses Judenhauses auf Grund der Schenkungs?urkunde seines Vaters Bernard Mondschein dto 1. intab. 5. Oktober 1833. N. 1492. Jud. erworben im Werthe von … Conv. 400.\")"
    ]
   },
   "I0129": {
