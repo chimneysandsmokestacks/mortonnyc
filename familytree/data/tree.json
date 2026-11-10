@@ -1943,7 +1943,9 @@
    "id": "I0070",
    "gender": "m",
    "surname": "Mondschein",
-   "parents": [],
+   "parents": [
+    "F0045"
+   ],
    "families": [
     "F0021"
    ],
@@ -2017,7 +2019,7 @@
     "Mehlhändler zu Gaya",
     "Flour dealer (Mehlhändler) in Gaya; Familiant as a later-born son (Nachgeborener). Married Ernestine Schiff by permission of 27 May 1838. No parents on Geni; several children were born in house no. 150, the house where Gerson Bernard Mondschein died in 1835 and his wife Verona Dwora in 1843, which suggests he was their son.",
     "(Jewish house land register, house 144 continued, fol. 152v–153: Benedikt Mareczek heirs 1837 – Moyses, Elias?, Leopold?, Josefa, Ernestina?, no Mathias)",
-    "(Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Mathias: \"de praes. 2. Oktober resol. 5. Oktbr 1833. N. 1492. Jud. Derselbe hat das Eigenthum dieses Judenhauses auf Grund der Schenkungs?urkunde seines Vaters Bernard Mondschein dto 1. intab. 5. Oktober 1833. N. 1492. Jud. erworben im Werthe von … Conv. 400. Vide U. L. Tom II. fol. 266. et pr.\" | 1833: Schätzungsurkunde dto 19. Oktober 1833 N. 1540, Werth 322 | Dawid Herschl Sonnenschein \"hat dieses Judenhaus laut des Kontrakts dto 8. Februar intab 2. April 1842. N. 549. Jud. von Mathias Mondschein erkauft um … Conv. 500\")"
+    "(Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Mathias: \"de praes. 2. Oktober resol. 5. Oktbr 1833. N. 1492. Jud. Derselbe hat das Eigenthum dieses Judenhauses auf Grund der Schenkungs?urkunde seines Vaters Bernard Mondschein dto 1. intab. 5. Oktober 1833. N. 1492. Jud. erworben im Werthe von … Conv. 400. Vide U. L. Tom II. fol. 266. et pr.\" | 1833: Schätzungsurkunde dto 19. Oktober 1833 N. 1540, Werth 322 | Dawid Herschl Sonnenschein \"hat dieses Judenhaus laut des Kontrakts dto 8. Februar intab 2. April 1842. N. 549. Jud. von Mathias Mondschein erkauft um … Conv. 500\" | Basis for his parentage: father = Gerson Bernard, owner of house 150 since 1800, d. 1835; mother not named.)"
    ]
   },
   "I0071": {
@@ -4681,7 +4683,8 @@
     "I0028",
     "I0140",
     "I0078",
-    "I0141"
+    "I0141",
+    "I0070"
    ]
   },
   "F0046": {
