@@ -824,6 +824,42 @@
      "site": "mza.cz",
      "label": "Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Haftung 4: \"De Praes. 23. resol. 25ten April 1846 Zahl ",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/0fab0121-0136-4e9d-9fe8-43d8511b39ee",
+     "site": "mza.cz",
+     "label": "1842 buys half of a house 19 share with Abraham Mondschein",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/5a9cfd49-e73f-4c50-9c22-24866a8220e5",
+     "site": "mza.cz",
+     "label": "1843 sells the house 19 share to Mathias Mondschein",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/b2490893-8e27-4991-aa42-e8de8df15e1c",
+     "site": "mza.cz",
+     "label": "1844 purchase contract, Lazar Redlich als Käufer",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/f8725ffb-4808-431b-8d16-1f04446aa68c",
+     "site": "mza.cz",
+     "label": "Probably him: 1839-40 inheritance of house 136 share III",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/d799cdbb-dedb-43f5-90c2-b3557a794c50",
+     "site": "mza.cz",
+     "label": "Probably him: 1840 sells house share 138 to Salomon Mandl",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/4047eb05-1887-4ea8-b4d1-8629f0b36435",
+     "site": "mza.cz",
+     "label": "Probably him: 1840 Lazar S. Redlich buys house share 75 from Mathias Klein",
+     "context": "Person"
     }
    ],
    "notes": [
@@ -875,6 +911,60 @@
      "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/6d77b7f3-5eb4-47f5-920d-2d6cd797fb21",
      "site": "mza.cz",
      "label": "Jewish house land register, house 144 continued, fol. 152v–153: liens, Benedikt Mareczek heirs 1837",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/3f8aacb1-b36a-40ab-84b9-b870ff3122da",
+     "site": "mza.cz",
+     "label": "1822 buys women's synagogue seat 52 as Bernard Mondschein der Jüngere",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/4b837214-2f26-4722-9915-135f565aff53",
+     "site": "mza.cz",
+     "label": "1834 house 144 share, old 50 fl debt cleared",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/380864bf-fb20-4378-b388-03a47df393e7",
+     "site": "mza.cz",
+     "label": "House shares 137 and 144, Einantwortung",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/d825f68d-d166-48e6-bf0d-bc0eff9818bb",
+     "site": "mza.cz",
+     "label": "1838 receipts clearing charges on house 144 and cellar 137",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/5cc767f0-7549-453c-9a1e-1160727ea18e",
+     "site": "mza.cz",
+     "label": "House 144 share, receipts clearing old charges 1833",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/932cb3a5-5245-4768-804b-f1ffbc7619ee",
+     "site": "mza.cz",
+     "label": "1838 Mareczek estate distribution, house 144 and cellar 137",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/e6734a16-41bc-49fa-aba9-53e1b868c09b",
+     "site": "mza.cz",
+     "label": "Probably him: 1830 lawsuit against Benedict Mareczek, house share 137",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/8c0f61ec-5187-4812-9b84-a2a02a9a39c0",
+     "site": "mza.cz",
+     "label": "Probably him: 1832 release of 800 fl claim on houses 137 and 144",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/375b8142-02e6-46d1-b641-7b3065f53d98",
+     "site": "mza.cz",
+     "label": "Probably him: sells house share 137 to Daniel Gruzka",
      "context": "Person"
     }
    ],
@@ -2019,6 +2109,60 @@
      "site": "mza.cz",
      "label": "Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Mathias: \"de praes. 2. Oktober resol. 5. Okt",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/5569d262-3dc0-4c44-8ae9-56e7e05634bf",
+     "site": "mza.cz",
+     "label": "1833 Schenkung of house 150 from his father Bernard",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/2247a3f0-4bd8-4837-b6da-846c1e3b0120",
+     "site": "mza.cz",
+     "label": "1833 valuation of house 150 for Mathias",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/d281ff37-ba78-43ca-b97e-81295f5e4799",
+     "site": "mza.cz",
+     "label": "1838 buys women's synagogue seat 29 from Moises Sonnenschein",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/fdaa13f7-4d8e-45ec-b06b-422c9824a08b/dao/fdaa13f7-4d8e-45ec-b06b-422c9824a08b/file/b9e8f511-8e58-4054-ba3d-18342df57e13",
+     "site": "mza.cz",
+     "label": "Men's synagogue seat 1, bought 1842, sold 1853",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/ae74729b-caa7-4e5f-b62e-78172e56f1de",
+     "site": "mza.cz",
+     "label": "1842 registration of the purchase of men's seat 1 from Markus Mandl",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/fa505b5c-0950-43ee-859e-34fb40d87c8c",
+     "site": "mza.cz",
+     "label": "1842 buys house share 19 from David Herschl Sonnenschein",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/5a9cfd49-e73f-4c50-9c22-24866a8220e5",
+     "site": "mza.cz",
+     "label": "1843 buys back house 19 share from Abraham Mondschein and Lazar Redlich",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/3299a145-b18a-41c3-9f19-b72727063ad8",
+     "site": "mza.cz",
+     "label": "1843 receipt clearing an old charge on house 19",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/030b6ddd-88ea-4ae6-8073-ec46cbb9d85b",
+     "site": "mza.cz",
+     "label": "1844 Joachim Sonnenschein receipt for 800 fl, house 19",
+     "context": "Person"
     }
    ],
    "notes": [
@@ -2173,7 +2317,15 @@
     "F0022"
    ],
    "given": "Markus",
-   "living": false
+   "living": false,
+   "links": [
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a",
+     "site": "mza.cz",
+     "label": "Book: Jewish property deed book 1841-1851, Markus Redlich index entries fol. 201-227 not yet opened",
+     "context": "Person"
+    }
+   ]
   },
   "I0076": {
    "id": "I0076",
@@ -2266,6 +2418,120 @@
      "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/58d1cbfd-321c-49fa-8e75-ff26e28983b9",
      "site": "mza.cz",
      "label": "Jewish house land register, house 19 (fol. 2): co-owner 1842, sold to Mathias 1843",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/7aa69ac3-5d7c-4b34-adf3-ea868e83d9e1",
+     "site": "mza.cz",
+     "label": "1827 buys house 139 from Salomon Müller",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/fb2b79a1-558c-4b56-ad34-c6b18a804222",
+     "site": "mza.cz",
+     "label": "1831 sells house share 139 to Katharina Hayek",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/65d1aa34-87e1-4fd1-9158-35fdef416128",
+     "site": "mza.cz",
+     "label": "1835 buys Sara Mandl's share of house 138",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/49b52cdc-f67a-42e5-aad3-c02510162eb8",
+     "site": "mza.cz",
+     "label": "1837 sells house share 138 to Joseph Hlaczek",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/0bb9d3c8-dd47-4d77-a2dd-f3e55a5b2863",
+     "site": "mza.cz",
+     "label": "1838 house share 138 contract with Hlaczek",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/037b2d8e-91be-4c99-a87f-343a3f8ca58d",
+     "site": "mza.cz",
+     "label": "1836 buys women's synagogue seat 27",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/f7fea772-2a5f-4b74-a73e-63b76a4ece1c",
+     "site": "mza.cz",
+     "label": "1836 buys women's synagogue seat 26 from Lazar Redlich",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/35ada42f-989a-42e6-8c5e-46eec8e12d85",
+     "site": "mza.cz",
+     "label": "Sub-lease of the town brewery or spirits house with Elias Fischer",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/c97c2474-6efa-4079-8ab2-fa723f8aa8ea",
+     "site": "mza.cz",
+     "label": "Brewery sub-lease security, pledges his half of house 137",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/a9422aa0-63dc-43c6-8e14-db968333891a",
+     "site": "mza.cz",
+     "label": "1836 agreement with Moises Mandl on house 73",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/79749d3e-0db5-4e6d-a144-cdb965c81c38",
+     "site": "mza.cz",
+     "label": "1836 Moises Mandl IOU for 100 fl to Abraham",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/74de5e7c-a1f9-4836-b7d1-7942915f3521",
+     "site": "mza.cz",
+     "label": "1835 Moises Mandl IOU for 137 fl to Abraham",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/7abb799a-78da-464d-a40b-7ed6633c3101",
+     "site": "mza.cz",
+     "label": "1839 Moises Mandl debts on house 73 paid off",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/0fab0121-0136-4e9d-9fe8-43d8511b39ee",
+     "site": "mza.cz",
+     "label": "1842 buys half of Joachim Sonnenschein's share of house 19 with Lazar Redlich",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/5a9cfd49-e73f-4c50-9c22-24866a8220e5",
+     "site": "mza.cz",
+     "label": "1843 sells the house 19 share back to Mathias",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/030b6ddd-88ea-4ae6-8073-ec46cbb9d85b",
+     "site": "mza.cz",
+     "label": "1844 house 19 receipt handed to Abraham",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/524f5af3-51a3-46a3-beda-5ad870e9a1f2",
+     "site": "mza.cz",
+     "label": "1831 witness to an Elias Fischer guarantee",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/b2490893-8e27-4991-aa42-e8de8df15e1c",
+     "site": "mza.cz",
+     "label": "1844 witness to a purchase by Lazar Redlich",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/fdaa13f7-4d8e-45ec-b06b-422c9824a08b",
+     "site": "mza.cz",
+     "label": "Book: men's synagogue seats 1809-1873",
      "context": "Person"
     }
    ],
@@ -2927,6 +3193,18 @@
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/524f5af3-51a3-46a3-beda-5ad870e9a1f2",
+     "site": "mza.cz",
+     "label": "1831 witness in Gaya to an Elias Fischer guarantee",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/0fab0121-0136-4e9d-9fe8-43d8511b39ee",
+     "site": "mza.cz",
+     "label": "1842 witness to the house 19 purchase by Abraham Mondschein and Lazar Redlich",
+     "context": "Person"
     }
    ],
    "notes": [
@@ -3075,6 +3353,96 @@
      "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/5595fb91-17f2-43ec-a573-48d9cc239d82",
      "site": "mza.cz",
      "label": "Gruntovní kniha židovských domů 19–155, Nro 20, 4te Abth., fol. 19v–20 | Fischer Elias: \"Laut Kaufkontrakt vom 14 Nov. 8",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/4260b6a0-1a7c-424f-a5bf-5b0b3b6f2a0e",
+     "site": "mza.cz",
+     "label": "1826 pledges houses 19 and 21 for an army supply sub-lease",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/4ceec357-03b5-4280-a68c-4bb7b7edbfd9",
+     "site": "mza.cz",
+     "label": "1830 buys house share 21 with butcher's stall from Moises Herschl Hayek",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/e6734a16-41bc-49fa-aba9-53e1b868c09b",
+     "site": "mza.cz",
+     "label": "1830 sellers' receipt for house 21",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/fb2b79a1-558c-4b56-ad34-c6b18a804222",
+     "site": "mza.cz",
+     "label": "1831 release of charges on house 21",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/524f5af3-51a3-46a3-beda-5ad870e9a1f2",
+     "site": "mza.cz",
+     "label": "1831 guarantee deed pledging house share 19",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/1ad141c3-e60d-4b07-a341-7bdddf9d5b68",
+     "site": "mza.cz",
+     "label": "1836 debt notice on his house share 19",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/4ae5de2f-3a13-45c8-a496-3d41692477e5",
+     "site": "mza.cz",
+     "label": "1835 buys house share 19 from Josias Hayek",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/b2871234-7090-426f-beda-6d0095b7872d",
+     "site": "mza.cz",
+     "label": "1838 sells house share 19 to Aron Löw Hlaczek",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/fa8a93ba-a931-4e65-bd80-7d47fa6cbdca",
+     "site": "mza.cz",
+     "label": "1839 buys house share 19 back",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/d504d570-ce73-4f50-a5db-9e1d75e9d5c6",
+     "site": "mza.cz",
+     "label": "1840 Markus Sonnenschein IOU to Elias Fischer on house 19",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/e2e0106b-7ce8-42dc-8d7f-c916b3f585a9",
+     "site": "mza.cz",
+     "label": "1839 inherits house share 151 and women's seat 21",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/3c3d3163-afcb-4acc-89bd-34862b60b601",
+     "site": "mza.cz",
+     "label": "1839 Einantwortung of house 151 from Mariana Hlaczek's estate",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/59740620-e971-4b6e-a1a2-0b03f8103928",
+     "site": "mza.cz",
+     "label": "1840 buys the late Markus Fischer's house at auction",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/35ada42f-989a-42e6-8c5e-46eec8e12d85",
+     "site": "mza.cz",
+     "label": "Sub-lease of the town brewery or spirits house with Abraham Mondschein",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/c97c2474-6efa-4079-8ab2-fa723f8aa8ea",
+     "site": "mza.cz",
+     "label": "Brewery sub-lease security with Abraham Mondschein",
      "context": "Person"
     }
    ],
@@ -3397,6 +3765,54 @@
      "site": "mza.cz",
      "label": "Gruntovní kniha židovských domů 19–155, Nro 150, fol. 181v–182 | Mondschein Bernard: \"Laut Kontrakt vom 7 Sept. 800 vid.",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/5cd522a0-66e1-42ec-8c32-23c3bddd4fa9/dao/5cd522a0-66e1-42ec-8c32-23c3bddd4fa9/file/928e26af-e77e-4137-a73a-1966b6d31c63",
+     "site": "mza.cz",
+     "label": "1800 Tauschkontrakt, gives house 151 to the Jewish community for house 150",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/5569d262-3dc0-4c44-8ae9-56e7e05634bf",
+     "site": "mza.cz",
+     "label": "1833 Schenkung of house 150 to son Mathias",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/6f29d466-5e7b-47d5-9018-33cbef15ac9f",
+     "site": "mza.cz",
+     "label": "1812 purchase of men's synagogue seat 8, registered",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/9b2e898d-72b4-4b3a-859f-e655a5405b76",
+     "site": "mza.cz",
+     "label": "Men's synagogue seat 8 purchase contract of 12 July 1812",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/2be5b4c0-bfc6-4919-9846-b8c48156c06a/dao/2be5b4c0-bfc6-4919-9846-b8c48156c06a/file/71b8064f-28dd-421b-8232-26e123cd6406",
+     "site": "mza.cz",
+     "label": "1834 Quittung on men's seat 8",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/5a9cfd49-e73f-4c50-9c22-24866a8220e5",
+     "site": "mza.cz",
+     "label": "1843 deed names his widow Veronika, Witwe nach Bernard Mondschein",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/4380dc1e-c66a-41b6-b5bf-7aed93688793",
+     "site": "mza.cz",
+     "label": "Book: men's and women's synagogue seats 1786-1831, no index",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/fbc60c7b-8d3a-44b5-8728-a3504fda8740",
+     "site": "mza.cz",
+     "label": "Book: Jewish debt book 1743-1817, index has uncertain Mondschein lines",
+     "context": "Person"
     }
    ],
    "notes": [
@@ -3453,7 +3869,7 @@
    "families": [
     "F0045"
    ],
-   "given": "Verona Dwora",
+   "given": "Veronika Dwora",
    "living": false,
    "aka": [
     "married name Mondschein"
@@ -3471,7 +3887,16 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/5a9cfd49-e73f-4c50-9c22-24866a8220e5",
+     "site": "mza.cz",
+     "label": "1843 Schenkungsurkunde: Veronika Mondschein, widow of Bernard, gives her half of women's seats 15 and 16 to daughter Ern",
+     "context": "Person"
     }
+   ],
+   "notes": [
+    "(1843 Schenkungsurkunde: Veronika Mondschein, widow of Bernard, gives her half of women's seats 15 and 16 to daughter Ernestine)"
    ]
   },
   "I0132": {
@@ -3719,6 +4144,12 @@
      "url": "https://www.geni.com/people/x/6000000018948526360",
      "site": "Geni",
      "label": "Geni profile",
+     "context": "Person"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a/dao/3b473cb9-dc98-4652-a8ea-18237333338a/file/5a9cfd49-e73f-4c50-9c22-24866a8220e5",
+     "site": "mza.cz",
+     "label": "1843: mother Veronika gives her women's seats 15 and 16 to Ernestine Mondschein verehelichte Israel Placzek",
      "context": "Person"
     }
    ],
