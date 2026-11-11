@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -621,6 +621,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212684",
      "site": "Wienbibliothek",
      "label": "Lehmann Vienna address book 1934",
+     "context": "Person"
+    },
+    {
+     "url": "http://veduta-art.cz/shopimg_hd/21_1500.jpg",
+     "site": "veduta-art.cz",
+     "label": "Image, veduta-art.cz",
      "context": "Person"
     }
    ]
