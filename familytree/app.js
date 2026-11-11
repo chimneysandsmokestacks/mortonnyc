@@ -133,7 +133,7 @@
   function render(id) {
     const p = P[id];
     if (!p) return;
-    closeViewer();
+    // an open record viewer stays open and switches to this person (see renderSheet)
     focusId = id;
     const fromRect = pendingRect; pendingRect = null;
     const animate = fromRect && !reduceMotion.matches;
@@ -286,6 +286,10 @@
   function renderSheet(p) {
     sheetPid = p.id;
     const links = p.living ? [] : allLinks(p);
+    // if the record viewer is open, it follows the newly selected person
+    if (viewer.classList.contains("show") && vPerson !== p.id) {
+      if (links.length) openViewer(p, 0, true); else closeViewer();
+    }
     const us = unions(p), pr = parentsOf(p), sibs = siblingsOf(p);
     const body = [];
 
@@ -404,11 +408,11 @@
   let vLinks = [], vReturnFocus = null, vPerson = null;
   const vShared = $("vShared");
 
-  function openViewer(p, index) {
+  function openViewer(p, index, follow) {
     vLinks = allLinks(p);
     if (!vLinks.length) return;
     vPerson = p.id;
-    vReturnFocus = document.activeElement;
+    if (!follow) vReturnFocus = document.activeElement;
     $("vName").textContent = fullName(p);
     $("vSub").textContent = `${lifespan(p) || "Dates unknown"}, ${vLinks.length} record${vLinks.length > 1 ? "s" : ""}`;
     vTabs.replaceChildren(...vLinks.map((l, i) => h("button", {
@@ -419,7 +423,7 @@
     showRecord(index);
     viewer.setAttribute("aria-hidden", "false");
     viewer.classList.add("show");
-    $("vClose").focus({ preventScroll: true });
+    if (!follow) $("vClose").focus({ preventScroll: true });
   }
 
   function showRecord(i) {
@@ -1244,7 +1248,7 @@
   async function showWhole(selId, rel) {
     const entering = !wholeMode;
     wholeMode = true;
-    closeViewer();
+    if (rel || !selId) closeViewer();  // with a selected person, renderSheet switches the open viewer
     hideRelation();
     document.body.classList.add("whole-mode");
     setViewToggle();
