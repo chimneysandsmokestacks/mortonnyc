@@ -11,10 +11,14 @@ Privacy: for anyone who is probably alive, only their name, gender and family
 links are exported - no dates, places, notes or links. Records marked private
 in Gramps are never exported.
 
-Photos: the first image attached to a (deceased) person in Gramps becomes their
-portrait. The image file is looked up at its Gramps path, or by file name in the
-"photos" folder next to the tree folder (e.g. ~/Documents/Gramps/photos). It is
-cropped to a square, resized and written to photos/<ID>.jpg in the site folder.
+Images attached to a (deceased) person in Gramps: the file is looked up at its
+Gramps path, or by file name in the "photos" folder next to the tree folder
+(e.g. ~/Documents/Gramps/photos).
+- An image whose Gramps description starts with "Portrait" becomes the person's
+  picture: cropped square, resized, written to photos/<ID>.jpg.
+- Every other image is a scanned record: copied unchanged to records/<file name>
+  and listed among the person's records (site "Family archive"), using the media
+  description as its label.
 
 The database is opened read-only, so this is safe to run with Gramps open,
 though closing Gramps first makes sure every edit has been saved.
@@ -190,19 +194,35 @@ def export(db_path, out_path):
     photo_dir = os.path.join(os.path.dirname(tree_dir), "photos")
     site_dir = os.path.dirname(os.path.dirname(os.path.abspath(out_path)))
 
-    def portrait(p):
+    def find_file(path):
+        for cand in (path, os.path.join(photo_dir, os.path.basename(path))):
+            if cand and os.path.isfile(cand):
+                return cand
+        return None
+
+    def person_media(p):
+        """-> (portrait path relative to the site or None, list of record links)"""
+        photo, recs = None, []
         for ref in p.get("media_list") or []:
             m = media.get(ref.get("ref"))
             if not m or m.get("private") or ref.get("private") or not (m.get("mime") or "").startswith("image/"):
                 continue
-            path = m.get("path") or ""
-            for cand in (path, os.path.join(photo_dir, os.path.basename(path))):
-                if cand and os.path.isfile(cand):
-                    rel = f"photos/{p['gramps_id']}.jpg"
-                    export_photo(cand, os.path.join(site_dir, rel))
-                    return rel
-            print(f"  photo for {p['gramps_id']} not found: {path}")
-        return None
+            path, desc = m.get("path") or "", (m.get("desc") or "").strip()
+            src = find_file(path)
+            if not src:
+                print(f"  image for {p['gramps_id']} not found: {path}")
+                continue
+            if desc.lower().startswith("portrait"):
+                if not photo:
+                    photo = f"photos/{p['gramps_id']}.jpg"
+                    export_photo(src, os.path.join(site_dir, photo))
+            else:
+                import shutil
+                rel = "records/" + os.path.basename(src)
+                os.makedirs(os.path.join(site_dir, "records"), exist_ok=True)
+                shutil.copyfile(src, os.path.join(site_dir, rel))
+                recs.append({"url": rel, "site": "Family archive", "label": desc or None, "context": "Person"})
+        return photo, recs
 
     def evt(ref):
         e = events.get(ref.get("ref"))
@@ -280,7 +300,7 @@ def export(db_path, out_path):
             continue
 
         rec.update(given=given or "Unknown", living=False)
-        photo = portrait(p)
+        photo, media_links = person_media(p)
         if photo:
             rec["photo"] = photo
         if nick:
@@ -325,7 +345,7 @@ def export(db_path, out_path):
                     rec.setdefault("events", []).append(
                         {k: v for k, v in (("type", label), ("desc", desc), ("date", ds), ("place", pl)) if v})
         seen, uniq = set(), []
-        for lk in links:
+        for lk in links + media_links:
             if lk["url"] not in seen:
                 seen.add(lk["url"]); uniq.append(lk)
         if uniq:

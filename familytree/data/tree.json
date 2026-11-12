@@ -2884,6 +2884,12 @@
      "site": "Czech National Archives",
      "label": "kn 932, p. 156, birth entry, 1869",
      "context": "Person"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/image/view/2383324",
+     "site": "Wienbibliothek",
+     "label": "Wienbibliothek record",
+     "context": "Person"
     }
    ]
   },
@@ -2932,6 +2938,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
      "site": "Czech National Archives",
      "label": "kn 932, p. 156, birth entry, twins, 7 Dec 1869",
+     "context": "Person"
+    },
+    {
+     "url": "records/moritzmondschein.png",
+     "site": "Family archive",
+     "label": "Deportation list: 5. Transport nach Litzmannstadt, No. 21 Mondschein Moritz, born 7.12.1869",
      "context": "Person"
     }
    ],

@@ -71,6 +71,7 @@
     "Facebook": ["f", "#1877f2"],
     "Family documents": ["FD", "#1a73e8"],
     "Geni": ["G", "#6b4fbb"],
+    "Family archive": ["FA", "#8a5a2b"],
   };
   const siteBadge = (site) => {
     const [t, c] = SITE_STYLE[site] || [site.replace(/^www\./, "").charAt(0).toUpperCase(), "#555c73"];
@@ -98,7 +99,7 @@
   function allLinks(p) {
     const seen = new Set(), out = [];
     for (const l of [...(p.links || []), ...familyLinks(p)]) {
-      if (!seen.has(l.url) && /^https?:\/\//i.test(l.url)) { seen.add(l.url); out.push(l); }
+      if (!seen.has(l.url) && (/^https?:\/\//i.test(l.url) || /^records\/[^/]+$/.test(l.url))) { seen.add(l.url); out.push(l); }
     }
     return out;
   }
@@ -455,7 +456,11 @@
       vShared.hidden = true;
       vShared.replaceChildren();
     }
-    if (EMBEDDABLE.has(host(l.url))) {
+    if (!host(l.url) && /\.(png|jpe?g|gif|webp)$/i.test(l.url)) {
+      // a scan kept in this site's records/ folder: show the image itself
+      const img = h("img", { src: l.url, alt: `${recTitle(l)}` });
+      vBody.replaceChildren(h("div", { class: "v-scan" }, h("a", { href: l.url, target: "_blank", rel: "noopener" }, img)));
+    } else if (EMBEDDABLE.has(host(l.url))) {
       const loading = h("div", { class: "v-loading", text: `Loading ${l.site}` });
       const frame = h("iframe", { src: embedUrl(l.url), title: `${l.site}: ${recSub(l)}`, allow: "fullscreen" });
       frame.addEventListener("load", () => loading.remove(), { once: true });
