@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -2078,12 +2078,6 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=872fd544-18b0-4581-8c7c-cbc6004d8402&scan=1a31f1b51382f10846119a5ec8167ebe",
      "site": "Czech National Archives",
      "label": "kn 939, Kyjov death register 1874-1949",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1938, p. 855, Mondschein entries",
      "context": "Person"
     },
     {

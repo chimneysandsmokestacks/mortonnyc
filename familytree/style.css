@@ -598,3 +598,12 @@ body.rel-mode .rel-zoom { display: flex; }
 /* the person whose details are open during a comparison */
 .rel-canvas .node.picked { outline: 3px solid #8a5cf0; outline-offset: 3px; }
 .w-node.picked .w-card { stroke: #8a5cf0; stroke-width: 3; }
+
+/* portraits from Gramps */
+.av.has-photo { position: relative; overflow: hidden; }
+.av.has-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }
+/* record-count pill on whole-tree cards */
+.w-badge rect { fill: var(--surface); stroke: var(--line); stroke-width: 1; }
+.w-badge path { fill: none; stroke: var(--ink-3); stroke-width: 1.3; stroke-linejoin: round; stroke-linecap: round; }
+.w-badge text { font: 600 11px var(--text); fill: var(--ink-2); }
+.w-badge { pointer-events: none; }

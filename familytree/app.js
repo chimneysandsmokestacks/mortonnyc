@@ -43,7 +43,17 @@
     const g = (p.given || "").replace(/[^\p{L}]/gu, " ").trim(), s = (p.surname || "").trim();
     return ((g.charAt(0) || "?") + (s.charAt(0) || "")).toUpperCase();
   }
-  const avatar = (p, extra = "") => h("span", { class: `av ${extra}`.trim(), "aria-hidden": "true", text: initials(p) });
+  const avatar = (p, extra = "") => {
+    const el = h("span", { class: `av ${extra}`.trim(), "aria-hidden": "true", text: initials(p) });
+    if (p.photo && !p.living) {
+      // portrait over the initials; if the image fails to load the initials stay visible
+      const img = h("img", { src: p.photo, alt: "", loading: "lazy", decoding: "async" });
+      img.addEventListener("error", () => img.remove(), { once: true });
+      el.classList.add("has-photo");
+      el.append(img);
+    }
+    return el;
+  };
   const docIcon = () => svg('<path d="M4 1.5h5L12.5 5v9.5h-8.5z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M6.5 8.5h4M6.5 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>');
   function svg(inner, cls = "") {
     const el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -1048,6 +1058,26 @@
       const sub = S("text", { class: "w-sub", x: 46, y: 41 });
       sub.textContent = clip([p.surname, p.living ? "" : lifespan(p)].filter(Boolean).join("  "), 21);
       grp.append(ini, nm, sub);
+      if (p.photo && !p.living) {
+        const cid = `wclip-${p.id}`;
+        const cp = S("clipPath", { id: cid });
+        cp.append(S("circle", { cx: 24, cy: NH / 2, r: 14 }));
+        const im = S("image", { href: p.photo, x: 10, y: NH / 2 - 14, width: 28, height: 28, "clip-path": `url(#${cid})`, preserveAspectRatio: "xMidYMid slice" });
+        im.addEventListener("error", () => im.remove(), { once: true });
+        grp.append(cp, im);
+      }
+      // record count, as on the Person view cards: a small pill on the card's top edge
+      const nrec = p.living ? 0 : allLinks(p).length;
+      if (nrec) {
+        const t = String(nrec), bw = 30 + 7 * t.length, bx = NW - bw - 10;
+        const pill = S("g", { class: "w-badge", transform: `translate(${bx},-9)` });
+        pill.append(S("rect", { width: bw, height: 18, rx: 9 }));
+        const ic = S("path", { d: "M8 4.5h4.2L15 7.3v6.2H8z M9.8 9.5h3.4M9.8 11.5h3.4", transform: "translate(0,0)" });
+        const tx = S("text", { x: 20, y: 13 }); tx.textContent = t;
+        pill.append(ic, tx);
+        grp.append(pill);
+        grp.setAttribute("aria-label", `${fullName(p)}, ${nrec} linked record${nrec > 1 ? "s" : ""}`);
+      }
       gNodes.append(grp);
     }
     wLayer.append(gEdges, gFams, gNodes);

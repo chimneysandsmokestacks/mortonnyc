@@ -11,6 +11,11 @@ Privacy: for anyone who is probably alive, only their name, gender and family
 links are exported - no dates, places, notes or links. Records marked private
 in Gramps are never exported.
 
+Photos: the first image attached to a (deceased) person in Gramps becomes their
+portrait. The image file is looked up at its Gramps path, or by file name in the
+"photos" folder next to the tree folder (e.g. ~/Documents/Gramps/photos). It is
+cropped to a square, resized and written to photos/<ID>.jpg in the site folder.
+
 The database is opened read-only, so this is safe to run with Gramps open,
 though closing Gramps first makes sure every edit has been saved.
 """
@@ -26,6 +31,21 @@ from urllib.parse import urlparse
 
 DEFAULT_TREE = os.path.expanduser("~/Documents/Gramps/624864cb")
 DEFAULT_OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "tree.json")
+PHOTO_SIZE = 320
+
+
+def export_photo(src, dest):
+    """Square-crop and resize a portrait; falls back to a plain copy without Pillow."""
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        import shutil
+        shutil.copyfile(src, dest)
+        return
+    im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
+    im = ImageOps.fit(im, (PHOTO_SIZE, PHOTO_SIZE), centering=(0.5, 0.35))
+    im.save(dest, "JPEG", quality=85)
 
 LIVING_CUTOFF_YEARS = 100   # born within this many years and no death record => living
 GENERATION_GAP = 25         # used to estimate birth years from relatives
@@ -164,7 +184,25 @@ def export(db_path, out_path):
     events = _table(conn, "event")
     places = _table(conn, "place")
     notes = _table(conn, "note")
+    media = _table(conn, "media")
     home_handle = _home_handle(conn)
+    tree_dir = os.path.dirname(os.path.abspath(db_path))
+    photo_dir = os.path.join(os.path.dirname(tree_dir), "photos")
+    site_dir = os.path.dirname(os.path.dirname(os.path.abspath(out_path)))
+
+    def portrait(p):
+        for ref in p.get("media_list") or []:
+            m = media.get(ref.get("ref"))
+            if not m or m.get("private") or ref.get("private") or not (m.get("mime") or "").startswith("image/"):
+                continue
+            path = m.get("path") or ""
+            for cand in (path, os.path.join(photo_dir, os.path.basename(path))):
+                if cand and os.path.isfile(cand):
+                    rel = f"photos/{p['gramps_id']}.jpg"
+                    export_photo(cand, os.path.join(site_dir, rel))
+                    return rel
+            print(f"  photo for {p['gramps_id']} not found: {path}")
+        return None
 
     def evt(ref):
         e = events.get(ref.get("ref"))
@@ -242,6 +280,9 @@ def export(db_path, out_path):
             continue
 
         rec.update(given=given or "Unknown", living=False)
+        photo = portrait(p)
+        if photo:
+            rec["photo"] = photo
         if nick:
             rec["nick"] = nick
         # other names: birth name (née) and married names
