@@ -263,6 +263,12 @@
      "site": "jewishvirtuallibrary.org",
      "label": "Encyclopaedia Judaica (Jewish Virtual Library",
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19011008&query=%22mondschein%22&ref=anno-search&seite=32",
+     "site": "ANNO newspapers",
+     "label": "Engagement notice Rosa Schwarz and Karl Mondschein, Neues Wiener Tagblatt 8 Oct 1901 p. 32",
+     "context": "Person"
     }
    ]
   },
@@ -290,6 +296,12 @@
      "url": "https://www.genteam.at/index.php?option=com_matriken_bgld&id=15591&limitstart=30&view=detail&lang=en",
      "site": "GenTeam",
      "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19011008&query=%22mondschein%22&ref=anno-search&seite=32",
+     "site": "ANNO newspapers",
+     "label": "Engagement notice Rosa Schwarz and Karl Mondschein, Neues Wiener Tagblatt 8 Oct 1901 p. 32",
      "context": "Person"
     }
    ]
@@ -1089,7 +1101,15 @@
    },
    "death": {
     "date": "1953"
-   }
+   },
+   "links": [
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=hu1&datum=19240825&query=%22mondschein%22&ref=anno-search&seite=4",
+     "site": "ANNO newspapers",
+     "label": "Concert review, Frl. Erna Mondschein sings the page aria from Les Huguenots, Der Humorist 25 Aug 1924 p. 4",
+     "context": "Person"
+    }
+   ]
   },
   "I0031": {
    "id": "I0031",
@@ -1221,6 +1241,12 @@
      "site": "ANNO newspapers",
      "label": "Newspaper, ANNO, 11 June 1903, p. 4",
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=clf&datum=19040703&query=%22mondschein%22&ref=anno-search&seite=1",
+     "site": "ANNO newspapers",
+     "label": "Visitors list, Katharina Mondschein with Rosa Mondschein aus Gaya, 3 Jul 1904 p. 1",
+     "context": "Person"
     }
    ]
   },
@@ -1293,6 +1319,30 @@
      "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19340628&query=%22ernst+mondschein%22&ref=anno-search&seite=26",
      "site": "ANNO newspapers",
      "label": "Obituary, 28 Jun 1934, p. 26",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=cur&datum=19130820&query=%22mondschein%22&ref=anno-search&seite=3",
+     "site": "ANNO newspapers",
+     "label": "Bad Ischl visitors list, Ernst Mondschein Prokurist with Max Herschan, 20 Aug 1913 p. 3",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=19170915&query=%22mondschein%22&ref=anno-search&seite=19",
+     "site": "ANNO newspapers",
+     "label": "Firm register, Prokura for Ernst Mondschein, Wiener Zeitung 15 Sep 1917 p. 19",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=19220420&query=%22mondschein%22&ref=anno-search&seite=19",
+     "site": "ANNO newspapers",
+     "label": "Firm register, Ernst Mondschein becomes partner, Gemischtwarenhandel en gros, Wiener Zeitung 20 Apr 1922 p. 19",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=std&datum=19260314&query=%22mondschein%22&ref=anno-search&seite=2",
+     "site": "ANNO newspapers",
+     "label": "Ernst Mondschein partner with Salomon Rosenzweig, Die Stunde 14 Mar 1926 p. 2",
      "context": "Person"
     }
    ]
@@ -1467,6 +1517,18 @@
      "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19380403&seite=35&zoom=26&query=%22mondschein%22&ref=anno-search",
      "site": "ANNO newspapers",
      "label": "Obituary of Leo Mondschein, Neue Freie Presse, 3 April 1938, p. 35",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19110826&query=%22mondschein%22&ref=anno-search&seite=24",
+     "site": "ANNO newspapers",
+     "label": "Firm register, Leo Mondschein and Philipp Speier, Neue Freie Presse 26 Aug 1911 p. 24",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19360303&query=%22mondschein%22&ref=anno-search&seite=26",
+     "site": "ANNO newspapers",
+     "label": "Leo Mondschein named among Vienna industrialists, Neues Wiener Tagblatt 3 Mar 1936 p. 26",
      "context": "Person"
     }
    ]
@@ -2378,6 +2440,12 @@
      "site": "ANNO newspapers",
      "label": "Newspaper, ANNO, 11 June 1903, p. 4",
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=clf&datum=19040703&query=%22mondschein%22&ref=anno-search&seite=1",
+     "site": "ANNO newspapers",
+     "label": "Visitors list, Katharina Mondschein with Rosa Mondschein aus Gaya, 3 Jul 1904 p. 1",
+     "context": "Person"
     }
    ]
   },
@@ -2917,7 +2985,34 @@
      "site": "Wienbibliothek",
      "label": "Wienbibliothek record",
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=19011005&query=%22mondschein%22&ref=anno-search&seite=23",
+     "site": "ANNO newspapers",
+     "label": "Wiener Zeitung 5 Oct 1901 p. 23, firm Siegfried Mondschein and Alexander Hofbauer, Lederhandel",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19100915&query=%22mondschein%22&ref=anno-search&seite=22",
+     "site": "ANNO newspapers",
+     "label": "Death notice naming Siegfried Mondschein as Schwager and Ella Mondschein geb. Fischer, Neues Wiener Tagblatt 15 Sep 1910",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19150530&query=%22mondschein%22&ref=anno-search&seite=11",
+     "site": "ANNO newspapers",
+     "label": "Donation list with Siegfried Mondschein, Neue Freie Presse 30 May 1915 p. 11",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19210929&query=%22mondschein%22&ref=anno-search&seite=11",
+     "site": "ANNO newspapers",
+     "label": "Burglary attempt at firm Siegfried Mondschein, Neue Freie Presse 29 Sep 1921 p. 11",
+     "context": "Person"
     }
+   ],
+   "notes": [
+    "(Death notice naming Siegfried Mondschein as Schwager and Ella Mondschein geb. Fischer, Neues Wiener Tagblatt 15 Sep 1910 p. 22)"
    ]
   },
   "I0093": {
