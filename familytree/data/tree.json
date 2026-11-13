@@ -5539,6 +5539,37 @@
      "context": "Person"
     }
    ]
+  },
+  "I0171": {
+   "id": "I0171",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0049"
+   ],
+   "families": [],
+   "given": "Paul Maria Alexander",
+   "living": false,
+   "birth": {
+    "date": "27 Jun 1886"
+   },
+   "death": {
+    "date": "8 Aug 1915"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "date": "4 Jul 1886"
+    }
+   ],
+   "links": [
+    {
+     "url": "records/paul-luchesi-baptism-1886.jpg",
+     "site": "Family archive",
+     "label": "Baptism register Stadt Neutitschein, Tom. VIII, pag. 226–227 (Paul Maria Alexander Luchesi, 27 Jun 1886)",
+     "context": "Person"
+    }
+   ]
   }
  },
  "families": {
@@ -6026,6 +6057,7 @@
    "father": "I0162",
    "mother": "I0163",
    "children": [
+    "I0171",
     "I0020",
     "I0170"
    ]
