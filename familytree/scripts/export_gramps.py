@@ -189,6 +189,56 @@ def export(db_path, out_path):
     places = _table(conn, "place")
     notes = _table(conn, "note")
     media = _table(conn, "media")
+    citations = _table(conn, "citation")
+    sources = _table(conn, "source")
+
+    def attrs_of(obj, name):
+        return [a.get("value") for a in obj.get("attribute_list") or []
+                if ((a.get("type") or {}).get("string") or "") == name]
+
+    def citation_links(p):
+        """Citations on a person -> record links carrying the source, page, summary and transcript."""
+        uncertain = set()
+        for a in p.get("attribute_list") or []:
+            if ((a.get("type") or {}).get("string") or "") == "Uncertain identification":
+                m = re.search(r"citation (C\d+)", a.get("value") or "")
+                if m:
+                    uncertain.add(m.group(1))
+        out = []
+        for ch in p.get("citation_list") or []:
+            ci = citations.get(ch)
+            if not ci or ci.get("private"):
+                continue
+            urls = attrs_of(ci, "URL")
+            if not urls:
+                continue
+            src = sources.get(ci.get("source_handle")) or {}
+            transcript = summary = None
+            for nh in ci.get("note_list") or []:
+                n = notes.get(nh)
+                if not n or n.get("private"):
+                    continue
+                txt = ((n.get("text") or {}).get("string") or "").strip()
+                kind = (n.get("type") or {}).get("value")
+                if kind == 3:
+                    transcript = txt
+                elif kind == 22:
+                    summary = re.sub(r"^Summary \(English\):\s*", "", txt)
+                    summary = re.sub(r"\s*Research finding F\d+\.?$", "", summary).strip()
+            label = (attrs_of(ci, "Label") or [ci.get("page")])[0]
+            if ci["gramps_id"] in uncertain:
+                label = "Probably this person: " + label
+            host = urlparse(urls[0]).netloc
+            rec = {"url": urls[0], "site": SITE_NAMES.get(host, host.replace("www.", "")), "label": label,
+                   "context": "Person", "cid": ci["gramps_id"], "source": src.get("title"), "page": ci.get("page")}
+            if len(urls) > 1:
+                rec["more"] = urls[1:]
+            if summary:
+                rec["summary"] = summary
+            if transcript:
+                rec["transcript"] = transcript
+            out.append(rec)
+        return out
     home_handle = _home_handle(conn)
     tree_dir = os.path.dirname(os.path.abspath(db_path))
     photo_dir = os.path.join(os.path.dirname(tree_dir), "photos")
@@ -344,10 +394,14 @@ def export(db_path, out_path):
                 if ds or pl or desc:
                     rec.setdefault("events", []).append(
                         {k: v for k, v in (("type", label), ("desc", desc), ("date", ds), ("place", pl)) if v})
+        # citations first: a citation and an old link note to the same scan show once, with the transcript
+        cit_links = citation_links(p)
+        cited_urls = {lk["url"] for lk in cit_links}
         seen, uniq = set(), []
-        for lk in links + media_links:
-            if lk["url"] not in seen:
-                seen.add(lk["url"]); uniq.append(lk)
+        for lk in cit_links + [l for l in links + media_links if l["url"] not in cited_urls]:
+            key = (lk["url"], lk.get("cid"))
+            if key not in seen:
+                seen.add(key); uniq.append(lk)
         if uniq:
             rec["links"] = uniq
         if texts:

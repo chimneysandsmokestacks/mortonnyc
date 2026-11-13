@@ -96,10 +96,12 @@
     }
     return out;
   }
+  // a record is identified by its citation when it has one (two findings can share one scan), else by its URL
+  const linkKey = (l) => l.cid || l.url;
   function allLinks(p) {
     const seen = new Set(), out = [];
     for (const l of [...(p.links || []), ...familyLinks(p)]) {
-      if (!seen.has(l.url) && (/^https?:\/\//i.test(l.url) || /^records\/[^/]+$/.test(l.url))) { seen.add(l.url); out.push(l); }
+      if (!seen.has(linkKey(l)) && (/^https?:\/\//i.test(l.url) || /^records\/[^/]+$/.test(l.url))) { seen.add(linkKey(l)); out.push(l); }
     }
     return out;
   }
@@ -346,7 +348,7 @@
               h("span", { class: "site", text: l.site }),
               h("span", { class: "ctx", text: recSub(l) }),
               (() => {
-                const o = sharedWith(l.url, p.id);
+                const o = sharedWith(linkKey(l), p.id);
                 if (!o.length) return null;
                 const first = fullName(P[o[0]]);
                 return h("span", { class: "shared-line" }, linkIcon(),
@@ -381,14 +383,15 @@
   const extIcon = () => svg('<path d="M9 2h5v5M14 2 7.5 8.5M12 9.5V14H2V4h4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>');
 
   /* ---------- records shared between people ---------- */
-  let SHARED = new Map();   // url -> [person ids]
+  let SHARED = new Map();   // record key (citation id or url) -> [person ids]
   function buildShared() {
     SHARED = new Map();
     for (const p of Object.values(P)) {
       if (p.living) continue;
       for (const l of allLinks(p)) {
-        if (!SHARED.has(l.url)) SHARED.set(l.url, []);
-        SHARED.get(l.url).push(p.id);
+        const k = linkKey(l);
+        if (!SHARED.has(k)) SHARED.set(k, []);
+        SHARED.get(k).push(p.id);
       }
     }
   }
@@ -429,7 +432,7 @@
     vTabs.replaceChildren(...vLinks.map((l, i) => h("button", {
       type: "button", class: "v-tab", role: "tab", "data-i": String(i), title: `${l.site}: ${recSub(l)}`,
     }, siteBadge(l.site), h("span", { text: `${i + 1}. ${recTitle(l)}` }),
-      sharedWith(l.url, p.id).length ? h("span", { class: "tab-shared", "aria-label": "shared record" }, linkIcon()) : null)));
+      sharedWith(linkKey(l), p.id).length ? h("span", { class: "tab-shared", "aria-label": "shared record" }, linkIcon()) : null)));
     vTabs.hidden = vLinks.length < 2;
     showRecord(index);
     viewer.setAttribute("aria-hidden", "false");
@@ -443,7 +446,7 @@
     const tab = vTabs.children[i];
     if (tab) tab.scrollIntoView({ block: "nearest", inline: "nearest" });
     $("vExt").href = l.url;
-    const others = sharedWith(l.url, vPerson);
+    const others = sharedWith(linkKey(l), vPerson);
     if (others.length) {
       vShared.replaceChildren(
         h("p", { class: "vs-title" }, linkIcon(), `Shared record: also linked to ${others.length === 1 ? "1 other person" : others.length + " other people"}`),
@@ -456,6 +459,7 @@
       vShared.hidden = true;
       vShared.replaceChildren();
     }
+    showTranscript(l);
     if (!host(l.url) && /\.(png|jpe?g|gif|webp)$/i.test(l.url)) {
       // a scan kept in this site's records/ folder: show the image itself
       const img = h("img", { src: l.url, alt: `${recTitle(l)}` });
@@ -473,6 +477,25 @@
         h("a", { class: "v-btn", href: l.url, target: "_blank", rel: "noopener noreferrer" }, extIcon(), "Open record"),
       ));
     }
+  }
+
+  const vTrans = $("vTrans");
+  function showTranscript(l) {
+    if (!l.transcript && !l.summary) { vTrans.hidden = true; vTrans.replaceChildren(); return; }
+    const parts = [];
+    const where = [l.source, l.page].filter(Boolean).join(", ");
+    if (where) parts.push(h("p", { class: "vt-src", text: where }));
+    if (l.summary) parts.push(h("h4", { text: "Summary (English)" }), h("p", { class: "vt-sum", text: l.summary }));
+    if (l.transcript) parts.push(h("h4", { text: "Original text (German)" }), h("p", { class: "vt-orig", lang: "de", text: l.transcript }));
+    const body = h("div", { class: "vt-body" }, parts);
+    const toggle = h("button", { type: "button", class: "vt-toggle", "aria-expanded": "true" }, "Transcript");
+    toggle.addEventListener("click", () => {
+      const open = toggle.getAttribute("aria-expanded") !== "true";
+      toggle.setAttribute("aria-expanded", String(open));
+      body.hidden = !open;
+    });
+    vTrans.replaceChildren(toggle, body);
+    vTrans.hidden = false;
   }
 
   function closeViewer() {
