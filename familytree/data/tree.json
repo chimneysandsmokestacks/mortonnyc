@@ -3983,7 +3983,7 @@
    },
    "links": [
     {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=c3e44c0c57e88c69deff6fc00f144168",
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=98a75aad-db81-410e-8587-ffa0c136f8ac&scan=e605448445cf6517e3801dfe9abf1350",
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
@@ -3993,6 +3993,12 @@
      "site": "Geni",
      "label": "Geni profile",
      "context": "Person"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=b903576f-833b-456a-ae82-b1ee4608838c&scan=c3e44c0c57e88c69deff6fc00f144168",
+     "site": "Czech National Archives",
+     "label": null,
+     "context": "Death record"
     }
    ]
   },
