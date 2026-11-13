@@ -5500,6 +5500,45 @@
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
    ]
+  },
+  "I0170": {
+   "id": "I0170",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0049"
+   ],
+   "families": [],
+   "given": "Walter Heinrich Johann",
+   "living": false,
+   "birth": {
+    "date": "12 Jan 1893"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "date": "23 Jan 1893"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-SN1Y?view=index&personArk=%2Fark%3A%2F61903%2F1%3A1%3A6VLL-N1N5&action=view&cc=1804263&lang=en",
+     "site": "FamilySearch",
+     "label": "Baptism of Walter Heinrich Johann Luchesi, Neutitschein 1893",
+     "context": "Person",
+     "cid": "C0105",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 535",
+     "summary": "Baptism of Walter Heinrich Johann Luchesi, born 12 January 1893, baptised 23 January 1893 at Neutitschein (Nový Jičín), house no. 21, by parish priest Johann Parsch. Parents Heinrich Luchesi, confectioner, and Augusta née Holleschek (same grandparents as on Gottfrieda's record; Johann Holleschek here called house owner). Godparents: grandfather Johann Holleschek and Marie, wife of Josef Benda, imperial-royal postmaster in Mährisch Weißkirchen. Margin note: married 14 Jan 1920 to Auguste [surname uncertain].",
+     "transcript": "Stadt Neutitschein 1893, Tom. VIII, pag. 535\n\nGeburt: 1893 Jänner 12. — Taufe: 23. — Haus-Nr. 21\nPriester / Hebamme: Johann Parsch, Pfarrer / Marie [Rekor?] in Neutitschein No 751\nTäufling: Walter Heinrich Johann — katholisch, männlich, ehelich\n[Randvermerk:] cop. 14.1.1920 mit Auguste [Jambor?]\n\nVater: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Gmd.-Secretärs in M. Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, […] in Mähr. Weißkirchen\n\nMutter: Augusta, Tochter des Johann Holleschek, Hausbesitzers in Neutitschein und dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein\n\nPathen: Johann Holleschek, Hausbesitzer in Neutitschein; Marie, Gattin des Josef Benda, k.k. Postverwalters in M. Weißkirchen"
+    },
+    {
+     "url": "records/walter-luchesi-baptism-1893.jpg",
+     "site": "Family archive",
+     "label": "Baptism register Stadt Neutitschein 1893, Tom. VIII, pag. 534–535 (Walter Heinrich Johann Luchesi, 12 Jan 1893)",
+     "context": "Person"
+    }
+   ]
   }
  },
  "families": {
@@ -5987,7 +6026,8 @@
    "father": "I0162",
    "mother": "I0163",
    "children": [
-    "I0020"
+    "I0020",
+    "I0170"
    ]
   },
   "F0050": {
