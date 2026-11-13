@@ -1215,6 +1215,12 @@
      "site": "Czech National Archives",
      "label": null,
      "context": "Person"
+    },
+    {
+     "url": "http://anno.onb.ac.at/cgi-content/anno?aid=clf&datum=19030611&seite=4&zoom=33&query=%22mondschein%22&ref=anno-search",
+     "site": "ANNO newspapers",
+     "label": "Newspaper, ANNO, 11 June 1903, p. 4",
+     "context": "Person"
     }
    ]
   },
@@ -2365,6 +2371,12 @@
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c11489dd10df294e34ec00963643ff4e",
      "site": "Czech National Archives",
      "label": null,
+     "context": "Person"
+    },
+    {
+     "url": "http://anno.onb.ac.at/cgi-content/anno?aid=clf&datum=19030611&seite=4&zoom=33&query=%22mondschein%22&ref=anno-search",
+     "site": "ANNO newspapers",
+     "label": "Newspaper, ANNO, 11 June 1903, p. 4",
      "context": "Person"
     }
    ]
