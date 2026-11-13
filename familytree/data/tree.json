@@ -1453,6 +1453,12 @@
      "site": "jewishvirtuallibrary.org",
      "label": "Encyclopaedia Judaica (Jewish Virtual Library",
      "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19380403&seite=35&zoom=26&query=%22mondschein%22&ref=anno-search",
+     "site": "ANNO newspapers",
+     "label": "Neue Freie Presse, 3 April 1938, p. 35",
+     "context": "Person"
     }
    ]
   },
@@ -2018,6 +2024,12 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1931",
+     "context": "Person"
+    },
+    {
+     "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19380403&seite=35&zoom=26&query=%22mondschein%22&ref=anno-search",
+     "site": "ANNO newspapers",
+     "label": "Neue Freie Presse, 3 April 1938, p. 35",
      "context": "Person"
     }
    ]
