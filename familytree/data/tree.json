@@ -2907,11 +2907,27 @@
     "date": "7 Dec 1869",
     "place": "Gaya (Kyjov)"
    },
+   "death": {
+    "date": "5 Jul 1942",
+    "place": "Wien"
+   },
    "links": [
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=c4a967d381cd3317dba738d28865fde3",
      "site": "Czech National Archives",
      "label": "kn 932, p. 156, birth entry, twins, 7 Dec 1869",
+     "context": "Person"
+    },
+    {
+     "url": "records/emil-mondschein-jewishgen-dow-63129.png",
+     "site": "Family archive",
+     "label": "JewishGen DOW Jewish Deportations from Austria, serial 36571, DÖW ID 63129: Mondschein, Moriz Emil, died 7/5/1942 Wien",
+     "context": "Person"
+    },
+    {
+     "url": "records/emil-mondschein-doew-shoah-database.png",
+     "site": "Family archive",
+     "label": "DÖW Database of Austrian Victims of the Shoah: Mondschein Moriz Emil, died 05.07.1942 Wien",
      "context": "Person"
     }
    ],
