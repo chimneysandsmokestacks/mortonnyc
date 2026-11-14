@@ -5464,6 +5464,17 @@
      "page": "1853, fol. 88 (image 90)",
      "summary": "Baptism of Heinrich Ludwig Luchesi, born mid-August 1853 in Keltsch (Kelč), house no. 6. Father Josef Luchesi, burgher of Keltsch, son of Josef Luchesi (place and mother's name only partly legible). Mother Maria, daughter of Georg Alexander, burgher of Weißkirchen (Hranice). Godfather: grandfather Georg Alexander.",
      "transcript": "Stadt Keltsch Geburts- und Taufbuch 1853, Fol. 88 (image 90)\n\n1853 August [17/18] — getauft: Josef [Wurbitzky?], Coop. — Hebamme: Johanna [?] in Keltsch No 2 — Haus-Nr. 6\nTäufling: Heinrich Ludwig — kath., männlich, ehelich\n\nVater: Josef Luchesi, Bürger in Keltsch, Sohn des Josef Luchesi, [Bürgers in L…?] und [seiner Ehegattin Ba…?] geborene [Ch…?] in [L…?]\n\nMutter: Maria, Tochter des Georg Alexander, Bürgers in Weißkirchen und seiner Ehegattin [The…?] geborene [G…?] in Weißkirchen\n\nPathen: Georg Alexander, [Bürger in Weißkirchen]; [?] … Weißkirchen"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-89XN-R7XR",
+     "site": "FamilySearch",
+     "label": "Death of Maria Luchesi (née Tambour), Weißkirchen 1847",
+     "context": "Person",
+     "cid": "C0112",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
+     "page": "Sterberegister L VI 20, pag. 114",
+     "summary": "Maria, wife of Joseph Luchesi, shooting-range owner of Weißkirchen (Hranice), died 14 May 1847 and was buried 16 May, aged 30, of consumption/wasting (Abzehrung), house no. 444. This is Maria née Tambour, mother of Anna Maria (b. 1846). Josef Luchesi therefore remarried Maria Alexander between 1847 and 1853.",
+     "transcript": "Sterberegister Hranice (L VI 20, 1833–1866), Pag. 114\n\n14/16 Mai 1847 — Haus-Nr. 444\nMaria, Eheweib des Joseph Luchesi, Schießstattbesitzers aus Weißkirchen — kath., weiblich, 30 Jahre\nKrankheit: Abzehrung — versehen: Franz [Lager?], Kaplan — begraben: Wenzel [Ernest?], Pfarrer\n\nIndex (L VI 36): 1847 Luchesi Maria — Weißkirchen — 114"
     }
    ]
   },
@@ -5848,6 +5859,12 @@
    ],
    "given": "Maria",
    "living": false,
+   "birth": {
+    "date": "about 1817"
+   },
+   "death": {
+    "date": "14 May 1847"
+   },
    "links": [
     {
      "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9XN-R7LX?view=explore",
@@ -5859,10 +5876,21 @@
      "page": "Geburtsbuch 1843–1853 (L VI 9), pag. 140",
      "summary": "Anna Maria Luchesi, legitimate daughter, born and baptised 20 May 1846 in Mährisch Weißkirchen (Hranice), house no. 404, by chaplain Fr. Bayer. Father Joseph Luchesi, owner of the shooting range (Schießstattbesitzer) in Weißkirchen. Mother Maria, daughter of Franz Tambour, burgher of the town, and Katharina. Godparents were the maternal grandparents, who signed with crosses (+++). Note: later records (1886–1893) name Heinrich Luchesi's mother as Marie née Alexander, so this Maria Tambour is either an earlier wife of Josef or this Joseph is a different (older) Luchesi.",
      "transcript": "Geburtsbuch Hranice 1843–1853 (L VI 9), Pag. 140\n\nZeit der Geburt und Taufe: 20/20 Mai 1846 — Hat getauft: Fr. Bayer, Caplan\nHaus Nro.: 404\nTäufling: Anna Maria — Mädchen, ehelich\nHebam. Josepha [Steinfan?] […]\n\nVater: Joseph Luchesi, Schießstattbesitzer z. Weißkirch — katholisch\n\nMutter: Maria, Tochter des Franz Tambour, Bürgers v. h[ier] u. der Katharina geb. [Weiter?] v. [Pletnitz?] — katholisch\n\nPathen: +++ Franz Tambour, Bürger [v. hier]; +++ Katharina, dessen Gattin — Fr. Bayer als Namensschreiber"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-89XN-R7XR",
+     "site": "FamilySearch",
+     "label": "Death of Maria Luchesi (née Tambour), Weißkirchen 1847",
+     "context": "Person",
+     "cid": "C0112",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
+     "page": "Sterberegister L VI 20, pag. 114",
+     "summary": "Maria, wife of Joseph Luchesi, shooting-range owner of Weißkirchen (Hranice), died 14 May 1847 and was buried 16 May, aged 30, of consumption/wasting (Abzehrung), house no. 444. This is Maria née Tambour, mother of Anna Maria (b. 1846). Josef Luchesi therefore remarried Maria Alexander between 1847 and 1853.",
+     "transcript": "Sterberegister Hranice (L VI 20, 1833–1866), Pag. 114\n\n14/16 Mai 1847 — Haus-Nr. 444\nMaria, Eheweib des Joseph Luchesi, Schießstattbesitzers aus Weißkirchen — kath., weiblich, 30 Jahre\nKrankheit: Abzehrung — versehen: Franz [Lager?], Kaplan — begraben: Wenzel [Ernest?], Pfarrer\n\nIndex (L VI 36): 1847 Luchesi Maria — Weißkirchen — 114"
     }
    ],
    "notes": [
-    "Probably Josef Luchesi's first wife: she is Anna Maria's mother in 1846, while Heinrich (born about 1853) was the son of Marie née Alexander per the 1885 marriage record."
+    "Josef Luchesi's first wife; died May 1847. Heinrich (born 1853) was the son of his second wife, Marie née Alexander."
    ]
   },
   "I0175": {
