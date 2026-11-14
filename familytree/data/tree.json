@@ -5615,6 +5615,42 @@
      "context": "Person"
     }
    ]
+  },
+  "I0173": {
+   "id": "I0173",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0050"
+   ],
+   "families": [],
+   "given": "Anna Maria",
+   "living": false,
+   "birth": {
+    "date": "20 May 1846"
+   },
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99XN-RQ1Y?view=explore",
+     "site": "FamilySearch",
+     "label": "Birth index, Hranice 1846: Anna Maria, child of Joseph Luchesi",
+     "context": "Person",
+     "cid": "C0108",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice — index (FamilySearch images)",
+     "page": "Index 1846, entry no. 404",
+     "summary": "Index entry under 1846: Anna Maria, child of Joseph Luchesi, born 20 May 1846; entry/page 404 in the birth register. Columns: parent, child, birth date, register number. The index names only the father; mother not confirmed (placed under Josef and Marie Alexander provisionally).",
+     "transcript": "1846\nLuchesi Joseph | Anna Maria | 20 Mai | 404"
+    },
+    {
+     "url": "records/anna-maria-luchesi-index-1846.png",
+     "site": "Family archive",
+     "label": "Hranice birth index 1846: Luchesi Joseph — Anna Maria, 20 Mai, no. 404",
+     "context": "Person"
+    }
+   ],
+   "notes": [
+    "Mother not confirmed: the 1846 index names only the father, Joseph Luchesi. Placed under Josef Luchesi and Marie Alexander provisionally."
+   ]
   }
  },
  "families": {
@@ -6113,6 +6149,7 @@
    "father": "I0164",
    "mother": "I0165",
    "children": [
+    "I0173",
     "I0162"
    ]
   },
