@@ -5352,11 +5352,17 @@
    "surname": "Luchesi",
    "parents": [],
    "families": [
+    "F0054",
     "F0050"
    ],
    "given": "Josef",
    "living": false,
    "events": [
+    {
+     "type": "Occupation",
+     "desc": "Schießstattbesitzer (shooting-range owner) in Mährisch Weißkirchen",
+     "date": "20 May 1846"
+    },
     {
      "type": "Occupation",
      "desc": "Gemeindesekretär (municipal secretary) in Mährisch Weißkirchen",
@@ -5374,6 +5380,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9XN-R7LX?view=explore",
+     "site": "FamilySearch",
+     "label": "Baptism of Anna Maria Luchesi, Mährisch Weißkirchen 1846",
+     "context": "Person",
+     "cid": "C0109",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
+     "page": "Geburtsbuch 1843–1853 (L VI 9), pag. 140",
+     "summary": "Anna Maria Luchesi, legitimate daughter, born and baptised 20 May 1846 in Mährisch Weißkirchen (Hranice), house no. 404, by chaplain Fr. Bayer. Father Joseph Luchesi, owner of the shooting range (Schießstattbesitzer) in Weißkirchen. Mother Maria, daughter of Franz Tambour, burgher of the town, and Katharina. Godparents were the maternal grandparents, who signed with crosses (+++). Note: later records (1886–1893) name Heinrich Luchesi's mother as Marie née Alexander, so this Maria Tambour is either an earlier wife of Josef or this Joseph is a different (older) Luchesi.",
+     "transcript": "Geburtsbuch Hranice 1843–1853 (L VI 9), Pag. 140\n\nZeit der Geburt und Taufe: 20/20 Mai 1846 — Hat getauft: Fr. Bayer, Caplan\nHaus Nro.: 404\nTäufling: Anna Maria — Mädchen, ehelich\nHebam. Josepha [Steinfan?] […]\n\nVater: Joseph Luchesi, Schießstattbesitzer z. Weißkirch — katholisch\n\nMutter: Maria, Tochter des Franz Tambour, Bürgers v. h[ier] u. der Katharina geb. [Weiter?] v. [Pletnitz?] — katholisch\n\nPathen: +++ Franz Tambour, Bürger [v. hier]; +++ Katharina, dessen Gattin — Fr. Bayer als Namensschreiber"
     }
    ]
   },
@@ -5621,7 +5638,7 @@
    "gender": "f",
    "surname": "Luchesi",
    "parents": [
-    "F0050"
+    "F0054"
    ],
    "families": [],
    "given": "Anna Maria",
@@ -5629,6 +5646,12 @@
    "birth": {
     "date": "20 May 1846"
    },
+   "events": [
+    {
+     "type": "Baptism",
+     "date": "20 May 1846"
+    }
+   ],
    "links": [
     {
      "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99XN-RQ1Y?view=explore",
@@ -5636,10 +5659,21 @@
      "label": "Birth index, Hranice 1846: Anna Maria, child of Joseph Luchesi",
      "context": "Person",
      "cid": "C0108",
-     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice — index (FamilySearch images)",
-     "page": "Index 1846, entry no. 404",
-     "summary": "Index entry under 1846: Anna Maria, child of Joseph Luchesi, born 20 May 1846; entry/page 404 in the birth register. Columns: parent, child, birth date, register number. The index names only the father; mother not confirmed (placed under Josef and Marie Alexander provisionally).",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
+     "page": "Index 1846, house no. 404",
+     "summary": "Index entry under 1846: Anna Maria, child of Joseph Luchesi, born 20 May 1846; house no. 404 (see the birth register, L VI 9, pag. 140). Columns: parent, child, birth date, house number.",
      "transcript": "1846\nLuchesi Joseph | Anna Maria | 20 Mai | 404"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9XN-R7LX?view=explore",
+     "site": "FamilySearch",
+     "label": "Baptism of Anna Maria Luchesi, Mährisch Weißkirchen 1846",
+     "context": "Person",
+     "cid": "C0109",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
+     "page": "Geburtsbuch 1843–1853 (L VI 9), pag. 140",
+     "summary": "Anna Maria Luchesi, legitimate daughter, born and baptised 20 May 1846 in Mährisch Weißkirchen (Hranice), house no. 404, by chaplain Fr. Bayer. Father Joseph Luchesi, owner of the shooting range (Schießstattbesitzer) in Weißkirchen. Mother Maria, daughter of Franz Tambour, burgher of the town, and Katharina. Godparents were the maternal grandparents, who signed with crosses (+++). Note: later records (1886–1893) name Heinrich Luchesi's mother as Marie née Alexander, so this Maria Tambour is either an earlier wife of Josef or this Joseph is a different (older) Luchesi.",
+     "transcript": "Geburtsbuch Hranice 1843–1853 (L VI 9), Pag. 140\n\nZeit der Geburt und Taufe: 20/20 Mai 1846 — Hat getauft: Fr. Bayer, Caplan\nHaus Nro.: 404\nTäufling: Anna Maria — Mädchen, ehelich\nHebam. Josepha [Steinfan?] […]\n\nVater: Joseph Luchesi, Schießstattbesitzer z. Weißkirch — katholisch\n\nMutter: Maria, Tochter des Franz Tambour, Bürgers v. h[ier] u. der Katharina geb. [Weiter?] v. [Pletnitz?] — katholisch\n\nPathen: +++ Franz Tambour, Bürger [v. hier]; +++ Katharina, dessen Gattin — Fr. Bayer als Namensschreiber"
     },
     {
      "url": "records/anna-maria-luchesi-index-1846.png",
@@ -5647,9 +5681,30 @@
      "label": "Hranice birth index 1846: Luchesi Joseph — Anna Maria, 20 Mai, no. 404",
      "context": "Person"
     }
+   ]
+  },
+  "I0174": {
+   "id": "I0174",
+   "gender": "f",
+   "surname": "Tambour",
+   "parents": [],
+   "families": [
+    "F0054"
    ],
-   "notes": [
-    "Mother not confirmed: the 1846 index names only the father, Joseph Luchesi. Placed under Josef Luchesi and Marie Alexander provisionally."
+   "given": "Maria",
+   "living": false,
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9XN-R7LX?view=explore",
+     "site": "FamilySearch",
+     "label": "Baptism of Anna Maria Luchesi, Mährisch Weißkirchen 1846",
+     "context": "Person",
+     "cid": "C0109",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
+     "page": "Geburtsbuch 1843–1853 (L VI 9), pag. 140",
+     "summary": "Anna Maria Luchesi, legitimate daughter, born and baptised 20 May 1846 in Mährisch Weißkirchen (Hranice), house no. 404, by chaplain Fr. Bayer. Father Joseph Luchesi, owner of the shooting range (Schießstattbesitzer) in Weißkirchen. Mother Maria, daughter of Franz Tambour, burgher of the town, and Katharina. Godparents were the maternal grandparents, who signed with crosses (+++). Note: later records (1886–1893) name Heinrich Luchesi's mother as Marie née Alexander, so this Maria Tambour is either an earlier wife of Josef or this Joseph is a different (older) Luchesi.",
+     "transcript": "Geburtsbuch Hranice 1843–1853 (L VI 9), Pag. 140\n\nZeit der Geburt und Taufe: 20/20 Mai 1846 — Hat getauft: Fr. Bayer, Caplan\nHaus Nro.: 404\nTäufling: Anna Maria — Mädchen, ehelich\nHebam. Josepha [Steinfan?] […]\n\nVater: Joseph Luchesi, Schießstattbesitzer z. Weißkirch — katholisch\n\nMutter: Maria, Tochter des Franz Tambour, Bürgers v. h[ier] u. der Katharina geb. [Weiter?] v. [Pletnitz?] — katholisch\n\nPathen: +++ Franz Tambour, Bürger [v. hier]; +++ Katharina, dessen Gattin — Fr. Bayer als Namensschreiber"
+    }
    ]
   }
  },
@@ -6149,7 +6204,6 @@
    "father": "I0164",
    "mother": "I0165",
    "children": [
-    "I0173",
     "I0162"
    ]
   },
@@ -6175,6 +6229,14 @@
    "mother": null,
    "children": [
     "I0167"
+   ]
+  },
+  "F0054": {
+   "id": "F0054",
+   "father": "I0164",
+   "mother": "I0174",
+   "children": [
+    "I0173"
    ]
   }
  }
