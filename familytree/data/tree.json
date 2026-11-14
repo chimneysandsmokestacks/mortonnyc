@@ -6095,6 +6095,38 @@
    "notes": [
     "Probably the 'Marie Luchesi' who was godmother to Heinrich's children in Neutitschein (1886–1893) and by January 1893 was the wife of Josef Benda, k.k. Postverwalter in Mährisch Weißkirchen."
    ]
+  },
+  "I0178": {
+   "id": "I0178",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0049"
+   ],
+   "families": [],
+   "given": "Maria Anna Augusta",
+   "living": false,
+   "birth": {
+    "date": "4 Oct 1887"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "date": "13 Oct 1887"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FGBY",
+     "site": "FamilySearch",
+     "label": "FamilySearch index: baptism of Maria Anna Augusta Luchesi, 1887",
+     "context": "Person",
+     "cid": "C0116",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Index entry",
+     "summary": "FamilySearch index entry: Maria Anna Augusta, daughter of Heinrich Luchesi and Auguste, born 4 October 1887, baptised 13 October 1887 (place not indexed; presumably Neutitschein). Image not yet transcribed."
+    }
+   ]
   }
  },
  "families": {
@@ -6583,6 +6615,7 @@
    "mother": "I0163",
    "children": [
     "I0171",
+    "I0178",
     "I0172",
     "I0020",
     "I0170"
