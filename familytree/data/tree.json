@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-13",
+ "generated": "2026-11-14",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -5570,6 +5570,37 @@
      "context": "Person"
     }
    ]
+  },
+  "I0172": {
+   "id": "I0172",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0049"
+   ],
+   "families": [],
+   "given": "Elisabeth Helene Rosa",
+   "living": false,
+   "birth": {
+    "date": "28 Jan 1889"
+   },
+   "death": {
+    "date": "24 Jun 1890"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "date": "11 Feb 1889"
+    }
+   ],
+   "links": [
+    {
+     "url": "records/elisabeth-luchesi-baptism-1889.jpg",
+     "site": "Family archive",
+     "label": "Baptism register Stadt Neutitschein, Tom. VIII, pag. 340–341 (Elisabeth Helene Rosa Luchesi, 28 Jan 1889)",
+     "context": "Person"
+    }
+   ]
   }
  },
  "families": {
@@ -6058,6 +6089,7 @@
    "mother": "I0163",
    "children": [
     "I0171",
+    "I0172",
     "I0020",
     "I0170"
    ]
