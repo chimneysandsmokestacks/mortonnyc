@@ -5299,6 +5299,9 @@
    ],
    "given": "Heinrich",
    "living": false,
+   "birth": {
+    "date": "about 1853"
+   },
    "events": [
     {
      "type": "Occupation",
@@ -5317,6 +5320,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5332,6 +5346,9 @@
    ],
    "given": "Augusta",
    "living": false,
+   "birth": {
+    "date": "about 1863"
+   },
    "links": [
     {
      "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
@@ -5343,6 +5360,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5367,6 +5395,11 @@
      "type": "Occupation",
      "desc": "Gemeindesekretär (municipal secretary) in Mährisch Weißkirchen",
      "date": "23 Jun 1891"
+    },
+    {
+     "type": "Occupation",
+     "desc": "Bürger (burgher) in Weißkirchen",
+     "date": "18 Aug 1885"
     }
    ],
    "links": [
@@ -5391,6 +5424,17 @@
      "page": "Geburtsbuch 1843–1853 (L VI 9), pag. 140",
      "summary": "Anna Maria Luchesi, legitimate daughter, born and baptised 20 May 1846 in Mährisch Weißkirchen (Hranice), house no. 404, by chaplain Fr. Bayer. Father Joseph Luchesi, owner of the shooting range (Schießstattbesitzer) in Weißkirchen. Mother Maria, daughter of Franz Tambour, burgher of the town, and Katharina. Godparents were the maternal grandparents, who signed with crosses (+++). Note: later records (1886–1893) name Heinrich Luchesi's mother as Marie née Alexander, so this Maria Tambour is either an earlier wife of Josef or this Joseph is a different (older) Luchesi.",
      "transcript": "Geburtsbuch Hranice 1843–1853 (L VI 9), Pag. 140\n\nZeit der Geburt und Taufe: 20/20 Mai 1846 — Hat getauft: Fr. Bayer, Caplan\nHaus Nro.: 404\nTäufling: Anna Maria — Mädchen, ehelich\nHebam. Josepha [Steinfan?] […]\n\nVater: Joseph Luchesi, Schießstattbesitzer z. Weißkirch — katholisch\n\nMutter: Maria, Tochter des Franz Tambour, Bürgers v. h[ier] u. der Katharina geb. [Weiter?] v. [Pletnitz?] — katholisch\n\nPathen: +++ Franz Tambour, Bürger [v. hier]; +++ Katharina, dessen Gattin — Fr. Bayer als Namensschreiber"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5417,6 +5461,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5435,6 +5490,11 @@
      "type": "Occupation",
      "desc": "Fleischhauer (butcher) in Neutitschein",
      "date": "23 Jun 1891"
+    },
+    {
+     "type": "Occupation",
+     "desc": "Fleischhauermeister (master butcher) in Neutitschein",
+     "date": "18 Aug 1885"
     }
    ],
    "links": [
@@ -5448,6 +5508,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5474,6 +5545,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5498,6 +5580,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5529,6 +5622,17 @@
      "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9MW-S8GN",
+     "site": "FamilySearch",
+     "label": "Marriage of Heinrich Luchesi and Augusta Holleschek, Neutitschein 1885",
+     "context": "Person",
+     "cid": "C0110",
+     "source": "Trauungsbuch Stadt Neutitschein (Nový Jičín), Tom. V, 1873–1889",
+     "page": "Tom. V, image 115 (18 Aug 1885)",
+     "summary": "Marriage of Heinrich Luchesi, confectioner in Neutitschein, 32, single, and Augusta Holleschek, 22, single, on 18 August 1885 in Neutitschein (Nový Jičín). Groom's parents: Josef Luchesi, burgher of Weißkirchen (Hranice), and Marie née Alexander. Bride's parents: Johann Holleschek, master butcher, and Rosalia née Neußer. The groom's baptism certificate came from the parish of Keltsch (Kelč), so Heinrich was born there about 1853. Bride was a minor; her father gave consent in person. A second Luchesi (first name read as Samuel, of Vienna) was a witness.",
+     "transcript": "Trauungsbuch Stadt Neutitschein, Tom. V (1873–1889), image 115\n\n1885 August 18 — Haus-Nr. 214 — getraut: Joseph Prorok, Kaplan\n\nBräutigam: Heinrich Luchesi, Zuckerbäcker in Neutitschein, Sohn des Josef Luchesi, Bürgers in Weißkirchen u. dessen Gattin Marie geb. Georg Alexander, Bürger in Weißkirchen — kath., 32 Jahre, ledig\n\nBraut: Augusta Holleschek, Tochter des Johann Holleschek, Fleischhauermeister in Neutitschein u. dessen Gattin Rosalia geb. Johann Neußer, Tuchmachermeister in Neutitschein No 21 — kath., 22 Jahre, ledig\n\nBeistände: [Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf, Hauptstr. 36?]; Rudolf [Kolig?], Tischlermeister in Neutitschein\n\nTrauungsakten: Taufschein des Bräutigams vom Pfarramte Keltsch ddo 6. August 1885 Z. 122.\nIch Johann Holleschek, Vater der minderjährigen Braut, erkläre hiermit meine väterliche Einwilligung … in Gegenwart der beiden Zeugen eigenhändige Unterschrift.\nCoram me: Johann Holleschek, Vater; Karl Rotz [?], Zeuge; Karl Friedrich, Zeuge\n\nVerkündet: I. Dom. XI p. Pent., II. Fest. Assumpt. Mariae Virg., III. Dom. XII p. Pent., i.e. 9., 15., 16. August 1885"
     }
    ]
   },
@@ -5705,6 +5809,9 @@
      "summary": "Anna Maria Luchesi, legitimate daughter, born and baptised 20 May 1846 in Mährisch Weißkirchen (Hranice), house no. 404, by chaplain Fr. Bayer. Father Joseph Luchesi, owner of the shooting range (Schießstattbesitzer) in Weißkirchen. Mother Maria, daughter of Franz Tambour, burgher of the town, and Katharina. Godparents were the maternal grandparents, who signed with crosses (+++). Note: later records (1886–1893) name Heinrich Luchesi's mother as Marie née Alexander, so this Maria Tambour is either an earlier wife of Josef or this Joseph is a different (older) Luchesi.",
      "transcript": "Geburtsbuch Hranice 1843–1853 (L VI 9), Pag. 140\n\nZeit der Geburt und Taufe: 20/20 Mai 1846 — Hat getauft: Fr. Bayer, Caplan\nHaus Nro.: 404\nTäufling: Anna Maria — Mädchen, ehelich\nHebam. Josepha [Steinfan?] […]\n\nVater: Joseph Luchesi, Schießstattbesitzer z. Weißkirch — katholisch\n\nMutter: Maria, Tochter des Franz Tambour, Bürgers v. h[ier] u. der Katharina geb. [Weiter?] v. [Pletnitz?] — katholisch\n\nPathen: +++ Franz Tambour, Bürger [v. hier]; +++ Katharina, dessen Gattin — Fr. Bayer als Namensschreiber"
     }
+   ],
+   "notes": [
+    "Probably Josef Luchesi's first wife: she is Anna Maria's mother in 1846, while Heinrich (born about 1853) was the son of Marie née Alexander per the 1885 marriage record."
    ]
   }
  },
@@ -6197,7 +6304,10 @@
     "I0172",
     "I0020",
     "I0170"
-   ]
+   ],
+   "marriage": {
+    "date": "18 Aug 1885"
+   }
   },
   "F0050": {
    "id": "F0050",
