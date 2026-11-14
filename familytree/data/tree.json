@@ -176,7 +176,18 @@
    "death": {
     "date": "7 Sep 2018",
     "place": "Wien"
-   }
+   },
+   "links": [
+    {
+     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
+     "site": "Family documents",
+     "label": "Birth certificate of Eva Maria Morton",
+     "context": "Person",
+     "cid": "C0103",
+     "source": "Birth certificate of Eva Maria Morton (scan)",
+     "page": ""
+    }
+   ]
   },
   "I0005": {
    "id": "I0005",
@@ -673,24 +684,15 @@
    ],
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
-     "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
-     "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
-     "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
-    },
-    {
      "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
      "site": "FamilySearch",
-     "label": "FamilySearch index: Gottfrieda Luchesi, 1891",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
      "cid": "C0104",
      "source": "FamilySearch historical records index (collection 1804263)",
-     "page": "Stadt Neutitschein, Tom. VIII, pag. 454"
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
+     "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
+     "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     },
     {
      "url": "records/gottfrieda-luchesi-baptism-1891.jpg",
@@ -5306,13 +5308,13 @@
    ],
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
@@ -5332,13 +5334,13 @@
    "living": false,
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
@@ -5363,13 +5365,13 @@
    ],
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
@@ -5389,13 +5391,13 @@
    "living": false,
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
@@ -5420,13 +5422,13 @@
    ],
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
@@ -5446,13 +5448,13 @@
    "living": false,
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
@@ -5470,13 +5472,13 @@
    "living": false,
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
@@ -5501,13 +5503,13 @@
    ],
    "links": [
     {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth record of Gottfrieda Luchesi, 1891 (parents and grandparents)",
+     "url": "https://www.familysearch.org/ark:/61903/1:1:6VLL-FHBT",
+     "site": "FamilySearch",
+     "label": "Baptism of Gottfrieda Emma Rosa Luchesi, Neutitschein 1891 (parents and grandparents)",
      "context": "Person",
-     "cid": "C0103",
-     "source": "Birth record of Gottfrieda Emma Rosa Luchesi, 1891 (scan)",
-     "page": "Birth/baptism entry, 23 June 1891",
+     "cid": "C0104",
+     "source": "FamilySearch historical records index (collection 1804263)",
+     "page": "Stadt Neutitschein, Tom. VIII, pag. 454",
      "summary": "Birth/baptism entry for Gottfrieda Emma Rosa Luchesi, born 23 June 1891. Father Heinrich Luchesi, confectioner (Zuckerbäcker) in Neutitschein (Nový Jičín), son of Josef Luchesi, municipal secretary (Gemeindesekretär) in Mährisch Weißkirchen (Hranice), and Marie née Alexander, daughter of Georg Alexander (occupation unclear), of Mährisch Weißkirchen. Mother Augusta, daughter of Johann Holleschek, butcher (Fleischhauer) in Neutitschein, and Rosalia née Neußer, daughter of Johann Neußer, master clothmaker (Tuchmachermeister) in Neutitschein.",
      "transcript": "Vater:\nHeinrich Luchesi,\nZuckerbäcker in Neu-\ntitschein, Sohn des\nJosef Luchesi, Gmd.-\nsecretär in Mähr.\nWeißkirchen und\ndessen Gattin Ma-\nrie geb. Georg\nAlexander, [Pen?]-\n[sionär?] in Mähr.\nWeißkirchen.\n\nMutter:\nAugusta\nTochter des Johann\nHolleschek, Fleisch-\nhauer in Neutit-\nschein und dessen\nGattin Rosalia\ngeb. Johann\nNeußer, Tuch-\nmachermeister\nin Neutitschein"
     }
