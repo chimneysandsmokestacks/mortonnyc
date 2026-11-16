@@ -6119,120 +6119,6 @@
     }
    ]
   },
-  "I0179": {
-   "id": "I0179",
-   "gender": "m",
-   "surname": "Luchesi",
-   "parents": [],
-   "families": [
-    "F0056"
-   ],
-   "given": "Franz",
-   "living": false,
-   "events": [
-    {
-     "type": "Occupation",
-     "desc": "Rauchfangkehrer (chimney sweep) in [Tolltsch?] (named as father in 1812)",
-     "date": "13 May 1812"
-    }
-   ],
-   "links": [
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3896?image=216000010-000253-003369-000000-001147-000000-00-B11055-00350.jp2",
-     "site": "mza.cz",
-     "label": "Marriage of Joseph Luchesi and Catharina (née Elsner), Kanitz 1812",
-     "context": "Person",
-     "cid": "C0120",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Trauungsbuch Kanitz, book 1147 (MZA detail 3896), snímek 35, right page — 13 May 1812",
-     "summary": "Marriage on 13 May 1812 in Kanitz (Dolní Kounice) of Joseph Luchesi, chimney sweep, 22, single, son of Franz Luchesi, chimney sweep in [Tolltsch?], and Catharina, widow (previous married name [Zukin?]), née El[sner?] (daughter of Ignatz), of Kanitz, chimney sweep's widow at house no. 117, aged 30; her birth date 2 Nov 1782 is added in a later hand. Josef very likely married into her late husband's chimney-sweep business. Found by James; read by Claude 15 Nov 2026. Uncertain: Franz's town, the bride's former married name and the exact maiden name (Elsner/Elbann).",
-     "transcript": "Trauungsbuch Kanitz (book 1147), snímek 35, right page\n\nDen 13 May [1812] — Priester: Franz [Lusch…?], [Lokal…?] — Haus: Bräutigam N. 38 [?], Braut Kanitz N. 117\nBräutigam: Luchesi Joseph, Rauchfangkehrer, Sohn des Franz Luchesi, Rauchfangkehrers in [Tolltsch?] — kath., 22, ledig\nBraut: [Zukin?] Catharina, verwittibte, gebohrne Ignatz El[sner?]in aus Kanitz, Rauchfangkehrerin No. 117 — kath., 30 (28 gestrichen), Witwe; später ergänzt: \"2/11 1782\"; Rand: \"confer … VI 39\"\nBeistände: [Ignatz?] [Wostrowsky?], Bürger in Kanitz; Franz [Strawny?], Bürger in Kanitz"
-    }
-   ],
-   "notes": [
-    "Father of Josef Luchesi Sr, named in Josef's 1812 marriage in Kanitz as 'Franz Luchesi, Rauchfangkehrer in [Tolltsch?]'. The place name is not yet read with confidence."
-   ]
-  },
-  "I0175": {
-   "id": "I0175",
-   "gender": "m",
-   "surname": "Luchesi",
-   "parents": [
-    "F0056"
-   ],
-   "families": [
-    "F0055"
-   ],
-   "given": "Josef",
-   "living": false,
-   "birth": {
-    "date": "about 1790"
-   },
-   "death": {
-    "date": "5 Oct 1862"
-   },
-   "events": [
-    {
-     "type": "Occupation",
-     "desc": "Rauchfangkehrer (chimney sweep), Kanitz",
-     "date": "13 May 1812"
-    },
-    {
-     "type": "Occupation",
-     "desc": "Rauchfangkehrermeister (master chimney sweep) in Kanitz",
-     "date": "5 Oct 1862"
-    }
-   ],
-   "links": [
-    {
-     "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-89M7-YH14",
-     "site": "FamilySearch",
-     "label": "Baptism of Heinrich Ludwig Luchesi, Keltsch 1853",
-     "context": "Person",
-     "cid": "C0111",
-     "source": "Geburts- und Taufbuch Stadt Keltsch (Kelč), 1848–1870 (vol. 6511)",
-     "page": "1853, fol. 88 (image 90)",
-     "summary": "Baptism of Heinrich Ludwig Luchesi, born mid-August 1853 in Keltsch (Kelč), house no. 6. Father Josef Luchesi, burgher of Keltsch, son of Josef Luchesi (place and mother's name only partly legible). Mother Maria, daughter of Georg Alexander, burgher of Weißkirchen (Hranice). Godfather: grandfather Georg Alexander.",
-     "transcript": "Stadt Keltsch Geburts- und Taufbuch 1853, Fol. 88 (image 90)\n\n1853 August [17/18] — getauft: Josef [Wurbitzky?], Coop. — Hebamme: Johanna [?] in Keltsch No 2 — Haus-Nr. 6\nTäufling: Heinrich Ludwig — kath., männlich, ehelich\n\nVater: Josef Luchesi, Bürger in Keltsch, Sohn des Josef Luchesi, Bürgers in Kanitz [Dolní Kounice] und seines Eheweibs Katharina geborene Elsner in Kanitz [Dolní Kounice]\n\nMutter: Maria, Tochter des Georg Alexander, Bürgers in Weißkirchen und seiner Ehegattin [The…?] geborene [G…?] in Weißkirchen\n\nPathen: Georg Alexander, [Bürger in Weißkirchen]; [?] … Weißkirchen"
-    },
-    {
-     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9XN-RQFF",
-     "site": "FamilySearch",
-     "label": "Marriage of Joseph Luchesi and Maria Alexander, Weißkirchen 1848",
-     "context": "Person",
-     "cid": "C0113",
-     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
-     "page": "Trauungsbuch L VI 17, pag. 172 (image 38)",
-     "summary": "Marriage of Joseph Luchesi, owner of the shooting range in Weißkirchen (Hranice), 29, and Maria Alexander, 19, on 11 January 1848 in Hranice. Groom's parents: Joseph Luchesi, burgher of Kanitz (Dolní Kounice), and Katharina née El[sner?] (daughter of Ignaz) of Kanitz. Bride's parents: Georg Alexander, burgher of Weißkirchen, and Paulina née Gregor. The bride was a minor; her father gave written consent. Josef had been widowed in May 1847 (Maria née Tambour). Corrected 15 Nov 2026: the age is 29, not 39, so Josef was born c. 1818/19.",
-     "transcript": "Trauungsbuch Hranice (L VI 17, 1843–1870), Pag. 172 (image 38), left page, last entry — re-read zoomed 15 Nov 2026 (earlier reading had age 39 and mother \"Barbara geb. Ch…\": both wrong)\n\n11 Jänner 1848\nBräutigam: Haus 404 — Joseph Luchesi, Schießstadtbesitzer von Weißkirchen, Sohn des Joseph Luchesi, Bürgers aus Kanitz [Dolní Kounice] u[nd] der Katharina, geb. Ignaz El[sner?] aus Kanitz — kath., 29 Jahre\nBraut: Haus 296 — Maria, Tochter des Georg Alexander, Stadtbürgers aus Weißkirchen und der Paulina geb. Gregor aus Weißkirchen — kath., 19 Jahre\n\nIch Georg Alexander Vater der Braut gebe zu dieser Trauung meiner minderjährigen Tochter meine Einwilligung — Georg Alexander, Vater"
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3896?image=216000010-000253-003369-000000-001147-000000-00-B11055-00350.jp2",
-     "site": "mza.cz",
-     "label": "Marriage of Joseph Luchesi and Catharina (née Elsner), Kanitz 1812",
-     "context": "Person",
-     "cid": "C0120",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Trauungsbuch Kanitz, book 1147 (MZA detail 3896), snímek 35, right page — 13 May 1812",
-     "summary": "Marriage on 13 May 1812 in Kanitz (Dolní Kounice) of Joseph Luchesi, chimney sweep, 22, single, son of Franz Luchesi, chimney sweep in [Tolltsch?], and Catharina, widow (previous married name [Zukin?]), née El[sner?] (daughter of Ignatz), of Kanitz, chimney sweep's widow at house no. 117, aged 30; her birth date 2 Nov 1782 is added in a later hand. Josef very likely married into her late husband's chimney-sweep business. Found by James; read by Claude 15 Nov 2026. Uncertain: Franz's town, the bride's former married name and the exact maiden name (Elsner/Elbann).",
-     "transcript": "Trauungsbuch Kanitz (book 1147), snímek 35, right page\n\nDen 13 May [1812] — Priester: Franz [Lusch…?], [Lokal…?] — Haus: Bräutigam N. 38 [?], Braut Kanitz N. 117\nBräutigam: Luchesi Joseph, Rauchfangkehrer, Sohn des Franz Luchesi, Rauchfangkehrers in [Tolltsch?] — kath., 22, ledig\nBraut: [Zukin?] Catharina, verwittibte, gebohrne Ignatz El[sner?]in aus Kanitz, Rauchfangkehrerin No. 117 — kath., 30 (28 gestrichen), Witwe; später ergänzt: \"2/11 1782\"; Rand: \"confer … VI 39\"\nBeistände: [Ignatz?] [Wostrowsky?], Bürger in Kanitz; Franz [Strawny?], Bürger in Kanitz"
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-01140.jp2",
-     "site": "mza.cz",
-     "label": "Death of Josef Luchesy, master chimney sweep, Kanitz 1862",
-     "context": "Person",
-     "cid": "C0121",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), snímek 114, left page, fol. 226 — 5 Oct 1862",
-     "summary": "Josef Luchesy, master chimney sweep in Kanitz (Dolní Kounice), died 5 October 1862 at house no. 153, aged 72, of 'Gehirnlähmung' (cerebral paralysis, probably a stroke); buried 7 October by parish priest Nikolaus Steindl. Age 72 → born c. 1790, matching the 22-year-old groom of 1812.",
-     "transcript": "Sterbebuch Kanitz (book 1156), fol. 226 (snímek 114, left page)\n\n5/7 Oktober [1862] — Haus 153 — Josef Luchesy, Rauchfangkehrermeister in Kanitz — kath., männl., 72 — Gehirnlähmung — Nikolaus Steindl, Pfr."
-    }
-   ],
-   "notes": [
-    "Josef Luchesi Sr, c. 1790 – 5 Oct 1862, chimney sweep and later master chimney sweep (Rauchfangkehrermeister) and burgher in Kanitz (Dolní Kounice). Son of Franz Luchesi, chimney sweep in [Tolltsch?]. Married 13 May 1812 in Kanitz Katharina née Elsner, a chimney sweep's widow at Kanitz no. 117, and probably took over her late husband's business. Sons: Josef Jr (c. 1818/19) and Emanuel (c. 1822–1874). Earlier readings of his wife as 'Barbara née Ch…' were misreadings of 'Katharina née Elsner' (re-checked on the 1848 marriage and the 1848, 1851 and 1853 baptisms)."
-   ]
-  },
   "I0180": {
    "id": "I0180",
    "gender": "f",
@@ -6667,6 +6553,140 @@
      "source": "Miriam Aistleitner, \"Volksdeutsche\", Tschechinnen und Tschechen. Perspektive einer Zeitzeugin: Eva Morton-Wolf",
      "page": "Zwischenwelt, August 2014, pp. 69–73 — English translation by James Morton"
     }
+   ]
+  },
+  "I0179": {
+   "id": "I0179",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [],
+   "families": [
+    "F0056"
+   ],
+   "given": "Franz",
+   "living": false,
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Rauchfangkehrer (chimney sweep) in [Tolltsch?] (named as father in 1812)",
+     "date": "13 May 1812"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3896?image=216000010-000253-003369-000000-001147-000000-00-B11055-00350.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Joseph Luchesi and Catharina (née Elsner), Kanitz 1812",
+     "context": "Person",
+     "cid": "C0120",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Trauungsbuch Kanitz, book 1147 (MZA detail 3896), snímek 35, right page — 13 May 1812",
+     "summary": "Marriage on 13 May 1812 in Kanitz (Dolní Kounice) of Joseph Luchesi, chimney sweep, 22, single, son of Franz Luchesi, chimney sweep in [Tolltsch?], and Catharina, widow (previous married name [Zukin?]), née El[sner?] (daughter of Ignatz), of Kanitz, chimney sweep's widow at house no. 117, aged 30; her birth date 2 Nov 1782 is added in a later hand. Josef very likely married into her late husband's chimney-sweep business. Found by James; read by Claude 15 Nov 2026. Uncertain: Franz's town, the bride's former married name and the exact maiden name (Elsner/Elbann).",
+     "transcript": "Trauungsbuch Kanitz (book 1147), snímek 35, right page\n\nDen 13 May [1812] — Priester: Franz [Lusch…?], [Lokal…?] — Haus: Bräutigam N. 38 [?], Braut Kanitz N. 117\nBräutigam: Luchesi Joseph, Rauchfangkehrer, Sohn des Franz Luchesi, Rauchfangkehrers in [Tolltsch?] — kath., 22, ledig\nBraut: [Zukin?] Catharina, verwittibte, gebohrne Ignatz El[sner?]in aus Kanitz, Rauchfangkehrerin No. 117 — kath., 30 (28 gestrichen), Witwe; später ergänzt: \"2/11 1782\"; Rand: \"confer … VI 39\"\nBeistände: [Ignatz?] [Wostrowsky?], Bürger in Kanitz; Franz [Strawny?], Bürger in Kanitz"
+    },
+    {
+     "url": "https://wikisource.org/wiki/Histoire_des_Alpes_-_Storia_delle_Alpi_-_Geschichte_der_Alpen_(2009)/03",
+     "site": "wikisource.org",
+     "label": "Background: Italian-speaking chimney sweeps in Vienna and the Habsburg lands (Steidl 2009)",
+     "context": "Person",
+     "cid": "C0127",
+     "source": "Annemarie Steidl, \"Rege Kommunikation zwischen den Alpen und Wien – Die regionale Mobilität Wiener Rauchfangkehrer\"",
+     "page": "pp. 25–40 (whole article)",
+     "summary": "Background (historical context — not a record of this family): Italian-speaking chimney sweeps in the Habsburg lands.\n\nWhere they came from: Most Italian-speaking sweeps in Central Europe came from poor Alpine valleys around Lake Maggiore — Centovalli, Verzasca, Vigezzo and Maggia (Ticino/Piedmont) and the Misox (Graubünden). Centovalli appears on a mid-16th-century map as the \"Kämifegertal\" (chimney-sweep valley). The first sweeps in Vienna and other large Central European towns came from northern Italy, Ticino, Savoy, Piedmont and Graubünden.\n\nHow the trade worked (Steidl, on Vienna): A master's business was hereditary and saleable and tied to a fixed sweeping district (Kehrbezirk), which let migrant families nearly monopolise the trade. Guild rules allowed widows to continue or pass on a business. Whole families ran it over generations (e.g. ~30 masters from the Martinola/Martinolli family, ~28 from the Toscano family of Mesocco). About 11% of apprentices recorded in Vienna (1740–1897) came from the Bohemian lands, and the network reached Brünn (Brno). By the 19th century many masters were born locally, as businesses passed to second- and third-generation heirs. Much of the climbing work was done by boys of about 8–12.\n\nRelevance to the Luchesis: Franz Luchesi was a chimney sweep (1812); his son Josef married in 1812 Katharina, a chimney sweep's widow running Kanitz house no. 117 — the pattern of a journeyman marrying into a widow's business described above — and became master chimney sweep in Kanitz, followed by his son Emanuel. Caution: the Moravian part is inferred from studies of Vienna; no direct evidence yet of where the Luchesis came from (the surname literally means 'from Lucca')."
+    }
+   ],
+   "notes": [
+    "Father of Josef Luchesi Sr, named in Josef's 1812 marriage in Kanitz as 'Franz Luchesi, Rauchfangkehrer in [Tolltsch?]'. The place name is not yet read with confidence."
+   ]
+  },
+  "I0175": {
+   "id": "I0175",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0056"
+   ],
+   "families": [
+    "F0055"
+   ],
+   "given": "Josef",
+   "living": false,
+   "birth": {
+    "date": "about 1790"
+   },
+   "death": {
+    "date": "5 Oct 1862"
+   },
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Rauchfangkehrer (chimney sweep), Kanitz",
+     "date": "13 May 1812"
+    },
+    {
+     "type": "Occupation",
+     "desc": "Rauchfangkehrermeister (master chimney sweep) in Kanitz",
+     "date": "5 Oct 1862"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-89M7-YH14",
+     "site": "FamilySearch",
+     "label": "Baptism of Heinrich Ludwig Luchesi, Keltsch 1853",
+     "context": "Person",
+     "cid": "C0111",
+     "source": "Geburts- und Taufbuch Stadt Keltsch (Kelč), 1848–1870 (vol. 6511)",
+     "page": "1853, fol. 88 (image 90)",
+     "summary": "Baptism of Heinrich Ludwig Luchesi, born mid-August 1853 in Keltsch (Kelč), house no. 6. Father Josef Luchesi, burgher of Keltsch, son of Josef Luchesi (place and mother's name only partly legible). Mother Maria, daughter of Georg Alexander, burgher of Weißkirchen (Hranice). Godfather: grandfather Georg Alexander.",
+     "transcript": "Stadt Keltsch Geburts- und Taufbuch 1853, Fol. 88 (image 90)\n\n1853 August [17/18] — getauft: Josef [Wurbitzky?], Coop. — Hebamme: Johanna [?] in Keltsch No 2 — Haus-Nr. 6\nTäufling: Heinrich Ludwig — kath., männlich, ehelich\n\nVater: Josef Luchesi, Bürger in Keltsch, Sohn des Josef Luchesi, Bürgers in Kanitz [Dolní Kounice] und seines Eheweibs Katharina geborene Elsner in Kanitz [Dolní Kounice]\n\nMutter: Maria, Tochter des Georg Alexander, Bürgers in Weißkirchen und seiner Ehegattin [The…?] geborene [G…?] in Weißkirchen\n\nPathen: Georg Alexander, [Bürger in Weißkirchen]; [?] … Weißkirchen"
+    },
+    {
+     "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9XN-RQFF",
+     "site": "FamilySearch",
+     "label": "Marriage of Joseph Luchesi and Maria Alexander, Weißkirchen 1848",
+     "context": "Person",
+     "cid": "C0113",
+     "source": "Matriky Hranice (Mährisch Weißkirchen), Římskokatolická fara Hranice (FamilySearch images)",
+     "page": "Trauungsbuch L VI 17, pag. 172 (image 38)",
+     "summary": "Marriage of Joseph Luchesi, owner of the shooting range in Weißkirchen (Hranice), 29, and Maria Alexander, 19, on 11 January 1848 in Hranice. Groom's parents: Joseph Luchesi, burgher of Kanitz (Dolní Kounice), and Katharina née El[sner?] (daughter of Ignaz) of Kanitz. Bride's parents: Georg Alexander, burgher of Weißkirchen, and Paulina née Gregor. The bride was a minor; her father gave written consent. Josef had been widowed in May 1847 (Maria née Tambour). Corrected 15 Nov 2026: the age is 29, not 39, so Josef was born c. 1818/19.",
+     "transcript": "Trauungsbuch Hranice (L VI 17, 1843–1870), Pag. 172 (image 38), left page, last entry — re-read zoomed 15 Nov 2026 (earlier reading had age 39 and mother \"Barbara geb. Ch…\": both wrong)\n\n11 Jänner 1848\nBräutigam: Haus 404 — Joseph Luchesi, Schießstadtbesitzer von Weißkirchen, Sohn des Joseph Luchesi, Bürgers aus Kanitz [Dolní Kounice] u[nd] der Katharina, geb. Ignaz El[sner?] aus Kanitz — kath., 29 Jahre\nBraut: Haus 296 — Maria, Tochter des Georg Alexander, Stadtbürgers aus Weißkirchen und der Paulina geb. Gregor aus Weißkirchen — kath., 19 Jahre\n\nIch Georg Alexander Vater der Braut gebe zu dieser Trauung meiner minderjährigen Tochter meine Einwilligung — Georg Alexander, Vater"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3896?image=216000010-000253-003369-000000-001147-000000-00-B11055-00350.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Joseph Luchesi and Catharina (née Elsner), Kanitz 1812",
+     "context": "Person",
+     "cid": "C0120",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Trauungsbuch Kanitz, book 1147 (MZA detail 3896), snímek 35, right page — 13 May 1812",
+     "summary": "Marriage on 13 May 1812 in Kanitz (Dolní Kounice) of Joseph Luchesi, chimney sweep, 22, single, son of Franz Luchesi, chimney sweep in [Tolltsch?], and Catharina, widow (previous married name [Zukin?]), née El[sner?] (daughter of Ignatz), of Kanitz, chimney sweep's widow at house no. 117, aged 30; her birth date 2 Nov 1782 is added in a later hand. Josef very likely married into her late husband's chimney-sweep business. Found by James; read by Claude 15 Nov 2026. Uncertain: Franz's town, the bride's former married name and the exact maiden name (Elsner/Elbann).",
+     "transcript": "Trauungsbuch Kanitz (book 1147), snímek 35, right page\n\nDen 13 May [1812] — Priester: Franz [Lusch…?], [Lokal…?] — Haus: Bräutigam N. 38 [?], Braut Kanitz N. 117\nBräutigam: Luchesi Joseph, Rauchfangkehrer, Sohn des Franz Luchesi, Rauchfangkehrers in [Tolltsch?] — kath., 22, ledig\nBraut: [Zukin?] Catharina, verwittibte, gebohrne Ignatz El[sner?]in aus Kanitz, Rauchfangkehrerin No. 117 — kath., 30 (28 gestrichen), Witwe; später ergänzt: \"2/11 1782\"; Rand: \"confer … VI 39\"\nBeistände: [Ignatz?] [Wostrowsky?], Bürger in Kanitz; Franz [Strawny?], Bürger in Kanitz"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-01140.jp2",
+     "site": "mza.cz",
+     "label": "Death of Josef Luchesy, master chimney sweep, Kanitz 1862",
+     "context": "Person",
+     "cid": "C0121",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), snímek 114, left page, fol. 226 — 5 Oct 1862",
+     "summary": "Josef Luchesy, master chimney sweep in Kanitz (Dolní Kounice), died 5 October 1862 at house no. 153, aged 72, of 'Gehirnlähmung' (cerebral paralysis, probably a stroke); buried 7 October by parish priest Nikolaus Steindl. Age 72 → born c. 1790, matching the 22-year-old groom of 1812.",
+     "transcript": "Sterbebuch Kanitz (book 1156), fol. 226 (snímek 114, left page)\n\n5/7 Oktober [1862] — Haus 153 — Josef Luchesy, Rauchfangkehrermeister in Kanitz — kath., männl., 72 — Gehirnlähmung — Nikolaus Steindl, Pfr."
+    },
+    {
+     "url": "https://wikisource.org/wiki/Histoire_des_Alpes_-_Storia_delle_Alpi_-_Geschichte_der_Alpen_(2009)/03",
+     "site": "wikisource.org",
+     "label": "Background: Italian-speaking chimney sweeps in Vienna and the Habsburg lands (Steidl 2009)",
+     "context": "Person",
+     "cid": "C0127",
+     "source": "Annemarie Steidl, \"Rege Kommunikation zwischen den Alpen und Wien – Die regionale Mobilität Wiener Rauchfangkehrer\"",
+     "page": "pp. 25–40 (whole article)",
+     "summary": "Background (historical context — not a record of this family): Italian-speaking chimney sweeps in the Habsburg lands.\n\nWhere they came from: Most Italian-speaking sweeps in Central Europe came from poor Alpine valleys around Lake Maggiore — Centovalli, Verzasca, Vigezzo and Maggia (Ticino/Piedmont) and the Misox (Graubünden). Centovalli appears on a mid-16th-century map as the \"Kämifegertal\" (chimney-sweep valley). The first sweeps in Vienna and other large Central European towns came from northern Italy, Ticino, Savoy, Piedmont and Graubünden.\n\nHow the trade worked (Steidl, on Vienna): A master's business was hereditary and saleable and tied to a fixed sweeping district (Kehrbezirk), which let migrant families nearly monopolise the trade. Guild rules allowed widows to continue or pass on a business. Whole families ran it over generations (e.g. ~30 masters from the Martinola/Martinolli family, ~28 from the Toscano family of Mesocco). About 11% of apprentices recorded in Vienna (1740–1897) came from the Bohemian lands, and the network reached Brünn (Brno). By the 19th century many masters were born locally, as businesses passed to second- and third-generation heirs. Much of the climbing work was done by boys of about 8–12.\n\nRelevance to the Luchesis: Franz Luchesi was a chimney sweep (1812); his son Josef married in 1812 Katharina, a chimney sweep's widow running Kanitz house no. 117 — the pattern of a journeyman marrying into a widow's business described above — and became master chimney sweep in Kanitz, followed by his son Emanuel. Caution: the Moravian part is inferred from studies of Vienna; no direct evidence yet of where the Luchesis came from (the surname literally means 'from Lucca')."
+    }
+   ],
+   "notes": [
+    "Josef Luchesi Sr, c. 1790 – 5 Oct 1862, chimney sweep and later master chimney sweep (Rauchfangkehrermeister) and burgher in Kanitz (Dolní Kounice). Son of Franz Luchesi, chimney sweep in [Tolltsch?]. Married 13 May 1812 in Kanitz Katharina née Elsner, a chimney sweep's widow at Kanitz no. 117, and probably took over her late husband's business. Sons: Josef Jr (c. 1818/19) and Emanuel (c. 1822–1874). Earlier readings of his wife as 'Barbara née Ch…' were misreadings of 'Katharina née Elsner' (re-checked on the 1848 marriage and the 1848, 1851 and 1853 baptisms)."
    ]
   }
  },
