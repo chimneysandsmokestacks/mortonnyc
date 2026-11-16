@@ -6867,6 +6867,88 @@
     }
    ]
   },
+  "I0200": {
+   "id": "I0200",
+   "gender": "f",
+   "surname": "Hübsch",
+   "parents": [],
+   "families": [
+    "F0056"
+   ],
+   "given": "Catharina",
+   "living": false,
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01700.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Joseph Luchesi, son of Franz Luchesi (chimney sweep), Telč 19 Nov 1790",
+     "context": "Person",
+     "cid": "C0128",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 170 — 19 November 1790: Joseph, son of Franz Luchesi",
+     "summary": "Baptism in Telč (Teltsch) of Joseph, son of Franz Luchesi, chimney sweep, and Katharina [Hübsch?] (maiden name uncertain), house no. 38, on 19 November 1790 (he was given as 22 at his May 1812 marriage, actually 21). Godparents Wenzl [Hübsch?] and Maria Anna [Fischspiel?], burghers of Iglau (Jihlava); the godfather probably a relative of the mother. Found by James, 15 Nov 2026. Identified as Josef Luchesi Sr (master chimney sweep in Kanitz, d. 1862): same father Franz Luchesi, chimney sweep, and in the 1812 Kanitz marriage the groom's residence is 'zu Teltsch No 38' — the same Telč house he was born in (read by James).",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 170 — read from James's screenshots\n\n19 November 1790 — Priester: Johann Mayr[eb?], Caplan — Haus-Nr. 38\nTäufling: Joseph — (below:) \"Gebohren [den Tag zuvor?]\"\nVater: Franz Luchesi, Rauchfang-kehrer\nMutter: Katharina [Hübsch?]in\nPathen: Wenzl [Hübsch?]en; Maria Anna [Fischspiel?]in (margin correction \"…spielin\") — Iglauer Bürger et Bürgerin\n\nDate: 19 November 1790 (month and year from the page, per James). He was thus 21, not 22, at his May 1812 marriage — a normal discrepancy."
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01440.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Franz Xaver Luchesi, son of Franz Luchesi (chimney sweep), Telč 12 Nov 1784",
+     "context": "Person",
+     "cid": "C0133",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 144 — 12 November 1784: Franz Xaver, son of Franz Luchesi",
+     "summary": "Baptism on 12 November 1784 in Telč (Teltsch), house no. 38, of Franz Xaver Martin Aloys Christian, son of Franz Luchesi, chimney sweep, and Catharina (no maiden name given); godparents Martin [Zach. Hof…?] and his wife Thecla; baptised by Ignaz Chornitzer, cooperator. Same father, house and mother's first name as Josef Luchesi Sr (baptised there 19 Nov 1790) → an older brother of Josef. Shows Franz and Catharina were married and living at Telč 38 by 1784. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 144 — read from James's screenshots; month November and year 1784 per James (index: book 7004, snímek 118, \"ao 1784 … Lukesi Franz … Stadt\")\n\n12 [November 1784] — Haus-Nr. 38 — Teltsch\nTäufling: Franz Xaveri, Martin, Aloys, Christian — kath., männlich, ehelich\nVater: Franz Luchesi, Rauchfangkehrer (margin, later hand: \"Lukesi\")\nMutter: Catharina\nPathen: Martin [Zach. Hof…?]; Thecla, Ehegattin\nPriester: Ign[az] Chornitzer, Cooperator"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01560.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Marianne Luchesi, daughter of Franz Luchesi (chimney sweep), Telč 6 Dec 1786",
+     "context": "Person",
+     "cid": "C0134",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 156 — 6 December 1786: Mariana, daughter of Franz Luchesi",
+     "summary": "Baptism on 6 December 1786 in Telč, house no. 38, of Mariana (Marianne), daughter of Franz Luchesi, chimney sweep, and Catharina. Godparents Wenzl [Hübsch?], furrier in Iglau (Jihlava), and his wife Anna. The same Wenzl was godfather to Josef Sr in 1790 (there with Maria Anna [Fischspiel?]; both 'Iglauer Bürger') — a close tie, probably Catharina's brother or father (her maiden name possibly Hübsch). Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 156 — read from James's screenshot; year 1786 per James\n\nDecember 6 [1786] — Haus-Nr. 38\nTäufling: Mariana — weiblich, ehelich\nVater: Frantz Luchesi, Rauchfangkehrer\nMutter: Catharina\nPathen: Wentzl [Hübsch?]en, Kürschner in Iglau; Anna, dessen Ehegattin\nPriester: Aloys Chornitzer, Cooperator"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01640.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Johann Wenzl Luchesi, son of Franz Luchesi (chimney sweep), Telč 11 Jan 1788",
+     "context": "Person",
+     "cid": "C0135",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 164 — 11 January 1788: Johann Wenzl, son of Franz Luchesi",
+     "summary": "Baptism on 11 January 1788 in Telč, house no. 38, of Johann [Kaspar?] Wenzl, son of Franz Luchesi, burgher chimney sweep, and Catharina. Godparents Wenzl Hübsch and Maria [Anna] Hübsch, burghers of Iglau (Jihlava) — the surname reads clearly as Hübsch here. Wenzl Hübsch (furrier in Iglau, per 1786) was godfather to Marianne (1786), Johann Wenzl (1788) and Josef (1790), and this boy bears his name → Catharina very probably née Hübsch, a close relative of Wenzl. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 164 — read from James's screenshot; year 1788 per James\n\nJenner 11 [1788] — Haus-Nr. 38\nTäufling: Johann [Kaspar?] Wenzl — kath., männlich, ehelich\nVater: Franz Luchesi, burgl. Rauchfangkehrer\nMutter: Catharina\nPathen: Wenzl Hübsch; Maria [Anna] Hübsch[in] — Bürger in Iglau\nPriester: Johann [Wagner?], Administrator"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01790.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Aloysia Katharina Luchesi, daughter of Franz Luchesi and Katharina Hübsch, Telč 30 Jul 1793",
+     "context": "Person",
+     "cid": "C0136",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 179 — 30 July 1793: Aloysia Katharina, daughter of Franz Luchesi",
+     "summary": "Baptism on 30 July 1793 in Telč, house no. 38, of Aloysia Katharina, daughter of Franz Luchesi, chimney sweep, and Katharina Hübschin (née Hübsch). Godparents Wenzl Hübsch, clothmaker (Tuchmacher), and Anna [Fischspill], clothmaker, both of Iglau (Jihlava). This entry names the mother's maiden name — Hübsch — confirming the inference from the godparents of the earlier children. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 179 — read from James's screenshots; year 1793 per James\n\nJulius 30 [1793] — Priester: Gregor [Hauser?], Capellan — Haus-Nr. 38\nTäufling: Aloysia Katharina — weiblich, ehelich — Hebamme: [Dantowsk?]in\nVater: Franz Luchesi, Rauchfangkehrer\nMutter: Katharina Hübschin\nPathen: Wenzl Hübschen, Tuchmacher; Anna [Fischspill]in, Tuchmacherin — beide von Iglau"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-00300.jp2",
+     "site": "mza.cz",
+     "label": "Death of Franziska Luchesi, newborn daughter of Franz Luchesi, Telč Oct 1797",
+     "context": "Person",
+     "cid": "C0137",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
+     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 30, Stadt — October 1797: Franziska Luchesi, newborn",
+     "summary": "Franziska Luchesi died in October 1797 at Telč, house no. 38 (the Luchesi home in the town), a quarter of an hour after birth — presumably given an emergency baptism by the midwife. A child of Franz Luchesi and Katharina née Hübsch, born 13 years after their first known child. Found by James, 15 Nov 2026.",
+     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 30, Stadt section — index: book 7007, \"1797 Lukesi Franziska — Stadt — 35\"\n\nOctober 1797 — Haus-Nr. 38 — Franziska [Luchesi] — Alter: \"¼ Std. in der Geburt\" (a quarter of an hour, at birth)\n(Day, parents' wording and cause not yet transcribed; age column read by Claude from James's screenshot)"
+    }
+   ],
+   "notes": [
+    "Katharina née Hübsch, wife of Franz Luchesi, chimney sweep in Telč; mother of Franz Xaver (bapt. 12 Nov 1784), Marianne (6 Dec 1786), Johann Wenzl (11 Jan 1788), Josef Sr (19 Nov 1790) and Aloysia Katharina (30 Jul 1793), all at Telč house no. 38.\nMaiden name: the 1793 baptism names the mother 'Katharina Hübschin' (= née Hübsch). The earlier baptisms give only 'Catharina'. Her family was from Iglau (Jihlava): Wenzl Hübsch — described as furrier (Kürschner, 1786; reading uncertain) and clothmaker (Tuchmacher, 1793), burgher of Iglau — was godfather to Marianne, Johann Wenzl, Josef and Aloysia, and Johann Wenzl was named after him; probably her brother or father. Still to find: her baptism and the couple's marriage (before 1784; not in the Telč town marriages 1774–1790) — try Iglau."
+   ]
+  },
   "I0179": {
    "id": "I0179",
    "gender": "m",
@@ -6877,7 +6959,18 @@
    ],
    "given": "Franz",
    "living": false,
+   "birth": {
+    "date": "about 1752"
+   },
+   "death": {
+    "date": "2 Jan 1835"
+   },
    "events": [
+    {
+     "type": "Burial",
+     "desc": "Buried in Telč",
+     "date": "5 Jan 1835"
+    },
     {
      "type": "Occupation",
      "desc": "Rauchfangkehrer (chimney sweep) in Teltsch (Telč) (named as father in 1812)",
@@ -6887,6 +6980,11 @@
      "type": "Occupation",
      "desc": "Bürgerlicher Rauchfangkehrer (burgher chimney sweep) in Telč",
      "date": "11 Jan 1788"
+    },
+    {
+     "type": "Occupation",
+     "desc": "Bürger und Rauchfangkehrermeister (burgher and master chimney sweep) in Telč",
+     "date": "2 Jan 1835"
     }
    ],
    "links": [
@@ -6976,92 +7074,21 @@
      "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 30, Stadt — October 1797: Franziska Luchesi, newborn",
      "summary": "Franziska Luchesi died in October 1797 at Telč, house no. 38 (the Luchesi home in the town), a quarter of an hour after birth — presumably given an emergency baptism by the midwife. A child of Franz Luchesi and Katharina née Hübsch, born 13 years after their first known child. Found by James, 15 Nov 2026.",
      "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 30, Stadt section — index: book 7007, \"1797 Lukesi Franziska — Stadt — 35\"\n\nOctober 1797 — Haus-Nr. 38 — Franziska [Luchesi] — Alter: \"¼ Std. in der Geburt\" (a quarter of an hour, at birth)\n(Day, parents' wording and cause not yet transcribed; age column read by Claude from James's screenshot)"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7784?image=216000010-000253-003373-000000-006998-000000-00-B05531-00070.jp2",
+     "site": "mza.cz",
+     "label": "Death of Franz Luchesi, burgher and master chimney sweep, Telč 2 Jan 1835",
+     "context": "Person",
+     "cid": "C0138",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1831–1878 (MZA book 6998)",
+     "page": "Sterbebuch Telč 1831–1878, book 6998, snímek 7, Stadt Teltsch fol. 145 — 2 Jan 1835: Franz Luchesy",
+     "summary": "Franz Luchesi, burgher and master chimney sweep in Telč, died 2 January 1835 in the town (Stadt Teltsch), house no. 28 (a later pencil note corrects/adds 38 — the family's house 1784–1812), aged 83, of old age; buried 5 January 1835. Age 83 → born c. 1751/52. No birthplace given. Found by James; read by Claude from James's screenshot, 15 Nov 2026.",
+     "transcript": "Telč deaths 1831–1878 (MZA book 6998, detail 7784), snímek 7 — \"1835. Stadt Teltsch. fol. 145.\" (index: book 7007, \"1835 Luchesy Franz — Stadt — 145\")\n\nGestorben 2ten Jänner, begraben 5ten [1835] — versehen und begraben: Franz [Bayer?], Coop.\nHaus-Nr.: 28 (pencilled above: 38)\nFranz Luchesy, Bürger u. Rauchfangkehrermeister [allda]\nkath., männlich — Alter: 83 Jahre\nKrankheit: Altersschwäche"
     }
    ],
    "notes": [
-    "Father of Josef Luchesi Sr, named in Josef's 1812 marriage in Kanitz as 'Franz Luchesi, Rauchfangkehrer in Teltsch' (Telč, Moravia). Place name read as Teltsch on a close look at the 1812 entry (James/Claude, 15 Nov 2026); a strong but not certain reading."
-   ]
-  },
-  "I0200": {
-   "id": "I0200",
-   "gender": "f",
-   "surname": "Hübsch",
-   "parents": [],
-   "families": [
-    "F0056"
-   ],
-   "given": "Catharina",
-   "living": false,
-   "links": [
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01700.jp2",
-     "site": "mza.cz",
-     "label": "Baptism of Joseph Luchesi, son of Franz Luchesi (chimney sweep), Telč 19 Nov 1790",
-     "context": "Person",
-     "cid": "C0128",
-     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
-     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 170 — 19 November 1790: Joseph, son of Franz Luchesi",
-     "summary": "Baptism in Telč (Teltsch) of Joseph, son of Franz Luchesi, chimney sweep, and Katharina [Hübsch?] (maiden name uncertain), house no. 38, on 19 November 1790 (he was given as 22 at his May 1812 marriage, actually 21). Godparents Wenzl [Hübsch?] and Maria Anna [Fischspiel?], burghers of Iglau (Jihlava); the godfather probably a relative of the mother. Found by James, 15 Nov 2026. Identified as Josef Luchesi Sr (master chimney sweep in Kanitz, d. 1862): same father Franz Luchesi, chimney sweep, and in the 1812 Kanitz marriage the groom's residence is 'zu Teltsch No 38' — the same Telč house he was born in (read by James).",
-     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 170 — read from James's screenshots\n\n19 November 1790 — Priester: Johann Mayr[eb?], Caplan — Haus-Nr. 38\nTäufling: Joseph — (below:) \"Gebohren [den Tag zuvor?]\"\nVater: Franz Luchesi, Rauchfang-kehrer\nMutter: Katharina [Hübsch?]in\nPathen: Wenzl [Hübsch?]en; Maria Anna [Fischspiel?]in (margin correction \"…spielin\") — Iglauer Bürger et Bürgerin\n\nDate: 19 November 1790 (month and year from the page, per James). He was thus 21, not 22, at his May 1812 marriage — a normal discrepancy."
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01440.jp2",
-     "site": "mza.cz",
-     "label": "Baptism of Franz Xaver Luchesi, son of Franz Luchesi (chimney sweep), Telč 12 Nov 1784",
-     "context": "Person",
-     "cid": "C0133",
-     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
-     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 144 — 12 November 1784: Franz Xaver, son of Franz Luchesi",
-     "summary": "Baptism on 12 November 1784 in Telč (Teltsch), house no. 38, of Franz Xaver Martin Aloys Christian, son of Franz Luchesi, chimney sweep, and Catharina (no maiden name given); godparents Martin [Zach. Hof…?] and his wife Thecla; baptised by Ignaz Chornitzer, cooperator. Same father, house and mother's first name as Josef Luchesi Sr (baptised there 19 Nov 1790) → an older brother of Josef. Shows Franz and Catharina were married and living at Telč 38 by 1784. Found by James, 15 Nov 2026.",
-     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 144 — read from James's screenshots; month November and year 1784 per James (index: book 7004, snímek 118, \"ao 1784 … Lukesi Franz … Stadt\")\n\n12 [November 1784] — Haus-Nr. 38 — Teltsch\nTäufling: Franz Xaveri, Martin, Aloys, Christian — kath., männlich, ehelich\nVater: Franz Luchesi, Rauchfangkehrer (margin, later hand: \"Lukesi\")\nMutter: Catharina\nPathen: Martin [Zach. Hof…?]; Thecla, Ehegattin\nPriester: Ign[az] Chornitzer, Cooperator"
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01560.jp2",
-     "site": "mza.cz",
-     "label": "Baptism of Marianne Luchesi, daughter of Franz Luchesi (chimney sweep), Telč 6 Dec 1786",
-     "context": "Person",
-     "cid": "C0134",
-     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
-     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 156 — 6 December 1786: Mariana, daughter of Franz Luchesi",
-     "summary": "Baptism on 6 December 1786 in Telč, house no. 38, of Mariana (Marianne), daughter of Franz Luchesi, chimney sweep, and Catharina. Godparents Wenzl [Hübsch?], furrier in Iglau (Jihlava), and his wife Anna. The same Wenzl was godfather to Josef Sr in 1790 (there with Maria Anna [Fischspiel?]; both 'Iglauer Bürger') — a close tie, probably Catharina's brother or father (her maiden name possibly Hübsch). Found by James, 15 Nov 2026.",
-     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 156 — read from James's screenshot; year 1786 per James\n\nDecember 6 [1786] — Haus-Nr. 38\nTäufling: Mariana — weiblich, ehelich\nVater: Frantz Luchesi, Rauchfangkehrer\nMutter: Catharina\nPathen: Wentzl [Hübsch?]en, Kürschner in Iglau; Anna, dessen Ehegattin\nPriester: Aloys Chornitzer, Cooperator"
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01640.jp2",
-     "site": "mza.cz",
-     "label": "Baptism of Johann Wenzl Luchesi, son of Franz Luchesi (chimney sweep), Telč 11 Jan 1788",
-     "context": "Person",
-     "cid": "C0135",
-     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
-     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 164 — 11 January 1788: Johann Wenzl, son of Franz Luchesi",
-     "summary": "Baptism on 11 January 1788 in Telč, house no. 38, of Johann [Kaspar?] Wenzl, son of Franz Luchesi, burgher chimney sweep, and Catharina. Godparents Wenzl Hübsch and Maria [Anna] Hübsch, burghers of Iglau (Jihlava) — the surname reads clearly as Hübsch here. Wenzl Hübsch (furrier in Iglau, per 1786) was godfather to Marianne (1786), Johann Wenzl (1788) and Josef (1790), and this boy bears his name → Catharina very probably née Hübsch, a close relative of Wenzl. Found by James, 15 Nov 2026.",
-     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 164 — read from James's screenshot; year 1788 per James\n\nJenner 11 [1788] — Haus-Nr. 38\nTäufling: Johann [Kaspar?] Wenzl — kath., männlich, ehelich\nVater: Franz Luchesi, burgl. Rauchfangkehrer\nMutter: Catharina\nPathen: Wenzl Hübsch; Maria [Anna] Hübsch[in] — Bürger in Iglau\nPriester: Johann [Wagner?], Administrator"
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01790.jp2",
-     "site": "mza.cz",
-     "label": "Baptism of Aloysia Katharina Luchesi, daughter of Franz Luchesi and Katharina Hübsch, Telč 30 Jul 1793",
-     "context": "Person",
-     "cid": "C0136",
-     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
-     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 179 — 30 July 1793: Aloysia Katharina, daughter of Franz Luchesi",
-     "summary": "Baptism on 30 July 1793 in Telč, house no. 38, of Aloysia Katharina, daughter of Franz Luchesi, chimney sweep, and Katharina Hübschin (née Hübsch). Godparents Wenzl Hübsch, clothmaker (Tuchmacher), and Anna [Fischspill], clothmaker, both of Iglau (Jihlava). This entry names the mother's maiden name — Hübsch — confirming the inference from the godparents of the earlier children. Found by James, 15 Nov 2026.",
-     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 179 — read from James's screenshots; year 1793 per James\n\nJulius 30 [1793] — Priester: Gregor [Hauser?], Capellan — Haus-Nr. 38\nTäufling: Aloysia Katharina — weiblich, ehelich — Hebamme: [Dantowsk?]in\nVater: Franz Luchesi, Rauchfangkehrer\nMutter: Katharina Hübschin\nPathen: Wenzl Hübschen, Tuchmacher; Anna [Fischspill]in, Tuchmacherin — beide von Iglau"
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-00300.jp2",
-     "site": "mza.cz",
-     "label": "Death of Franziska Luchesi, newborn daughter of Franz Luchesi, Telč Oct 1797",
-     "context": "Person",
-     "cid": "C0137",
-     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
-     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 30, Stadt — October 1797: Franziska Luchesi, newborn",
-     "summary": "Franziska Luchesi died in October 1797 at Telč, house no. 38 (the Luchesi home in the town), a quarter of an hour after birth — presumably given an emergency baptism by the midwife. A child of Franz Luchesi and Katharina née Hübsch, born 13 years after their first known child. Found by James, 15 Nov 2026.",
-     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 30, Stadt section — index: book 7007, \"1797 Lukesi Franziska — Stadt — 35\"\n\nOctober 1797 — Haus-Nr. 38 — Franziska [Luchesi] — Alter: \"¼ Std. in der Geburt\" (a quarter of an hour, at birth)\n(Day, parents' wording and cause not yet transcribed; age column read by Claude from James's screenshot)"
-    }
-   ],
-   "notes": [
-    "Katharina née Hübsch, wife of Franz Luchesi, chimney sweep in Telč; mother of Franz Xaver (bapt. 12 Nov 1784), Marianne (6 Dec 1786), Johann Wenzl (11 Jan 1788), Josef Sr (19 Nov 1790) and Aloysia Katharina (30 Jul 1793), all at Telč house no. 38.\nMaiden name: the 1793 baptism names the mother 'Katharina Hübschin' (= née Hübsch). The earlier baptisms give only 'Catharina'. Her family was from Iglau (Jihlava): Wenzl Hübsch — described as furrier (Kürschner, 1786; reading uncertain) and clothmaker (Tuchmacher, 1793), burgher of Iglau — was godfather to Marianne, Johann Wenzl, Josef and Aloysia, and Johann Wenzl was named after him; probably her brother or father. Still to find: her baptism and the couple's marriage (before 1784; not in the Telč town marriages 1774–1790) — try Iglau."
+    "Father of Josef Luchesi Sr, named in Josef's 1812 marriage in Kanitz as 'Franz Luchesi, Rauchfangkehrer in Teltsch' (Telč, Moravia). Place name read as Teltsch on a close look at the 1812 entry (James/Claude, 15 Nov 2026); a strong but not certain reading.\nUpdate 15 Nov 2026: Franz lived in Telč from at least 1784 (house 38, town) — chimney sweep, burgher chimney sweep by 1788 — and died there on 2 Jan 1835 aged 83 (b. c. 1751/52), burgher and master chimney sweep. Wife Katharina née Hübsch (of an Iglau family); children Franz Xaver 1784, Marianne 1786, Johann Wenzl 1788, Josef 1790, Aloysia Katharina 1793, Franziska 1797. His birthplace and marriage (before 1784) are still unknown."
    ]
   }
  },
