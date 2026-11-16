@@ -6837,6 +6837,36 @@
     }
    ]
   },
+  "I0202": {
+   "id": "I0202",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0056"
+   ],
+   "families": [],
+   "given": "Franziska",
+   "living": false,
+   "birth": {
+    "date": "Oct 1797"
+   },
+   "death": {
+    "date": "Oct 1797"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-00300.jp2",
+     "site": "mza.cz",
+     "label": "Death of Franziska Luchesi, newborn daughter of Franz Luchesi, Telč Oct 1797",
+     "context": "Person",
+     "cid": "C0137",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
+     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 30, Stadt — October 1797: Franziska Luchesi, newborn",
+     "summary": "Franziska Luchesi died in October 1797 at Telč, house no. 38 (the Luchesi home in the town), a quarter of an hour after birth — presumably given an emergency baptism by the midwife. A child of Franz Luchesi and Katharina née Hübsch, born 13 years after their first known child. Found by James, 15 Nov 2026.",
+     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 30, Stadt section — index: book 7007, \"1797 Lukesi Franziska — Stadt — 35\"\n\nOctober 1797 — Haus-Nr. 38 — Franziska [Luchesi] — Alter: \"¼ Std. in der Geburt\" (a quarter of an hour, at birth)\n(Day, parents' wording and cause not yet transcribed; age column read by Claude from James's screenshot)"
+    }
+   ]
+  },
   "I0179": {
    "id": "I0179",
    "gender": "m",
@@ -6935,6 +6965,17 @@
      "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 179 — 30 July 1793: Aloysia Katharina, daughter of Franz Luchesi",
      "summary": "Baptism on 30 July 1793 in Telč, house no. 38, of Aloysia Katharina, daughter of Franz Luchesi, chimney sweep, and Katharina Hübschin (née Hübsch). Godparents Wenzl Hübsch, clothmaker (Tuchmacher), and Anna [Fischspill], clothmaker, both of Iglau (Jihlava). This entry names the mother's maiden name — Hübsch — confirming the inference from the godparents of the earlier children. Found by James, 15 Nov 2026.",
      "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 179 — read from James's screenshots; year 1793 per James\n\nJulius 30 [1793] — Priester: Gregor [Hauser?], Capellan — Haus-Nr. 38\nTäufling: Aloysia Katharina — weiblich, ehelich — Hebamme: [Dantowsk?]in\nVater: Franz Luchesi, Rauchfangkehrer\nMutter: Katharina Hübschin\nPathen: Wenzl Hübschen, Tuchmacher; Anna [Fischspill]in, Tuchmacherin — beide von Iglau"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-00300.jp2",
+     "site": "mza.cz",
+     "label": "Death of Franziska Luchesi, newborn daughter of Franz Luchesi, Telč Oct 1797",
+     "context": "Person",
+     "cid": "C0137",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
+     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 30, Stadt — October 1797: Franziska Luchesi, newborn",
+     "summary": "Franziska Luchesi died in October 1797 at Telč, house no. 38 (the Luchesi home in the town), a quarter of an hour after birth — presumably given an emergency baptism by the midwife. A child of Franz Luchesi and Katharina née Hübsch, born 13 years after their first known child. Found by James, 15 Nov 2026.",
+     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 30, Stadt section — index: book 7007, \"1797 Lukesi Franziska — Stadt — 35\"\n\nOctober 1797 — Haus-Nr. 38 — Franziska [Luchesi] — Alter: \"¼ Std. in der Geburt\" (a quarter of an hour, at birth)\n(Day, parents' wording and cause not yet transcribed; age column read by Claude from James's screenshot)"
     }
    ],
    "notes": [
@@ -7006,6 +7047,17 @@
      "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 179 — 30 July 1793: Aloysia Katharina, daughter of Franz Luchesi",
      "summary": "Baptism on 30 July 1793 in Telč, house no. 38, of Aloysia Katharina, daughter of Franz Luchesi, chimney sweep, and Katharina Hübschin (née Hübsch). Godparents Wenzl Hübsch, clothmaker (Tuchmacher), and Anna [Fischspill], clothmaker, both of Iglau (Jihlava). This entry names the mother's maiden name — Hübsch — confirming the inference from the godparents of the earlier children. Found by James, 15 Nov 2026.",
      "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 179 — read from James's screenshots; year 1793 per James\n\nJulius 30 [1793] — Priester: Gregor [Hauser?], Capellan — Haus-Nr. 38\nTäufling: Aloysia Katharina — weiblich, ehelich — Hebamme: [Dantowsk?]in\nVater: Franz Luchesi, Rauchfangkehrer\nMutter: Katharina Hübschin\nPathen: Wenzl Hübschen, Tuchmacher; Anna [Fischspill]in, Tuchmacherin — beide von Iglau"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-00300.jp2",
+     "site": "mza.cz",
+     "label": "Death of Franziska Luchesi, newborn daughter of Franz Luchesi, Telč Oct 1797",
+     "context": "Person",
+     "cid": "C0137",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
+     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 30, Stadt — October 1797: Franziska Luchesi, newborn",
+     "summary": "Franziska Luchesi died in October 1797 at Telč, house no. 38 (the Luchesi home in the town), a quarter of an hour after birth — presumably given an emergency baptism by the midwife. A child of Franz Luchesi and Katharina née Hübsch, born 13 years after their first known child. Found by James, 15 Nov 2026.",
+     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 30, Stadt section — index: book 7007, \"1797 Lukesi Franziska — Stadt — 35\"\n\nOctober 1797 — Haus-Nr. 38 — Franziska [Luchesi] — Alter: \"¼ Std. in der Geburt\" (a quarter of an hour, at birth)\n(Day, parents' wording and cause not yet transcribed; age column read by Claude from James's screenshot)"
     }
    ],
    "notes": [
@@ -7616,7 +7668,8 @@
     "I0198",
     "I0199",
     "I0175",
-    "I0201"
+    "I0201",
+    "I0202"
    ]
   }
  }
