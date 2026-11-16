@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -7219,6 +7219,73 @@
      "transcript": "Telč deaths, book 6998, snímek 27, 1851 Stadt Teltsch fol. 186\n\n14/16 August [1851], begr. Franz [Dvořák?] Coop. — Haus-Nr. 38 — Antonia, Tochter des Franz Luchesy, Rauchfangkehrermeisters von da — kath., weiblich, 1 Jahr 6 Monate — Fraisen"
     }
    ]
+  },
+  "I0208": {
+   "id": "I0208",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [],
+   "families": [
+    "F0062"
+   ],
+   "given": "Lorenz",
+   "living": false,
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Bürgerlicher Rauchfangkehrermeister (burgher master chimney sweep) in Telč; deceased by 1796",
+     "date": "before 1796"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-01000.jp2",
+     "site": "mza.cz",
+     "label": "Death of Barbara Luchesi, widow of Lorenz Luchesi (master chimney sweep), Telč 1796",
+     "context": "Person",
+     "cid": "C0142",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
+     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 100, Alte Vorstadt p. 17 — 16 [?] 1796: Barbara, widow of Lorenz Luchesy",
+     "summary": "Barbara Luchesi, widow of the late Lorenz Luchesi, burgher and master chimney sweep in Telč, and resident of the burghers' hospital (almshouse), died on the 16th of [month?] 1796 in the Alte Vorstadt of Telč, house no. 46, aged 76, of consumption (Lungensucht). Born c. 1720. Very probably the parents of Franz Luchesi (c. 1752–1835), who later held the same burgher chimney-sweep business — not yet proven. Found by James, 16 Nov 2026.",
+     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 100, Alte Vorstadt (Staré Předměstí) — index book 7007: \"1796 Luchesi Barbara — Altstadt — 17\"\n\n16 [month not yet read] 1796 — versehen: [Schumertler?]; begraben: Franz [Fernauer?] — Haus-Nr. 46\nBarbara, des [seligen?] Lorenz Luchesy, bürgerl. Rauchfangkehrermeisters hinterlassene Witwe, und bürgerl. Spitälerin\nkath., weiblich — Alter: 76 (read as 76 by James and Claude; first read as 70) — Krankheit: Lungensucht"
+    }
+   ],
+   "notes": [
+    "Lorenz Luchesi, burgher master chimney sweep in Telč, known only from his widow Barbara's death entry (1796), which calls him deceased. Probably the father of Franz Luchesi (c. 1752–1835), who held the same burgher chimney-sweep business — not yet proven. To find: his death (before 1796; Telč death index book 7007 if 1784–96, otherwise death book 6995, 1729–1783), his marriage to Barbara (c. 1740s), and Franz's baptism c. 1751/52."
+   ]
+  },
+  "I0207": {
+   "id": "I0207",
+   "gender": "f",
+   "surname": "",
+   "parents": [],
+   "families": [
+    "F0062"
+   ],
+   "given": "Barbara",
+   "living": false,
+   "birth": {
+    "date": "about 1720"
+   },
+   "death": {
+    "date": "1796"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-01000.jp2",
+     "site": "mza.cz",
+     "label": "Death of Barbara Luchesi, widow of Lorenz Luchesi (master chimney sweep), Telč 1796",
+     "context": "Person",
+     "cid": "C0142",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
+     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 100, Alte Vorstadt p. 17 — 16 [?] 1796: Barbara, widow of Lorenz Luchesy",
+     "summary": "Barbara Luchesi, widow of the late Lorenz Luchesi, burgher and master chimney sweep in Telč, and resident of the burghers' hospital (almshouse), died on the 16th of [month?] 1796 in the Alte Vorstadt of Telč, house no. 46, aged 76, of consumption (Lungensucht). Born c. 1720. Very probably the parents of Franz Luchesi (c. 1752–1835), who later held the same burgher chimney-sweep business — not yet proven. Found by James, 16 Nov 2026.",
+     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 100, Alte Vorstadt (Staré Předměstí) — index book 7007: \"1796 Luchesi Barbara — Altstadt — 17\"\n\n16 [month not yet read] 1796 — versehen: [Schumertler?]; begraben: Franz [Fernauer?] — Haus-Nr. 46\nBarbara, des [seligen?] Lorenz Luchesy, bürgerl. Rauchfangkehrermeisters hinterlassene Witwe, und bürgerl. Spitälerin\nkath., weiblich — Alter: 76 (read as 76 by James and Claude; first read as 70) — Krankheit: Lungensucht"
+    }
+   ],
+   "notes": [
+    "Widow of Lorenz Luchesi, burgher master chimney sweep in Telč; in old age a resident of the burghers' hospital (bürgerliche Spitälerin). Died 1796 aged 76 (b. c. 1720). Probably the mother of Franz Luchesi (c. 1752–1835, burgher master chimney sweep in Telč) — not yet proven; to confirm, find Franz's baptism c. 1751/52 (Telč births book 6975, 1730–1768) naming his parents. Maiden name unknown."
+   ]
   }
  },
  "families": {
@@ -7840,6 +7907,12 @@
    "marriage": {
     "date": "13 May 1812"
    }
+  },
+  "F0062": {
+   "id": "F0062",
+   "father": "I0208",
+   "mother": "I0207",
+   "children": []
   }
  }
 }
