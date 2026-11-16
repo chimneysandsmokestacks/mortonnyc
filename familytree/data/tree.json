@@ -7109,7 +7109,7 @@
     }
    ],
    "notes": [
-    "Lorenz Luchesi, burgher master chimney sweep in Telč. Father of Franz Adalbert Luchesi (bapt. Telč 30 Mar 1754, d. 1835), proven by Franz's baptism (parents 'Laurentius Luke[z]i' and Barbara). Known from his widow Barbara's death entry (1796), which calls him deceased. Still to find: his death (before 1796 — Telč death index book 7007 for 1784–96, otherwise death book 6995, 1729–1783), his marriage to Barbara (before 1754), his origin, and other children (Telč births book 6975)."
+    "Lorenz Luchesi, burgher and chimney sweep (civis caminarius) in Telč — so called in the baptisms of 1758 and 1763; his widow's death entry (1796) calls him a burgher master chimney sweep (bürgerl. Rauchfangkehrermeister). Spelled Lukesi, Lukezi, Luxezer, Luxesy, Luxeser and Luchesy in the Telč registers. Children with Barbara, all baptised in Telč: Mathias Joseph (7 Feb 1752), Franz Adalbert (30 Mar 1754, d. 1835), Philipp Jakob (29 Apr 1756), Bartholomäus (23 Aug 1758), Katharina Elisabeth (10 Nov 1763). Mathias Czach, an employee of the Telč estate, was godfather to every one of them. Still to find: his death (before 1796 — Telč death index book 7007 for 1784–96, otherwise death book 6995, 1729–1783), his marriage to Barbara (before 1752), his origin, and any children after 1763 (book 6975 runs to 1768; images 248 and 301–443 not yet reviewed)."
    ]
   },
   "I0207": {
@@ -7166,7 +7166,7 @@
    "events": [
     {
      "type": "Baptism",
-     "desc": "Baptised in Telč as Franciscus Adalbertus; parents Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias [Gach?] and his wife Catharina",
+     "desc": "Baptised in Telč as Franciscus Adalbertus; parents Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina",
      "date": "30 Mar 1754"
     },
     {
@@ -7297,12 +7297,148 @@
      "cid": "C0143",
      "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Liber baptizatorum 1730–1768 (MZA book 6975)",
      "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 184 — 30 March 1754: Franciscus Adalbertus, son of Laurentius Luchesi",
-     "summary": "Baptism on 30 March 1754 in Telč of Franciscus Adalbertus (Franz Adalbert), son of Laurentius (Lorenz) Luchesi — spelled Luke[z]i — and Barbara; godparents Mathias [Gach?] and his wife Catharina; baptised by Father Dionysius. This is Franz Luchesi (d. 1835, burgher and master chimney sweep in Telč): his parents' names match Barbara's 1796 death entry ('widow of Lorenz Luchesi, burgher master chimney sweep'). His age at death (83) was overstated by about three years — he was 80. Found by James, 16 Nov 2026.",
-     "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 184 — 30 Martio 1754 (month/year per James); no index for this book\n\nDies: 30 [Martii 1754] — Patria: Telczii (Telč) — Baptizans: P. Dionisius\nBaptizatus: Franciscus Adalbertus\nParentes: Laurentius Luke[z]i [= Luchesi]; Barbara\nPatrini: Mathias [Gach?]; Catharina uxor ejus"
+     "summary": "Baptism on 30 March 1754 in Telč of Franciscus Adalbertus (Franz Adalbert), son of Laurentius (Lorenz) Luchesi — spelled Luke[z]i — and Barbara; godparents Mathias Czach (the name is clear in his siblings' entries) and his wife Catharina; baptised by Father Dionysius. This is Franz Luchesi (d. 1835, burgher and master chimney sweep in Telč): his parents' names match Barbara's 1796 death entry ('widow of Lorenz Luchesi, burgher master chimney sweep'). His age at death (83) was overstated by about three years — he was 80. Found by James, 16 Nov 2026.",
+     "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 184 — 30 Martio 1754 (month/year per James); no index for this book\n\nDies: 30 [Martii 1754] — Patria: Telczii (Telč) — Baptizans: P. Dionisius\nBaptizatus: Franciscus Adalbertus\nParentes: Laurentius Luke[z]i [= Luchesi]; Barbara\nPatrini: Mathias Czach (the name is clear in his siblings' entries); Catharina uxor ejus"
     }
    ],
    "notes": [
     "Father of Josef Luchesi Sr, named in Josef's 1812 marriage in Kanitz as 'Franz Luchesi, Rauchfangkehrer in Teltsch' (Telč, Moravia). Place name read as Teltsch on a close look at the 1812 entry (James/Claude, 15 Nov 2026); a strong but not certain reading.\nBaptised 30 Mar 1754 in Telč as Franciscus Adalbertus, son of Lorenz (Laurentius) Luchesi, burgher master chimney sweep, and Barbara.\nUpdate 15 Nov 2026: Franz lived in Telč from at least 1784 (house 38, town) — chimney sweep, burgher chimney sweep by 1788 — and died there on 2 Jan 1835 given as aged 83 (actually 80), burgher and master chimney sweep. Wife Katharina née Hübsch (of an Iglau family); children Franz Xaver 1784, Marianne 1786, Johann Wenzl 1788, Josef 1790, Aloysia Katharina 1793, Franziska 1797. His birthplace and marriage (before 1784) are still unknown."
+   ]
+  },
+  "I0209": {
+   "id": "I0209",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0062"
+   ],
+   "families": [],
+   "given": "Mathias Joseph",
+   "living": false,
+   "birth": {
+    "date": "before 7 Feb 1752"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "desc": "Baptised in Telč as Mathias Josephus; parents Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina",
+     "date": "7 Feb 1752"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7770?image=216000010-000253-003373-000000-006975-000000-00-B05492-01700.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Mathias Joseph Luchesi, child of Lorenz and Barbara, Telč 7 Feb 1752",
+     "context": "Person",
+     "cid": "C0144",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Liber baptizatorum 1730–1768 (MZA book 6975)",
+     "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 170 — 7 Feb 1752: Mathias Josephus, son of Laurentius Luchesi",
+     "summary": "Baptism on 7 Feb 1752 in Telč of Mathias Josephus (Mathias Joseph), son of Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina. Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
+     "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 170 (L page) — no index for this book\n\nDies: 7 [February 1752] — Patria: Telczii (Telč) — Baptizans: Capellanus [loci] (entry reads 'Idem' under the chaplain)\nBaptizatus: Mathias Josephus\nParentes: Laurentius Lukesi; Barbara\nPatrini: Mathias Czah; Catharina uxor ejus"
+    }
+   ]
+  },
+  "I0210": {
+   "id": "I0210",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0062"
+   ],
+   "families": [],
+   "given": "Philipp Jakob",
+   "living": false,
+   "birth": {
+    "date": "before 29 Apr 1756"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "desc": "Baptised in Telč as Philippus Jacobus; parents Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina",
+     "date": "29 Apr 1756"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7770?image=216000010-000253-003373-000000-006975-000000-00-B05492-02030.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Philipp Jakob Luchesi, child of Lorenz and Barbara, Telč 29 Apr 1756",
+     "context": "Person",
+     "cid": "C0145",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Liber baptizatorum 1730–1768 (MZA book 6975)",
+     "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 203 — 29 Apr 1756: Philippus Jacobus, son of Laurentius Luchesi",
+     "summary": "Baptism on 29 Apr 1756 in Telč of Philippus Jacobus (Philipp Jakob), son of Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina. Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
+     "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 203 (L page, p. 400) — no index for this book\n\nDies: 29 [April 1756] — Patria: Telczii (Telč) — Baptizans: Josephus Lipka, capellanus\nBaptizatus: Philippus Jacobus\nParentes: Laurentius Luxezer — with 'Luchesy' written beneath; Barbara\nPatrini: Mathias Czach; Catharina uxor ejus"
+    }
+   ]
+  },
+  "I0211": {
+   "id": "I0211",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0062"
+   ],
+   "families": [],
+   "given": "Bartholomäus",
+   "living": false,
+   "birth": {
+    "date": "before 23 Aug 1758"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "desc": "Baptised in Telč as Bartholomaeus; parents Laurentius (Lorenz) Luchesi, burgher and chimney sweep, and Barbara; godparents Mathias Czach and his wife Catharina",
+     "date": "23 Aug 1758"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7770?image=216000010-000253-003373-000000-006975-000000-00-B05492-02190.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Bartholomäus Luchesi, child of Lorenz and Barbara, Telč 23 Aug 1758",
+     "context": "Person",
+     "cid": "C0146",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Liber baptizatorum 1730–1768 (MZA book 6975)",
+     "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 219 — 23 Aug 1758: Bartholomaeus, son of Laurentius Luchesi",
+     "summary": "Baptism on 23 Aug 1758 in Telč of Bartholomaeus (Bartholomäus), son of Laurentius (Lorenz) Luchesi, burgher and chimney sweep, and Barbara; godparents Mathias Czach and his wife Catharina. Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
+     "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 219 (L page, p. 432) — no index for this book\n\nDies: 23 [August 1758] — Patria: Telczii (Telč) — Baptizans: Franciscus Schimik, cooperator (entry reads 'Idem' under him)\nBaptizatus: Bartholomaeus\nParentes: Laurentius Luxesy, civis caminarius; Barbara\nPatrini: Mathias Czach [occupation, ending -arius, unclear]; Catharina uxor ejus"
+    }
+   ]
+  },
+  "I0212": {
+   "id": "I0212",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0062"
+   ],
+   "families": [],
+   "given": "Katharina Elisabeth",
+   "living": false,
+   "birth": {
+    "date": "before 10 Nov 1763"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "desc": "Baptised in Telč as Catharina Elisabetha; parents Laurentius (Lorenz) Luchesi, burgher and chimney sweep, and Barbara; godparents Mathias Czach, an employee of the Telč estate, and his wife Barbara (in 1752–58 his wife was Catharina, so probably a second marriage)",
+     "date": "10 Nov 1763"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7770?image=216000010-000253-003373-000000-006975-000000-00-B05492-02570.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Katharina Elisabeth Luchesi, child of Lorenz and Barbara, Telč 10 Nov 1763",
+     "context": "Person",
+     "cid": "C0147",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Liber baptizatorum 1730–1768 (MZA book 6975)",
+     "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 257 — 10 Nov 1763: Catharina Elisabetha, daughter of Laurentius Luchesi",
+     "summary": "Baptism on 10 Nov 1763 in Telč of Catharina Elisabetha (Katharina Elisabeth), daughter of Laurentius (Lorenz) Luchesi, burgher and chimney sweep, and Barbara; godparents Mathias Czach, an employee of the Telč estate, and his wife Barbara (in 1752–58 his wife was Catharina, so probably a second marriage). Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
+     "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 257 (R page, p. 509) — no index for this book\n\nDies: 10 [November 1763] — Patria: Telczii (Telč) — Baptizans: [Thomas] Havelka, cooperator\nBaptizatus: Catharina Elisabetha\nParentes: Laurentius Luxeser, civis caminarius; Barbara\nPatrini: Mathias Czach, [Sheda?]rius Dominii [an estate official/servant — reading uncertain]; Barbara uxor ejus"
+    }
    ]
   }
  },
@@ -7931,7 +8067,11 @@
    "father": "I0208",
    "mother": "I0207",
    "children": [
-    "I0179"
+    "I0209",
+    "I0179",
+    "I0210",
+    "I0211",
+    "I0212"
    ]
   }
  }
