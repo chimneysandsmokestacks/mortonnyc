@@ -6568,7 +6568,7 @@
    "given": "Josef",
    "living": false,
    "birth": {
-    "date": "about Nov 1789"
+    "date": "before Nov 1790"
    },
    "death": {
     "date": "5 Oct 1862"
@@ -6576,8 +6576,8 @@
    "events": [
     {
      "type": "Baptism",
-     "desc": "Baptised in Telč (Teltsch), house no. 38, 19 November [1789?] (year inferred, to confirm); parents Franz Luchesi, chimney sweep, and Katharina [Hübsch?]",
-     "date": "about 19 Nov 1789"
+     "desc": "Baptised in Telč (Teltsch), house no. 38; parents Franz Luchesi, chimney sweep, and Katharina [Hübsch?]",
+     "date": "19 Nov 1790"
     },
     {
      "type": "Occupation",
@@ -6648,13 +6648,13 @@
     {
      "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01700.jp2",
      "site": "mza.cz",
-     "label": "Baptism of Joseph Luchesi, son of Franz Luchesi (chimney sweep), Telč c. 1790",
+     "label": "Baptism of Joseph Luchesi, son of Franz Luchesi (chimney sweep), Telč 19 Nov 1790",
      "context": "Person",
      "cid": "C0128",
      "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
-     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 170 — 19 November [1789?]: Joseph, son of Franz Luchesi",
-     "summary": "Baptism in Telč (Teltsch) of Joseph, son of Franz Luchesi, chimney sweep, and Katharina [Hübsch?] (maiden name uncertain), house no. 38, on 19 November [1789?] (year inferred from his age 22 in May 1812; to confirm from the page header). Godparents Wenzl [Hübsch?] and Maria Anna [Fischspiel?], burghers of Iglau (Jihlava); the godfather probably a relative of the mother. Found by James, 15 Nov 2026. Identified as Josef Luchesi Sr (master chimney sweep in Kanitz, d. 1862): same father Franz Luchesi, chimney sweep, and the same house number 38 written for the groom in the 1812 Kanitz marriage.",
-     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 170 — read from James's screenshots\n\nTag: 19 [November] — Priester: Johann Mayr[eb?], Caplan — Haus-Nr. 38\nTäufling: Joseph — (below:) \"Gebohren [den Tag zuvor?]\"\nVater: Franz Luchesi, Rauchfang-kehrer\nMutter: Katharina [Hübsch?]in\nPathen: Wenzl [Hübsch?]en; Maria Anna [Fischspiel?]in (margin correction \"…spielin\") — Iglauer Bürger et Bürgerin\n\nMonth: November (James). Year not read yet — 1789 inferred (22 in May 1812; a Nov 1790 birth would make him 21)."
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 170 — 19 November 1790: Joseph, son of Franz Luchesi",
+     "summary": "Baptism in Telč (Teltsch) of Joseph, son of Franz Luchesi, chimney sweep, and Katharina [Hübsch?] (maiden name uncertain), house no. 38, on 19 November 1790 (he was given as 22 at his May 1812 marriage, actually 21). Godparents Wenzl [Hübsch?] and Maria Anna [Fischspiel?], burghers of Iglau (Jihlava); the godfather probably a relative of the mother. Found by James, 15 Nov 2026. Identified as Josef Luchesi Sr (master chimney sweep in Kanitz, d. 1862): same father Franz Luchesi, chimney sweep, and the same house number 38 written for the groom in the 1812 Kanitz marriage.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 170 — read from James's screenshots\n\n19 November 1790 — Priester: Johann Mayr[eb?], Caplan — Haus-Nr. 38\nTäufling: Joseph — (below:) \"Gebohren [den Tag zuvor?]\"\nVater: Franz Luchesi, Rauchfang-kehrer\nMutter: Katharina [Hübsch?]in\nPathen: Wenzl [Hübsch?]en; Maria Anna [Fischspiel?]in (margin correction \"…spielin\") — Iglauer Bürger et Bürgerin\n\nDate: 19 November 1790 (month and year from the page, per James). He was thus 21, not 22, at his May 1812 marriage — a normal discrepancy."
     }
    ],
    "notes": [
@@ -6703,13 +6703,13 @@
     {
      "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01700.jp2",
      "site": "mza.cz",
-     "label": "Baptism of Joseph Luchesi, son of Franz Luchesi (chimney sweep), Telč c. 1790",
+     "label": "Baptism of Joseph Luchesi, son of Franz Luchesi (chimney sweep), Telč 19 Nov 1790",
      "context": "Person",
      "cid": "C0128",
      "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
-     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 170 — 19 November [1789?]: Joseph, son of Franz Luchesi",
-     "summary": "Baptism in Telč (Teltsch) of Joseph, son of Franz Luchesi, chimney sweep, and Katharina [Hübsch?] (maiden name uncertain), house no. 38, on 19 November [1789?] (year inferred from his age 22 in May 1812; to confirm from the page header). Godparents Wenzl [Hübsch?] and Maria Anna [Fischspiel?], burghers of Iglau (Jihlava); the godfather probably a relative of the mother. Found by James, 15 Nov 2026. Identified as Josef Luchesi Sr (master chimney sweep in Kanitz, d. 1862): same father Franz Luchesi, chimney sweep, and the same house number 38 written for the groom in the 1812 Kanitz marriage.",
-     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 170 — read from James's screenshots\n\nTag: 19 [November] — Priester: Johann Mayr[eb?], Caplan — Haus-Nr. 38\nTäufling: Joseph — (below:) \"Gebohren [den Tag zuvor?]\"\nVater: Franz Luchesi, Rauchfang-kehrer\nMutter: Katharina [Hübsch?]in\nPathen: Wenzl [Hübsch?]en; Maria Anna [Fischspiel?]in (margin correction \"…spielin\") — Iglauer Bürger et Bürgerin\n\nMonth: November (James). Year not read yet — 1789 inferred (22 in May 1812; a Nov 1790 birth would make him 21)."
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 170 — 19 November 1790: Joseph, son of Franz Luchesi",
+     "summary": "Baptism in Telč (Teltsch) of Joseph, son of Franz Luchesi, chimney sweep, and Katharina [Hübsch?] (maiden name uncertain), house no. 38, on 19 November 1790 (he was given as 22 at his May 1812 marriage, actually 21). Godparents Wenzl [Hübsch?] and Maria Anna [Fischspiel?], burghers of Iglau (Jihlava); the godfather probably a relative of the mother. Found by James, 15 Nov 2026. Identified as Josef Luchesi Sr (master chimney sweep in Kanitz, d. 1862): same father Franz Luchesi, chimney sweep, and the same house number 38 written for the groom in the 1812 Kanitz marriage.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 170 — read from James's screenshots\n\n19 November 1790 — Priester: Johann Mayr[eb?], Caplan — Haus-Nr. 38\nTäufling: Joseph — (below:) \"Gebohren [den Tag zuvor?]\"\nVater: Franz Luchesi, Rauchfang-kehrer\nMutter: Katharina [Hübsch?]in\nPathen: Wenzl [Hübsch?]en; Maria Anna [Fischspiel?]in (margin correction \"…spielin\") — Iglauer Bürger et Bürgerin\n\nDate: 19 November 1790 (month and year from the page, per James). He was thus 21, not 22, at his May 1812 marriage — a normal discrepancy."
     }
    ],
    "notes": [
