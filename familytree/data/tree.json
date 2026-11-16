@@ -6445,59 +6445,6 @@
     }
    ]
   },
-  "I0004": {
-   "id": "I0004",
-   "gender": "f",
-   "surname": "Morton",
-   "parents": [
-    "F0006"
-   ],
-   "families": [
-    "F0001"
-   ],
-   "given": "Eva Maria Julia",
-   "living": false,
-   "aka": [
-    "married name Wolf"
-   ],
-   "birth": {
-    "date": "30 Jun 1928"
-   },
-   "death": {
-    "date": "7 Sep 2018",
-    "place": "Wien"
-   },
-   "links": [
-    {
-     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Birth certificate of Eva Maria Morton",
-     "context": "Person",
-     "cid": "C0103",
-     "source": "Birth certificate of Eva Maria Morton (scan)",
-     "page": ""
-    },
-    {
-     "url": "https://drive.google.com/file/d/1ZY1gMG6Lu0jadEtJAS2MSYKHKbaEmoWe/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Article on Eva Morton-Wolf, Zwischenwelt 2014 (German original, PDF)",
-     "context": "Person",
-     "cid": "C0125",
-     "source": "Miriam Aistleitner, \"Volksdeutsche\", Tschechinnen und Tschechen. Perspektive einer Zeitzeugin: Eva Morton-Wolf",
-     "page": "Zwischenwelt, August 2014, pp. 69–73 — original German text (scan)",
-     "summary": "Interview-based article on Eva Morton-Wolf (born Eva Maria Julia Wolf, Vienna, 30 June 1928, the youngest of three children). Father Sigmund Wolf (Jewish, non-practising; social democrat; textile factory in Leipnik/Lipník nad Bečvou) and mother Frida née Luchesi both came from Neu-Titschein. Family moved from Vienna-Döbling to Brno (Lipová 48) in autumn 1937; Sigmund died 20 Feb 1938 in the Kaufmännisches Sanatorium, Vienna. Under the Nuremberg Laws the children were 'Mischlinge ersten Grades': Eva barred from school, brother Peter put to forced factory work, sister Charlotte made to work for a transport firm near Brno. Frida's brother owned the leading confectionery in Neu-Titschein. After 1948 the family lived two years in Vienna; Eva and her mother emigrated to Sydney (1950), where Eva married Ernst Morton (born Mondschein, a 'Dunera Boy'); the family returned to Vienna on 30 April 1978."
-    },
-    {
-     "url": "https://drive.google.com/file/d/1l5DWFfmJAjxsjNzDRn2nUFO53V-MLsnn/view?usp=sharing",
-     "site": "Family documents",
-     "label": "Article on Eva Morton-Wolf, Zwischenwelt 2014 (English translation by James Morton, PDF)",
-     "context": "Person",
-     "cid": "C0126",
-     "source": "Miriam Aistleitner, \"Volksdeutsche\", Tschechinnen und Tschechen. Perspektive einer Zeitzeugin: Eva Morton-Wolf",
-     "page": "Zwischenwelt, August 2014, pp. 69–73 — English translation by James Morton"
-    }
-   ]
-  },
   "I0188": {
    "id": "I0188",
    "gender": "f",
@@ -6648,6 +6595,59 @@
    "living": false,
    "nick": "Lotte",
    "links": [
+    {
+     "url": "https://drive.google.com/file/d/1ZY1gMG6Lu0jadEtJAS2MSYKHKbaEmoWe/view?usp=sharing",
+     "site": "Family documents",
+     "label": "Article on Eva Morton-Wolf, Zwischenwelt 2014 (German original, PDF)",
+     "context": "Person",
+     "cid": "C0125",
+     "source": "Miriam Aistleitner, \"Volksdeutsche\", Tschechinnen und Tschechen. Perspektive einer Zeitzeugin: Eva Morton-Wolf",
+     "page": "Zwischenwelt, August 2014, pp. 69–73 — original German text (scan)",
+     "summary": "Interview-based article on Eva Morton-Wolf (born Eva Maria Julia Wolf, Vienna, 30 June 1928, the youngest of three children). Father Sigmund Wolf (Jewish, non-practising; social democrat; textile factory in Leipnik/Lipník nad Bečvou) and mother Frida née Luchesi both came from Neu-Titschein. Family moved from Vienna-Döbling to Brno (Lipová 48) in autumn 1937; Sigmund died 20 Feb 1938 in the Kaufmännisches Sanatorium, Vienna. Under the Nuremberg Laws the children were 'Mischlinge ersten Grades': Eva barred from school, brother Peter put to forced factory work, sister Charlotte made to work for a transport firm near Brno. Frida's brother owned the leading confectionery in Neu-Titschein. After 1948 the family lived two years in Vienna; Eva and her mother emigrated to Sydney (1950), where Eva married Ernst Morton (born Mondschein, a 'Dunera Boy'); the family returned to Vienna on 30 April 1978."
+    },
+    {
+     "url": "https://drive.google.com/file/d/1l5DWFfmJAjxsjNzDRn2nUFO53V-MLsnn/view?usp=sharing",
+     "site": "Family documents",
+     "label": "Article on Eva Morton-Wolf, Zwischenwelt 2014 (English translation by James Morton, PDF)",
+     "context": "Person",
+     "cid": "C0126",
+     "source": "Miriam Aistleitner, \"Volksdeutsche\", Tschechinnen und Tschechen. Perspektive einer Zeitzeugin: Eva Morton-Wolf",
+     "page": "Zwischenwelt, August 2014, pp. 69–73 — English translation by James Morton"
+    }
+   ]
+  },
+  "I0004": {
+   "id": "I0004",
+   "gender": "f",
+   "surname": "Morton",
+   "parents": [
+    "F0006"
+   ],
+   "families": [
+    "F0001"
+   ],
+   "given": "Eva Maria Julia",
+   "living": false,
+   "aka": [
+    "born Wolf"
+   ],
+   "birth": {
+    "date": "30 Jun 1928"
+   },
+   "death": {
+    "date": "7 Sep 2018",
+    "place": "Wien"
+   },
+   "links": [
+    {
+     "url": "https://drive.google.com/file/d/1nM8OlKMCCuslzunHdl6VG88j63KPMNjh/view?usp=sharing",
+     "site": "Family documents",
+     "label": "Birth certificate of Eva Maria Morton",
+     "context": "Person",
+     "cid": "C0103",
+     "source": "Birth certificate of Eva Maria Morton (scan)",
+     "page": ""
+    },
     {
      "url": "https://drive.google.com/file/d/1ZY1gMG6Lu0jadEtJAS2MSYKHKbaEmoWe/view?usp=sharing",
      "site": "Family documents",
