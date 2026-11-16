@@ -7090,6 +7090,135 @@
    "notes": [
     "Father of Josef Luchesi Sr, named in Josef's 1812 marriage in Kanitz as 'Franz Luchesi, Rauchfangkehrer in Teltsch' (Telč, Moravia). Place name read as Teltsch on a close look at the 1812 entry (James/Claude, 15 Nov 2026); a strong but not certain reading.\nUpdate 15 Nov 2026: Franz lived in Telč from at least 1784 (house 38, town) — chimney sweep, burgher chimney sweep by 1788 — and died there on 2 Jan 1835 aged 83 (b. c. 1751/52), burgher and master chimney sweep. Wife Katharina née Hübsch (of an Iglau family); children Franz Xaver 1784, Marianne 1786, Johann Wenzl 1788, Josef 1790, Aloysia Katharina 1793, Franziska 1797. His birthplace and marriage (before 1784) are still unknown."
    ]
+  },
+  "I0203": {
+   "id": "I0203",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0055"
+   ],
+   "families": [
+    "F0061"
+   ],
+   "given": "Franz",
+   "living": false,
+   "birth": {
+    "date": "about 1813"
+   },
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Kaminfegermeister (master chimney sweep) in Telč, house no. 38 — his grandfather Franz's business",
+     "date": "19 Jan 1847"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7782?image=216000010-000253-003373-000000-006991-000000-00-B04484-00120.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Franz Luchesi (son of Josef Sr of Kanitz) and Marie, widow, Telč 19 Jan 1847",
+     "context": "Person",
+     "cid": "C0139",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Trauungsbuch 1837–1885 (MZA book 6991)",
+     "page": "Trauungsbuch Telč 1837–1885, book 6991, snímek 12 — 19 January 1847: Franz Luchesy and Marie, widow [Zaub?]",
+     "summary": "Marriage in Telč on 19 January 1847 (house 38) of Franz Luchesi, master chimney sweep in Telč, 33, single, legitimate son of Joseph Luchesi, master chimney sweep of Kanitz, and Katharina née Elsner — i.e. a son of Josef Sr, grandson of Franz Sr — and Marie, 38, widow of Jakob [Zaub?], chimney sweep in Telč, daughter of Franz [Kanik?], master shoemaker in Telč, and Catharina née [Zemanek?]. The bride was the groom's sister-in-law in the first degree of affinity, so the marriage needed civil (Gubernium Brünn, 26 Oct 1846) and church (Ordinariate Brünn, 22 Oct 1846) dispensations. Franz had evidently come to Telč to carry on his grandfather's chimney-sweep business at house 38. Found by James, 15 Nov 2026.",
+     "transcript": "Telč marriages 1837–1885 (MZA book 6991, detail 7782), snímek 12 — 19 Jänner 1847 (date per James)\n\nHaus-Nr. 38/38\nBräutigam: Franz Luchesy, Kaminfegermeister von da, ehelicher Sohn des Joseph Luchesy, Kaminfegermeisters von Kanitz, und der Katharina geborenen Elsner — kath., ledig, 33\nBraut: Marie, Witwe nach Jakob [Zaub?], Kaminfeger von da, eheliche Tochter des Franz [Kanik?], Schuhmachermeisters von da, und der Catharina geborenen [Zemanek?] — kath., Witwe, 38\nBeistände: Franz [Wenisch?], Tuchmachermeister von da; Johann Malý, Schneidermeister von da\nAnmerkung: Dem Bräutigam [ist?] seine Schwägerin im 1ten Grade [verwandt?]; mit politischem Dispens des k.k. mähr.-schles. Guberniums dd. Brünn am 26ten Oktober 1846 und mit kirchlichem Dispens des hochwürdigen Ordinariats dd. Brünn am 22ten Oktober 1846. Ehedispens Fach III, fasc. A/847, Nr. 1."
+    }
+   ],
+   "notes": [
+    "Son of Josef Luchesi Sr (master chimney sweep in Kanitz) and Katharina née Elsner, born c. 1813 (probably Kanitz; baptism not yet found). Moved to Telč and carried on the chimney-sweep business of his grandfather Franz Luchesi (d. 1835) at house no. 38. Married 19 Jan 1847 Marie, widow of Jakob [Zaub?], chimney sweep in Telč. Children who died young: Franz (c. 1846–1851), Antonia (c. 1850–1851). Not to be confused with his grandfather Franz (c. 1752–1835) or his uncle Franz Xaver (b. 1784)."
+   ]
+  },
+  "I0204": {
+   "id": "I0204",
+   "gender": "f",
+   "surname": "",
+   "parents": [],
+   "families": [
+    "F0061"
+   ],
+   "given": "Marie",
+   "living": false,
+   "birth": {
+    "date": "about 1808"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7782?image=216000010-000253-003373-000000-006991-000000-00-B04484-00120.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Franz Luchesi (son of Josef Sr of Kanitz) and Marie, widow, Telč 19 Jan 1847",
+     "context": "Person",
+     "cid": "C0139",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Trauungsbuch 1837–1885 (MZA book 6991)",
+     "page": "Trauungsbuch Telč 1837–1885, book 6991, snímek 12 — 19 January 1847: Franz Luchesy and Marie, widow [Zaub?]",
+     "summary": "Marriage in Telč on 19 January 1847 (house 38) of Franz Luchesi, master chimney sweep in Telč, 33, single, legitimate son of Joseph Luchesi, master chimney sweep of Kanitz, and Katharina née Elsner — i.e. a son of Josef Sr, grandson of Franz Sr — and Marie, 38, widow of Jakob [Zaub?], chimney sweep in Telč, daughter of Franz [Kanik?], master shoemaker in Telč, and Catharina née [Zemanek?]. The bride was the groom's sister-in-law in the first degree of affinity, so the marriage needed civil (Gubernium Brünn, 26 Oct 1846) and church (Ordinariate Brünn, 22 Oct 1846) dispensations. Franz had evidently come to Telč to carry on his grandfather's chimney-sweep business at house 38. Found by James, 15 Nov 2026.",
+     "transcript": "Telč marriages 1837–1885 (MZA book 6991, detail 7782), snímek 12 — 19 Jänner 1847 (date per James)\n\nHaus-Nr. 38/38\nBräutigam: Franz Luchesy, Kaminfegermeister von da, ehelicher Sohn des Joseph Luchesy, Kaminfegermeisters von Kanitz, und der Katharina geborenen Elsner — kath., ledig, 33\nBraut: Marie, Witwe nach Jakob [Zaub?], Kaminfeger von da, eheliche Tochter des Franz [Kanik?], Schuhmachermeisters von da, und der Catharina geborenen [Zemanek?] — kath., Witwe, 38\nBeistände: Franz [Wenisch?], Tuchmachermeister von da; Johann Malý, Schneidermeister von da\nAnmerkung: Dem Bräutigam [ist?] seine Schwägerin im 1ten Grade [verwandt?]; mit politischem Dispens des k.k. mähr.-schles. Guberniums dd. Brünn am 26ten Oktober 1846 und mit kirchlichem Dispens des hochwürdigen Ordinariats dd. Brünn am 22ten Oktober 1846. Ehedispens Fach III, fasc. A/847, Nr. 1."
+    }
+   ],
+   "notes": [
+    "Bride of Franz Luchesi (19 Jan 1847, Telč). Widow of Jakob [Zaub?], chimney sweep in Telč; daughter of Franz [Kanik?], master shoemaker in Telč, and Catharina née [Zemanek?]. Maiden name not yet read with confidence (possibly Kanik), so left blank. She was the groom's sister-in-law in the first degree of affinity (dispensations Oct 1846)."
+   ]
+  },
+  "I0205": {
+   "id": "I0205",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0061"
+   ],
+   "families": [],
+   "given": "Franz",
+   "living": false,
+   "birth": {
+    "date": "about 1846"
+   },
+   "death": {
+    "date": "14 Mar 1851"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7784?image=216000010-000253-003373-000000-006998-000000-00-B05531-00270.jp2",
+     "site": "mza.cz",
+     "label": "Death of Franz Luchesi, aged 5, son of Franz Luchesi (chimney sweep), Telč 14 Mar 1851",
+     "context": "Person",
+     "cid": "C0140",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1831–1878 (MZA book 6998)",
+     "page": "Sterbebuch Telč 1831–1878, book 6998, snímek 27, Stadt Teltsch fol. 185 — 14 Mar 1851: Franz, son of Franz Luchesy",
+     "summary": "Franz Luchesi, son of Franz Luchesi, chimney sweep in Telč, died 14 March 1851 at house no. 38, aged 5, buried 16 March. Age 5 → born c. 1846, i.e. before his parents' marriage of 19 Jan 1847 (age may be approximate, or he was legitimised by the marriage).",
+     "transcript": "Telč deaths, book 6998, snímek 27, 1851 Stadt Teltsch fol. 185\n\n14/16 März [1851], begr. [Patsch?] Coop. — Haus-Nr. 38 — Franz, Sohn des Franz Luchesy, Kaminfegers von da — kath., männlich, 5 Jahre"
+    }
+   ]
+  },
+  "I0206": {
+   "id": "I0206",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0061"
+   ],
+   "families": [],
+   "given": "Antonia",
+   "living": false,
+   "birth": {
+    "date": "about Feb 1850"
+   },
+   "death": {
+    "date": "14 Aug 1851"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7784?image=216000010-000253-003373-000000-006998-000000-00-B05531-00270.jp2",
+     "site": "mza.cz",
+     "label": "Death of Antonia Luchesi, aged 1½, daughter of Franz Luchesi (master chimney sweep), Telč 14 Aug 1851",
+     "context": "Person",
+     "cid": "C0141",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1831–1878 (MZA book 6998)",
+     "page": "Sterbebuch Telč 1831–1878, book 6998, snímek 27, Stadt Teltsch fol. 186 — 14 Aug 1851: Antonia, daughter of Franz Luchesy",
+     "summary": "Antonia Luchesi, daughter of Franz Luchesi, master chimney sweep in Telč, died 14 August 1851 at house no. 38, aged 1 year 6 months, of convulsions (Fraisen); buried 16 August. Born c. February 1850.",
+     "transcript": "Telč deaths, book 6998, snímek 27, 1851 Stadt Teltsch fol. 186\n\n14/16 August [1851], begr. Franz [Dvořák?] Coop. — Haus-Nr. 38 — Antonia, Tochter des Franz Luchesy, Rauchfangkehrermeisters von da — kath., weiblich, 1 Jahr 6 Monate — Fraisen"
+    }
+   ]
   }
  },
  "families": {
@@ -7611,18 +7740,6 @@
     "I0173"
    ]
   },
-  "F0055": {
-   "id": "F0055",
-   "father": "I0175",
-   "mother": "I0180",
-   "children": [
-    "I0164",
-    "I0181"
-   ],
-   "marriage": {
-    "date": "13 May 1812"
-   }
-  },
   "F0057": {
    "id": "F0057",
    "father": "I0181",
@@ -7698,6 +7815,31 @@
     "I0201",
     "I0202"
    ]
+  },
+  "F0061": {
+   "id": "F0061",
+   "father": "I0203",
+   "mother": "I0204",
+   "children": [
+    "I0205",
+    "I0206"
+   ],
+   "marriage": {
+    "date": "19 Jan 1847"
+   }
+  },
+  "F0055": {
+   "id": "F0055",
+   "father": "I0175",
+   "mother": "I0180",
+   "children": [
+    "I0203",
+    "I0164",
+    "I0181"
+   ],
+   "marriage": {
+    "date": "13 May 1812"
+   }
   }
  }
 }
