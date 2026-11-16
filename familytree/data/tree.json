@@ -6769,6 +6769,40 @@
     }
    ]
   },
+  "I0199": {
+   "id": "I0199",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0056"
+   ],
+   "families": [],
+   "given": "Johann Wenzl",
+   "living": false,
+   "birth": {
+    "date": "before 11 Jan 1788"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "desc": "Baptised in Telč, house no. 38, as Johann [Kaspar?] Wenzl; parents Franz Luchesi, burgher chimney sweep, and Catharina; godparents Wenzl and Maria [Anna] Hübsch, burghers of Iglau",
+     "date": "11 Jan 1788"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01640.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Johann Wenzl Luchesi, son of Franz Luchesi (chimney sweep), Telč 11 Jan 1788",
+     "context": "Person",
+     "cid": "C0135",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 164 — 11 January 1788: Johann Wenzl, son of Franz Luchesi",
+     "summary": "Baptism on 11 January 1788 in Telč, house no. 38, of Johann [Kaspar?] Wenzl, son of Franz Luchesi, burgher chimney sweep, and Catharina. Godparents Wenzl Hübsch and Maria [Anna] Hübsch, burghers of Iglau (Jihlava) — the surname reads clearly as Hübsch here. Wenzl Hübsch (furrier in Iglau, per 1786) was godfather to Marianne (1786), Johann Wenzl (1788) and Josef (1790), and this boy bears his name → Catharina very probably née Hübsch, a close relative of Wenzl. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 164 — read from James's screenshot; year 1788 per James\n\nJenner 11 [1788] — Haus-Nr. 38\nTäufling: Johann [Kaspar?] Wenzl — kath., männlich, ehelich\nVater: Franz Luchesi, burgl. Rauchfangkehrer\nMutter: Catharina\nPathen: Wenzl Hübsch; Maria [Anna] Hübsch[in] — Bürger in Iglau\nPriester: Johann [Wagner?], Administrator"
+    }
+   ]
+  },
   "I0179": {
    "id": "I0179",
    "gender": "m",
@@ -6784,6 +6818,11 @@
      "type": "Occupation",
      "desc": "Rauchfangkehrer (chimney sweep) in Teltsch (Telč) (named as father in 1812)",
      "date": "13 May 1812"
+    },
+    {
+     "type": "Occupation",
+     "desc": "Bürgerlicher Rauchfangkehrer (burgher chimney sweep) in Telč",
+     "date": "11 Jan 1788"
     }
    ],
    "links": [
@@ -6840,6 +6879,17 @@
      "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 156 — 6 December 1786: Mariana, daughter of Franz Luchesi",
      "summary": "Baptism on 6 December 1786 in Telč, house no. 38, of Mariana (Marianne), daughter of Franz Luchesi, chimney sweep, and Catharina. Godparents Wenzl [Hübsch?], furrier in Iglau (Jihlava), and his wife Anna. The same Wenzl was godfather to Josef Sr in 1790 (there with Maria Anna [Fischspiel?]; both 'Iglauer Bürger') — a close tie, probably Catharina's brother or father (her maiden name possibly Hübsch). Found by James, 15 Nov 2026.",
      "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 156 — read from James's screenshot; year 1786 per James\n\nDecember 6 [1786] — Haus-Nr. 38\nTäufling: Mariana — weiblich, ehelich\nVater: Frantz Luchesi, Rauchfangkehrer\nMutter: Catharina\nPathen: Wentzl [Hübsch?]en, Kürschner in Iglau; Anna, dessen Ehegattin\nPriester: Aloys Chornitzer, Cooperator"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01640.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Johann Wenzl Luchesi, son of Franz Luchesi (chimney sweep), Telč 11 Jan 1788",
+     "context": "Person",
+     "cid": "C0135",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 164 — 11 January 1788: Johann Wenzl, son of Franz Luchesi",
+     "summary": "Baptism on 11 January 1788 in Telč, house no. 38, of Johann [Kaspar?] Wenzl, son of Franz Luchesi, burgher chimney sweep, and Catharina. Godparents Wenzl Hübsch and Maria [Anna] Hübsch, burghers of Iglau (Jihlava) — the surname reads clearly as Hübsch here. Wenzl Hübsch (furrier in Iglau, per 1786) was godfather to Marianne (1786), Johann Wenzl (1788) and Josef (1790), and this boy bears his name → Catharina very probably née Hübsch, a close relative of Wenzl. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 164 — read from James's screenshot; year 1788 per James\n\nJenner 11 [1788] — Haus-Nr. 38\nTäufling: Johann [Kaspar?] Wenzl — kath., männlich, ehelich\nVater: Franz Luchesi, burgl. Rauchfangkehrer\nMutter: Catharina\nPathen: Wenzl Hübsch; Maria [Anna] Hübsch[in] — Bürger in Iglau\nPriester: Johann [Wagner?], Administrator"
     }
    ],
    "notes": [
@@ -7448,6 +7498,7 @@
    "children": [
     "I0197",
     "I0198",
+    "I0199",
     "I0175"
    ]
   }
