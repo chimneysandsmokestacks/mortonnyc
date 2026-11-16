@@ -6803,6 +6803,40 @@
     }
    ]
   },
+  "I0201": {
+   "id": "I0201",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0056"
+   ],
+   "families": [],
+   "given": "Aloysia Katharina",
+   "living": false,
+   "birth": {
+    "date": "before 30 Jul 1793"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "desc": "Baptised in Telč, house no. 38; parents Franz Luchesi, chimney sweep, and Katharina née Hübsch; godparents Wenzl Hübsch and Anna [Fischspill], both of Iglau",
+     "date": "30 Jul 1793"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01790.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Aloysia Katharina Luchesi, daughter of Franz Luchesi and Katharina Hübsch, Telč 30 Jul 1793",
+     "context": "Person",
+     "cid": "C0136",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 179 — 30 July 1793: Aloysia Katharina, daughter of Franz Luchesi",
+     "summary": "Baptism on 30 July 1793 in Telč, house no. 38, of Aloysia Katharina, daughter of Franz Luchesi, chimney sweep, and Katharina Hübschin (née Hübsch). Godparents Wenzl Hübsch, clothmaker (Tuchmacher), and Anna [Fischspill], clothmaker, both of Iglau (Jihlava). This entry names the mother's maiden name — Hübsch — confirming the inference from the godparents of the earlier children. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 179 — read from James's screenshots; year 1793 per James\n\nJulius 30 [1793] — Priester: Gregor [Hauser?], Capellan — Haus-Nr. 38\nTäufling: Aloysia Katharina — weiblich, ehelich — Hebamme: [Dantowsk?]in\nVater: Franz Luchesi, Rauchfangkehrer\nMutter: Katharina Hübschin\nPathen: Wenzl Hübschen, Tuchmacher; Anna [Fischspill]in, Tuchmacherin — beide von Iglau"
+    }
+   ]
+  },
   "I0179": {
    "id": "I0179",
    "gender": "m",
@@ -6890,6 +6924,17 @@
      "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 164 — 11 January 1788: Johann Wenzl, son of Franz Luchesi",
      "summary": "Baptism on 11 January 1788 in Telč, house no. 38, of Johann [Kaspar?] Wenzl, son of Franz Luchesi, burgher chimney sweep, and Catharina. Godparents Wenzl Hübsch and Maria [Anna] Hübsch, burghers of Iglau (Jihlava) — the surname reads clearly as Hübsch here. Wenzl Hübsch (furrier in Iglau, per 1786) was godfather to Marianne (1786), Johann Wenzl (1788) and Josef (1790), and this boy bears his name → Catharina very probably née Hübsch, a close relative of Wenzl. Found by James, 15 Nov 2026.",
      "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 164 — read from James's screenshot; year 1788 per James\n\nJenner 11 [1788] — Haus-Nr. 38\nTäufling: Johann [Kaspar?] Wenzl — kath., männlich, ehelich\nVater: Franz Luchesi, burgl. Rauchfangkehrer\nMutter: Catharina\nPathen: Wenzl Hübsch; Maria [Anna] Hübsch[in] — Bürger in Iglau\nPriester: Johann [Wagner?], Administrator"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01790.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Aloysia Katharina Luchesi, daughter of Franz Luchesi and Katharina Hübsch, Telč 30 Jul 1793",
+     "context": "Person",
+     "cid": "C0136",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 179 — 30 July 1793: Aloysia Katharina, daughter of Franz Luchesi",
+     "summary": "Baptism on 30 July 1793 in Telč, house no. 38, of Aloysia Katharina, daughter of Franz Luchesi, chimney sweep, and Katharina Hübschin (née Hübsch). Godparents Wenzl Hübsch, clothmaker (Tuchmacher), and Anna [Fischspill], clothmaker, both of Iglau (Jihlava). This entry names the mother's maiden name — Hübsch — confirming the inference from the godparents of the earlier children. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 179 — read from James's screenshots; year 1793 per James\n\nJulius 30 [1793] — Priester: Gregor [Hauser?], Capellan — Haus-Nr. 38\nTäufling: Aloysia Katharina — weiblich, ehelich — Hebamme: [Dantowsk?]in\nVater: Franz Luchesi, Rauchfangkehrer\nMutter: Katharina Hübschin\nPathen: Wenzl Hübschen, Tuchmacher; Anna [Fischspill]in, Tuchmacherin — beide von Iglau"
     }
    ],
    "notes": [
@@ -6899,7 +6944,7 @@
   "I0200": {
    "id": "I0200",
    "gender": "f",
-   "surname": "",
+   "surname": "Hübsch",
    "parents": [],
    "families": [
     "F0056"
@@ -6950,10 +6995,21 @@
      "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 164 — 11 January 1788: Johann Wenzl, son of Franz Luchesi",
      "summary": "Baptism on 11 January 1788 in Telč, house no. 38, of Johann [Kaspar?] Wenzl, son of Franz Luchesi, burgher chimney sweep, and Catharina. Godparents Wenzl Hübsch and Maria [Anna] Hübsch, burghers of Iglau (Jihlava) — the surname reads clearly as Hübsch here. Wenzl Hübsch (furrier in Iglau, per 1786) was godfather to Marianne (1786), Johann Wenzl (1788) and Josef (1790), and this boy bears his name → Catharina very probably née Hübsch, a close relative of Wenzl. Found by James, 15 Nov 2026.",
      "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 164 — read from James's screenshot; year 1788 per James\n\nJenner 11 [1788] — Haus-Nr. 38\nTäufling: Johann [Kaspar?] Wenzl — kath., männlich, ehelich\nVater: Franz Luchesi, burgl. Rauchfangkehrer\nMutter: Catharina\nPathen: Wenzl Hübsch; Maria [Anna] Hübsch[in] — Bürger in Iglau\nPriester: Johann [Wagner?], Administrator"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01790.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Aloysia Katharina Luchesi, daughter of Franz Luchesi and Katharina Hübsch, Telč 30 Jul 1793",
+     "context": "Person",
+     "cid": "C0136",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 179 — 30 July 1793: Aloysia Katharina, daughter of Franz Luchesi",
+     "summary": "Baptism on 30 July 1793 in Telč, house no. 38, of Aloysia Katharina, daughter of Franz Luchesi, chimney sweep, and Katharina Hübschin (née Hübsch). Godparents Wenzl Hübsch, clothmaker (Tuchmacher), and Anna [Fischspill], clothmaker, both of Iglau (Jihlava). This entry names the mother's maiden name — Hübsch — confirming the inference from the godparents of the earlier children. Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 179 — read from James's screenshots; year 1793 per James\n\nJulius 30 [1793] — Priester: Gregor [Hauser?], Capellan — Haus-Nr. 38\nTäufling: Aloysia Katharina — weiblich, ehelich — Hebamme: [Dantowsk?]in\nVater: Franz Luchesi, Rauchfangkehrer\nMutter: Katharina Hübschin\nPathen: Wenzl Hübschen, Tuchmacher; Anna [Fischspill]in, Tuchmacherin — beide von Iglau"
     }
    ],
    "notes": [
-    "Wife of Franz Luchesi, chimney sweep in Telč; mother of Franz Xaver (bapt. 12 Nov 1784), Marianne (6 Dec 1786), Johann Wenzl (11 Jan 1788) and Josef Sr (19 Nov 1790), all at Telč house no. 38. Each baptism names the mother only as 'Catharina' — her first name is proven, her maiden name is not.\nProbable maiden name Hübsch (not proven): Wenzl Hübsch, furrier (Kürschner) and burgher of Iglau (Jihlava), was godfather to Marianne, Johann Wenzl and Josef, with his wife Anna / Maria Anna; Johann Wenzl was named after him. He was probably Catharina's brother or father. To confirm: her baptism or the couple's marriage (before 1784; not found in the Telč town marriages 1774–1790) — try Iglau."
+    "Katharina née Hübsch, wife of Franz Luchesi, chimney sweep in Telč; mother of Franz Xaver (bapt. 12 Nov 1784), Marianne (6 Dec 1786), Johann Wenzl (11 Jan 1788), Josef Sr (19 Nov 1790) and Aloysia Katharina (30 Jul 1793), all at Telč house no. 38.\nMaiden name: the 1793 baptism names the mother 'Katharina Hübschin' (= née Hübsch). The earlier baptisms give only 'Catharina'. Her family was from Iglau (Jihlava): Wenzl Hübsch — described as furrier (Kürschner, 1786; reading uncertain) and clothmaker (Tuchmacher, 1793), burgher of Iglau — was godfather to Marianne, Johann Wenzl, Josef and Aloysia, and Johann Wenzl was named after him; probably her brother or father. Still to find: her baptism and the couple's marriage (before 1784; not in the Telč town marriages 1774–1790) — try Iglau."
    ]
   }
  },
@@ -7559,7 +7615,8 @@
     "I0197",
     "I0198",
     "I0199",
-    "I0175"
+    "I0175",
+    "I0201"
    ]
   }
  }
