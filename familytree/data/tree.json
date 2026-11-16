@@ -6735,6 +6735,40 @@
     }
    ]
   },
+  "I0198": {
+   "id": "I0198",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0056"
+   ],
+   "families": [],
+   "given": "Marianne",
+   "living": false,
+   "birth": {
+    "date": "before 6 Dec 1786"
+   },
+   "events": [
+    {
+     "type": "Baptism",
+     "desc": "Baptised in Telč, house no. 38; parents Franz Luchesi, chimney sweep, and Catharina; godfather Wenzl [Hübsch?], furrier in Iglau",
+     "date": "6 Dec 1786"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01560.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Marianne Luchesi, daughter of Franz Luchesi (chimney sweep), Telč 6 Dec 1786",
+     "context": "Person",
+     "cid": "C0134",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 156 — 6 December 1786: Mariana, daughter of Franz Luchesi",
+     "summary": "Baptism on 6 December 1786 in Telč, house no. 38, of Mariana (Marianne), daughter of Franz Luchesi, chimney sweep, and Catharina. Godparents Wenzl [Hübsch?], furrier in Iglau (Jihlava), and his wife Anna. The same Wenzl was godfather to Josef Sr in 1790 (there with Maria Anna [Fischspiel?]; both 'Iglauer Bürger') — a close tie, probably Catharina's brother or father (her maiden name possibly Hübsch). Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 156 — read from James's screenshot; year 1786 per James\n\nDecember 6 [1786] — Haus-Nr. 38\nTäufling: Mariana — weiblich, ehelich\nVater: Frantz Luchesi, Rauchfangkehrer\nMutter: Catharina\nPathen: Wentzl [Hübsch?]en, Kürschner in Iglau; Anna, dessen Ehegattin\nPriester: Aloys Chornitzer, Cooperator"
+    }
+   ]
+  },
   "I0179": {
    "id": "I0179",
    "gender": "m",
@@ -6795,6 +6829,17 @@
      "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 144 — 12 November 1784: Franz Xaver, son of Franz Luchesi",
      "summary": "Baptism on 12 November 1784 in Telč (Teltsch), house no. 38, of Franz Xaver Martin Aloys Christian, son of Franz Luchesi, chimney sweep, and Catharina (no maiden name given); godparents Martin [Zach. Hof…?] and his wife Thecla; baptised by Ignaz Chornitzer, cooperator. Same father, house and mother's first name as Josef Luchesi Sr (baptised there 19 Nov 1790) → an older brother of Josef. Shows Franz and Catharina were married and living at Telč 38 by 1784. Found by James, 15 Nov 2026.",
      "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 144 — read from James's screenshots; month November and year 1784 per James (index: book 7004, snímek 118, \"ao 1784 … Lukesi Franz … Stadt\")\n\n12 [November 1784] — Haus-Nr. 38 — Teltsch\nTäufling: Franz Xaveri, Martin, Aloys, Christian — kath., männlich, ehelich\nVater: Franz Luchesi, Rauchfangkehrer (margin, later hand: \"Lukesi\")\nMutter: Catharina\nPathen: Martin [Zach. Hof…?]; Thecla, Ehegattin\nPriester: Ign[az] Chornitzer, Cooperator"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01560.jp2",
+     "site": "mza.cz",
+     "label": "Baptism of Marianne Luchesi, daughter of Franz Luchesi (chimney sweep), Telč 6 Dec 1786",
+     "context": "Person",
+     "cid": "C0134",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Geburtsbuch Telč 1769–1809, book 6976, snímek 156 — 6 December 1786: Mariana, daughter of Franz Luchesi",
+     "summary": "Baptism on 6 December 1786 in Telč, house no. 38, of Mariana (Marianne), daughter of Franz Luchesi, chimney sweep, and Catharina. Godparents Wenzl [Hübsch?], furrier in Iglau (Jihlava), and his wife Anna. The same Wenzl was godfather to Josef Sr in 1790 (there with Maria Anna [Fischspiel?]; both 'Iglauer Bürger') — a close tie, probably Catharina's brother or father (her maiden name possibly Hübsch). Found by James, 15 Nov 2026.",
+     "transcript": "Telč births 1769–1809 (MZA book 6976, detail 7771), snímek 156 — read from James's screenshot; year 1786 per James\n\nDecember 6 [1786] — Haus-Nr. 38\nTäufling: Mariana — weiblich, ehelich\nVater: Frantz Luchesi, Rauchfangkehrer\nMutter: Catharina\nPathen: Wentzl [Hübsch?]en, Kürschner in Iglau; Anna, dessen Ehegattin\nPriester: Aloys Chornitzer, Cooperator"
     }
    ],
    "notes": [
@@ -7402,6 +7447,7 @@
    "mother": null,
    "children": [
     "I0197",
+    "I0198",
     "I0175"
    ]
   }
