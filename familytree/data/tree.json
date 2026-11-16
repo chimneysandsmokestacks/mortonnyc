@@ -6119,97 +6119,6 @@
     }
    ]
   },
-  "I0180": {
-   "id": "I0180",
-   "gender": "f",
-   "surname": "Elsner",
-   "parents": [],
-   "families": [
-    "F0055"
-   ],
-   "given": "Katharina",
-   "living": false,
-   "birth": {
-    "date": "2 Nov 1782"
-   },
-   "death": {
-    "date": "1853"
-   },
-   "links": [
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3896?image=216000010-000253-003369-000000-001147-000000-00-B11055-00350.jp2",
-     "site": "mza.cz",
-     "label": "Marriage of Joseph Luchesi and Catharina (née Elsner), Kanitz 1812",
-     "context": "Person",
-     "cid": "C0120",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Trauungsbuch Kanitz, book 1147 (MZA detail 3896), snímek 35, right page — 13 May 1812",
-     "summary": "Marriage on 13 May 1812 in Kanitz (Dolní Kounice) of Joseph Luchesi, chimney sweep, 22, single, son of Franz Luchesi, chimney sweep in Teltsch (Telč), and Catharina, widow (previous married name [Zukin?]), née El[sner?] (daughter of Ignatz), of Kanitz, chimney sweep's widow at house no. 117, aged 30; her birth date 2 Nov 1782 is added in a later hand. Josef very likely married into her late husband's chimney-sweep business. Found by James; read by Claude 15 Nov 2026. Franz's town read as Teltsch (Telč). Uncertain: the bride's former married name and the exact maiden name (Elsner/Elbann). The groom's residence is given as 'zu Teltsch No 38' — the house in Telč where he was born in 1790.",
-     "transcript": "Trauungsbuch Kanitz (book 1147), snímek 35, right page\n\nDen 13 May [1812] — Priester: Franz [Lusch…?], [Lokal…?] — Haus: Bräutigam \"zu Teltsch No 38.\" (read by James), Braut Kanitz N. 117\nBräutigam: Luchesi Joseph, Rauchfangkehrer, Sohn des Franz Luchesi, Rauchfangkehrers in Teltsch [Telč] — kath., 22, ledig\nBraut: [Zukin?] Catharina, verwittibte, gebohrne Ignatz El[sner?]in aus Kanitz, Rauchfangkehrerin No. 117 — kath., 30 (28 gestrichen), Witwe; später ergänzt: \"2/11 1782\"; Rand: \"confer … VI 39\"\nBeistände: [Ignatz?] [Wostrowsky?], Bürger in Kanitz; Franz [Strawny?], Bürger in Kanitz"
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
-     "site": "mza.cz",
-     "label": "Kanitz death register index: Luchesi entries 1853–1874",
-     "context": "Person",
-     "cid": "C0122",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
-     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
-    }
-   ],
-   "notes": [
-    "Maiden name Elsner (read 'El[sner?]in' in 1812, 'Elsner' on the 1848 and 1851 baptisms; James read 'Elbann'). Her father is given as Ignatz/Ignaz on the 1812 and 1848 marriages but as Johann on the 1848 (Gilbert) and 1851 (Gustav) baptisms — unresolved. In 1812 she was the widow of a chimney sweep at Kanitz no. 117 (previous married name [Zukin?]). Earlier readings 'Barbara née Ch…' in this tree were misreadings of her name."
-   ]
-  },
-  "I0181": {
-   "id": "I0181",
-   "gender": "m",
-   "surname": "Luchesi",
-   "parents": [
-    "F0055"
-   ],
-   "families": [
-    "F0057"
-   ],
-   "given": "Emanuel",
-   "living": false,
-   "birth": {
-    "date": "about 1822"
-   },
-   "death": {
-    "date": "1874"
-   },
-   "events": [
-    {
-     "type": "Occupation",
-     "desc": "Kaminfegermeister (master chimney sweep) in Kanitz",
-     "date": "1851"
-    }
-   ],
-   "links": [
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3897?image=216000010-000253-003369-000000-001148-000000-00-B00864-01000.jp2",
-     "site": "mza.cz",
-     "label": "Marriage of Emanuel Luchesi and Karolina Mika, Kanitz 1851",
-     "context": "Person",
-     "cid": "C0123",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Trauungsbuch Kanitz, book 1148 (MZA detail 3897), snímek 100 — 1851",
-     "summary": "Marriage in Kanitz (Dolní Kounice) in 1851 of Emanuel Luchesi, master chimney sweep (Kaminfegermeister) in Kanitz, 29, son of Josef Luchesi (Kaminfegermeister) and Katharina née Ignatz El…, still living; and Karolina Mika, 17, daughter of Karl Mika, master soap-boiler (Seifensiedermeister) in Kanitz, and Katharina née Moser, daughter of Vinzenz Moser, master dyer in Datschitz. Reading by James (15 Nov 2026); not yet re-read by Claude. Age 29 → born c. 1822, agreeing with age 52 at death in 1874."
-    },
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
-     "site": "mza.cz",
-     "label": "Kanitz death register index: Luchesi entries 1853–1874",
-     "context": "Person",
-     "cid": "C0122",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
-     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
-    }
-   ]
-  },
   "I0182": {
    "id": "I0182",
    "gender": "f",
@@ -6237,64 +6146,6 @@
    ],
    "notes": [
     "Daughter of Karl Mika, master soap-boiler (Seifensiedermeister) in Kanitz, and Katharina née Moser, daughter of Vinzenz Moser, master dyer (Färbermeister) in Datschitz (Dačice) — from her 1851 marriage (James's reading)."
-   ]
-  },
-  "I0183": {
-   "id": "I0183",
-   "gender": "f",
-   "surname": "Luchesi",
-   "parents": [
-    "F0057"
-   ],
-   "families": [],
-   "given": "Emilia",
-   "living": false,
-   "birth": {
-    "date": "about 1854"
-   },
-   "death": {
-    "date": "1855"
-   },
-   "links": [
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
-     "site": "mza.cz",
-     "label": "Kanitz death register index: Luchesi entries 1853–1874",
-     "context": "Person",
-     "cid": "C0122",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
-     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
-    }
-   ]
-  },
-  "I0184": {
-   "id": "I0184",
-   "gender": "f",
-   "surname": "Luchesi",
-   "parents": [
-    "F0057"
-   ],
-   "families": [],
-   "given": "Franziska",
-   "living": false,
-   "birth": {
-    "date": "1859"
-   },
-   "death": {
-    "date": "1859"
-   },
-   "links": [
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
-     "site": "mza.cz",
-     "label": "Kanitz death register index: Luchesi entries 1853–1874",
-     "context": "Person",
-     "cid": "C0122",
-     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
-     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
-     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
-    }
    ]
   },
   "I0185": {
@@ -6714,6 +6565,195 @@
    ],
    "notes": [
     "Father of Josef Luchesi Sr, named in Josef's 1812 marriage in Kanitz as 'Franz Luchesi, Rauchfangkehrer in Teltsch' (Telč, Moravia). Place name read as Teltsch on a close look at the 1812 entry (James/Claude, 15 Nov 2026); a strong but not certain reading."
+   ]
+  },
+  "I0180": {
+   "id": "I0180",
+   "gender": "f",
+   "surname": "Elsner",
+   "parents": [],
+   "families": [
+    "F0055"
+   ],
+   "given": "Katharina",
+   "living": false,
+   "birth": {
+    "date": "2 Nov 1782"
+   },
+   "death": {
+    "date": "1853"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3896?image=216000010-000253-003369-000000-001147-000000-00-B11055-00350.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Joseph Luchesi and Catharina (née Elsner), Kanitz 1812",
+     "context": "Person",
+     "cid": "C0120",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Trauungsbuch Kanitz, book 1147 (MZA detail 3896), snímek 35, right page — 13 May 1812",
+     "summary": "Marriage on 13 May 1812 in Kanitz (Dolní Kounice) of Joseph Luchesi, chimney sweep, 22, single, son of Franz Luchesi, chimney sweep in Teltsch (Telč), and Catharina, widow (previous married name [Zukin?]), née El[sner?] (daughter of Ignatz), of Kanitz, chimney sweep's widow at house no. 117, aged 30; her birth date 2 Nov 1782 is added in a later hand. Josef very likely married into her late husband's chimney-sweep business. Found by James; read by Claude 15 Nov 2026. Franz's town read as Teltsch (Telč). Uncertain: the bride's former married name and the exact maiden name (Elsner/Elbann). The groom's residence is given as 'zu Teltsch No 38' — the house in Telč where he was born in 1790.",
+     "transcript": "Trauungsbuch Kanitz (book 1147), snímek 35, right page\n\nDen 13 May [1812] — Priester: Franz [Lusch…?], [Lokal…?] — Haus: Bräutigam \"zu Teltsch No 38.\" (read by James), Braut Kanitz N. 117\nBräutigam: Luchesi Joseph, Rauchfangkehrer, Sohn des Franz Luchesi, Rauchfangkehrers in Teltsch [Telč] — kath., 22, ledig\nBraut: [Zukin?] Catharina, verwittibte, gebohrne Ignatz El[sner?]in aus Kanitz, Rauchfangkehrerin No. 117 — kath., 30 (28 gestrichen), Witwe; später ergänzt: \"2/11 1782\"; Rand: \"confer … VI 39\"\nBeistände: [Ignatz?] [Wostrowsky?], Bürger in Kanitz; Franz [Strawny?], Bürger in Kanitz"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
+     "site": "mza.cz",
+     "label": "Kanitz death register index: Luchesi entries 1853–1874",
+     "context": "Person",
+     "cid": "C0122",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
+     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-00860.jp2",
+     "site": "mza.cz",
+     "label": "Death of Katharina Luchesi (née Elsner), Kanitz 1853",
+     "context": "Person",
+     "cid": "C0129",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), fol. 171, snímek 86 — 1853",
+     "summary": "Register page with the death entry (1853, fol. 171; age 71 per the index). Page linked by James, 15 Nov 2026; the entry itself has not been transcribed yet (exact date, house, cause to be read)."
+    }
+   ],
+   "notes": [
+    "Maiden name Elsner (read 'El[sner?]in' in 1812, 'Elsner' on the 1848 and 1851 baptisms; James read 'Elbann'). Her father is given as Ignatz/Ignaz on the 1812 and 1848 marriages but as Johann on the 1848 (Gilbert) and 1851 (Gustav) baptisms — unresolved. In 1812 she was the widow of a chimney sweep at Kanitz no. 117 (previous married name [Zukin?]). Earlier readings 'Barbara née Ch…' in this tree were misreadings of her name."
+   ]
+  },
+  "I0183": {
+   "id": "I0183",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0057"
+   ],
+   "families": [],
+   "given": "Emilia",
+   "living": false,
+   "birth": {
+    "date": "about 1854"
+   },
+   "death": {
+    "date": "1855"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
+     "site": "mza.cz",
+     "label": "Kanitz death register index: Luchesi entries 1853–1874",
+     "context": "Person",
+     "cid": "C0122",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
+     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-00890.jp2",
+     "site": "mza.cz",
+     "label": "Death of Emilia Luchesi, daughter of Emanuel, Kanitz 1855",
+     "context": "Person",
+     "cid": "C0130",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), fol. 177, snímek 89 — 1855",
+     "summary": "Register page with the death entry (1855, fol. 177; aged 10 months per the index). Page linked by James, 15 Nov 2026; the entry itself has not been transcribed yet (exact date, house, cause to be read)."
+    }
+   ]
+  },
+  "I0184": {
+   "id": "I0184",
+   "gender": "f",
+   "surname": "Luchesi",
+   "parents": [
+    "F0057"
+   ],
+   "families": [],
+   "given": "Franziska",
+   "living": false,
+   "birth": {
+    "date": "1859"
+   },
+   "death": {
+    "date": "1859"
+   },
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
+     "site": "mza.cz",
+     "label": "Kanitz death register index: Luchesi entries 1853–1874",
+     "context": "Person",
+     "cid": "C0122",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
+     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-01040.jp2",
+     "site": "mza.cz",
+     "label": "Death of Franziska Luchesi, daughter of Emanuel, Kanitz 1859",
+     "context": "Person",
+     "cid": "C0131",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), fol. 206, snímek 104 — 1859",
+     "summary": "Register page with the death entry (1859, fol. 206; aged 14 days per the index). Page linked by James, 15 Nov 2026; the entry itself has not been transcribed yet (exact date, house, cause to be read)."
+    }
+   ]
+  },
+  "I0181": {
+   "id": "I0181",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0055"
+   ],
+   "families": [
+    "F0057"
+   ],
+   "given": "Emanuel",
+   "living": false,
+   "birth": {
+    "date": "about 1822"
+   },
+   "death": {
+    "date": "1874"
+   },
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Kaminfegermeister (master chimney sweep) in Kanitz",
+     "date": "1851"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3897?image=216000010-000253-003369-000000-001148-000000-00-B00864-01000.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Emanuel Luchesi and Karolina Mika, Kanitz 1851",
+     "context": "Person",
+     "cid": "C0123",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Trauungsbuch Kanitz, book 1148 (MZA detail 3897), snímek 100 — 1851",
+     "summary": "Marriage in Kanitz (Dolní Kounice) in 1851 of Emanuel Luchesi, master chimney sweep (Kaminfegermeister) in Kanitz, 29, son of Josef Luchesi (Kaminfegermeister) and Katharina née Ignatz El…, still living; and Karolina Mika, 17, daughter of Karl Mika, master soap-boiler (Seifensiedermeister) in Kanitz, and Katharina née Moser, daughter of Vinzenz Moser, master dyer in Datschitz. Reading by James (15 Nov 2026); not yet re-read by Claude. Age 29 → born c. 1822, agreeing with age 52 at death in 1874."
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-02140.jp2",
+     "site": "mza.cz",
+     "label": "Kanitz death register index: Luchesi entries 1853–1874",
+     "context": "Person",
+     "cid": "C0122",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), name index (snímek 214)",
+     "summary": "Luchesi entries in the name index of the Kanitz death register (found by James, 15 Nov 2026): Katharina 1853, fol. 171, age 71; Emilia 1855, fol. 177, 10 months, daughter of Emanuel; Franziska 1859, fol. 206, 14 days, daughter of Emanuel; Joseph 1862, fol. 226, age 72; Emanuel 1874, fol. 305, age 52. The full entries (exact dates, houses, causes) for Katharina, Emilia, Franziska and Emanuel have not been read yet."
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/3900?image=216000010-000253-003369-000000-001156-000000-00-B01335-01530.jp2",
+     "site": "mza.cz",
+     "label": "Death of Emanuel Luchesi, master chimney sweep, Kanitz 1874",
+     "context": "Person",
+     "cid": "C0132",
+     "source": "Matriky Dolní Kounice (Kanitz), Římskokatolická fara Dolní Kounice (MZA Acta Publica)",
+     "page": "Sterbebuch Kanitz, book 1156 (MZA detail 3900), fol. 305, snímek 153 — 1874",
+     "summary": "Register page with the death entry (1874, fol. 305; age 52 per the index). Page linked by James, 15 Nov 2026; the entry itself has not been transcribed yet (exact date, house, cause to be read)."
+    }
    ]
   }
  },
