@@ -7078,40 +7078,6 @@
     }
    ]
   },
-  "I0208": {
-   "id": "I0208",
-   "gender": "m",
-   "surname": "Luchesi",
-   "parents": [],
-   "families": [
-    "F0062"
-   ],
-   "given": "Lorenz",
-   "living": false,
-   "events": [
-    {
-     "type": "Occupation",
-     "desc": "Bürgerlicher Rauchfangkehrermeister (burgher master chimney sweep) in Telč; deceased by 1796",
-     "date": "before 1796"
-    }
-   ],
-   "links": [
-    {
-     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-01000.jp2",
-     "site": "mza.cz",
-     "label": "Death of Barbara Luchesi, widow of Lorenz Luchesi (master chimney sweep), Telč 1796",
-     "context": "Person",
-     "cid": "C0142",
-     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
-     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 100, Alte Vorstadt p. 17 — 16 Dec 1796: Barbara, widow of Lorenz Luchesy",
-     "summary": "Barbara Luchesi, widow of the late Lorenz Luchesi, burgher and master chimney sweep in Telč, and resident of the burghers' hospital (almshouse), died on 16 December 1796 in the Alte Vorstadt of Telč, house no. 46, aged 76, of consumption (Lungensucht). Born c. 1720. Very probably the parents of Franz Luchesi (c. 1752–1835), who later held the same burgher chimney-sweep business — not yet proven. Found by James, 16 Nov 2026.",
-     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 100, Alte Vorstadt (Staré Předměstí) — index book 7007: \"1796 Luchesi Barbara — Altstadt — 17\"\n\n16 [December] 1796 (month per James) — versehen: [Schumertler?]; begraben: Franz [Fernauer?] — Haus-Nr. 46\nBarbara, des [seligen?] Lorenz Luchesy, bürgerl. Rauchfangkehrermeisters hinterlassene Witwe, und bürgerl. Spitälerin\nkath., weiblich — Alter: 76 (read as 76 by James and Claude; first read as 70) — Krankheit: Lungensucht"
-    }
-   ],
-   "notes": [
-    "Lorenz Luchesi, burgher and chimney sweep (civis caminarius) in Telč — so called in the baptisms of 1758 and 1763; his widow's death entry (1796) calls him a burgher master chimney sweep (bürgerl. Rauchfangkehrermeister). Spelled Lukesi, Lukezi, Luxezer, Luxesy, Luxeser and Luchesy in the Telč registers. Children with Barbara, all baptised in Telč: Mathias Joseph (7 Feb 1752), Franz Adalbert (30 Mar 1754, d. 1835), Philipp Jakob (29 Apr 1756), Bartholomäus (23 Aug 1758), Katharina Elisabeth (10 Nov 1763). Mathias Czach, an employee of the Telč estate, was godfather to every one of them. Still to find: his death (before 1796 — Telč death index book 7007 for 1784–96, otherwise death book 6995, 1729–1783), his marriage to Barbara (before 1752), his origin, and any children after 1763 (book 6975 runs to 1768; images 248 and 301–443 not yet reviewed)."
-   ]
-  },
   "I0207": {
    "id": "I0207",
    "gender": "f",
@@ -7439,6 +7405,57 @@
      "summary": "Baptism on 10 Nov 1763 in Telč of Catharina Elisabetha (Katharina Elisabeth), daughter of Laurentius (Lorenz) Luchesi, burgher and chimney sweep, and Barbara; godparents Mathias Czach, an employee of the Telč estate, and his wife Barbara (in 1752–58 his wife was Catharina, so probably a second marriage). Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
      "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 257 (R page, p. 509) — no index for this book\n\nDies: 10 [November 1763] — Patria: Telczii (Telč) — Baptizans: [Thomas] Havelka, cooperator\nBaptizatus: Catharina Elisabetha\nParentes: Laurentius Luxeser, civis caminarius; Barbara\nPatrini: Mathias Czach, [Sheda?]rius Dominii [an estate official/servant — reading uncertain]; Barbara uxor ejus"
     }
+   ]
+  },
+  "I0208": {
+   "id": "I0208",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [],
+   "families": [
+    "F0062"
+   ],
+   "given": "Lorenz",
+   "living": false,
+   "birth": {
+    "date": "about 1724"
+   },
+   "death": {
+    "date": "17 Aug 1779"
+   },
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Burgher and chimney sweep (civis caminarius) in Telč, recorded 1758–1779; his widow's death entry (1796) calls him bürgerlicher Rauchfangkehrermeister (burgher master chimney sweep)",
+     "date": "1758"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-01000.jp2",
+     "site": "mza.cz",
+     "label": "Death of Barbara Luchesi, widow of Lorenz Luchesi (master chimney sweep), Telč 1796",
+     "context": "Person",
+     "cid": "C0142",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Sterbebuch 1784–1830 (MZA book 6996)",
+     "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 100, Alte Vorstadt p. 17 — 16 Dec 1796: Barbara, widow of Lorenz Luchesy",
+     "summary": "Barbara Luchesi, widow of the late Lorenz Luchesi, burgher and master chimney sweep in Telč, and resident of the burghers' hospital (almshouse), died on 16 December 1796 in the Alte Vorstadt of Telč, house no. 46, aged 76, of consumption (Lungensucht). Born c. 1720. Very probably the parents of Franz Luchesi (c. 1752–1835), who later held the same burgher chimney-sweep business — not yet proven. Found by James, 16 Nov 2026.",
+     "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 100, Alte Vorstadt (Staré Předměstí) — index book 7007: \"1796 Luchesi Barbara — Altstadt — 17\"\n\n16 [December] 1796 (month per James) — versehen: [Schumertler?]; begraben: Franz [Fernauer?] — Haus-Nr. 46\nBarbara, des [seligen?] Lorenz Luchesy, bürgerl. Rauchfangkehrermeisters hinterlassene Witwe, und bürgerl. Spitälerin\nkath., weiblich — Alter: 76 (read as 76 by James and Claude; first read as 70) — Krankheit: Lungensucht"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/5954?image=216000010-000253-003373-000000-006995-000000-00-B04485-02150.jp2",
+     "site": "mza.cz",
+     "label": "Death of Lorenz Luchesi, burgher chimney sweep, Telč 17 Aug 1779",
+     "context": "Person",
+     "cid": "C0148",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Liber defunctorum 1729–1783 (MZA book 6995)",
+     "page": "Liber defunctorum Telč 1729–1783, book 6995, snímek 215 — 17 Aug 1779: Laurentius Luxesi, civis caminarius, house 38, aged 55",
+     "summary": "Lorenz (Laurentius) Luchesi, spelled 'Luxesi', burgher and chimney sweep (civis caminarius), died in Telč on 17 August 1779 at house no. 38, aged 55 (born c. 1724). House 38 is the same house where his son Franz Adalbert's family lived ('Stadt Teltsch No 38', 1790). Found by James, 16 Nov 2026.",
+     "transcript": "Telč deaths 1729–1783 (MZA book 6995, detail 5954), snímek 215\n\n17 [Augusti 1779] — Laurentius Luxesi, civis caminarius — domus No. 38 — aetas: 55"
+    }
+   ],
+   "notes": [
+    "Lorenz Luchesi, burgher and chimney sweep (civis caminarius) in Telč — so called in the baptisms of 1758 and 1763; his widow's death entry (1796) calls him a burgher master chimney sweep (bürgerl. Rauchfangkehrermeister). Spelled Lukesi, Lukezi, Luxezer, Luxesy, Luxeser, Luxesi and Luchesy in the Telč registers. Children with Barbara, all baptised in Telč: Mathias Joseph (7 Feb 1752), Franz Adalbert (30 Mar 1754, d. 1835), Philipp Jakob (29 Apr 1756), Bartholomäus (23 Aug 1758), Katharina Elisabeth (10 Nov 1763). Mathias Czach, an employee of the Telč estate, was godfather to every one of them. Died 17 Aug 1779 in Telč, house no. 38, aged 55 (born c. 1724) — 'Laurentius Luxesi, civis caminarius' (death book 6995, img 215). Still to find: his marriage to Barbara (before 1752), his origin, and any children after 1763 (book 6975 runs to 1768; images 248 and 301–443 not yet reviewed)."
    ]
   }
  },
