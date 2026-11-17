@@ -18,7 +18,7 @@
 
   function familyLayout(P, F, opt) {
     const NW = opt.NW, NH = opt.NH, FW = opt.FW;
-    const GAP = 16, BLOCK_GAP = 28, TREE_GAP = 90, V1 = 44, ROW = NH + V1 + FW + V1, GRAFT_MAX = 10;
+    const GAP = 16, BLOCK_GAP = 28, TREE_GAP = 140, V1 = 44, ROW = NH + V1 + FW + V1, GRAFT_MAX = 10;
     const ids = Object.keys(P);
     const famIds = Object.keys(F).filter((f) => [F[f].father, F[f].mother].some((x) => x && P[x]));
     const parentsOf = (f) => [F[f].father, F[f].mother].filter((x) => x && P[x]);
@@ -150,9 +150,6 @@
       const rowStart = mid - jointOff;
       row.forEach((y, i) => pos.set(y, rowStart + i * (NW + GAP)));
       addC(gen.get(x), rowStart, rowStart + row.length * NW + (row.length - 1) * GAP);
-      // keep the row under a childless person free, so a cousin's children never sit right
-      // under them and look like theirs
-      if (!kids.length) addC(gen.get(x) + 1, rowStart, rowStart + row.length * NW + (row.length - 1) * GAP);
       return { id: x, pos, cont };
     }
     function leaf(k) { return { id: k, pos: new Map([[k, 0]]), cont: new Map([[gen.get(k), [0, NW]]]) }; }
@@ -171,13 +168,29 @@
       const rx = (i, p) => (laid[i].b.pos.has(p) ? laid[i].b.pos.get(p) - laid[i].l : laid[i].w / 2);
       pairs.push([a, rx(a, h), b, rx(b, m)]);
     }
+    // trees are packed row by row too: a tree slides left until, in some row they share, it
+    // comes within TREE_GAP of the trees already placed
+    const pack = (ord) => {
+      const start = new Array(laid.length), cont = new Map();
+      let prev = -Infinity;
+      for (const i of ord) {
+        const L = laid[i];
+        let off = -Infinity;
+        for (const [g, [l]] of L.b.cont) { const c = cont.get(g); if (c !== undefined) off = Math.max(off, c + TREE_GAP - l); }
+        if (off === -Infinity) off = prev === -Infinity ? -L.l : prev;
+        off = Math.max(off, prev === -Infinity ? -Infinity : prev);
+        start[i] = off; prev = off;
+        for (const [g, [, r]] of L.b.cont) cont.set(g, Math.max(cont.get(g) ?? -Infinity, r + off));
+      }
+      return start;
+    };
     const cost = (ord) => {
-      const start = new Array(laid.length); let x = 0;
-      for (const i of ord) { start[i] = x; x += laid[i].w + TREE_GAP; }
-      return pairs.reduce((s, [a, ra, b, rb]) => s + Math.abs(start[a] + ra - start[b] - rb), 0);
+      const st = pack(ord);
+      const ext = Math.max(...ord.map((i) => st[i] + laid[i].l + laid[i].w)) - Math.min(...ord.map((i) => st[i] + laid[i].l));
+      return pairs.reduce((s, [a, ra, b, rb]) => s + Math.abs(st[a] + ra + laid[a].l - st[b] - rb - laid[b].l), 0) + ext * 0.5;
     };
     let best = laid.map((_, i) => i);
-    if (pairs.length && laid.length <= 8) {
+    if (laid.length <= 8) {
       let bc = cost(best);
       const perm = (arr, k) => {
         if (k === arr.length) { const c = cost(arr); if (c < bc) { bc = c; best = arr.slice(); } return; }
@@ -185,12 +198,8 @@
       };
       perm(best.slice(), 0);
     }
-    let x0 = 0;
-    for (const i of best) {
-      const L = laid[i];
-      for (const [id, px] of L.b.pos) X.set(id, px - L.l + x0);
-      x0 += L.w + TREE_GAP;
-    }
+    const st = pack(best);
+    for (const i of best) for (const [id, px] of laid[i].b.pos) X.set(id, px + st[i]);
     const order = best;
 
     /* ---------- grafted trees ---------- */
