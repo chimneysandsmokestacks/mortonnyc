@@ -502,7 +502,6 @@ body.whole-mode .stage { display: none; }
 .w-svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
 .w-svg:active { cursor: grabbing; }
 .w-edges path { fill: none; stroke: var(--wire); stroke-width: var(--sw, 1.6px); }
-.w-edges path.w-long { stroke-dasharray: 7 6; }
 .w-fam { fill: var(--surface); stroke: var(--wire); stroke-width: 1.6; }
 .w-node { cursor: pointer; }
 .w-node:focus { outline: none; }
