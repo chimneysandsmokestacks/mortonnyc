@@ -931,83 +931,17 @@
   const NW = 172, NH = 58, FW = 8;
   const SVGNS = "http://www.w3.org/2000/svg";
 
-  function loadElk() {
-    if (window.ELK) return Promise.resolve();
-    return new Promise((res, rej) => {
-      const s = document.createElement("script");
-      s.src = "vendor/elk.bundled.js"; s.onload = res; s.onerror = rej;
-      document.head.append(s);
-    });
-  }
-
-  // Order people the way a family reads: a couple, then their children by birth year, then each
-  // child's own families, then the spouses' parents. ELK uses this as its starting order, so
-  // siblings, their spouses and descendants stay together instead of mixing with other branches.
-  let familyOrder = null;
-  function getFamilyOrder() {
-    if (familyOrder) return familyOrder;
-    const year = (p) => { const m = /(\d{4})/.exec((p.birth && p.birth.date) || ""); return m ? +m[1] : 9999; };
-    const famsOf = (id) => (P[id].families || []).filter((f) => F[f]);
-    const seenP = new Set(), seenF = new Set(), out = [];
-    const addP = (x) => { if (x && P[x] && !seenP.has(x)) { seenP.add(x); out.push(x); } };
-    function visitFam(fid) {
-      if (seenF.has(fid)) return;
-      seenF.add(fid);
-      const f = F[fid];
-      addP(f.father); addP(f.mother); out.push("fam:" + fid);
-      const kids = f.children.filter((c) => P[c]).sort((a, b) => year(P[a]) - year(P[b]));
-      kids.forEach(addP);
-      for (const k of kids) famsOf(k).forEach(visitFam);
-      for (const x of [f.father, f.mother]) if (x && P[x]) (P[x].parents || []).filter((pf) => F[pf]).forEach(visitFam);
-    }
-    const roots = Object.values(P).filter((p) => !(p.parents || []).some((f) => F[f])).sort((a, b) => year(a) - year(b));
-    for (const r of roots) { const fs = famsOf(r.id); if (fs.length) fs.forEach(visitFam); else addP(r.id); }
-    Object.keys(P).forEach(addP);
-    familyOrder = new Map(out.map((id, i) => [id, i]));
-    return familyOrder;
-  }
 
   // lay out everyone, or only the given people (cached per set)
   function buildLayout(ids) {
     const key = ids ? [...ids].sort().join(",") : "*";
     if (wLayoutKey === key) return Promise.resolve(wLayout);
-    if (!layoutCache.has(key)) layoutCache.set(key, loadElk().then(() => {
-      const keep = ids ? new Set(ids) : null, inSet = (x) => x && P[x] && (!keep || keep.has(x));
-      const children = [], edges = [];
-      for (const p of Object.values(P)) if (inSet(p.id)) children.push({ id: p.id, width: NW, height: NH });
-      for (const f of Object.values(F)) {
-        const parents = [f.father, f.mother].filter(inSet);
-        const kids = f.children.filter(inSet);
-        if (!parents.length) continue;
-        if (!kids.length && parents.length < 2) continue;
-        const fid = "fam:" + f.id;
-        children.push({ id: fid, width: FW, height: FW });
-        parents.forEach((x) => edges.push({ id: `pe:${x}:${f.id}`, sources: [x], targets: [fid] }));
-        kids.forEach((c) => edges.push({ id: `ce:${f.id}:${c}`, sources: [fid], targets: [c] }));
-      }
-      const rank = getFamilyOrder(), r = (id) => rank.get(id) ?? 1e9;
-      children.sort((a, b) => r(a.id) - r(b.id));
-      const er = (e) => Math.min(r(e.sources[0]), r(e.targets[0]));
-      edges.sort((a, b) => er(a) - er(b));
-      return new window.ELK().layout({
-        id: "root",
-        layoutOptions: {
-          "elk.algorithm": "layered",
-          "elk.direction": "DOWN",
-          "elk.edgeRouting": "ORTHOGONAL",
-          "elk.layered.spacing.nodeNodeBetweenLayers": "44",
-          "elk.layered.spacing.edgeNodeBetweenLayers": "14",
-          "elk.spacing.nodeNode": "16",
-          "elk.spacing.edgeNode": "10",
-          "elk.layered.nodePlacement.strategy": "NETWORK_SIMPLEX",
-          "elk.layered.considerModelOrder.strategy": "NODES_AND_EDGES",
-          "elk.layered.considerModelOrder.crossingCounterNodeInfluence": "0.5",
-          "elk.layered.considerModelOrder.crossingCounterPortInfluence": "0.5",
-          "elk.separateConnectedComponents": "true",
-          "elk.spacing.componentComponent": "70",
-        },
-        children, edges,
-      });
+    if (!layoutCache.has(key)) layoutCache.set(key, Promise.resolve().then(() => {
+      // family-tree layout (layout.js): each couple's children as one block under them
+      const keep = ids ? new Set(ids) : null;
+      const sub = {};
+      for (const p of Object.values(P)) if (!keep || keep.has(p.id)) sub[p.id] = p;
+      return window.familyLayout(sub, F, { NW, NH, FW });
     }));
     return layoutCache.get(key).then((g) => {
       if (wLayoutKey !== key) { wLayout = g; wLayoutKey = key; drawWhole(g); }
@@ -1094,14 +1028,15 @@
     const clean = (pts) => pts.filter((p, i, arr) => i === 0 || Math.abs(p.x - arr[i - 1].x) > 0.5 || Math.abs(p.y - arr[i - 1].y) > 0.5);
     for (const e of g.edges) {
       const custom = routes.get(`${e.sources[0]}>${e.targets[0]}`);
-      if (custom) { gEdges.append(S("path", { d: roundedPath(clean(custom)), "data-e": e.id })); continue; }
+      const cls = e.long ? { class: "w-long" } : {};   // a partner from another branch: one long dashed line
+      if (custom) { gEdges.append(S("path", { d: roundedPath(clean(custom)), "data-e": e.id, ...cls })); continue; }
       for (const sec of e.sections || []) {
         const pts = [sec.startPoint, ...(sec.bendPoints || []), sec.endPoint];
         // keep long routes attached to the (possibly moved) family joint
         const jt = joint.get(e.targets[0]) || joint.get(e.sources[0]);
         if (jt && joint.has(e.targets[0])) pts[pts.length - 1] = { x: jt.x, y: jt.y };
         else if (jt) pts[0] = { x: jt.x, y: jt.y };
-        gEdges.append(S("path", { d: roundedPath(clean(pts)), "data-e": e.id }));
+        gEdges.append(S("path", { d: roundedPath(clean(pts)), "data-e": e.id, ...cls }));
       }
     }
     for (const n of g.children) {
