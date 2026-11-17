@@ -113,17 +113,36 @@
 
     /* ---------- block layout (tidy tree with per-row contours) ---------- */
     const X = new Map();
+    const DIRS = opt.dirs || new Map();   // second pass: which way each long partner line runs
     // A block is a person, the partners standing beside them and the blocks of their children.
     // It is returned with its contour: for every generation row it occupies, the leftmost and
     // rightmost x relative to the block's own origin. Child blocks are packed left to right as
     // close as their contours allow, so a narrow family can sit under a wide neighbour's empty space.
     function block(x, skip) {
-      const row = [x, ...(beside.get(x) || []).filter((s) => !skip || !skip.has(s))];
+      let row = [x, ...(beside.get(x) || []).filter((s) => !skip || !skip.has(s))];
+      // with children by more than one partner, the partner of the first (left-most) group of
+      // children stands on the host's left, so each partner sits over their own children
+      const hf = hostedFams.get(x) || [];
+      const partnerOf = (f) => parentsOf(f).find((y) => y !== x);
+      let anchorOff = row.length > 1 ? NW + GAP / 2 : NW / 2;
+      if (hf.length > 1 && row.includes(partnerOf(hf[0])) && partnerOf(hf[0]) !== x) {
+        const p0 = partnerOf(hf[0]);
+        row = [p0, x, ...row.filter((y) => y !== x && y !== p0)];
+        anchorOff = NW + GAP + NW / 2;
+      }
       const kids = [];
-      for (const f of hostedFams.get(x) || []) for (const k of kidsOf(f).sort(byYear)) {
-        if (skip && skip.has(k)) { kids.push(leaf(k)); continue; }
-        if (!skip && treeOf.get(k) !== treeOf.get(x)) continue;
-        kids.push(block(k, skip));
+      for (const f of hostedFams.get(x) || []) {
+        const fk = [];
+        for (const k of kidsOf(f).sort(byYear)) {
+          if (skip && skip.has(k)) { fk.push(leaf(k)); continue; }
+          if (!skip && treeOf.get(k) !== treeOf.get(x)) continue;
+          fk.push(block(k, skip));
+        }
+        // a child whose branch has a line to a partner in another tree goes to the side facing
+        // that partner; otherwise children stay in birth order
+        const side = (b) => Math.sign(b.wt);
+        fk.sort((a, b) => side(a) - side(b));
+        kids.push(...fk);
       }
       const pos = new Map(), cont = new Map();
       const addC = (g, l, r) => { const c = cont.get(g); cont.set(g, c ? [Math.min(c[0], l), Math.max(c[1], r)] : [l, r]); };
@@ -143,16 +162,17 @@
         kb.off = off;
       }
       // the couple's joint (between the host and the partner beside them) sits over the middle child
-      const jointOff = row.length > 1 ? NW + GAP / 2 : NW / 2;
+      const jointOff = anchorOff;
       let mid = 0;
       if (kids.length) { const xs = kids.map((kb) => pos.get(kb.id) + NW / 2); mid = (Math.min(...xs) + Math.max(...xs)) / 2; }
       else mid = jointOff;
       const rowStart = mid - jointOff;
       row.forEach((y, i) => pos.set(y, rowStart + i * (NW + GAP)));
       addC(gen.get(x), rowStart, rowStart + row.length * NW + (row.length - 1) * GAP);
-      return { id: x, pos, cont };
+      const wt = row.reduce((s, y) => s + (DIRS.get(y) || 0), 0) + kids.reduce((s, kb) => s + kb.wt, 0);
+      return { id: x, pos, cont, wt };
     }
-    function leaf(k) { return { id: k, pos: new Map([[k, 0]]), cont: new Map([[gen.get(k), [0, NW]]]) }; }
+    function leaf(k) { return { id: k, pos: new Map([[k, 0]]), cont: new Map([[gen.get(k), [0, NW]]]), wt: DIRS.get(k) || 0 }; }
     const extent = (b) => { let l = Infinity, r = -Infinity; for (const [a, c] of b.cont.values()) { l = Math.min(l, a); r = Math.max(r, c); } return [l, r]; };
 
     // Lay out each tree, then choose the left-to-right order of the trees that keeps the lines
@@ -224,6 +244,18 @@
         const s = freeSlot(gen.get(y), want);
         X.set(y, s); occ(gen.get(y)).push([s, s + NW]);
       }
+    }
+
+    // First pass done: note which way each long partner line runs, then lay out again with the
+    // people on those lines moved to the side of their sibling group that faces the partner.
+    if (!opt.dirs) {
+      const dirs = new Map();
+      const add = (p, v) => dirs.set(p, (dirs.get(p) || 0) + v);
+      for (const [f, m] of longMother) {
+        const h = host.get(f), d = Math.sign(X.get(h) - X.get(m));
+        if (d) { add(m, d); add(h, -d); }
+      }
+      if (dirs.size) return familyLayout(P, F, Object.assign({}, opt, { dirs }));
     }
 
     /* ---------- output ---------- */
