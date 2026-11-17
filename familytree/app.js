@@ -940,6 +940,33 @@
     });
   }
 
+  // Order people the way a family reads: a couple, then their children by birth year, then each
+  // child's own families, then the spouses' parents. ELK uses this as its starting order, so
+  // siblings, their spouses and descendants stay together instead of mixing with other branches.
+  let familyOrder = null;
+  function getFamilyOrder() {
+    if (familyOrder) return familyOrder;
+    const year = (p) => { const m = /(\d{4})/.exec((p.birth && p.birth.date) || ""); return m ? +m[1] : 9999; };
+    const famsOf = (id) => (P[id].families || []).filter((f) => F[f]);
+    const seenP = new Set(), seenF = new Set(), out = [];
+    const addP = (x) => { if (x && P[x] && !seenP.has(x)) { seenP.add(x); out.push(x); } };
+    function visitFam(fid) {
+      if (seenF.has(fid)) return;
+      seenF.add(fid);
+      const f = F[fid];
+      addP(f.father); addP(f.mother); out.push("fam:" + fid);
+      const kids = f.children.filter((c) => P[c]).sort((a, b) => year(P[a]) - year(P[b]));
+      kids.forEach(addP);
+      for (const k of kids) famsOf(k).forEach(visitFam);
+      for (const x of [f.father, f.mother]) if (x && P[x]) (P[x].parents || []).filter((pf) => F[pf]).forEach(visitFam);
+    }
+    const roots = Object.values(P).filter((p) => !(p.parents || []).some((f) => F[f])).sort((a, b) => year(a) - year(b));
+    for (const r of roots) { const fs = famsOf(r.id); if (fs.length) fs.forEach(visitFam); else addP(r.id); }
+    Object.keys(P).forEach(addP);
+    familyOrder = new Map(out.map((id, i) => [id, i]));
+    return familyOrder;
+  }
+
   // lay out everyone, or only the given people (cached per set)
   function buildLayout(ids) {
     const key = ids ? [...ids].sort().join(",") : "*";
@@ -958,6 +985,10 @@
         parents.forEach((x) => edges.push({ id: `pe:${x}:${f.id}`, sources: [x], targets: [fid] }));
         kids.forEach((c) => edges.push({ id: `ce:${f.id}:${c}`, sources: [fid], targets: [c] }));
       }
+      const rank = getFamilyOrder(), r = (id) => rank.get(id) ?? 1e9;
+      children.sort((a, b) => r(a.id) - r(b.id));
+      const er = (e) => Math.min(r(e.sources[0]), r(e.targets[0]));
+      edges.sort((a, b) => er(a) - er(b));
       return new window.ELK().layout({
         id: "root",
         layoutOptions: {
@@ -970,6 +1001,8 @@
           "elk.spacing.edgeNode": "10",
           "elk.layered.nodePlacement.strategy": "NETWORK_SIMPLEX",
           "elk.layered.considerModelOrder.strategy": "NODES_AND_EDGES",
+          "elk.layered.considerModelOrder.crossingCounterNodeInfluence": "0.5",
+          "elk.layered.considerModelOrder.crossingCounterPortInfluence": "0.5",
           "elk.separateConnectedComponents": "true",
           "elk.spacing.componentComponent": "70",
         },
