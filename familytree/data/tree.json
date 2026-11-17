@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -6877,6 +6877,13 @@
    ],
    "given": "Catharina",
    "living": false,
+   "events": [
+    {
+     "type": "Event",
+     "desc": "Probably the bride in Franz Luchesi's marriage contract, there called Katharina, daughter of Wenzl Köhler of Telč (identity not certain)",
+     "date": "10 Nov 1780"
+    }
+   ],
    "links": [
     {
      "url": "https://www.mza.cz/actapublica/matrika/detail/7771?image=216000010-000253-003373-000000-006976-000000-00-B05493-01700.jp2",
@@ -6943,10 +6950,22 @@
      "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 30, Stadt — October 1797: Franziska Luchesi, newborn",
      "summary": "Franziska Luchesi died in October 1797 at Telč, house no. 38 (the Luchesi home in the town), a quarter of an hour after birth — presumably given an emergency baptism by the midwife. A child of Franz Luchesi and Katharina née Hübsch, born 13 years after their first known child. Found by James, 15 Nov 2026.",
      "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 30, Stadt section — index: book 7007, \"1797 Lukesi Franziska — Stadt — 35\"\n\nOctober 1797 — Haus-Nr. 38 — Franziska [Luchesi] — Alter: \"¼ Std. in der Geburt\" (a quarter of an hour, at birth)\n(Day, parents' wording and cause not yet transcribed; age column read by Claude from James's screenshot)"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/4acb72dd-b1c4-4b75-9890-de37a517bd5e",
+     "site": "mza.cz",
+     "label": "Marriage contract of Franz Luchesi and Katharina Köhler, Telč 1780",
+     "context": "Person",
+     "cid": "C0155",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 235–237 — Heuraths-Contract Frantz Lükessy / Katharina Köhler, 10 Nov 1780",
+     "summary": "Marriage contract of 10 November 1780 between Franz Lükessy, single, burgher master chimney sweep in Telč, and Katharina, legitimate daughter of Wenzl Köhler, burgher of Telč (mother Anna Maria Köhlerin). Dowry 1,000 fl. (200 fl. after the wedding, 800 fl. later); Franz pledges his chimney-sweep business and house as counter-dowry. Witnesses Johann Kohler, burgher, and Franz Teubschel, baker. Entered 15 Dec 1780.\n\nCONFLICT: the Telč baptisms of Franz's children (1784–1797) give the mother as Catharina, née Hübsch ('Hübschin', 1793), with godparents Wenzl and Maria Anna Hübsch of Iglau. The matching first names (Wenzl, Maria Anna) suggest one surname may be misread, or Franz married twice. Not resolved.",
+     "transcript": "Kontraktenbuch Telč, fol. 235–237 (Lükessy Frantz) — transcription by James\n\nHeuraths-Contract.\nKund und zu wißen seye hiemit Jedermännigl:, insonderheit aber allda wo es zu wißen von nöthen, daß heut endes gesetzten dato zwischen dem Hrn Frantz Lükessy ledig bürgerlichen Rauchfangkehrer alß Bräutigam an Einem, dann der Tugendsamen Jungfrauen Katharina des Herrn Wenzl Köhler hiesigen Bürgers u. Ehelich Tochter alß Brauth am Anderen Theil beschloßen, und getroffener Ehepacten worden.\nErstlich. Thuet Verlobte Jungfrau Brauth ihren geliebten Bräutigam Hrn Frantz Lükessy über die bereits auf sich ihro Vätterlichen Liebe, Beysteuer in Tausend Gulden Rein: zu ihme Bräutigam einzubringen, und außzuzahlen, nun pro Dote zwey Hundert Gulden gleich nach der Copulation, die übrige Acht Hundert Gulden aber nach Jahr und Tag, entweder ganz, oder aber nach und nach bey Abgang dero Eltern dieselben abtragen und zuzahlen, wogegen er Bräutigam zu einem gleichen, und wiederleglichen Gegengab Brautschatz dero angehenden Ehegattin ihro über das Zubringende, und in diesem Orthe zu setzen, daß wann sie Jungfrau Braut vor ihm sterben, ohne ihro auß der Ehe erzeugte Leibes Erben an ihn das abgehen soll, und weder Eltern noch Geschwistert das geringste\nFolio 236v\ndavon ansprechen, außer der Braut zum Vattern, auf die übrige Achthundert Gulden aber keine anforderung mehr haben soll.\nAndertens. Weiters gelobet der Herr Bräutigam seiner Braut alß gleichenmaßen auß Liebe und Treue das Rauchfangkehrer Gewerb zu ihro Gegengab alß auf sein eigenthümliches Hauß und alles Vermögen anzuweisen, und gegenseitig ihro zu guten gegen solchen Vorbehalt fl: Rein:\nDrittens. Haben beyde Contrahenten in dem Stand sich dahin miteinander verglichen, daß wann eines oder das andere Theil von dieser Welt durch den zeitlichen Todt abfordern würde, so stehet dem anderen Theil frey, das Rückgelassene Vermögen völlig zu besitzen.\nSchlüßlichen haben beyde Brauth Persohnen einander die Macht eingeräumet, gegenwärtigen Heuraths Contract mit Bewilligung des Löbl: Stadt Teltscher Magistrats in denen Stadt Büchern intabuliren lassen zu können. Alles getreulich und sonder Gefährde, zu dessen Festhaltung haben sich nicht allein beyde Contrahenten selbst\nFolio 237r\n237\nunterschrieben, und ihre Pettschafften beygedruckt, sondern auch die unten benannten Herren Zeugen mit ihren eigenhändigen Unterschriften und aufgedruckten Pettschafften bekräftiget. So geschehen Stadt Teltsch den 10ten 9bris im Jahr 1780.\n[L.S.] Frantz Lükessy bürgerlicher Rauchfangkehrer Meister.\n[L.S.] Wenzl Köhler der Brauth Vatter.\nJohann Kohler Bürger alß Zeig.\nAnna Maria Köhlerin alß Ehegattin.\nFrantz Teubschel Becker alß Zeig.\nIngross: cum Consensu Senatus Die 15ta Decembris 1780,\nConsule Dno Francisco Müller\nJos: Veneta Synd:"
     }
    ],
    "notes": [
-    "Katharina née Hübsch, wife of Franz Luchesi, chimney sweep in Telč; mother of Franz Xaver (bapt. 12 Nov 1784), Marianne (6 Dec 1786), Johann Wenzl (11 Jan 1788), Josef Sr (19 Nov 1790) and Aloysia Katharina (30 Jul 1793), all at Telč house no. 38.\nMaiden name: the 1793 baptism names the mother 'Katharina Hübschin' (= née Hübsch). The earlier baptisms give only 'Catharina'. Her family was from Iglau (Jihlava): Wenzl Hübsch — described as furrier (Kürschner, 1786; reading uncertain) and clothmaker (Tuchmacher, 1793), burgher of Iglau — was godfather to Marianne, Johann Wenzl, Josef and Aloysia, and Johann Wenzl was named after him; probably her brother or father. Still to find: her baptism and the couple's marriage (before 1784; not in the Telč town marriages 1774–1790) — try Iglau."
+    "Katharina née Hübsch, wife of Franz Luchesi, chimney sweep in Telč; mother of Franz Xaver (bapt. 12 Nov 1784), Marianne (6 Dec 1786), Johann Wenzl (11 Jan 1788), Josef Sr (19 Nov 1790) and Aloysia Katharina (30 Jul 1793), all at Telč house no. 38.\nMaiden name: the 1793 baptism names the mother 'Katharina Hübschin' (= née Hübsch). The earlier baptisms give only 'Catharina'. Her family was from Iglau (Jihlava): Wenzl Hübsch — described as furrier (Kürschner, 1786; reading uncertain) and clothmaker (Tuchmacher, 1793), burgher of Iglau — was godfather to Marianne, Johann Wenzl, Josef and Aloysia, and Johann Wenzl was named after him; probably her brother or father. Still to find: her baptism and the couple's marriage (before 1784; not in the Telč town marriages 1774–1790) — try Iglau.",
+    "Possible conflict (17 Nov 2026): a marriage contract of 10 Nov 1780 in the Telč town books (Kontraktenbuch fol. 235–237) names Franz Lükessy's bride as Katharina, daughter of Wenzl Köhler, burgher of Telč, and Anna Maria Köhlerin. The baptisms of Franz's children call the mother Catharina (née Hübsch in 1793) and name Wenzl and Maria Anna Hübsch of Iglau as godparents. Either one surname is misread (Köhler/Hübsch) or Franz married twice. To check: Telč marriages Nov 1780 – early 1781."
    ]
   },
   "I0203": {
@@ -7081,8 +7100,10 @@
   "I0207": {
    "id": "I0207",
    "gender": "f",
-   "surname": "",
-   "parents": [],
+   "surname": "Kralovski",
+   "parents": [
+    "F0064"
+   ],
    "families": [
     "F0062"
    ],
@@ -7094,6 +7115,18 @@
    "death": {
     "date": "16 Dec 1796"
    },
+   "events": [
+    {
+     "type": "Estate division (Erbteilung)",
+     "desc": "Estate of the late Lorenz Luchesi divided in Telč: Franz takes over house no. 38 for 800 fl.; 270 fl. 46 xr. shared equally by the widow Barbara, Franz, Mathias, Johann and Katharina",
+     "date": "18 Mar 1780"
+    },
+    {
+     "type": "Event",
+     "desc": "Universal heir with her children under her husband Lorenz's will; to remain mistress of the house for two years",
+     "date": "1 Aug 1779"
+    }
+   ],
    "links": [
     {
      "url": "https://www.mza.cz/actapublica/matrika/detail/7783?image=216000010-000253-003373-000000-006996-000000-00-B04486-01000.jp2",
@@ -7105,6 +7138,28 @@
      "page": "Sterbebuch Telč 1784–1830, book 6996, snímek 100, Alte Vorstadt p. 17 — 16 Dec 1796: Barbara, widow of Lorenz Luchesy",
      "summary": "Barbara Luchesi, widow of the late Lorenz Luchesi, burgher and master chimney sweep in Telč, and resident of the burghers' hospital (almshouse), died on 16 December 1796 in the Alte Vorstadt of Telč, house no. 46, aged 76, of consumption (Lungensucht). Born c. 1720. Very probably the parents of Franz Luchesi (c. 1752–1835), who later held the same burgher chimney-sweep business — not yet proven. Found by James, 16 Nov 2026.",
      "transcript": "Telč deaths 1784–1830 (MZA book 6996, detail 7783), snímek 100, Alte Vorstadt (Staré Předměstí) — index book 7007: \"1796 Luchesi Barbara — Altstadt — 17\"\n\n16 [December] 1796 (month per James) — versehen: [Schumertler?]; begraben: Franz [Fernauer?] — Haus-Nr. 46\nBarbara, des [seligen?] Lorenz Luchesy, bürgerl. Rauchfangkehrermeisters hinterlassene Witwe, und bürgerl. Spitälerin\nkath., weiblich — Alter: 76 (read as 76 by James and Claude; first read as 70) — Krankheit: Lungensucht"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/64d47d74-5231-4b9e-9dc7-286756e77749",
+     "site": "mza.cz",
+     "label": "Estate settlement of Lorenz Luchesi, Telč 1780",
+     "context": "Person",
+     "cid": "C0154",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 233–235 — Erbtheiliche Ausgleichung after Lorentz Lückessy, 18 Mar 1780",
+     "summary": "Estate division of 18 March 1780 among the heirs of the late Lorenz Lückessy, burgher chimney sweep in Telč. Under his will (made 1 Aug, published 3 Sep 1779) the son Franz took over house no. 38 for 800 fl.; after debts (incl. 14 fl. 38 xr. owed for the deceased son Philipp) 270 fl. 46 xr. was divided equally between the widow Barbara, Franz, Mathias (then at Freiberg in Steyermark), Johann (journeyman strap-maker, Riemergesell, abroad) and the daughter Katharina. Entered 14 May 1781.",
+     "transcript": "Kontraktenbuch Telč, fol. 233–235 (Lückessy Franz) — transcription by James\n\nErbtheiliche Ausgleichung\nZwischen denen nach dem verstorbenen Lorentz Lückessy hiesig gewesenen bürgerlichen Rauchfangkehrer hinterbliebenen Erben.\nActiv-Stand.\nLaut des unterm 1ten Augusti errichteten, und den 3ten Septembris 1779 publicirten Vätterlichen Testamenti nuncupativi, übernimmt der Sohn Franz Lückessy nach seinem verstorbenen Vatter, und gemäß dessen letzten Willen das Sub Nro: 38. situirte Haus sammt allen Niet- und Nagelfesten Sachen umb . . . 800 fl.\nAn denen an vorhandenen Effecten, welche sich bey fürgenommener Inventur vorgefunden, und nach Aussage der Mütterlichen Aussage, respektive Mutter zur Bezahlung einiger Schulden verbraucht, und das wenig übriggebliebene bis zur Abtheilung gebraucht, mithin nichts anzusetzen ist . . . — . —\nSumma des Activ-Standes . . . 800 fl.\nPassiv-Stand.\nErstens\nLaut Quittung an Vätterlichen Begräbniß-Unkosten bezahlt . . . 16 fl. 36 xr\nLaut Testamenti: pia Legata, und auf heilige Messen in allem . . . 11 . —\nAn Passiv-Schulden übernommen\nDem hiesigen Kirchen-Amt in Capitale . . . 80 . —\nDem hiesigen St: Anna Gotteshaus . . . 100 . —\nWenzel Schöfmann Erben . . . 115 . —\nJohann Wondra . . . 40 . 39 .\nKarl Labocha . . . 11 . 24 .\nKaspar Schalda . . . 5 . —\nKaspar Kramm . . . 2 . —\nAn Franz Scheibinger . . . 64 . 25 . 2 d.\nLatus . . . 446 fl. 4 xr. 2 d.\nFolio 235\nLatus . . . 446 fl. 4 xr. 2 d.\nEinem Graf-Herbersteinischen Schaffer nahmens Simon, für den verstorbenen Sohn Philipp Lückessy . . . 14 . 38 . 2 .\nAn noch schuldigen\nIn hiesige Herrschaftliche Renten für Schmalz . . . 10 . —\nDem Mathias Rzehořz . . . 10 . —\nMartin Paul Dworžak . . . 16 . —\nDem Adam Podružka . . . 2 . —\nPfefferkuchenmacher Ernst . . . 5 . —\nGeorgio Rziha . . . 15 . —\nChristian Schimka . . . 2 . 41 .\nDem Anton Benda . . . 3 . 50 .\nAn Gemählte Unkosten: Dem Rathhaus-Syndico samt Stempel-Pappier . . . 4 . —\nSumma des Passiv-Standes . . . 529 fl. 14 xr.\nNach Abzug dessen verbleibet unter die Erben zu vertheilen . . . 270 fl. 46 xr.\nBenanntlich:\nDer Wittwe Barbara im 1ten Theil . . . 54 fl. 9 1/5 xr.\nDem Franz so solches übernimmt im 2ten . . . 54 . 9 .\nMathias nochdermalen zu Freiberg in Steyermark . . . 54 . 9 .\nJohann Riemergesell in der Fremde . . . 54 . 9 .\nDer Tochter Katharina . . . 54 . 9 .\nVerbleibet . . . 270 fl. 46 xr.\nGeschehen Stadt Teltsch den 18ten Martij 1780.\n[L.S.] Philipp Veneta\n[L.S.] Ignatz Jos: Hradek\nCommissarii alß Verordnete\nIngrossatum cum Consensu Senatus die 14ta Maji 1781.\nConsule Dno Josepho Ingerisch\nJosephus Ant: Veneta Synd:"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/7f669ac1-9cd7-493a-aca7-c795bc750399",
+     "site": "mza.cz",
+     "label": "Will of Lorenz Luchesi, Telč 1779",
+     "context": "Person",
+     "cid": "C0153",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Testamentenbuch (MZA aron, apu 663030c0)",
+     "page": "Testamentenbuch Telč, fol. 157 — nuncupative will of Lorenz Lückessy, 1 Aug 1779, published 3 Sep 1779",
+     "summary": "Oral will of Lorenz Lückessy, burgher and chimney sweep in Telč, made on his sickbed on 1 August 1779 before witnesses Michael Jankowsky and Francz Czworžitzky; to be buried at St Anne's. Universal heirs: his wife Barbora and their children Matěj (Mathias), Franc (Franz), Jan (Johann) and Kateřina. The house (800 fl.) goes after two years to the younger son Franz, who must keep his mother at his table until her death (or give her the ground-floor parlour and 40 fl. a year). Published 3 September 1779 before the mother, son Franz and the witnesses.",
+     "transcript": "English translation by James (original not yet transcribed). Index: https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/0085945c-dd52-4e5f-a696-8b9d06bab419\n\nNuncupative [Oral] Will\nLorenz Lückessy\nIn the name of the Most Holy [Trinity], etc.\nWe, the undersigned, hereby testify that today, on the date and year written below, Mr. Lorenz Lückessy, burgher and chimney sweep of the town of Telč, requested that we visit him and hear his last will. Upon this request, we entered his house and found him lying in grave illness, yet nevertheless of sound mind, whereupon he presented his last disposition to us and declared as follows:\nFirst: The above-named Mr. Lorenz Lückessy commends his soul to the Lord Jesus, that through His bitter Passion He may receive it into grace; and as for his body, that it be buried according to Christian-Catholic custom at Saint Anne’s, for which funeral he bequeaths:\n* Funeral expenses: 16 florins, 0 kreuzers \n* For Holy Masses in that same little church of Saint Anne: 6 florins, 0 kreuzers \n* To the Literati Brotherhood at [the Church of] the Holy Spirit: 2 florins, 0 kreuzers \n* To the Confraternity of the Sacred Heart of the Lord Jesus: 2 florins, 0 kreuzers \n* For the Normal Schools: 0 florins, 30 kreuzers \n* For the Invalids [disabled veterans]: 0 florins, 30 kreuzers \nSecond: Whereas the foundation and basis of every will is the appointment of a universal heir, so too he appointed as such his dear wife Barbora, together with the children proceeding from the present marriage, namely: Matěj [Matthew], Franc [Franz], Jan [John], and Kateřina [Catherine], to whom he left his house—apart from all household furnishings—appraised at eight hundred florins, I say: 800 fl. With the further stipulation, however, that she, the surviving wife and respective mother Barbora, shall remain the fully empowered mistress of the household for two years after his death. After those two years, however, he bequeaths that own house of his, appraised at 800 fl., to his younger son Franc Lückessy, who is to keep and care for his mother at his table until her death. Should they, however, in time be unable to get along together, he reserves for her, the mother, the small ground-floor parlor, and for her maintenance 40 fl. in money, which he, the son Franc, shall be obligated to pay her annually. And whatever shall remain after the payment of debts, the heirs shall divide among themselves in equal shares.\nThird and lastly: That he, Mr. Lorenz Lückessy, disposed and declared his last will in this manner, we testify by the signature of our own names freely and with our seal, [being ready] should need arise to confirm the same by oath; which took place in the Town of Telč on the 1st day of August, Year [1]779.\n[L.S.] Michael Jankowsky\n[L.S.] Francz Czworžitzky [Čtvořický / Dvořický]\nRequested witnesses\n[Probate Note in Latin]: Published in full session before the Mother, the Son Franciscus, and the Witnesses on the 3rd day of September [1]779.\nUnder Mayor Mr. Konstantin Müller\nJohann Veneta, Syndic [town clerk]"
     }
    ],
    "notes": [
@@ -7154,6 +7209,21 @@
      "type": "Occupation",
      "desc": "Bürger und Rauchfangkehrermeister (burgher and master chimney sweep) in Telč",
      "date": "2 Jan 1835"
+    },
+    {
+     "type": "Estate division (Erbteilung)",
+     "desc": "Estate of the late Lorenz Luchesi divided in Telč: Franz takes over house no. 38 for 800 fl.; 270 fl. 46 xr. shared equally by the widow Barbara, Franz, Mathias, Johann and Katharina",
+     "date": "18 Mar 1780"
+    },
+    {
+     "type": "Event",
+     "desc": "Named heir of house no. 38 in his father Lorenz's will",
+     "date": "1 Aug 1779"
+    },
+    {
+     "type": "Event",
+     "desc": "Marriage contract in Telč with Katharina, daughter of Wenzl Köhler, Bürger in Telč, and Anna Maria; Franz single, burgher master chimney sweep; dowry 1,000 fl.",
+     "date": "10 Nov 1780"
     }
    ],
    "links": [
@@ -7265,6 +7335,39 @@
      "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 184 — 30 March 1754: Franciscus Adalbertus, son of Laurentius Luchesi",
      "summary": "Baptism on 30 March 1754 in Telč of Franciscus Adalbertus (Franz Adalbert), son of Laurentius (Lorenz) Luchesi — spelled Luke[z]i — and Barbara; godparents Mathias Czach (the name is clear in his siblings' entries) and his wife Catharina; baptised by Father Dionysius. This is Franz Luchesi (d. 1835, burgher and master chimney sweep in Telč): his parents' names match Barbara's 1796 death entry ('widow of Lorenz Luchesi, burgher master chimney sweep'). His age at death (83) was overstated by about three years — he was 80. Found by James, 16 Nov 2026.",
      "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 184 — 30 Martio 1754 (month/year per James); no index for this book\n\nDies: 30 [Martii 1754] — Patria: Telczii (Telč) — Baptizans: P. Dionisius\nBaptizatus: Franciscus Adalbertus\nParentes: Laurentius Luke[z]i [= Luchesi]; Barbara\nPatrini: Mathias Czach (the name is clear in his siblings' entries); Catharina uxor ejus"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/64d47d74-5231-4b9e-9dc7-286756e77749",
+     "site": "mza.cz",
+     "label": "Estate settlement of Lorenz Luchesi, Telč 1780",
+     "context": "Person",
+     "cid": "C0154",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 233–235 — Erbtheiliche Ausgleichung after Lorentz Lückessy, 18 Mar 1780",
+     "summary": "Estate division of 18 March 1780 among the heirs of the late Lorenz Lückessy, burgher chimney sweep in Telč. Under his will (made 1 Aug, published 3 Sep 1779) the son Franz took over house no. 38 for 800 fl.; after debts (incl. 14 fl. 38 xr. owed for the deceased son Philipp) 270 fl. 46 xr. was divided equally between the widow Barbara, Franz, Mathias (then at Freiberg in Steyermark), Johann (journeyman strap-maker, Riemergesell, abroad) and the daughter Katharina. Entered 14 May 1781.",
+     "transcript": "Kontraktenbuch Telč, fol. 233–235 (Lückessy Franz) — transcription by James\n\nErbtheiliche Ausgleichung\nZwischen denen nach dem verstorbenen Lorentz Lückessy hiesig gewesenen bürgerlichen Rauchfangkehrer hinterbliebenen Erben.\nActiv-Stand.\nLaut des unterm 1ten Augusti errichteten, und den 3ten Septembris 1779 publicirten Vätterlichen Testamenti nuncupativi, übernimmt der Sohn Franz Lückessy nach seinem verstorbenen Vatter, und gemäß dessen letzten Willen das Sub Nro: 38. situirte Haus sammt allen Niet- und Nagelfesten Sachen umb . . . 800 fl.\nAn denen an vorhandenen Effecten, welche sich bey fürgenommener Inventur vorgefunden, und nach Aussage der Mütterlichen Aussage, respektive Mutter zur Bezahlung einiger Schulden verbraucht, und das wenig übriggebliebene bis zur Abtheilung gebraucht, mithin nichts anzusetzen ist . . . — . —\nSumma des Activ-Standes . . . 800 fl.\nPassiv-Stand.\nErstens\nLaut Quittung an Vätterlichen Begräbniß-Unkosten bezahlt . . . 16 fl. 36 xr\nLaut Testamenti: pia Legata, und auf heilige Messen in allem . . . 11 . —\nAn Passiv-Schulden übernommen\nDem hiesigen Kirchen-Amt in Capitale . . . 80 . —\nDem hiesigen St: Anna Gotteshaus . . . 100 . —\nWenzel Schöfmann Erben . . . 115 . —\nJohann Wondra . . . 40 . 39 .\nKarl Labocha . . . 11 . 24 .\nKaspar Schalda . . . 5 . —\nKaspar Kramm . . . 2 . —\nAn Franz Scheibinger . . . 64 . 25 . 2 d.\nLatus . . . 446 fl. 4 xr. 2 d.\nFolio 235\nLatus . . . 446 fl. 4 xr. 2 d.\nEinem Graf-Herbersteinischen Schaffer nahmens Simon, für den verstorbenen Sohn Philipp Lückessy . . . 14 . 38 . 2 .\nAn noch schuldigen\nIn hiesige Herrschaftliche Renten für Schmalz . . . 10 . —\nDem Mathias Rzehořz . . . 10 . —\nMartin Paul Dworžak . . . 16 . —\nDem Adam Podružka . . . 2 . —\nPfefferkuchenmacher Ernst . . . 5 . —\nGeorgio Rziha . . . 15 . —\nChristian Schimka . . . 2 . 41 .\nDem Anton Benda . . . 3 . 50 .\nAn Gemählte Unkosten: Dem Rathhaus-Syndico samt Stempel-Pappier . . . 4 . —\nSumma des Passiv-Standes . . . 529 fl. 14 xr.\nNach Abzug dessen verbleibet unter die Erben zu vertheilen . . . 270 fl. 46 xr.\nBenanntlich:\nDer Wittwe Barbara im 1ten Theil . . . 54 fl. 9 1/5 xr.\nDem Franz so solches übernimmt im 2ten . . . 54 . 9 .\nMathias nochdermalen zu Freiberg in Steyermark . . . 54 . 9 .\nJohann Riemergesell in der Fremde . . . 54 . 9 .\nDer Tochter Katharina . . . 54 . 9 .\nVerbleibet . . . 270 fl. 46 xr.\nGeschehen Stadt Teltsch den 18ten Martij 1780.\n[L.S.] Philipp Veneta\n[L.S.] Ignatz Jos: Hradek\nCommissarii alß Verordnete\nIngrossatum cum Consensu Senatus die 14ta Maji 1781.\nConsule Dno Josepho Ingerisch\nJosephus Ant: Veneta Synd:"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/7f669ac1-9cd7-493a-aca7-c795bc750399",
+     "site": "mza.cz",
+     "label": "Will of Lorenz Luchesi, Telč 1779",
+     "context": "Person",
+     "cid": "C0153",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Testamentenbuch (MZA aron, apu 663030c0)",
+     "page": "Testamentenbuch Telč, fol. 157 — nuncupative will of Lorenz Lückessy, 1 Aug 1779, published 3 Sep 1779",
+     "summary": "Oral will of Lorenz Lückessy, burgher and chimney sweep in Telč, made on his sickbed on 1 August 1779 before witnesses Michael Jankowsky and Francz Czworžitzky; to be buried at St Anne's. Universal heirs: his wife Barbora and their children Matěj (Mathias), Franc (Franz), Jan (Johann) and Kateřina. The house (800 fl.) goes after two years to the younger son Franz, who must keep his mother at his table until her death (or give her the ground-floor parlour and 40 fl. a year). Published 3 September 1779 before the mother, son Franz and the witnesses.",
+     "transcript": "English translation by James (original not yet transcribed). Index: https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/0085945c-dd52-4e5f-a696-8b9d06bab419\n\nNuncupative [Oral] Will\nLorenz Lückessy\nIn the name of the Most Holy [Trinity], etc.\nWe, the undersigned, hereby testify that today, on the date and year written below, Mr. Lorenz Lückessy, burgher and chimney sweep of the town of Telč, requested that we visit him and hear his last will. Upon this request, we entered his house and found him lying in grave illness, yet nevertheless of sound mind, whereupon he presented his last disposition to us and declared as follows:\nFirst: The above-named Mr. Lorenz Lückessy commends his soul to the Lord Jesus, that through His bitter Passion He may receive it into grace; and as for his body, that it be buried according to Christian-Catholic custom at Saint Anne’s, for which funeral he bequeaths:\n* Funeral expenses: 16 florins, 0 kreuzers \n* For Holy Masses in that same little church of Saint Anne: 6 florins, 0 kreuzers \n* To the Literati Brotherhood at [the Church of] the Holy Spirit: 2 florins, 0 kreuzers \n* To the Confraternity of the Sacred Heart of the Lord Jesus: 2 florins, 0 kreuzers \n* For the Normal Schools: 0 florins, 30 kreuzers \n* For the Invalids [disabled veterans]: 0 florins, 30 kreuzers \nSecond: Whereas the foundation and basis of every will is the appointment of a universal heir, so too he appointed as such his dear wife Barbora, together with the children proceeding from the present marriage, namely: Matěj [Matthew], Franc [Franz], Jan [John], and Kateřina [Catherine], to whom he left his house—apart from all household furnishings—appraised at eight hundred florins, I say: 800 fl. With the further stipulation, however, that she, the surviving wife and respective mother Barbora, shall remain the fully empowered mistress of the household for two years after his death. After those two years, however, he bequeaths that own house of his, appraised at 800 fl., to his younger son Franc Lückessy, who is to keep and care for his mother at his table until her death. Should they, however, in time be unable to get along together, he reserves for her, the mother, the small ground-floor parlor, and for her maintenance 40 fl. in money, which he, the son Franc, shall be obligated to pay her annually. And whatever shall remain after the payment of debts, the heirs shall divide among themselves in equal shares.\nThird and lastly: That he, Mr. Lorenz Lückessy, disposed and declared his last will in this manner, we testify by the signature of our own names freely and with our seal, [being ready] should need arise to confirm the same by oath; which took place in the Town of Telč on the 1st day of August, Year [1]779.\n[L.S.] Michael Jankowsky\n[L.S.] Francz Czworžitzky [Čtvořický / Dvořický]\nRequested witnesses\n[Probate Note in Latin]: Published in full session before the Mother, the Son Franciscus, and the Witnesses on the 3rd day of September [1]779.\nUnder Mayor Mr. Konstantin Müller\nJohann Veneta, Syndic [town clerk]"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/4acb72dd-b1c4-4b75-9890-de37a517bd5e",
+     "site": "mza.cz",
+     "label": "Marriage contract of Franz Luchesi and Katharina Köhler, Telč 1780",
+     "context": "Person",
+     "cid": "C0155",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 235–237 — Heuraths-Contract Frantz Lükessy / Katharina Köhler, 10 Nov 1780",
+     "summary": "Marriage contract of 10 November 1780 between Franz Lükessy, single, burgher master chimney sweep in Telč, and Katharina, legitimate daughter of Wenzl Köhler, burgher of Telč (mother Anna Maria Köhlerin). Dowry 1,000 fl. (200 fl. after the wedding, 800 fl. later); Franz pledges his chimney-sweep business and house as counter-dowry. Witnesses Johann Kohler, burgher, and Franz Teubschel, baker. Entered 15 Dec 1780.\n\nCONFLICT: the Telč baptisms of Franz's children (1784–1797) give the mother as Catharina, née Hübsch ('Hübschin', 1793), with godparents Wenzl and Maria Anna Hübsch of Iglau. The matching first names (Wenzl, Maria Anna) suggest one surname may be misread, or Franz married twice. Not resolved.",
+     "transcript": "Kontraktenbuch Telč, fol. 235–237 (Lükessy Frantz) — transcription by James\n\nHeuraths-Contract.\nKund und zu wißen seye hiemit Jedermännigl:, insonderheit aber allda wo es zu wißen von nöthen, daß heut endes gesetzten dato zwischen dem Hrn Frantz Lükessy ledig bürgerlichen Rauchfangkehrer alß Bräutigam an Einem, dann der Tugendsamen Jungfrauen Katharina des Herrn Wenzl Köhler hiesigen Bürgers u. Ehelich Tochter alß Brauth am Anderen Theil beschloßen, und getroffener Ehepacten worden.\nErstlich. Thuet Verlobte Jungfrau Brauth ihren geliebten Bräutigam Hrn Frantz Lükessy über die bereits auf sich ihro Vätterlichen Liebe, Beysteuer in Tausend Gulden Rein: zu ihme Bräutigam einzubringen, und außzuzahlen, nun pro Dote zwey Hundert Gulden gleich nach der Copulation, die übrige Acht Hundert Gulden aber nach Jahr und Tag, entweder ganz, oder aber nach und nach bey Abgang dero Eltern dieselben abtragen und zuzahlen, wogegen er Bräutigam zu einem gleichen, und wiederleglichen Gegengab Brautschatz dero angehenden Ehegattin ihro über das Zubringende, und in diesem Orthe zu setzen, daß wann sie Jungfrau Braut vor ihm sterben, ohne ihro auß der Ehe erzeugte Leibes Erben an ihn das abgehen soll, und weder Eltern noch Geschwistert das geringste\nFolio 236v\ndavon ansprechen, außer der Braut zum Vattern, auf die übrige Achthundert Gulden aber keine anforderung mehr haben soll.\nAndertens. Weiters gelobet der Herr Bräutigam seiner Braut alß gleichenmaßen auß Liebe und Treue das Rauchfangkehrer Gewerb zu ihro Gegengab alß auf sein eigenthümliches Hauß und alles Vermögen anzuweisen, und gegenseitig ihro zu guten gegen solchen Vorbehalt fl: Rein:\nDrittens. Haben beyde Contrahenten in dem Stand sich dahin miteinander verglichen, daß wann eines oder das andere Theil von dieser Welt durch den zeitlichen Todt abfordern würde, so stehet dem anderen Theil frey, das Rückgelassene Vermögen völlig zu besitzen.\nSchlüßlichen haben beyde Brauth Persohnen einander die Macht eingeräumet, gegenwärtigen Heuraths Contract mit Bewilligung des Löbl: Stadt Teltscher Magistrats in denen Stadt Büchern intabuliren lassen zu können. Alles getreulich und sonder Gefährde, zu dessen Festhaltung haben sich nicht allein beyde Contrahenten selbst\nFolio 237r\n237\nunterschrieben, und ihre Pettschafften beygedruckt, sondern auch die unten benannten Herren Zeugen mit ihren eigenhändigen Unterschriften und aufgedruckten Pettschafften bekräftiget. So geschehen Stadt Teltsch den 10ten 9bris im Jahr 1780.\n[L.S.] Frantz Lükessy bürgerlicher Rauchfangkehrer Meister.\n[L.S.] Wenzl Köhler der Brauth Vatter.\nJohann Kohler Bürger alß Zeig.\nAnna Maria Köhlerin alß Ehegattin.\nFrantz Teubschel Becker alß Zeig.\nIngross: cum Consensu Senatus Die 15ta Decembris 1780,\nConsule Dno Francisco Müller\nJos: Veneta Synd:"
     }
    ],
    "notes": [
@@ -7289,6 +7392,21 @@
      "type": "Baptism",
      "desc": "Baptised in Telč as Mathias Josephus; parents Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina",
      "date": "7 Feb 1752"
+    },
+    {
+     "type": "Estate division (Erbteilung)",
+     "desc": "Estate of the late Lorenz Luchesi divided in Telč: Franz takes over house no. 38 for 800 fl.; 270 fl. 46 xr. shared equally by the widow Barbara, Franz, Mathias, Johann and Katharina",
+     "date": "18 Mar 1780"
+    },
+    {
+     "type": "Residence",
+     "desc": "Living at Freiberg in Steyermark (Styria)",
+     "date": "18 Mar 1780"
+    },
+    {
+     "type": "Event",
+     "desc": "Named heir in his father Lorenz's will",
+     "date": "1 Aug 1779"
     }
    ],
    "links": [
@@ -7302,6 +7420,28 @@
      "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 170 — 7 Feb 1752: Mathias Josephus, son of Laurentius Luchesi",
      "summary": "Baptism on 7 Feb 1752 in Telč of Mathias Josephus (Mathias Joseph), son of Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina. Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
      "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 170 (L page) — no index for this book\n\nDies: 7 [February 1752] — Patria: Telczii (Telč) — Baptizans: Capellanus [loci] (entry reads 'Idem' under the chaplain)\nBaptizatus: Mathias Josephus\nParentes: Laurentius Lukesi; Barbara\nPatrini: Mathias Czah; Catharina uxor ejus"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/64d47d74-5231-4b9e-9dc7-286756e77749",
+     "site": "mza.cz",
+     "label": "Estate settlement of Lorenz Luchesi, Telč 1780",
+     "context": "Person",
+     "cid": "C0154",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 233–235 — Erbtheiliche Ausgleichung after Lorentz Lückessy, 18 Mar 1780",
+     "summary": "Estate division of 18 March 1780 among the heirs of the late Lorenz Lückessy, burgher chimney sweep in Telč. Under his will (made 1 Aug, published 3 Sep 1779) the son Franz took over house no. 38 for 800 fl.; after debts (incl. 14 fl. 38 xr. owed for the deceased son Philipp) 270 fl. 46 xr. was divided equally between the widow Barbara, Franz, Mathias (then at Freiberg in Steyermark), Johann (journeyman strap-maker, Riemergesell, abroad) and the daughter Katharina. Entered 14 May 1781.",
+     "transcript": "Kontraktenbuch Telč, fol. 233–235 (Lückessy Franz) — transcription by James\n\nErbtheiliche Ausgleichung\nZwischen denen nach dem verstorbenen Lorentz Lückessy hiesig gewesenen bürgerlichen Rauchfangkehrer hinterbliebenen Erben.\nActiv-Stand.\nLaut des unterm 1ten Augusti errichteten, und den 3ten Septembris 1779 publicirten Vätterlichen Testamenti nuncupativi, übernimmt der Sohn Franz Lückessy nach seinem verstorbenen Vatter, und gemäß dessen letzten Willen das Sub Nro: 38. situirte Haus sammt allen Niet- und Nagelfesten Sachen umb . . . 800 fl.\nAn denen an vorhandenen Effecten, welche sich bey fürgenommener Inventur vorgefunden, und nach Aussage der Mütterlichen Aussage, respektive Mutter zur Bezahlung einiger Schulden verbraucht, und das wenig übriggebliebene bis zur Abtheilung gebraucht, mithin nichts anzusetzen ist . . . — . —\nSumma des Activ-Standes . . . 800 fl.\nPassiv-Stand.\nErstens\nLaut Quittung an Vätterlichen Begräbniß-Unkosten bezahlt . . . 16 fl. 36 xr\nLaut Testamenti: pia Legata, und auf heilige Messen in allem . . . 11 . —\nAn Passiv-Schulden übernommen\nDem hiesigen Kirchen-Amt in Capitale . . . 80 . —\nDem hiesigen St: Anna Gotteshaus . . . 100 . —\nWenzel Schöfmann Erben . . . 115 . —\nJohann Wondra . . . 40 . 39 .\nKarl Labocha . . . 11 . 24 .\nKaspar Schalda . . . 5 . —\nKaspar Kramm . . . 2 . —\nAn Franz Scheibinger . . . 64 . 25 . 2 d.\nLatus . . . 446 fl. 4 xr. 2 d.\nFolio 235\nLatus . . . 446 fl. 4 xr. 2 d.\nEinem Graf-Herbersteinischen Schaffer nahmens Simon, für den verstorbenen Sohn Philipp Lückessy . . . 14 . 38 . 2 .\nAn noch schuldigen\nIn hiesige Herrschaftliche Renten für Schmalz . . . 10 . —\nDem Mathias Rzehořz . . . 10 . —\nMartin Paul Dworžak . . . 16 . —\nDem Adam Podružka . . . 2 . —\nPfefferkuchenmacher Ernst . . . 5 . —\nGeorgio Rziha . . . 15 . —\nChristian Schimka . . . 2 . 41 .\nDem Anton Benda . . . 3 . 50 .\nAn Gemählte Unkosten: Dem Rathhaus-Syndico samt Stempel-Pappier . . . 4 . —\nSumma des Passiv-Standes . . . 529 fl. 14 xr.\nNach Abzug dessen verbleibet unter die Erben zu vertheilen . . . 270 fl. 46 xr.\nBenanntlich:\nDer Wittwe Barbara im 1ten Theil . . . 54 fl. 9 1/5 xr.\nDem Franz so solches übernimmt im 2ten . . . 54 . 9 .\nMathias nochdermalen zu Freiberg in Steyermark . . . 54 . 9 .\nJohann Riemergesell in der Fremde . . . 54 . 9 .\nDer Tochter Katharina . . . 54 . 9 .\nVerbleibet . . . 270 fl. 46 xr.\nGeschehen Stadt Teltsch den 18ten Martij 1780.\n[L.S.] Philipp Veneta\n[L.S.] Ignatz Jos: Hradek\nCommissarii alß Verordnete\nIngrossatum cum Consensu Senatus die 14ta Maji 1781.\nConsule Dno Josepho Ingerisch\nJosephus Ant: Veneta Synd:"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/7f669ac1-9cd7-493a-aca7-c795bc750399",
+     "site": "mza.cz",
+     "label": "Will of Lorenz Luchesi, Telč 1779",
+     "context": "Person",
+     "cid": "C0153",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Testamentenbuch (MZA aron, apu 663030c0)",
+     "page": "Testamentenbuch Telč, fol. 157 — nuncupative will of Lorenz Lückessy, 1 Aug 1779, published 3 Sep 1779",
+     "summary": "Oral will of Lorenz Lückessy, burgher and chimney sweep in Telč, made on his sickbed on 1 August 1779 before witnesses Michael Jankowsky and Francz Czworžitzky; to be buried at St Anne's. Universal heirs: his wife Barbora and their children Matěj (Mathias), Franc (Franz), Jan (Johann) and Kateřina. The house (800 fl.) goes after two years to the younger son Franz, who must keep his mother at his table until her death (or give her the ground-floor parlour and 40 fl. a year). Published 3 September 1779 before the mother, son Franz and the witnesses.",
+     "transcript": "English translation by James (original not yet transcribed). Index: https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/0085945c-dd52-4e5f-a696-8b9d06bab419\n\nNuncupative [Oral] Will\nLorenz Lückessy\nIn the name of the Most Holy [Trinity], etc.\nWe, the undersigned, hereby testify that today, on the date and year written below, Mr. Lorenz Lückessy, burgher and chimney sweep of the town of Telč, requested that we visit him and hear his last will. Upon this request, we entered his house and found him lying in grave illness, yet nevertheless of sound mind, whereupon he presented his last disposition to us and declared as follows:\nFirst: The above-named Mr. Lorenz Lückessy commends his soul to the Lord Jesus, that through His bitter Passion He may receive it into grace; and as for his body, that it be buried according to Christian-Catholic custom at Saint Anne’s, for which funeral he bequeaths:\n* Funeral expenses: 16 florins, 0 kreuzers \n* For Holy Masses in that same little church of Saint Anne: 6 florins, 0 kreuzers \n* To the Literati Brotherhood at [the Church of] the Holy Spirit: 2 florins, 0 kreuzers \n* To the Confraternity of the Sacred Heart of the Lord Jesus: 2 florins, 0 kreuzers \n* For the Normal Schools: 0 florins, 30 kreuzers \n* For the Invalids [disabled veterans]: 0 florins, 30 kreuzers \nSecond: Whereas the foundation and basis of every will is the appointment of a universal heir, so too he appointed as such his dear wife Barbora, together with the children proceeding from the present marriage, namely: Matěj [Matthew], Franc [Franz], Jan [John], and Kateřina [Catherine], to whom he left his house—apart from all household furnishings—appraised at eight hundred florins, I say: 800 fl. With the further stipulation, however, that she, the surviving wife and respective mother Barbora, shall remain the fully empowered mistress of the household for two years after his death. After those two years, however, he bequeaths that own house of his, appraised at 800 fl., to his younger son Franc Lückessy, who is to keep and care for his mother at his table until her death. Should they, however, in time be unable to get along together, he reserves for her, the mother, the small ground-floor parlor, and for her maintenance 40 fl. in money, which he, the son Franc, shall be obligated to pay her annually. And whatever shall remain after the payment of debts, the heirs shall divide among themselves in equal shares.\nThird and lastly: That he, Mr. Lorenz Lückessy, disposed and declared his last will in this manner, we testify by the signature of our own names freely and with our seal, [being ready] should need arise to confirm the same by oath; which took place in the Town of Telč on the 1st day of August, Year [1]779.\n[L.S.] Michael Jankowsky\n[L.S.] Francz Czworžitzky [Čtvořický / Dvořický]\nRequested witnesses\n[Probate Note in Latin]: Published in full session before the Mother, the Son Franciscus, and the Witnesses on the 3rd day of September [1]779.\nUnder Mayor Mr. Konstantin Müller\nJohann Veneta, Syndic [town clerk]"
     }
    ]
   },
@@ -7317,6 +7457,9 @@
    "living": false,
    "birth": {
     "date": "before 29 Apr 1756"
+   },
+   "death": {
+    "date": "before 18 Mar 1780"
    },
    "events": [
     {
@@ -7336,6 +7479,17 @@
      "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 203 — 29 Apr 1756: Philippus Jacobus, son of Laurentius Luchesi",
      "summary": "Baptism on 29 Apr 1756 in Telč of Philippus Jacobus (Philipp Jakob), son of Laurentius (Lorenz) Luchesi and Barbara; godparents Mathias Czach and his wife Catharina. Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
      "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 203 (L page, p. 400) — no index for this book\n\nDies: 29 [April 1756] — Patria: Telczii (Telč) — Baptizans: Josephus Lipka, capellanus\nBaptizatus: Philippus Jacobus\nParentes: Laurentius Luxezer — with 'Luchesy' written beneath; Barbara\nPatrini: Mathias Czach; Catharina uxor ejus"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/64d47d74-5231-4b9e-9dc7-286756e77749",
+     "site": "mza.cz",
+     "label": "Estate settlement of Lorenz Luchesi, Telč 1780",
+     "context": "Person",
+     "cid": "C0154",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 233–235 — Erbtheiliche Ausgleichung after Lorentz Lückessy, 18 Mar 1780",
+     "summary": "Estate division of 18 March 1780 among the heirs of the late Lorenz Lückessy, burgher chimney sweep in Telč. Under his will (made 1 Aug, published 3 Sep 1779) the son Franz took over house no. 38 for 800 fl.; after debts (incl. 14 fl. 38 xr. owed for the deceased son Philipp) 270 fl. 46 xr. was divided equally between the widow Barbara, Franz, Mathias (then at Freiberg in Steyermark), Johann (journeyman strap-maker, Riemergesell, abroad) and the daughter Katharina. Entered 14 May 1781.",
+     "transcript": "Kontraktenbuch Telč, fol. 233–235 (Lückessy Franz) — transcription by James\n\nErbtheiliche Ausgleichung\nZwischen denen nach dem verstorbenen Lorentz Lückessy hiesig gewesenen bürgerlichen Rauchfangkehrer hinterbliebenen Erben.\nActiv-Stand.\nLaut des unterm 1ten Augusti errichteten, und den 3ten Septembris 1779 publicirten Vätterlichen Testamenti nuncupativi, übernimmt der Sohn Franz Lückessy nach seinem verstorbenen Vatter, und gemäß dessen letzten Willen das Sub Nro: 38. situirte Haus sammt allen Niet- und Nagelfesten Sachen umb . . . 800 fl.\nAn denen an vorhandenen Effecten, welche sich bey fürgenommener Inventur vorgefunden, und nach Aussage der Mütterlichen Aussage, respektive Mutter zur Bezahlung einiger Schulden verbraucht, und das wenig übriggebliebene bis zur Abtheilung gebraucht, mithin nichts anzusetzen ist . . . — . —\nSumma des Activ-Standes . . . 800 fl.\nPassiv-Stand.\nErstens\nLaut Quittung an Vätterlichen Begräbniß-Unkosten bezahlt . . . 16 fl. 36 xr\nLaut Testamenti: pia Legata, und auf heilige Messen in allem . . . 11 . —\nAn Passiv-Schulden übernommen\nDem hiesigen Kirchen-Amt in Capitale . . . 80 . —\nDem hiesigen St: Anna Gotteshaus . . . 100 . —\nWenzel Schöfmann Erben . . . 115 . —\nJohann Wondra . . . 40 . 39 .\nKarl Labocha . . . 11 . 24 .\nKaspar Schalda . . . 5 . —\nKaspar Kramm . . . 2 . —\nAn Franz Scheibinger . . . 64 . 25 . 2 d.\nLatus . . . 446 fl. 4 xr. 2 d.\nFolio 235\nLatus . . . 446 fl. 4 xr. 2 d.\nEinem Graf-Herbersteinischen Schaffer nahmens Simon, für den verstorbenen Sohn Philipp Lückessy . . . 14 . 38 . 2 .\nAn noch schuldigen\nIn hiesige Herrschaftliche Renten für Schmalz . . . 10 . —\nDem Mathias Rzehořz . . . 10 . —\nMartin Paul Dworžak . . . 16 . —\nDem Adam Podružka . . . 2 . —\nPfefferkuchenmacher Ernst . . . 5 . —\nGeorgio Rziha . . . 15 . —\nChristian Schimka . . . 2 . 41 .\nDem Anton Benda . . . 3 . 50 .\nAn Gemählte Unkosten: Dem Rathhaus-Syndico samt Stempel-Pappier . . . 4 . —\nSumma des Passiv-Standes . . . 529 fl. 14 xr.\nNach Abzug dessen verbleibet unter die Erben zu vertheilen . . . 270 fl. 46 xr.\nBenanntlich:\nDer Wittwe Barbara im 1ten Theil . . . 54 fl. 9 1/5 xr.\nDem Franz so solches übernimmt im 2ten . . . 54 . 9 .\nMathias nochdermalen zu Freiberg in Steyermark . . . 54 . 9 .\nJohann Riemergesell in der Fremde . . . 54 . 9 .\nDer Tochter Katharina . . . 54 . 9 .\nVerbleibet . . . 270 fl. 46 xr.\nGeschehen Stadt Teltsch den 18ten Martij 1780.\n[L.S.] Philipp Veneta\n[L.S.] Ignatz Jos: Hradek\nCommissarii alß Verordnete\nIngrossatum cum Consensu Senatus die 14ta Maji 1781.\nConsule Dno Josepho Ingerisch\nJosephus Ant: Veneta Synd:"
     }
    ]
   },
@@ -7391,6 +7545,21 @@
      "type": "Baptism",
      "desc": "Baptised in Telč as Catharina Elisabetha; parents Laurentius (Lorenz) Luchesi, burgher and chimney sweep, and Barbara; godparents Mathias Czach, an employee of the Telč estate, and his wife Barbara (in 1752–58 his wife was Catharina, so probably a second marriage)",
      "date": "10 Nov 1763"
+    },
+    {
+     "type": "Estate division (Erbteilung)",
+     "desc": "Estate of the late Lorenz Luchesi divided in Telč: Franz takes over house no. 38 for 800 fl.; 270 fl. 46 xr. shared equally by the widow Barbara, Franz, Mathias, Johann and Katharina",
+     "date": "18 Mar 1780"
+    },
+    {
+     "type": "Event",
+     "desc": "Named heir in her father Lorenz's will",
+     "date": "1 Aug 1779"
+    },
+    {
+     "type": "Marriage",
+     "desc": "Married Joannes Lamesch in Telč",
+     "date": "30 May 1780"
     }
    ],
    "links": [
@@ -7404,6 +7573,38 @@
      "page": "Liber baptizatorum Telč 1730–1768, book 6975, snímek 257 — 10 Nov 1763: Catharina Elisabetha, daughter of Laurentius Luchesi",
      "summary": "Baptism on 10 Nov 1763 in Telč of Catharina Elisabetha (Katharina Elisabeth), daughter of Laurentius (Lorenz) Luchesi, burgher and chimney sweep, and Barbara; godparents Mathias Czach, an employee of the Telč estate, and his wife Barbara (in 1752–58 his wife was Catharina, so probably a second marriage). Sibling of Franz Adalbert Luchesi (bapt. 1754) — same parents, and the same godfather Mathias Czach stood for Franz. Found in Claude's review of book 6975, confirmed by James, 16 Nov 2026.",
      "transcript": "Telč births 1730–1768 (MZA book 6975, detail 7770), snímek 257 (R page, p. 509) — no index for this book\n\nDies: 10 [November 1763] — Patria: Telczii (Telč) — Baptizans: [Thomas] Havelka, cooperator\nBaptizatus: Catharina Elisabetha\nParentes: Laurentius Luxeser, civis caminarius; Barbara\nPatrini: Mathias Czach, [Sheda?]rius Dominii [an estate official/servant — reading uncertain]; Barbara uxor ejus"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/64d47d74-5231-4b9e-9dc7-286756e77749",
+     "site": "mza.cz",
+     "label": "Estate settlement of Lorenz Luchesi, Telč 1780",
+     "context": "Person",
+     "cid": "C0154",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 233–235 — Erbtheiliche Ausgleichung after Lorentz Lückessy, 18 Mar 1780",
+     "summary": "Estate division of 18 March 1780 among the heirs of the late Lorenz Lückessy, burgher chimney sweep in Telč. Under his will (made 1 Aug, published 3 Sep 1779) the son Franz took over house no. 38 for 800 fl.; after debts (incl. 14 fl. 38 xr. owed for the deceased son Philipp) 270 fl. 46 xr. was divided equally between the widow Barbara, Franz, Mathias (then at Freiberg in Steyermark), Johann (journeyman strap-maker, Riemergesell, abroad) and the daughter Katharina. Entered 14 May 1781.",
+     "transcript": "Kontraktenbuch Telč, fol. 233–235 (Lückessy Franz) — transcription by James\n\nErbtheiliche Ausgleichung\nZwischen denen nach dem verstorbenen Lorentz Lückessy hiesig gewesenen bürgerlichen Rauchfangkehrer hinterbliebenen Erben.\nActiv-Stand.\nLaut des unterm 1ten Augusti errichteten, und den 3ten Septembris 1779 publicirten Vätterlichen Testamenti nuncupativi, übernimmt der Sohn Franz Lückessy nach seinem verstorbenen Vatter, und gemäß dessen letzten Willen das Sub Nro: 38. situirte Haus sammt allen Niet- und Nagelfesten Sachen umb . . . 800 fl.\nAn denen an vorhandenen Effecten, welche sich bey fürgenommener Inventur vorgefunden, und nach Aussage der Mütterlichen Aussage, respektive Mutter zur Bezahlung einiger Schulden verbraucht, und das wenig übriggebliebene bis zur Abtheilung gebraucht, mithin nichts anzusetzen ist . . . — . —\nSumma des Activ-Standes . . . 800 fl.\nPassiv-Stand.\nErstens\nLaut Quittung an Vätterlichen Begräbniß-Unkosten bezahlt . . . 16 fl. 36 xr\nLaut Testamenti: pia Legata, und auf heilige Messen in allem . . . 11 . —\nAn Passiv-Schulden übernommen\nDem hiesigen Kirchen-Amt in Capitale . . . 80 . —\nDem hiesigen St: Anna Gotteshaus . . . 100 . —\nWenzel Schöfmann Erben . . . 115 . —\nJohann Wondra . . . 40 . 39 .\nKarl Labocha . . . 11 . 24 .\nKaspar Schalda . . . 5 . —\nKaspar Kramm . . . 2 . —\nAn Franz Scheibinger . . . 64 . 25 . 2 d.\nLatus . . . 446 fl. 4 xr. 2 d.\nFolio 235\nLatus . . . 446 fl. 4 xr. 2 d.\nEinem Graf-Herbersteinischen Schaffer nahmens Simon, für den verstorbenen Sohn Philipp Lückessy . . . 14 . 38 . 2 .\nAn noch schuldigen\nIn hiesige Herrschaftliche Renten für Schmalz . . . 10 . —\nDem Mathias Rzehořz . . . 10 . —\nMartin Paul Dworžak . . . 16 . —\nDem Adam Podružka . . . 2 . —\nPfefferkuchenmacher Ernst . . . 5 . —\nGeorgio Rziha . . . 15 . —\nChristian Schimka . . . 2 . 41 .\nDem Anton Benda . . . 3 . 50 .\nAn Gemählte Unkosten: Dem Rathhaus-Syndico samt Stempel-Pappier . . . 4 . —\nSumma des Passiv-Standes . . . 529 fl. 14 xr.\nNach Abzug dessen verbleibet unter die Erben zu vertheilen . . . 270 fl. 46 xr.\nBenanntlich:\nDer Wittwe Barbara im 1ten Theil . . . 54 fl. 9 1/5 xr.\nDem Franz so solches übernimmt im 2ten . . . 54 . 9 .\nMathias nochdermalen zu Freiberg in Steyermark . . . 54 . 9 .\nJohann Riemergesell in der Fremde . . . 54 . 9 .\nDer Tochter Katharina . . . 54 . 9 .\nVerbleibet . . . 270 fl. 46 xr.\nGeschehen Stadt Teltsch den 18ten Martij 1780.\n[L.S.] Philipp Veneta\n[L.S.] Ignatz Jos: Hradek\nCommissarii alß Verordnete\nIngrossatum cum Consensu Senatus die 14ta Maji 1781.\nConsule Dno Josepho Ingerisch\nJosephus Ant: Veneta Synd:"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/7f669ac1-9cd7-493a-aca7-c795bc750399",
+     "site": "mza.cz",
+     "label": "Will of Lorenz Luchesi, Telč 1779",
+     "context": "Person",
+     "cid": "C0153",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Testamentenbuch (MZA aron, apu 663030c0)",
+     "page": "Testamentenbuch Telč, fol. 157 — nuncupative will of Lorenz Lückessy, 1 Aug 1779, published 3 Sep 1779",
+     "summary": "Oral will of Lorenz Lückessy, burgher and chimney sweep in Telč, made on his sickbed on 1 August 1779 before witnesses Michael Jankowsky and Francz Czworžitzky; to be buried at St Anne's. Universal heirs: his wife Barbora and their children Matěj (Mathias), Franc (Franz), Jan (Johann) and Kateřina. The house (800 fl.) goes after two years to the younger son Franz, who must keep his mother at his table until her death (or give her the ground-floor parlour and 40 fl. a year). Published 3 September 1779 before the mother, son Franz and the witnesses.",
+     "transcript": "English translation by James (original not yet transcribed). Index: https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/0085945c-dd52-4e5f-a696-8b9d06bab419\n\nNuncupative [Oral] Will\nLorenz Lückessy\nIn the name of the Most Holy [Trinity], etc.\nWe, the undersigned, hereby testify that today, on the date and year written below, Mr. Lorenz Lückessy, burgher and chimney sweep of the town of Telč, requested that we visit him and hear his last will. Upon this request, we entered his house and found him lying in grave illness, yet nevertheless of sound mind, whereupon he presented his last disposition to us and declared as follows:\nFirst: The above-named Mr. Lorenz Lückessy commends his soul to the Lord Jesus, that through His bitter Passion He may receive it into grace; and as for his body, that it be buried according to Christian-Catholic custom at Saint Anne’s, for which funeral he bequeaths:\n* Funeral expenses: 16 florins, 0 kreuzers \n* For Holy Masses in that same little church of Saint Anne: 6 florins, 0 kreuzers \n* To the Literati Brotherhood at [the Church of] the Holy Spirit: 2 florins, 0 kreuzers \n* To the Confraternity of the Sacred Heart of the Lord Jesus: 2 florins, 0 kreuzers \n* For the Normal Schools: 0 florins, 30 kreuzers \n* For the Invalids [disabled veterans]: 0 florins, 30 kreuzers \nSecond: Whereas the foundation and basis of every will is the appointment of a universal heir, so too he appointed as such his dear wife Barbora, together with the children proceeding from the present marriage, namely: Matěj [Matthew], Franc [Franz], Jan [John], and Kateřina [Catherine], to whom he left his house—apart from all household furnishings—appraised at eight hundred florins, I say: 800 fl. With the further stipulation, however, that she, the surviving wife and respective mother Barbora, shall remain the fully empowered mistress of the household for two years after his death. After those two years, however, he bequeaths that own house of his, appraised at 800 fl., to his younger son Franc Lückessy, who is to keep and care for his mother at his table until her death. Should they, however, in time be unable to get along together, he reserves for her, the mother, the small ground-floor parlor, and for her maintenance 40 fl. in money, which he, the son Franc, shall be obligated to pay her annually. And whatever shall remain after the payment of debts, the heirs shall divide among themselves in equal shares.\nThird and lastly: That he, Mr. Lorenz Lückessy, disposed and declared his last will in this manner, we testify by the signature of our own names freely and with our seal, [being ready] should need arise to confirm the same by oath; which took place in the Town of Telč on the 1st day of August, Year [1]779.\n[L.S.] Michael Jankowsky\n[L.S.] Francz Czworžitzky [Čtvořický / Dvořický]\nRequested witnesses\n[Probate Note in Latin]: Published in full session before the Mother, the Son Franciscus, and the Witnesses on the 3rd day of September [1]779.\nUnder Mayor Mr. Konstantin Müller\nJohann Veneta, Syndic [town clerk]"
+    },
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7780?image=216000010-000253-003373-000000-006989-000000-00-B05735-00440.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Katharina Luchesi and Joannes Lamesch, Telč 1780",
+     "context": "Person",
+     "cid": "C0156",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Trauungsbuch (MZA book 6989, detail 7780)",
+     "page": "Telč marriages (MZA book 6989, detail 7780), snímek 44 — 30 May 1780",
+     "summary": "Marriage in Telč on 30 May 1780 of Katharina Lukesi (daughter of the late Lorenz Luchesi) to Joannes Lamesch. Found by James; entry not yet transcribed. Her husband is deliberately not added to the tree."
     }
    ]
   },
@@ -7411,7 +7612,9 @@
    "id": "I0208",
    "gender": "m",
    "surname": "Luchesi",
-   "parents": [],
+   "parents": [
+    "F0063"
+   ],
    "families": [
     "F0062"
    ],
@@ -7428,6 +7631,30 @@
      "type": "Occupation",
      "desc": "Burgher and chimney sweep (civis caminarius) in Telč, recorded 1758–1779; his widow's death entry (1796) calls him bürgerlicher Rauchfangkehrermeister (burgher master chimney sweep)",
      "date": "1758"
+    },
+    {
+     "type": "Property",
+     "desc": "Bought from Franz Kayser a house-lot in the Vorstadt hinter dem Wasser, Telč, with garden and 2½ Metzen of land, for 240 fl. Rh.",
+     "date": "20 Apr 1763"
+    },
+    {
+     "type": "Property",
+     "desc": "Bond of 40 fl. to Jan Jankovský secured on his house in the Předměstí za Vodou; signs as master chimney sweep (Mistr kominářský)",
+     "date": "26 Mar 1767"
+    },
+    {
+     "type": "Property",
+     "desc": "Bought house no. 38 in Telč (town book 131)"
+    },
+    {
+     "type": "Event",
+     "desc": "Oral (nuncupative) will made on his sickbed in Telč; heirs his wife Barbora and children Mathias, Franz, Johann and Katharina; house no. 38 to the younger son Franz",
+     "date": "1 Aug 1779"
+    },
+    {
+     "type": "Event",
+     "desc": "Will published before the town council of Telč, in the presence of the widow and son Franz",
+     "date": "3 Sep 1779"
     }
    ],
    "links": [
@@ -7452,10 +7679,173 @@
      "page": "Liber defunctorum Telč 1729–1783, book 6995, snímek 215 — 17 Aug 1779: Laurentius Luxesi, civis caminarius, house 38, aged 55",
      "summary": "Lorenz (Laurentius) Luchesi, spelled 'Luxesi', burgher and chimney sweep (civis caminarius), died in Telč on 17 August 1779 at house no. 38, aged 55 (born c. 1724). House 38 is the same house where his son Franz Adalbert's family lived ('Stadt Teltsch No 38', 1790). Found by James, 16 Nov 2026.",
      "transcript": "Telč deaths 1729–1783 (MZA book 6995, detail 5954), snímek 215\n\n17 [Augusti 1779] — Laurentius Luxesi, civis caminarius — domus No. 38 — aetas: 55"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/f862b8d3-5d43-4fbb-b595-97dd67150eef",
+     "site": "mza.cz",
+     "label": "Lorenz Luchesi buys a house in the Vorstadt hinter dem Wasser, Telč 1763",
+     "context": "Person",
+     "cid": "C0150",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 212–213 — Kaufkontrakt 20 Apr 1763, Lorentz Lükessy (buyer) / Franz Kayser (seller)",
+     "summary": "On 20 April 1763 Lorenz Lükessy, chimney sweep (Rauchfangkehrer) in Telč, bought from Franz Kayser a house-lot in the Vorstadt hinter dem Wasser, between the houses of Mathias Karas and Paul Mayer, with a small garden and 2½ Metzen of arable land, for 240 fl. Rhenish (140 fl. down, 100 fl. in yearly instalments of 20 fl.). The debt was later paid in full and cancelled (note by town syndic de Castelli, fol. 213). English translation by James:\n\nBe it known and understood hereby to everyone, especially to those whom it is necessary to know, that today on the date set at the end below, between Mr. Lukessy, chimney sweep at the Town of Telč, as Buyer on the one part, and Franz Kayser, as Seller on the other part, an honest, well-considered, and irrevocable purchase and sale contract was concluded and agreed upon, as follows:\nNamely, First: The first-mentioned Franz Kayser sells his property [house-lot] situated here in the Suburb Behind the Water [Vorstadt hinter dem Wasser], between the houses of Mathias Karas and Paul Mayer, together with the small garden belonging thereto and arable land amounting to 2½ Metzen of sowing capacity, along with all fixtures fastened with rivets and nails thereon, for and at the price of 240 Rhenish florins (fl. Rhein.), I say Two Hundred Forty Rhenish Gulden, in the following manner: namely, the Buyer pays a cash down payment immediately upon valid and official execution of this contract of 140 Rhenish fl., while the remaining 100 Rhenish fl. [are to be paid] in annual installments of 20 fl., I say Twenty [Gulden], wherewith to continue paying off until the above-mentioned entire purchase price is completely discharged and paid in full, and shall be.\nSecondly: On the other hand, the aforementioned Mr. Lorentz Lükessy and his heirs also promise, regarding the quota of old debts and claims hitherto resting upon Johann Paul, respective Father Kayser’s [estate], to keep his property free [thereof], as it is termed in law, and [from] burdens, so that he himself shall enjoy and hold the same with all rights and privileges, just as the previous possessors did.\nThirdly: Furthermore, [both parties] grant each other the authority to have the present purchase and sale instrument secured [entered] in the town books (Stadtbücher) with the consent of the Honorable and Most Wise Town Council of Telč (Stadt-Teltscher Rath). All faithfully, without deceit.\nIn witness whereof, and for constant observance, not only have both contracting parties signed with their own hands and affixed their customary seals, but also the Gentlemen Witnesses requested at the end (however without any prejudice to them all), done knowingly and by request.\nThus done in the Town of Telč on the 20th of April 1763.\n[L.S.] Lorentz Lükessy\n[L.S.] Frantz Kayser + + +\n[L.S.] Joh. Langer\n[L.S.] Mathias Sattler\n[Cancellation & Receipt Note on Folio 213r]: On the 3rd [day], the foregoing Lückessy payment item of 240 fl. was paid out in the Town Chancellery and already settled in full; therefore, the 240 fl. was approved on the protocol and cancelled (deliret) upon the petition of the creditor Franz Kayser.\nI attest in good faith, de Castelli, sworn Town Syndic.",
+     "transcript": "Kontraktenbuch Telč, fol. 212 (Lorentz Lukessy) — transcription by James\n\nKund und zu wissen sei hiermit jedermänniglich, sonderlich denen, so es zu wissen vonnöten, dass heut endes gesetzten Datums zwischen Herrn Lukessy als Rauchfangkehrer bei der Stadt Teltsch als Käufer an einem und Franz Kayser als Verkäufer am anderen Teil ein redlicher, wohlbedächtlicher und unwiderruflicher Kauf- und Verkaufskontrakt geschlossen und verabredet [wurde], wie folgt:\nNämlich erstens (1mo): Verkauft erstgedachter Franz Kayser seinen allhier in der Vorstadt hinter dem Wasser, zwischen dem Mathias Karas und Paul Mayer Häusern gelegenen Grund samt dazugehörigem Gärtlein und Acker per 2½ Metzen Aussaat, samt allen darauf stehenden niet- und nagelfesten Sachen um und für 240 fl. Rheinisch, sage zweihundertvierzig Gulden Rheinisch, auf folgende Weise: und zwar zahlt Käufer bares Angeld sogleich bei gültiger und gerichtlicher Ausfertigung dieses Kontrakts 140 fl. Rheinisch, die übrigen 100 fl. Rheinisch aber in jährlichen Terminen à 20 fl., sage zwanzig [Gulden], womit so lange abzufahren [fortzufahren], bis obiger ganzer Kaufschilling völlig getilgt und ganz bezahlt wird und soll.\nHingegen zweitens (2do): Gelobt auch der vorgemeldete Herr Lorentz Lükessy und seine Erben, [bezüglich] der bisher auf Johann Paul, respektive Vater Kayserischen Anzahl [Anteil] der alten Schulden und Ansprüche seinen Grund frei zu [halten], als [wie] es in den Rechten heißt, und [von] Bürden, so [dass] er selbes mit allen Rechten und Gerechtigkeiten, wie die vorigen Possessores [Besitzer], genießen und haben soll.\nFerner drittens (3tio): Gibt [man] sich einander die Macht [einzu]räumen, gegenwärtiges Kauf- und Verkaufsinstrument mit Bewilligung eines Ehrsamen und Wohlweisen Stadt-Teltscher Rates stadtbücherlich versichern zu lassen. Alles getreulich, sonder Gefährde.\nZu Urkund dessen und steter Festhaltung haben nicht allein beide Kontrahenten sich eigenhändig unterschrieben und ihr gewöhnliches Petschaft beigedruckt, sondern auch die zu Ende gebetenen Herren Zeugen (jedoch ihnen allen ohne Nachteil) geschehen wissend und gebeten.\nSo geschehen Stadt Teltsch, den 20. Aprilis 1763.\n[L.S.] Lorentz Lükessy.\n[L.S.] Franz Kayser + + +\n[L.S.] Joh. Langer.\n[L.S.] Mathias Sattler.\n213 (Löschungsvermerk)\nDen 3. [Tag] ist die vorstehende Lükessysche Geld-Post à 240 fl. in der Stadtkanzlei ausgezahlt und bereits vergnügt [beglichen worden], daher per 240 fl. auf Protokoll bewilligt und deliret [gelöscht] ad petitum creditoris [auf Ersuchen des Gläubigers] Franz Kayser.\nTestor in fidem [Ich bezeuge dies in gutem Glauben], de Castelli, Syndicus Civitatis juratus [geschworener Stadtsyndikus]"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/08ce0807-6473-4a15-9e6a-b064ca3ed598/dao/08ce0807-6473-4a15-9e6a-b064ca3ed598/file/2ab675e9-26bf-412e-adc4-722f141c3fb5",
+     "site": "mza.cz",
+     "label": "Lorenz Luchesi's bond to Jan Jankovský, Telč 1767",
+     "context": "Person",
+     "cid": "C0151",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — kniha dlužních úpisů / Schuldbriefe (MZA aron, apu 08ce0807)",
+     "page": "Telč town book — bond (Schuldbrief) of Lorentz Lükessy to Jan Jankovský, 26 Mar 1767",
+     "summary": "On 26 March 1767 Lorenz Lükessy, master chimney sweep (mistr kominářský), acknowledged a debt of 40 fl. at 4% to Jan Jankovský, arising from a settlement with his wife Barbora, secured on all his property and in particular his house in the suburb beyond the water (Předměstí za Vodou). Entered in the town book 31 May 1767.",
+     "transcript": "English translation by James (original in Czech; not yet transcribed):\n\nLorentz Lückessy.\nI, the undersigned, by this my present bond, in the best and most enduring manner possible, make known that by reason of a fair and complete settlement between myself and my wife Barbora, I truly remain indebted in the amount of 40 fl., forty Rhenish florins, specifically to Mr. Jan Jankovský, which 40 fl.—together with 4 percent annual interest for him and his heirs on the aforementioned sum of 40 fl., as well as whatever interest accrues in the future up to the time of repayment—I obligate myself to render and pay back to him properly and in full.\nAnd so that my creditor may be all the more secure, I hereby designate to him as a true mortgage and pledge all of my property in genere and in specie [in general and in particular], and specifically my own house situated in the Suburb Beyond the Water [v Předměstí za Vodou]; and I likewise establish that should any loss arise for him requiring compensation, he may duly recover against it [the house] and obtain full satisfaction in accordance with this bond.\nIn proof of this document, for greater credence and certainty, I sign with my own hand and affix my seal; and for better authenticity, I have confirmed this bond before witnesses and caused their seals to be affixed through them. Done in the Town of Telč on the 26th day of March 1767.\n[L.S.] Lorentz Lükessy\nMaster Chimney Sweep (Mistr kominářský)\n[Registration Note in Latin]: Entered into the register with the consent of the Senate [Town Council] on the 31st day of May 1767.\nUnder Mayor Mr. Joseph Ingerisch\nGabriel de Castelli, Syndic [town clerk]"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/c3fccd71-35a5-4445-9bae-6a857963d50b/dao/c3fccd71-35a5-4445-9bae-6a857963d50b/file/f7971fe3-7946-4390-b58d-a61a509a33c6",
+     "site": "mza.cz",
+     "label": "Lorenz Luchesi buys house no. 38 in Telč (town book 131)",
+     "context": "Person",
+     "cid": "C0152",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — kniha 131 (MZA aron, apu c3fccd71)",
+     "page": "Telč town book 131 — contract for the purchase of house no. 38 by Lorenz Luchesi (not yet transcribed)",
+     "summary": "Contract in Telč town book 131 by which Lorenz Luchesi bought house no. 38 — the house where he died in 1779 and which his son Franz took over in 1780. Found by James; date and terms not yet read."
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/7f669ac1-9cd7-493a-aca7-c795bc750399",
+     "site": "mza.cz",
+     "label": "Will of Lorenz Luchesi, Telč 1779",
+     "context": "Person",
+     "cid": "C0153",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Testamentenbuch (MZA aron, apu 663030c0)",
+     "page": "Testamentenbuch Telč, fol. 157 — nuncupative will of Lorenz Lückessy, 1 Aug 1779, published 3 Sep 1779",
+     "summary": "Oral will of Lorenz Lückessy, burgher and chimney sweep in Telč, made on his sickbed on 1 August 1779 before witnesses Michael Jankowsky and Francz Czworžitzky; to be buried at St Anne's. Universal heirs: his wife Barbora and their children Matěj (Mathias), Franc (Franz), Jan (Johann) and Kateřina. The house (800 fl.) goes after two years to the younger son Franz, who must keep his mother at his table until her death (or give her the ground-floor parlour and 40 fl. a year). Published 3 September 1779 before the mother, son Franz and the witnesses.",
+     "transcript": "English translation by James (original not yet transcribed). Index: https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/0085945c-dd52-4e5f-a696-8b9d06bab419\n\nNuncupative [Oral] Will\nLorenz Lückessy\nIn the name of the Most Holy [Trinity], etc.\nWe, the undersigned, hereby testify that today, on the date and year written below, Mr. Lorenz Lückessy, burgher and chimney sweep of the town of Telč, requested that we visit him and hear his last will. Upon this request, we entered his house and found him lying in grave illness, yet nevertheless of sound mind, whereupon he presented his last disposition to us and declared as follows:\nFirst: The above-named Mr. Lorenz Lückessy commends his soul to the Lord Jesus, that through His bitter Passion He may receive it into grace; and as for his body, that it be buried according to Christian-Catholic custom at Saint Anne’s, for which funeral he bequeaths:\n* Funeral expenses: 16 florins, 0 kreuzers \n* For Holy Masses in that same little church of Saint Anne: 6 florins, 0 kreuzers \n* To the Literati Brotherhood at [the Church of] the Holy Spirit: 2 florins, 0 kreuzers \n* To the Confraternity of the Sacred Heart of the Lord Jesus: 2 florins, 0 kreuzers \n* For the Normal Schools: 0 florins, 30 kreuzers \n* For the Invalids [disabled veterans]: 0 florins, 30 kreuzers \nSecond: Whereas the foundation and basis of every will is the appointment of a universal heir, so too he appointed as such his dear wife Barbora, together with the children proceeding from the present marriage, namely: Matěj [Matthew], Franc [Franz], Jan [John], and Kateřina [Catherine], to whom he left his house—apart from all household furnishings—appraised at eight hundred florins, I say: 800 fl. With the further stipulation, however, that she, the surviving wife and respective mother Barbora, shall remain the fully empowered mistress of the household for two years after his death. After those two years, however, he bequeaths that own house of his, appraised at 800 fl., to his younger son Franc Lückessy, who is to keep and care for his mother at his table until her death. Should they, however, in time be unable to get along together, he reserves for her, the mother, the small ground-floor parlor, and for her maintenance 40 fl. in money, which he, the son Franc, shall be obligated to pay her annually. And whatever shall remain after the payment of debts, the heirs shall divide among themselves in equal shares.\nThird and lastly: That he, Mr. Lorenz Lückessy, disposed and declared his last will in this manner, we testify by the signature of our own names freely and with our seal, [being ready] should need arise to confirm the same by oath; which took place in the Town of Telč on the 1st day of August, Year [1]779.\n[L.S.] Michael Jankowsky\n[L.S.] Francz Czworžitzky [Čtvořický / Dvořický]\nRequested witnesses\n[Probate Note in Latin]: Published in full session before the Mother, the Son Franciscus, and the Witnesses on the 3rd day of September [1]779.\nUnder Mayor Mr. Konstantin Müller\nJohann Veneta, Syndic [town clerk]"
     }
    ],
    "notes": [
     "Lorenz Luchesi, burgher and chimney sweep (civis caminarius) in Telč — so called in the baptisms of 1758 and 1763; his widow's death entry (1796) calls him a burgher master chimney sweep (bürgerl. Rauchfangkehrermeister). Spelled Lukesi, Lukezi, Luxezer, Luxesy, Luxeser, Luxesi and Luchesy in the Telč registers. Children with Barbara, all baptised in Telč: Mathias Joseph (7 Feb 1752), Franz Adalbert (30 Mar 1754, d. 1835), Philipp Jakob (29 Apr 1756), Bartholomäus (23 Aug 1758), Katharina Elisabeth (10 Nov 1763). Mathias Czach, an employee of the Telč estate, was godfather to every one of them. Died 17 Aug 1779 in Telč, house no. 38, aged 55 (born c. 1724) — 'Laurentius Luxesi, civis caminarius' (death book 6995, img 215). Still to find: his marriage to Barbara (before 1752), his origin, and any children after 1763 (book 6975 runs to 1768; images 248 and 301–443 not yet reviewed)."
+   ]
+  },
+  "I0213": {
+   "id": "I0213",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [],
+   "families": [
+    "F0063"
+   ],
+   "given": "Joannes",
+   "living": false,
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Bürger (burgher) in Telč (named as father of the groom, 1751)",
+     "date": "2 May 1751"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7770?image=216000010-000253-003373-000000-006975-000000-00-B05492-03710.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Lorenz Luchesi and Barbara Kralovski, Telč 2 May 1751",
+     "context": "Person",
+     "cid": "C0149",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Telč register (MZA book 6975, detail 7770), snímek 371 — marriage 2 May 1751",
+     "summary": "Marriage in Telč on 2 May 1751 of Barbara, daughter of Georg Kralovski of Studina, to a son of Joannes Luchesi, burgher of Telč. James's notes call the groom Franz, but the groom must be Lorenz (c. 1724–1779): Lorenz's wife was Barbara, their first child Mathias was baptised in Feb 1752, and Lorenz's son Franz was only born in 1754. The groom's given name should be checked on the image. Found by James (searched back from end of 1746 and forward to 1752).",
+     "transcript": "Telč (MZA book 6975, detail 7770), snímek 371 — marriage, 2 May 1751 — not yet transcribed; details from James's notes:\nGroom's father: Joannes Luchesi, Bürger in Telč.\nBride: Barbara, daughter of Georg Kralovski of Studina."
+    }
+   ],
+   "notes": [
+    "Joannes Luchesi, burgher of Telč, named as the groom's father in the marriage of 2 May 1751 (Lorenz Luchesi × Barbara Kralovski). Father of Lorenz (c. 1724–1779). James searched the Telč marriages back from Dec 1728 to 1711 and found no marriage for him, so he probably married elsewhere (Lorenz is also not baptised in Telč)."
+   ]
+  },
+  "I0214": {
+   "id": "I0214",
+   "gender": "m",
+   "surname": "Kralovski",
+   "parents": [],
+   "families": [
+    "F0064"
+   ],
+   "given": "Georg",
+   "living": false,
+   "events": [
+    {
+     "type": "Residence",
+     "desc": "Of Studina (named as father of the bride, 1751)",
+     "date": "2 May 1751"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/actapublica/matrika/detail/7770?image=216000010-000253-003373-000000-006975-000000-00-B05492-03710.jp2",
+     "site": "mza.cz",
+     "label": "Marriage of Lorenz Luchesi and Barbara Kralovski, Telč 2 May 1751",
+     "context": "Person",
+     "cid": "C0149",
+     "source": "Matriky Telč (Teltsch), Římskokatolická fara Telč — Geburtsbuch 1769–1809 (MZA book 6976)",
+     "page": "Telč register (MZA book 6975, detail 7770), snímek 371 — marriage 2 May 1751",
+     "summary": "Marriage in Telč on 2 May 1751 of Barbara, daughter of Georg Kralovski of Studina, to a son of Joannes Luchesi, burgher of Telč. James's notes call the groom Franz, but the groom must be Lorenz (c. 1724–1779): Lorenz's wife was Barbara, their first child Mathias was baptised in Feb 1752, and Lorenz's son Franz was only born in 1754. The groom's given name should be checked on the image. Found by James (searched back from end of 1746 and forward to 1752).",
+     "transcript": "Telč (MZA book 6975, detail 7770), snímek 371 — marriage, 2 May 1751 — not yet transcribed; details from James's notes:\nGroom's father: Joannes Luchesi, Bürger in Telč.\nBride: Barbara, daughter of Georg Kralovski of Studina."
+    }
+   ]
+  },
+  "I0215": {
+   "id": "I0215",
+   "gender": "m",
+   "surname": "Luchesi",
+   "parents": [
+    "F0062"
+   ],
+   "families": [],
+   "given": "Johann",
+   "living": false,
+   "events": [
+    {
+     "type": "Occupation",
+     "desc": "Riemergesell (journeyman strap-maker), working abroad ('in der Fremde')",
+     "date": "18 Mar 1780"
+    },
+    {
+     "type": "Event",
+     "desc": "Named heir in his father Lorenz's will",
+     "date": "1 Aug 1779"
+    },
+    {
+     "type": "Estate division (Erbteilung)",
+     "desc": "Estate of the late Lorenz Luchesi divided in Telč: Franz takes over house no. 38 for 800 fl.; 270 fl. 46 xr. shared equally by the widow Barbara, Franz, Mathias, Johann and Katharina",
+     "date": "18 Mar 1780"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://www.mza.cz/aron/apu/40849d7f-358e-4bfe-b284-078f90643dab/dao/40849d7f-358e-4bfe-b284-078f90643dab/file/64d47d74-5231-4b9e-9dc7-286756e77749",
+     "site": "mza.cz",
+     "label": "Estate settlement of Lorenz Luchesi, Telč 1780",
+     "context": "Person",
+     "cid": "C0154",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Kontraktenbuch (MZA aron, apu 40849d7f), contracts fol. 212–237",
+     "page": "Kontraktenbuch Telč, fol. 233–235 — Erbtheiliche Ausgleichung after Lorentz Lückessy, 18 Mar 1780",
+     "summary": "Estate division of 18 March 1780 among the heirs of the late Lorenz Lückessy, burgher chimney sweep in Telč. Under his will (made 1 Aug, published 3 Sep 1779) the son Franz took over house no. 38 for 800 fl.; after debts (incl. 14 fl. 38 xr. owed for the deceased son Philipp) 270 fl. 46 xr. was divided equally between the widow Barbara, Franz, Mathias (then at Freiberg in Steyermark), Johann (journeyman strap-maker, Riemergesell, abroad) and the daughter Katharina. Entered 14 May 1781.",
+     "transcript": "Kontraktenbuch Telč, fol. 233–235 (Lückessy Franz) — transcription by James\n\nErbtheiliche Ausgleichung\nZwischen denen nach dem verstorbenen Lorentz Lückessy hiesig gewesenen bürgerlichen Rauchfangkehrer hinterbliebenen Erben.\nActiv-Stand.\nLaut des unterm 1ten Augusti errichteten, und den 3ten Septembris 1779 publicirten Vätterlichen Testamenti nuncupativi, übernimmt der Sohn Franz Lückessy nach seinem verstorbenen Vatter, und gemäß dessen letzten Willen das Sub Nro: 38. situirte Haus sammt allen Niet- und Nagelfesten Sachen umb . . . 800 fl.\nAn denen an vorhandenen Effecten, welche sich bey fürgenommener Inventur vorgefunden, und nach Aussage der Mütterlichen Aussage, respektive Mutter zur Bezahlung einiger Schulden verbraucht, und das wenig übriggebliebene bis zur Abtheilung gebraucht, mithin nichts anzusetzen ist . . . — . —\nSumma des Activ-Standes . . . 800 fl.\nPassiv-Stand.\nErstens\nLaut Quittung an Vätterlichen Begräbniß-Unkosten bezahlt . . . 16 fl. 36 xr\nLaut Testamenti: pia Legata, und auf heilige Messen in allem . . . 11 . —\nAn Passiv-Schulden übernommen\nDem hiesigen Kirchen-Amt in Capitale . . . 80 . —\nDem hiesigen St: Anna Gotteshaus . . . 100 . —\nWenzel Schöfmann Erben . . . 115 . —\nJohann Wondra . . . 40 . 39 .\nKarl Labocha . . . 11 . 24 .\nKaspar Schalda . . . 5 . —\nKaspar Kramm . . . 2 . —\nAn Franz Scheibinger . . . 64 . 25 . 2 d.\nLatus . . . 446 fl. 4 xr. 2 d.\nFolio 235\nLatus . . . 446 fl. 4 xr. 2 d.\nEinem Graf-Herbersteinischen Schaffer nahmens Simon, für den verstorbenen Sohn Philipp Lückessy . . . 14 . 38 . 2 .\nAn noch schuldigen\nIn hiesige Herrschaftliche Renten für Schmalz . . . 10 . —\nDem Mathias Rzehořz . . . 10 . —\nMartin Paul Dworžak . . . 16 . —\nDem Adam Podružka . . . 2 . —\nPfefferkuchenmacher Ernst . . . 5 . —\nGeorgio Rziha . . . 15 . —\nChristian Schimka . . . 2 . 41 .\nDem Anton Benda . . . 3 . 50 .\nAn Gemählte Unkosten: Dem Rathhaus-Syndico samt Stempel-Pappier . . . 4 . —\nSumma des Passiv-Standes . . . 529 fl. 14 xr.\nNach Abzug dessen verbleibet unter die Erben zu vertheilen . . . 270 fl. 46 xr.\nBenanntlich:\nDer Wittwe Barbara im 1ten Theil . . . 54 fl. 9 1/5 xr.\nDem Franz so solches übernimmt im 2ten . . . 54 . 9 .\nMathias nochdermalen zu Freiberg in Steyermark . . . 54 . 9 .\nJohann Riemergesell in der Fremde . . . 54 . 9 .\nDer Tochter Katharina . . . 54 . 9 .\nVerbleibet . . . 270 fl. 46 xr.\nGeschehen Stadt Teltsch den 18ten Martij 1780.\n[L.S.] Philipp Veneta\n[L.S.] Ignatz Jos: Hradek\nCommissarii alß Verordnete\nIngrossatum cum Consensu Senatus die 14ta Maji 1781.\nConsule Dno Josepho Ingerisch\nJosephus Ant: Veneta Synd:"
+    },
+    {
+     "url": "https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/7f669ac1-9cd7-493a-aca7-c795bc750399",
+     "site": "mza.cz",
+     "label": "Will of Lorenz Luchesi, Telč 1779",
+     "context": "Person",
+     "cid": "C0153",
+     "source": "Městské knihy Telč (Stadtbücher Teltsch) — Testamentenbuch (MZA aron, apu 663030c0)",
+     "page": "Testamentenbuch Telč, fol. 157 — nuncupative will of Lorenz Lückessy, 1 Aug 1779, published 3 Sep 1779",
+     "summary": "Oral will of Lorenz Lückessy, burgher and chimney sweep in Telč, made on his sickbed on 1 August 1779 before witnesses Michael Jankowsky and Francz Czworžitzky; to be buried at St Anne's. Universal heirs: his wife Barbora and their children Matěj (Mathias), Franc (Franz), Jan (Johann) and Kateřina. The house (800 fl.) goes after two years to the younger son Franz, who must keep his mother at his table until her death (or give her the ground-floor parlour and 40 fl. a year). Published 3 September 1779 before the mother, son Franz and the witnesses.",
+     "transcript": "English translation by James (original not yet transcribed). Index: https://www.mza.cz/aron/apu/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/dao/663030c0-bbd0-45e8-a32e-ec4b1c3d4c8c/file/0085945c-dd52-4e5f-a696-8b9d06bab419\n\nNuncupative [Oral] Will\nLorenz Lückessy\nIn the name of the Most Holy [Trinity], etc.\nWe, the undersigned, hereby testify that today, on the date and year written below, Mr. Lorenz Lückessy, burgher and chimney sweep of the town of Telč, requested that we visit him and hear his last will. Upon this request, we entered his house and found him lying in grave illness, yet nevertheless of sound mind, whereupon he presented his last disposition to us and declared as follows:\nFirst: The above-named Mr. Lorenz Lückessy commends his soul to the Lord Jesus, that through His bitter Passion He may receive it into grace; and as for his body, that it be buried according to Christian-Catholic custom at Saint Anne’s, for which funeral he bequeaths:\n* Funeral expenses: 16 florins, 0 kreuzers \n* For Holy Masses in that same little church of Saint Anne: 6 florins, 0 kreuzers \n* To the Literati Brotherhood at [the Church of] the Holy Spirit: 2 florins, 0 kreuzers \n* To the Confraternity of the Sacred Heart of the Lord Jesus: 2 florins, 0 kreuzers \n* For the Normal Schools: 0 florins, 30 kreuzers \n* For the Invalids [disabled veterans]: 0 florins, 30 kreuzers \nSecond: Whereas the foundation and basis of every will is the appointment of a universal heir, so too he appointed as such his dear wife Barbora, together with the children proceeding from the present marriage, namely: Matěj [Matthew], Franc [Franz], Jan [John], and Kateřina [Catherine], to whom he left his house—apart from all household furnishings—appraised at eight hundred florins, I say: 800 fl. With the further stipulation, however, that she, the surviving wife and respective mother Barbora, shall remain the fully empowered mistress of the household for two years after his death. After those two years, however, he bequeaths that own house of his, appraised at 800 fl., to his younger son Franc Lückessy, who is to keep and care for his mother at his table until her death. Should they, however, in time be unable to get along together, he reserves for her, the mother, the small ground-floor parlor, and for her maintenance 40 fl. in money, which he, the son Franc, shall be obligated to pay her annually. And whatever shall remain after the payment of debts, the heirs shall divide among themselves in equal shares.\nThird and lastly: That he, Mr. Lorenz Lückessy, disposed and declared his last will in this manner, we testify by the signature of our own names freely and with our seal, [being ready] should need arise to confirm the same by oath; which took place in the Town of Telč on the 1st day of August, Year [1]779.\n[L.S.] Michael Jankowsky\n[L.S.] Francz Czworžitzky [Čtvořický / Dvořický]\nRequested witnesses\n[Probate Note in Latin]: Published in full session before the Mother, the Son Franciscus, and the Witnesses on the 3rd day of September [1]779.\nUnder Mayor Mr. Konstantin Müller\nJohann Veneta, Syndic [town clerk]"
+    }
+   ],
+   "notes": [
+    "Son of Lorenz Luchesi and Barbara, named in his father's will (1779) and in the estate division of 1780 as a journeyman strap-maker (Riemergesell) away on his travels. Baptism not yet found in Telč."
    ]
   }
  },
@@ -8088,7 +8478,27 @@
     "I0179",
     "I0210",
     "I0211",
-    "I0212"
+    "I0212",
+    "I0215"
+   ],
+   "marriage": {
+    "date": "2 May 1751"
+   }
+  },
+  "F0063": {
+   "id": "F0063",
+   "father": "I0213",
+   "mother": null,
+   "children": [
+    "I0208"
+   ]
+  },
+  "F0064": {
+   "id": "F0064",
+   "father": "I0214",
+   "mother": null,
+   "children": [
+    "I0207"
    ]
   }
  }
