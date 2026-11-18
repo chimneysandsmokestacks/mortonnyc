@@ -405,6 +405,9 @@ button { font: inherit; color: inherit; }
 .rel-view { display: none; }
 body.rel-mode .rel-view { display: block; }
 body.rel-mode .canvas { display: none; }
+.rel-bar:empty { display: none; }
+.rel-who .rel-swap { margin-left: auto; flex: none; box-shadow: inset 0 0 0 1px var(--line); }
+.rel-who .rel-swap + .sheet-close { margin-left: 0; }
 .rel-bar { position: sticky; top: 0; left: 0; z-index: 4; width: fit-content; display: flex; gap: 8px; padding: 12px 12px 0; }
 .rel-btn {
   display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 13px;

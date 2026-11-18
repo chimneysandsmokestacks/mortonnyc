@@ -716,10 +716,7 @@
     document.body.classList.add("rel-mode");
     const path = findPath(aId, bId);
 
-    relBar.replaceChildren(
-      h("button", { type: "button", class: "rel-btn", id: "relExit" }, svg('<path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>'), "Back to tree"),
-      h("button", { type: "button", class: "rel-btn", id: "relSwap" }, svg('<path d="M3 5h9.5M10 2.5 12.5 5 10 7.5M13 11H3.5M6 8.5 3.5 11 6 13.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>'), "Swap"),
-    );
+    relBar.replaceChildren();
 
     relCanvas.replaceChildren(relWires);
     if (!path) {
@@ -844,6 +841,11 @@
         h("p", { class: "eyebrow", text: "How they’re related" }),
         h("h1", { class: "rel-title", text: path ? capital(describe(path)) : "Not connected" }),
       ),
+      ...(relMode && !wholeMode ? [
+        h("button", { type: "button", class: "rel-btn rel-swap", id: "relSwap", title: "Swap the two people" }, svg('<path d="M3 5h9.5M10 2.5 12.5 5 10 7.5M13 11H3.5M6 8.5 3.5 11 6 13.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>'), "Swap"),
+        h("button", { type: "button", class: "sheet-close", id: "relExit", "aria-label": "Back to tree", title: "Back to tree" },
+          svg('<path d="m4 4 8 8m0-8-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>')),
+      ] : []),
     ));
     if (path) {
       const back = findPath(bId, aId);
@@ -902,6 +904,12 @@
     if (!wide.matches) setSheet(false);
   }
   function cancelPick() { pickFrom = null; pickBanner.hidden = true; }
+
+  sheetBody.addEventListener("click", (e) => {
+    if (!relMode || wholeMode) return;
+    if (e.target.closest("#relExit")) { e.stopPropagation(); location.hash = relMode.a; return; }
+    if (e.target.closest("#relSwap")) { e.stopPropagation(); location.hash = `rel/${relMode.b}/${relMode.a}`; }
+  });
 
   relView.addEventListener("click", (e) => {
     if (e.target.closest("#relExit")) { location.hash = relMode.a; return; }
