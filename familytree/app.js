@@ -103,8 +103,11 @@
     for (const l of [...(p.links || []), ...familyLinks(p)]) {
       if (!seen.has(linkKey(l)) && (/^https?:\/\//i.test(l.url) || /^records\/[^/]+$/.test(l.url))) { seen.add(linkKey(l)); out.push(l); }
     }
-    return out;
+    // the person's own records first, then relatives' records that mention them
+    return [...out.filter((l) => !l.related), ...out.filter((l) => l.related)];
   }
+  // records that are about this person (their birth, marriage, death, …); the count on the cards shows only these
+  const ownLinks = (p) => allLinks(p).filter((l) => !l.related);
 
   /* relatives */
   const parentsOf = (p) => {
@@ -126,7 +129,7 @@
 
   /* ---------- nodes ---------- */
   function node(p, extra = "") {
-    const links = p.living ? 0 : allLinks(p).length;
+    const links = p.living ? 0 : ownLinks(p).length;
     const label = `${fullName(p)}${p.living ? "" : ", " + (lifespan(p) || "dates unknown")}, ${genderWord[p.gender]}` +
       (links ? `, ${links} linked record${links > 1 ? "s" : ""}` : "");
     return h("button", {
@@ -316,7 +319,11 @@
         p.nick ? h("div", { class: "nick", text: `“${p.nick}”` }) : null,
         p.aka ? h("div", { class: "nick", text: p.aka.join(", ") }) : null,
         h("p", { class: "lifespan", text: p.living ? "Living" : (lifespan(p) || "Dates unknown") }),
-        h("p", { class: "peek-hint" }, links.length ? docIcon() : null, links.length ? `${links.length} record${links.length > 1 ? "s" : ""}. Tap to see them.` : "Tap for family and details"),
+        (() => {
+          const own = links.filter((l) => !l.related).length, rel = links.length - own;
+          const parts = [own ? `${own} record${own > 1 ? "s" : ""}` : "", rel ? `${rel} in relatives’ records` : ""].filter(Boolean);
+          return h("p", { class: "peek-hint" }, links.length ? docIcon() : null, parts.length ? `${parts.join(", ")}. Tap to see them.` : "Tap for family and details");
+        })(),
       ),
       h("button", { type: "button", class: "rel-start", "data-rel": p.id, "aria-label": "Compare", title: `See how ${fullName(p)} is related to someone else` },
         svg('<circle cx="4" cy="4" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4 6.5v1.5a3 3 0 0 0 3 3h2.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>'),
@@ -339,24 +346,36 @@
       fact("Died", p.death);
       if (facts.length) body.push(h("dl", { class: "facts" }, facts));
 
-      if (links.length) {
-        body.push(h("h2", {}, "Records", h("span", { class: "count", text: String(links.length) })));
-        body.push(h("ul", { class: "records" }, links.map((l, i) => h("li", { class: "rec" },
-          h("button", { type: "button", class: "rec-open", "data-rec": String(i) },
-            siteBadge(l.site),
-            h("span", { class: "rec-text" },
-              h("span", { class: "site", text: l.site }),
-              h("span", { class: "ctx", text: recSub(l) }),
-              (() => {
-                const o = sharedWith(linkKey(l), p.id);
-                if (!o.length) return null;
-                const first = fullName(P[o[0]]);
+      const recItem = (l, i) => h("li", { class: `rec${l.related ? " related" : ""}` },
+        h("button", { type: "button", class: "rec-open", "data-rec": String(i) },
+          siteBadge(l.site),
+          h("span", { class: "rec-text" },
+            h("span", { class: "site", text: l.site }),
+            h("span", { class: "ctx", text: recSub(l) }),
+            (() => {
+              if (l.related) {
+                const of = (l.of || []).filter((x) => P[x]);
+                if (!of.length) return null;
                 return h("span", { class: "shared-line" }, linkIcon(),
-                  o.length === 1 ? `Shared with ${first}` : `Shared with ${o.length} other people`);
-              })()),
-          ),
-          h("a", { class: "rec-ext", href: l.url, target: "_blank", rel: "noopener noreferrer", "aria-label": `Open ${l.site} record in a new tab` }, extIcon()),
-        ))));
+                  `Record of ${of.map((x) => fullName(P[x])).join(" and ")}`);
+              }
+              const o = sharedWith(linkKey(l), p.id);
+              if (!o.length) return null;
+              const first = fullName(P[o[0]]);
+              return h("span", { class: "shared-line" }, linkIcon(),
+                o.length === 1 ? `Shared with ${first}` : `Shared with ${o.length} other people`);
+            })()),
+        ),
+        h("a", { class: "rec-ext", href: l.url, target: "_blank", rel: "noopener noreferrer", "aria-label": `Open ${l.site} record in a new tab` }, extIcon()),
+      );
+      const own = links.filter((l) => !l.related), rel = links.filter((l) => l.related);
+      if (own.length) {
+        body.push(h("h2", {}, "Records", h("span", { class: "count", text: String(own.length) })));
+        body.push(h("ul", { class: "records" }, own.map((l, i) => recItem(l, i))));
+      }
+      if (rel.length) {
+        body.push(h("h2", { class: "rel-head" }, "Mentioned in relatives’ records", h("span", { class: "count", text: String(rel.length) })));
+        body.push(h("ul", { class: "records related" }, rel.map((l, i) => recItem(l, own.length + i))));
       }
       if (p.notes && p.notes.length) {
         body.push(h("h2", { text: "Notes" }));
@@ -1063,7 +1082,7 @@
         grp.append(cp, im);
       }
       // record count, as on the Person view cards: a small pill on the card's top edge
-      const nrec = p.living ? 0 : allLinks(p).length;
+      const nrec = p.living ? 0 : ownLinks(p).length;
       if (nrec) {
         const t = String(nrec), bw = 30 + 7 * t.length, bx = NW - bw - 10;
         const pill = S("g", { class: "w-badge", transform: `translate(${bx},-9)` });

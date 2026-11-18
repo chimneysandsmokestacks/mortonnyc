@@ -277,6 +277,9 @@ button { font: inherit; color: inherit; }
 .rec-ext { flex: none; width: 44px; display: grid; place-items: center; color: var(--ink-3); border-left: 1px solid var(--line); }
 .rec-ext:hover { color: var(--ink); background: #eceef6; }
 .rec-ext svg { width: 16px; height: 16px; }
+.rel-head { color: var(--ink-2); }
+.records.related .rec { background: transparent; border: 1px solid var(--line); }
+.records.related .rec .site { font-weight: 500; color: var(--ink-2); }
 
 .notes { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
 .notes li { white-space: pre-line; font-size: 14.5px; color: var(--ink-2); padding: 10px 12px; background: var(--surface-2); border-radius: 12px; }

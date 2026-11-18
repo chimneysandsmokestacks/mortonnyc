@@ -237,6 +237,10 @@ def export(db_path, out_path):
                 rec["summary"] = summary
             if transcript:
                 rec["transcript"] = transcript
+            subj = citation_subjects(ch)
+            if subj and p["handle"] not in subj:
+                rec["related"] = True
+                rec["of"] = sorted(pid[x] for x in subj if x in pid)
             out.append(rec)
         return out
     home_handle = _home_handle(conn)
@@ -324,6 +328,33 @@ def export(db_path, out_path):
         return True if y is None else y > cutoff  # unknown => treat as living (safe)
 
     pid = {h: p["gramps_id"] for h, p in persons.items()}
+
+    # Whose record is a citation? A birth/baptism/death/burial record belongs to the person whose
+    # event it is; a marriage record to the couple; anything else to everyone who has it on one of
+    # their own events. On everyone else's card it is shown as a relative's record.
+    VITAL = {12, 13, 15, 19}
+    vital_subj, fam_subj, other_subj = {}, {}, {}
+    for h, p in persons.items():
+        for r in p.get("event_ref_list") or []:
+            if ((r.get("role") or {}).get("value", 1)) != 1:
+                continue
+            e = events.get(r.get("ref"))
+            if not e:
+                continue
+            # a vital event only inferred from another record ("died before 1780") doesn't make that record theirs
+            exact = ((e.get("date") or {}).get("modifier") or 0) == 0
+            bucket = vital_subj if ((e.get("type") or {}).get("value")) in VITAL and exact else other_subj
+            for ch in e.get("citation_list") or []:
+                bucket.setdefault(ch, set()).add(h)
+    for f in families.values():
+        partners = {x for x in (f.get("father_handle"), f.get("mother_handle")) if x}
+        for r in f.get("event_ref_list") or []:
+            e = events.get(r.get("ref"))
+            for ch in (e or {}).get("citation_list") or []:
+                fam_subj.setdefault(ch, set()).update(partners)
+
+    def citation_subjects(ch):
+        return vital_subj.get(ch) or fam_subj.get(ch) or other_subj.get(ch) or set()
     fid = {h: f["gramps_id"] for h, f in families.items()}
 
     out_people = {}
