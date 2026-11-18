@@ -253,8 +253,8 @@ button { font: inherit; color: inherit; }
 .peek-hint svg { width: 15px; height: 15px; }
 .sheet.open .peek-hint { display: none; }
 
-.facts { margin: 18px 0 0; padding: 12px 14px; display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 14.5px; background: var(--surface-2); border-radius: 14px; }
-.facts dt { color: var(--ink-3); }
+.facts { margin: 18px 0 0; padding: 12px 14px; display: grid; grid-template-columns: fit-content(8.5em) minmax(0, 1fr); gap: 6px 14px; font-size: 14.5px; background: var(--surface-2); border-radius: 14px; }
+.facts dt { color: var(--ink-3); overflow-wrap: anywhere; hyphens: auto; }
 .facts dd { margin: 0; }
 
 .sheet h2 { margin: 24px 0 10px; font: 700 15px var(--display); letter-spacing: -.005em; display: flex; align-items: baseline; gap: 8px; }
@@ -300,7 +300,8 @@ button { font: inherit; color: inherit; }
 
 @media (min-width: 900px) {
   :root { --peek: 0px; }
-  .layout { display: grid; grid-template-columns: 1fr 400px; grid-template-rows: minmax(0, 1fr); }
+  :root { --sheet-w: 400px; }
+  .layout { display: grid; grid-template-columns: 1fr var(--sheet-w); grid-template-rows: minmax(0, 1fr); }
   .stage { position: relative; inset: auto; padding-bottom: 0; }
   .sheet, .sheet.open {
     position: relative; height: auto; margin: 0 14px 14px 0; border-radius: 22px;
@@ -310,6 +311,9 @@ button { font: inherit; color: inherit; }
   .sheet-body, .sheet:not(.open) .sheet-body { overflow: auto; padding: 24px 24px 36px; }
   .who { cursor: default; }
 }
+
+@media (min-width: 1300px) { :root { --sheet-w: 480px; } }
+@media (min-width: 1800px) { :root { --sheet-w: 540px; } }
 
 /* ---------- record viewer ---------- */
 .viewer-backdrop {
@@ -396,7 +400,7 @@ button { font: inherit; color: inherit; }
 .pick-banner span { flex: 1; }
 .pick-banner .rel-btn { background: rgba(255,255,255,.14); color: #fff; }
 .pick-banner .rel-btn:hover { background: rgba(255,255,255,.24); }
-@media (min-width: 900px) { .pick-banner { left: calc((100% - 414px) / 2); } }
+@media (min-width: 900px) { .pick-banner { left: calc((100% - var(--sheet-w) - 14px) / 2); } }
 
 .rel-view { display: none; }
 body.rel-mode .rel-view { display: block; }
