@@ -748,11 +748,15 @@
     k = Math.max(0.3, Math.min(1.6, k));
     const s = stage.getBoundingClientRect();
     cx ??= s.width / 2; cy ??= s.height / 2;
-    const px = (stage.scrollLeft + cx) / relK, py = (stage.scrollTop + cy) / relK;   // content point under the finger
+    // the canvas sits inside a wide unzoomed margin, so measure the point under the cursor from the canvas's own corner
+    const origin = () => { const r = relCanvas.getBoundingClientRect(); return { x: r.left - s.left + stage.scrollLeft, y: r.top - s.top + stage.scrollTop }; };
+    const o0 = origin();
+    const px = (stage.scrollLeft + cx - o0.x) / relK, py = (stage.scrollTop + cy - o0.y) / relK;   // canvas point under the cursor
     relK = k;
     relCanvas.style.zoom = String(k);
     drawRelWires(relPath, false);   // the canvas re-centers its cards at a new zoom
-    stage.scrollLeft = px * k - cx; stage.scrollTop = py * k - cy;
+    const o1 = origin();
+    stage.scrollLeft = px * k + o1.x - cx; stage.scrollTop = py * k + o1.y - cy;
   }
   function relFit(redraw = true) {
     relCanvas.style.zoom = "1"; relK = 1;
