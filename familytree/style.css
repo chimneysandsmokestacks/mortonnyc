@@ -312,7 +312,7 @@ button { font: inherit; color: inherit; }
   .who { cursor: default; }
 }
 
-@media (min-width: 1300px) { :root { --sheet-w: 600px; } }
+@media (min-width: 1300px) { :root { --sheet-w: 540px; } }
 @media (min-width: 1800px) { :root { --sheet-w: 600px; } }
 
 /* ---------- record viewer ---------- */
