@@ -764,7 +764,7 @@
     const sheetTop = wide.matches ? s.bottom : Math.min(s.bottom, sheet.getBoundingClientRect().top);
     // keep clear of the zoom buttons
     const kw = (s.width - 128) / relCanvas.offsetWidth, kh = (sheetTop - s.top - 50) / relCanvas.offsetHeight;
-    const k = Math.max(0.3, Math.min(1, kw, kh));
+    const k = Math.max(0.3, Math.min(wide.matches ? 1.4 : 1, kw, kh));   // on desktop, grow a short path to fill the space
     relK = k; relCanvas.style.zoom = String(k);
     if (redraw) drawRelWires(relPath, false);
     centerRel();
@@ -833,7 +833,9 @@
   function centerRel() {
     const s = stage.getBoundingClientRect(), r = relCanvas.getBoundingClientRect();
     stage.scrollLeft += (r.left + r.width / 2) - (s.left + s.width / 2);
-    stage.scrollTop += r.top - s.top;
+    // centre vertically in the visible area (above the sheet on phones); a tall path starts at the top
+    const bottom = wide.matches ? s.bottom : Math.min(s.bottom, sheet.getBoundingClientRect().top);
+    stage.scrollTop += r.top - s.top - Math.max(0, (bottom - s.top - r.height) / 2);
   }
 
   function renderRelSheet(aId, bId, path) {
