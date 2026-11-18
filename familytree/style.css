@@ -300,7 +300,7 @@ button { font: inherit; color: inherit; }
 
 @media (min-width: 900px) {
   :root { --peek: 0px; }
-  :root { --sheet-w: 400px; }
+  :root { --sheet-w: 440px; }
   .layout { display: grid; grid-template-columns: 1fr var(--sheet-w); grid-template-rows: minmax(0, 1fr); }
   .stage { position: relative; inset: auto; padding-bottom: 0; }
   .sheet, .sheet.open {
@@ -312,8 +312,8 @@ button { font: inherit; color: inherit; }
   .who { cursor: default; }
 }
 
-@media (min-width: 1300px) { :root { --sheet-w: 480px; } }
-@media (min-width: 1800px) { :root { --sheet-w: 540px; } }
+@media (min-width: 1300px) { :root { --sheet-w: 600px; } }
+@media (min-width: 1800px) { :root { --sheet-w: 600px; } }
 
 /* ---------- record viewer ---------- */
 .viewer-backdrop {
