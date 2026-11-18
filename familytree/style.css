@@ -590,7 +590,10 @@ body.whole-mode.no-sheet:not(.searched) .search input {
   .who .rel-start + .sheet-close { margin-left: 0; width: 38px; height: 38px; }
   .whole-actions .rel-start { display: none; }
 }
-@media (min-width: 900px) { body.whole-mode .who .rel-start { display: none; } }
+@media (min-width: 900px) {
+  body.whole-mode .who .rel-start { display: none; }
+  body.whole-mode .who .rel-start + .sheet-close { margin-left: auto; }  /* Compare is hidden here, so the X takes the right edge */
+}
 
 /* collapsed panel on phones: sized to the name row, nothing half-shown below it */
 @media (max-width: 899px) {
