@@ -507,6 +507,7 @@ body.rel-mode .canvas { display: none; }
 /* ---------- descendant count on child cards ---------- */
 .node .desc { grid-column: 1 / -1; margin-top: 6px; font-size: 12px; color: var(--ink-3); }
 .node .desc::before { content: "↓ "; }
+.node .desc.anc::before { content: "↑ "; }
 
 /* ---------- whole tree view ---------- */
 .whole { display: none; position: absolute; inset: 0; overflow: hidden;

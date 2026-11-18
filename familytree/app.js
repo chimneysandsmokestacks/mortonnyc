@@ -163,7 +163,7 @@
         const g = parentsOf(par);
         const side = h("div", { class: "side" });
         if (g && (g.father || g.mother)) {
-          side.append(g.father ? node(g.father, "gpn") : ghost(), g.mother ? node(g.mother, "gpn") : ghost());
+          side.append(g.father ? withAnc(node(g.father, "gpn"), g.father) : ghost(), g.mother ? withAnc(node(g.mother, "gpn"), g.mother) : ghost());
           side.dataset.has = "1";
         }
         return side;
@@ -171,8 +171,8 @@
       if (sides.some((s) => s.dataset.has)) rowGP.append(...sides);
 
       rowP.append(
-        h("div", { class: "side" }, pr.father ? node(pr.father) : ghost()),
-        h("div", { class: "side" }, pr.mother ? node(pr.mother) : ghost()),
+        h("div", { class: "side" }, pr.father ? withAnc(node(pr.father), pr.father) : ghost()),   // counts only show where the parents aren't drawn
+        h("div", { class: "side" }, pr.mother ? withAnc(node(pr.mother), pr.mother) : ghost()),
       );
     }
 
@@ -182,7 +182,7 @@
     rowF.append(
       h("div", { class: "pad" }),
       focusEl,
-      h("div", { class: "spouses" }, us.filter((u) => u.spouse).map((u) => node(u.spouse))),
+      h("div", { class: "spouses" }, us.filter((u) => u.spouse).map((u) => withAnc(node(u.spouse), u.spouse))),
     );
 
     const groups = us.filter((u) => u.children.length);
@@ -1433,6 +1433,29 @@
     }
     else location.hash = wRel ? `rel/${wRel.a}/${wRel.b}` : (wSel || focusId || DATA.home);
   });
+
+  /* ancestor counts: on cards whose own parents aren't drawn in the focus view */
+  const ancMemo = new Map();
+  function ancestorCount(id) {
+    if (ancMemo.has(id)) return ancMemo.get(id);
+    const seen = new Set(), st = [id];
+    while (st.length) {
+      const pr = parentsOf(P[st.pop()]);
+      if (pr) for (const q of [pr.father, pr.mother]) if (q && !seen.has(q.id)) { seen.add(q.id); st.push(q.id); }
+    }
+    ancMemo.set(id, seen.size);
+    return seen.size;
+  }
+  function withAnc(el, person) {
+    const n = ancestorCount(person.id);
+    if (n && !el.closest?.(".gen")) {
+      // parents' cards: skip when their own parents are drawn in the grandparent row
+      const gp = parentsOf(person);
+      const drawn = el.classList.contains("gpn") ? false : rowGP.querySelector(`[data-id="${CSS.escape((gp?.father || gp?.mother || {}).id || "")}"]`);
+      if (!drawn) el.append(h("span", { class: "desc anc", text: `${n} ancestor${n > 1 ? "s" : ""}` }));
+    }
+    return el;
+  }
 
   /* descendant counts for the focus view */
   const descMemo = new Map();
