@@ -221,13 +221,13 @@
     const visibleBottom = wide.matches ? s.bottom : Math.min(s.bottom, sheet.getBoundingClientRect().top);
     if (initial || r.top < s.top || r.bottom > visibleBottom - 8) {
       const target = r.top - s.top - Math.max(16, ((visibleBottom - s.top) - r.height) / 2);
-      stage.scrollTop += Math.max(0, target - 40);
+      stage.scrollTop += target - 40;
     }
   }
 
   function flip(el, from) {
     const to = el.getBoundingClientRect();
-    const dx = from.left - to.left, dy = from.top - to.top, sx = from.width / to.width, sy = from.height / to.height;
+    const dx = (from.left - to.left) / personK, dy = (from.top - to.top) / personK, sx = from.width / to.width, sy = from.height / to.height;
     el.style.transformOrigin = "0 0";
     el.style.transition = "none";
     el.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`;
@@ -239,12 +239,13 @@
 
   /* ---------- connectors ---------- */
   function drawWires(p, pr, us) {
-    const c = canvas.getBoundingClientRect();
+    const c = canvas.getBoundingClientRect(), z = personK;   // screen px -> canvas px at the current zoom
     wires.setAttribute("width", canvas.scrollWidth);
     wires.setAttribute("height", canvas.scrollHeight);
     const box = (el) => {
       const r = el.getBoundingClientRect();
-      return { l: r.left - c.left, r: r.right - c.left, t: r.top - c.top, b: r.bottom - c.top, cx: r.left - c.left + r.width / 2, cy: r.top - c.top + r.height / 2 };
+      const l = (r.left - c.left) / z, t = (r.top - c.top) / z, w = r.width / z, hh = r.height / z;
+      return { l, r: l + w, t, b: t + hh, cx: l + w / 2, cy: t + hh / 2 };
     };
     const find = (scope, id) => scope.querySelector(`[data-id="${CSS.escape(id)}"]`);
     let d = "", couples = "";
@@ -769,28 +770,52 @@
     if (redraw) drawRelWires(relPath, false);
     centerRel();
   }
+  /* the same zoom for the Person view's canvas */
+  let personK = 1;
+  function setPersonZoom(k, cx, cy) {
+    k = Math.max(0.3, Math.min(1.6, k));
+    const s = stage.getBoundingClientRect();
+    cx ??= s.width / 2; cy ??= s.height / 2;
+    const origin = () => { const r = canvas.getBoundingClientRect(); return { x: r.left - s.left + stage.scrollLeft, y: r.top - s.top + stage.scrollTop }; };
+    const o0 = origin();
+    const px = (stage.scrollLeft + cx - o0.x) / personK, py = (stage.scrollTop + cy - o0.y) / personK;
+    personK = k;
+    canvas.style.zoom = String(k);
+    redraw();
+    const o1 = origin();
+    stage.scrollLeft = px * k + o1.x - cx; stage.scrollTop = py * k + o1.y - cy;
+  }
+  function personFit() {
+    personK = 1; canvas.style.zoom = "1";
+    redraw();
+    const f = focusId && canvas.querySelector(`.focus-row [data-id="${CSS.escape(focusId)}"]`) || canvas.querySelector(".focus-row .node");
+    if (f) centerOn(f, true);
+  }
+  const zoomBy2 = (f, cx, cy) => relMode ? setRelZoom(relK * f, cx, cy) : setPersonZoom(personK * f, cx, cy);
+  const zoomK = () => relMode ? relK : personK;
+
   $("relZoom").addEventListener("click", (e) => {
     const b = e.target.closest("[data-rz]");
     if (!b) return;
     const z = b.dataset.rz;
-    if (z === "fit") relFit(); else setRelZoom(relK * (z === "in" ? 1.25 : 0.8));
+    if (z === "fit") relMode ? relFit() : personFit(); else zoomBy2(z === "in" ? 1.25 : 0.8);
   });
   stage.addEventListener("wheel", (e) => {
-    if (!relMode || !(e.ctrlKey || e.metaKey)) return;
+    if (wholeMode || !(e.ctrlKey || e.metaKey)) return;
     e.preventDefault();
     const s = stage.getBoundingClientRect();
-    setRelZoom(relK * Math.exp(-e.deltaY * 0.01), e.clientX - s.left, e.clientY - s.top);
+    zoomBy2(Math.exp(-e.deltaY * 0.01), e.clientX - s.left, e.clientY - s.top);
   }, { passive: false });
   let relPinch = null;
   const tdist = (t) => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
   stage.addEventListener("touchstart", (e) => {
-    if (relMode && e.touches.length === 2) relPinch = { d: tdist(e.touches), k: relK };
+    if (!wholeMode && e.touches.length === 2) relPinch = { d: tdist(e.touches), k: zoomK() };
   }, { passive: true });
   stage.addEventListener("touchmove", (e) => {
     if (!relPinch || e.touches.length !== 2) return;
     e.preventDefault();
     const s = stage.getBoundingClientRect(), t = e.touches;
-    setRelZoom(relPinch.k * tdist(t) / relPinch.d, (t[0].clientX + t[1].clientX) / 2 - s.left, (t[0].clientY + t[1].clientY) / 2 - s.top);
+    zoomBy2(relPinch.k * tdist(t) / relPinch.d / zoomK(), (t[0].clientX + t[1].clientX) / 2 - s.left, (t[0].clientY + t[1].clientY) / 2 - s.top);
   }, { passive: false });
   stage.addEventListener("touchend", (e) => { if (e.touches.length < 2) relPinch = null; }, { passive: true });
 
@@ -920,7 +945,7 @@
   /* comparison view: drag the empty canvas with the mouse (touch scrolls natively); the view has wide margins so it can always move */
   let relDrag = null, relDragged = 0;
   stage.addEventListener("pointerdown", (e) => {
-    if (!relMode || e.pointerType !== "mouse" || e.button !== 0 || e.target.closest("button, a")) return;
+    if (wholeMode || e.pointerType !== "mouse" || e.button !== 0 || e.target.closest("button, a")) return;
     relDrag = { x: e.clientX, y: e.clientY }; relDragged = 0;
   });
   window.addEventListener("pointermove", (e) => {
@@ -1459,6 +1484,7 @@
   }
 
   canvas.addEventListener("click", (e) => {
+    if (relDragged > 6) { relDragged = 0; return; }
     const n = e.target.closest(".node");
     if (n) go(n.dataset.id, n);
   });

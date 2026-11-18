@@ -405,9 +405,13 @@ button { font: inherit; color: inherit; }
 .rel-view { display: none; }
 body.rel-mode .rel-view { display: block; width: max-content; padding: 60vh 60vw; }
 body.rel-mode .rel-canvas { min-width: 0; }  /* sized to its cards, so zooming scales around the cursor without re-centering */
-body.rel-mode .stage { cursor: grab; scrollbar-width: none; }
-body.rel-mode .stage::-webkit-scrollbar { display: none; }
-body.rel-mode .stage.panning { cursor: grabbing; user-select: none; -webkit-user-select: none; }
+/* Person view canvas: wide margins so it can always be moved, like the comparison view */
+.canvas-wrap { width: max-content; padding: 60vh 60vw; }
+.canvas-wrap .canvas { min-width: 0; }
+body.rel-mode .canvas-wrap { display: none; }
+.stage { cursor: grab; scrollbar-width: none; }
+.stage::-webkit-scrollbar { display: none; }
+.stage.panning { cursor: grabbing; user-select: none; -webkit-user-select: none; }
 body.rel-mode .canvas { display: none; }
 .rel-bar:empty { display: none; }
 .rel-who .rel-swap { margin-left: auto; flex: none; box-shadow: inset 0 0 0 1px var(--line); }
@@ -609,8 +613,8 @@ body.whole-mode.no-sheet:not(.searched) .search input {
 
 /* zoom buttons for the comparison path (Family view) */
 .rel-zoom { display: none; position: fixed; top: 118px; right: 14px; z-index: 6; }
-body.rel-mode .rel-zoom { display: flex; }
-@media (min-width: 900px) { .rel-zoom { right: 428px; } }
+body:not(.whole-mode) .rel-zoom { display: flex; }
+@media (min-width: 900px) { .rel-zoom { right: calc(var(--sheet-w) + 28px); } }
 
 /* the person whose details are open during a comparison */
 .rel-canvas .node.picked { outline: 3px solid #8a5cf0; outline-offset: 3px; }
