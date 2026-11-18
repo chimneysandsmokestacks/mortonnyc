@@ -403,7 +403,9 @@ button { font: inherit; color: inherit; }
 @media (min-width: 900px) { .pick-banner { left: calc((100% - var(--sheet-w) - 14px) / 2); } }
 
 .rel-view { display: none; }
-body.rel-mode .rel-view { display: block; }
+body.rel-mode .rel-view { display: block; width: max-content; min-width: 100%; padding: 60vh 60vw; }
+body.rel-mode .stage { cursor: grab; }
+body.rel-mode .stage.panning { cursor: grabbing; user-select: none; -webkit-user-select: none; }
 body.rel-mode .canvas { display: none; }
 .rel-bar:empty { display: none; }
 .rel-who .rel-swap { margin-left: auto; flex: none; box-shadow: inset 0 0 0 1px var(--line); }

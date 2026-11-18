@@ -829,7 +829,7 @@
   function centerRel() {
     const s = stage.getBoundingClientRect(), r = relCanvas.getBoundingClientRect();
     stage.scrollLeft += (r.left + r.width / 2) - (s.left + s.width / 2);
-    stage.scrollTop = 0;
+    stage.scrollTop += r.top - s.top;
   }
 
   function renderRelSheet(aId, bId, path) {
@@ -911,7 +911,24 @@
     if (e.target.closest("#relSwap")) { e.stopPropagation(); location.hash = `rel/${relMode.b}/${relMode.a}`; }
   });
 
+  /* comparison view: drag the empty canvas with the mouse (touch scrolls natively); the view has wide margins so it can always move */
+  let relDrag = null, relDragged = 0;
+  stage.addEventListener("pointerdown", (e) => {
+    if (!relMode || e.pointerType !== "mouse" || e.button !== 0 || e.target.closest("button, a")) return;
+    relDrag = { x: e.clientX, y: e.clientY }; relDragged = 0;
+  });
+  window.addEventListener("pointermove", (e) => {
+    if (!relDrag) return;
+    const dx = e.clientX - relDrag.x, dy = e.clientY - relDrag.y;
+    relDrag = { x: e.clientX, y: e.clientY };
+    relDragged += Math.abs(dx) + Math.abs(dy);
+    if (relDragged > 4) stage.classList.add("panning");
+    stage.scrollLeft -= dx; stage.scrollTop -= dy;
+  });
+  window.addEventListener("pointerup", () => { relDrag = null; stage.classList.remove("panning"); });
+
   relView.addEventListener("click", (e) => {
+    if (relDragged > 6) { relDragged = 0; return; }
     if (e.target.closest("#relExit")) { location.hash = relMode.a; return; }
     if (e.target.closest("#relSwap")) { location.hash = `rel/${relMode.b}/${relMode.a}`; return; }
     const n = e.target.closest(".node");
