@@ -404,7 +404,8 @@ button { font: inherit; color: inherit; }
 
 .rel-view { display: none; }
 body.rel-mode .rel-view { display: block; width: max-content; min-width: 100%; padding: 60vh 60vw; }
-body.rel-mode .stage { cursor: grab; }
+body.rel-mode .stage { cursor: grab; scrollbar-width: none; }
+body.rel-mode .stage::-webkit-scrollbar { display: none; }
 body.rel-mode .stage.panning { cursor: grabbing; user-select: none; -webkit-user-select: none; }
 body.rel-mode .canvas { display: none; }
 .rel-bar:empty { display: none; }
