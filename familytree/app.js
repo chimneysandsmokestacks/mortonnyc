@@ -878,7 +878,7 @@
           svg('<path d="m4 4 8 8m0-8-8 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>')),
       ] : []),
       // phones: the collapsed panel says what tapping it shows, like the records hint on a person; on its own full-width line
-      h("p", { class: "peek-hint rel-hint" }, path ? `${path.edges.length} step${path.edges.length > 1 ? "s" : ""}. Tap to see them.` : "Tap for details"),
+      h("p", { class: "peek-hint rel-hint" }, "Tap for details"),
     ));
     if (path) {
       const back = findPath(bId, aId);
