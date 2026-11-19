@@ -7640,13 +7640,25 @@
      "cid": "C0164",
      "source": "MZA Brno, D 6 Josefinský katastr — Telč, panství Telč (Telč-Vnitřní Město), sign. 3546, 1787–1789",
      "page": "Josephine cadastre 1787–1789, Telč, sign. 3546: orchard next to the Ulický pond (Ried Orts Platz), with house no. 38",
-     "summary": "Josephine cadastre of Telč (MZA Brno, D 6 Josefinský katastr, sign. 3546, 1787–1789). In the column of land types, under 'Parificirte Gärten und Teiche' (assessed gardens and ponds), Ried (field-name area) 'Orts Platz', an 'Obst Garten neben dem Ullitzer Teicht' — an orchard next to the Ulický pond, 191 square Klafter (Quadratklafter; about 690 m²). Per J. Mareček's thesis (Osídlení v Telči v 18. století, 2019, p. 89, n. 625), the Josephine cadastre records 'Ein Küchel Garten, dem Frannz Luchesy in die Stadt … N[umeru]m 38 gehörig', and the same orchard by the Ulický pond (topographic no. 97) appears in the 1792–1800 cadastre (SOkA Jihlava, AM Telč, inv. č. 117, Rampula Č 49). Transcribed from James's crop of the land-type column only; the owner's name and house number are in other columns of the page and are not in the crop. James matched the plot (no. 97) on the Stable Cadastre map, overlaid on today's satellite view: it lies by the Telčský potok on the north-west edge of town, near today's Na Sádkách. Found by James, 18 Nov 2026.",
+     "summary": "Josephine cadastre of Telč (MZA Brno, D 6 Josefinský katastr, sign. 3546, 1787–1789). In the column of land types, under 'Parificirte Gärten und Teiche' (assessed gardens and ponds), Ried (field-name area) 'Orts Platz', an 'Obst Garten neben dem Ullitzer Teicht' — an orchard next to the Ulický pond, 191 square Klafter (Quadratklafter; about 690 m²). Per J. Mareček's thesis (Osídlení v Telči v 18. století, 2019, p. 89, n. 625), the Josephine cadastre records 'Ein Küchel Garten, dem Frannz Luchesy in die Stadt … N[umeru]m 38 gehörig', and the same orchard by the Ulický pond (topographic no. 97) appears in the 1792–1800 cadastre (SOkA Jihlava, AM Telč, inv. č. 117, Rampula Č 49). Transcribed from James's crop of the land-type column only; the owner's name and house number are in other columns of the page and are not in the crop. James matched the plot (no. 97) on the Stable Cadastre map, overlaid on today's satellite view: it is the triangle just west of today's Slavatovská street, south of road 112 near the Telčský potok. Measured on today's map it comes to about 676 m², close to the 191 square Klafter (about 687 m²) in the cadastre. Found by James, 18 Nov 2026.",
      "transcript": "Do. Catastral und trenn-\n-bare Gründstücke\nWiessen.\nParificirte Gärten\nund Teiche\nI | Ried Orts Platz.\nObst Garten neben dem\nUllitzer Teicht[?] . . . .\nDo.\nSumme."
     },
     {
      "url": "records/franz-luchesi-garden-plot-97-map-overlay.jpg",
      "site": "Family archive",
-     "label": "Plot no. 97, the orchard by the Ulický pond belonging to house no. 38 (191 square Klafter, about 690 m²): Stable Cadastre map over today's satellite view, Telč",
+     "label": "Plot no. 97, the orchard belonging to house no. 38: Stable Cadastre map over today's satellite view, Telč (1 of 3)",
+     "context": "Person"
+    },
+    {
+     "url": "records/franz-luchesi-garden-plot-97-today.jpg",
+     "site": "Family archive",
+     "label": "Plot no. 97 today: the triangle west of Slavatovská street, Telč (2 of 3)",
+     "context": "Person"
+    },
+    {
+     "url": "records/franz-luchesi-garden-plot-97-measured.jpg",
+     "site": "Family archive",
+     "label": "Plot no. 97 measured on today's map: about 676 m², against 191 square Klafter (about 687 m²) in the 1787 cadastre (3 of 3)",
      "context": "Person"
     }
    ],
