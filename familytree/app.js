@@ -871,6 +871,8 @@
       h("div", {},
         h("p", { class: "eyebrow", text: "How they’re related" }),
         h("h1", { class: "rel-title", text: path ? capital(describe(path)) : "Not connected" }),
+        // phones: the collapsed panel says what tapping it shows, like the records hint on a person
+        h("p", { class: "peek-hint" }, path ? `See how they’re related, step by step` : "Tap for details"),
       ),
       ...(relMode && !wholeMode ? [
         h("button", { type: "button", class: "rel-btn rel-swap", id: "relSwap", title: "Swap the two people" }, svg('<path d="M3 5h9.5M10 2.5 12.5 5 10 7.5M13 11H3.5M6 8.5 3.5 11 6 13.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>'), "Swap"),
@@ -938,8 +940,8 @@
 
   sheetBody.addEventListener("click", (e) => {
     if (!relMode || wholeMode) return;
-    if (e.target.closest("#relExit")) { e.stopPropagation(); location.hash = relMode.a; return; }
-    if (e.target.closest("#relSwap")) { e.stopPropagation(); location.hash = `rel/${relMode.b}/${relMode.a}`; }
+    if (e.target.closest("#relExit")) { e.stopImmediatePropagation(); location.hash = relMode.a; return; }
+    if (e.target.closest("#relSwap")) { e.stopImmediatePropagation(); location.hash = `rel/${relMode.b}/${relMode.a}`; }
   });
 
   /* comparison view: drag the empty canvas with the mouse (touch scrolls natively); the view has wide margins so it can always move */
@@ -993,6 +995,7 @@
     if (relMode) renderRelSheet(relMode.a, relMode.b, findPath(relMode.a, relMode.b));
     else if (wRel) showWhole(null, wRel);
     sheetBody.scrollTop = 0;
+    if (!wide.matches) setSheet(false);   // back to the collapsed summary, as when the comparison first opened
   }
   pickBanner.addEventListener("click", (e) => { if (e.target.closest("#pickCancel")) cancelPick(); });
 
