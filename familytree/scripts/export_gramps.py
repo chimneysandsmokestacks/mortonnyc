@@ -275,7 +275,15 @@ def export(db_path, out_path):
                 rel = "records/" + os.path.basename(src)
                 os.makedirs(os.path.join(site_dir, "records"), exist_ok=True)
                 shutil.copyfile(src, os.path.join(site_dir, rel))
-                recs.append({"url": rel, "site": "Family archive", "label": desc or None, "context": "Person"})
+                rec = {"url": rel, "site": "Family archive", "label": desc or None, "context": "Person"}
+                # a note on the image (e.g. why a photo shows the right house) is shown with it
+                texts = [((notes.get(nh) or {}).get("text") or {}).get("string", "").strip()
+                         for nh in m.get("note_list") or [] if not (notes.get(nh) or {}).get("private")]
+                texts = [t for t in texts if t]
+                if texts:
+                    rec["summary"] = "\n\n".join(texts)
+                    rec["summaryHead"] = "Notes"
+                recs.append(rec)
         return photo, recs
 
     def evt(ref):

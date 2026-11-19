@@ -505,10 +505,10 @@
     const parts = [];
     const where = [l.source, l.page].filter(Boolean).join(", ");
     if (where) parts.push(h("p", { class: "vt-src", text: where }));
-    if (l.summary) parts.push(h("h4", { text: "Summary (English)" }), h("p", { class: "vt-sum", text: l.summary }));
+    if (l.summary) parts.push(h("h4", { text: l.summaryHead || "Summary (English)" }), h("p", { class: "vt-sum", text: l.summary }));
     if (l.transcript) parts.push(h("h4", { text: "Original text (German)" }), h("p", { class: "vt-orig", lang: "de", text: l.transcript }));
     const body = h("div", { class: "vt-body" }, parts);
-    const toggle = h("button", { type: "button", class: "vt-toggle", "aria-expanded": "true" }, "Transcript");
+    const toggle = h("button", { type: "button", class: "vt-toggle", "aria-expanded": "true" }, l.transcript || !l.summaryHead ? "Transcript" : "Notes");
     toggle.addEventListener("click", () => {
       const open = toggle.getAttribute("aria-expanded") !== "true";
       toggle.setAttribute("aria-expanded", String(open));
