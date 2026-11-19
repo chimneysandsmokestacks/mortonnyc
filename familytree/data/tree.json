@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-18",
+ "generated": "2026-11-19",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -8019,6 +8019,15 @@
       "I0207",
       "I0208"
      ]
+    },
+    {
+     "url": "https://www.veduty.cz/veduty/permalink?xid=f737832609b19e826260bd5d807996cf&scan=1#scan1",
+     "site": "veduty.cz",
+     "label": "Veduta (veduty.cz)",
+     "context": "Person",
+     "cid": "C0160",
+     "source": "Veduty.cz — historical town views",
+     "page": "Veduta (veduty.cz)"
     }
    ],
    "notes": [
