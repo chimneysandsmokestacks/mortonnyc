@@ -604,6 +604,15 @@
      "page": "View of Nový Jičín (veduta, veduty.cz)"
     },
     {
+     "url": "https://ags.cuzk.cz/archiv/openmap.html?typ=orm&idrastru=B2_a_4M_2494_4",
+     "site": "ags.cuzk.cz",
+     "label": "Map of Nový Jičín (Stable Cadastre)",
+     "context": "Person",
+     "cid": "C0162",
+     "source": "ČÚZK, Ústřední archiv zeměměřictví a katastru — Stabilní katastr, originální mapa (orm), Nový Jičín",
+     "page": "Stable Cadastre original map of Nový Jičín (ČÚZK raster B2_a_4M_2494_4)"
+    },
+    {
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/201213",
      "site": "Wienbibliothek",
      "label": "Lehmann Vienna address book 1931, p. 1944",
@@ -5341,6 +5350,15 @@
      "cid": "C0161",
      "source": "Veduty.cz — historical town views",
      "page": "View of Nový Jičín (veduta, veduty.cz)"
+    },
+    {
+     "url": "https://ags.cuzk.cz/archiv/openmap.html?typ=orm&idrastru=B2_a_4M_2494_4",
+     "site": "ags.cuzk.cz",
+     "label": "Map of Nový Jičín (Stable Cadastre)",
+     "context": "Person",
+     "cid": "C0162",
+     "source": "ČÚZK, Ústřední archiv zeměměřictví a katastru — Stabilní katastr, originální mapa (orm), Nový Jičín",
+     "page": "Stable Cadastre original map of Nový Jičín (ČÚZK raster B2_a_4M_2494_4)"
     }
    ]
   },
