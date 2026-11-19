@@ -595,6 +595,15 @@
    ],
    "links": [
     {
+     "url": "https://www.veduty.cz/veduty/permalink?xid=6225ae4f061b37c0455f6e3a76481feb&scan=1#scan1",
+     "site": "veduty.cz",
+     "label": "View of Nový Jičín (veduty.cz)",
+     "context": "Person",
+     "cid": "C0161",
+     "source": "Veduty.cz — historical town views",
+     "page": "View of Nový Jičín (veduta, veduty.cz)"
+    },
+    {
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/201213",
      "site": "Wienbibliothek",
      "label": "Lehmann Vienna address book 1931, p. 1944",
@@ -5323,6 +5332,15 @@
      "page": "28 April 1889, p. 36, ad no. 4194",
      "summary": "Advertisement (no. 4194, 28 Apr 1889): an old, well-known freight-forwarding business with a wholesale and retail coal trade in a larger industrial town in Moravia is for sale immediately on very favourable terms 'because of family circumstances'; enquiries to Luchesi, Meidling (Vienna), Hauptstraße 36.\n\nWhy it is attached here: the witness at Heinrich Luchesi's 1885 wedding in Neutitschein was read as '[Samuel?] Luchesi, [Privatbeamter?] Wien, [Mariahilf?] Hauptstr. 36'; this ad shows the address is almost certainly Meidling, Hauptstraße 36, so the same Vienna Luchesi (a close relative of Josef Jr and Heinrich, exact relationship unknown) lived there 1885–1889. The ad is NOT evidence of Josef Jr's death: it gives 'family circumstances', no estate/heirs/widow wording, the contact is in Vienna, and Josef Jr was alive in Feb 1889 as town secretary with no known link to a freight or coal business.",
      "transcript": "Neues Wiener Tagblatt, 28. April 1889, S. 36, Anzeige Nr. 4194\n\nAltes renommirtes Speditions- mit Engros- und Detail-Kohlengeschäft ist in einer größeren Provinz- und industrie-reichen Stadt Mährens wegen Familienverhältnissen unter sehr günstigen Verhältnissen sofort zu verkaufen. Nähere Auskunft ertheilt Luchesi, Meidling, Hauptstraße 36."
+    },
+    {
+     "url": "https://www.veduty.cz/veduty/permalink?xid=6225ae4f061b37c0455f6e3a76481feb&scan=1#scan1",
+     "site": "veduty.cz",
+     "label": "View of Nový Jičín (veduty.cz)",
+     "context": "Person",
+     "cid": "C0161",
+     "source": "Veduty.cz — historical town views",
+     "page": "View of Nový Jičín (veduta, veduty.cz)"
     }
    ]
   },
