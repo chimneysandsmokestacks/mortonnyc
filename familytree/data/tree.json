@@ -8238,6 +8238,11 @@
     {
      "type": "Property",
      "desc": "His house no. 38 in Telč (later renumbered 28) passed to his son Franz"
+    },
+    {
+     "type": "Property",
+     "desc": "Owner of house no. 35 (Na Můstku), Telč, a cottager's house he had bought; earlier listed under the widow Carmasin (1775 urbarial survey)",
+     "date": "1775"
     }
    ],
    "links": [
@@ -8343,6 +8348,17 @@
      "summary": "Original map of the Stable Cadastre (c. 1824–1843) for Telč, from the ČÚZK map archive, with house no. 38 visible — the Luchesi house on the town square that Lorenz Luchesi bought and rebuilt (loans of 1777) and his son Franz took over in 1780 (later renumbered 28). The map is from after Lorenz's time; it shows where the house stood. Found by James, 18 Nov 2026."
     },
     {
+     "url": "https://www.mza.cz/aron/apu/f32d7369-c7d7-4f5b-aed1-27c5f05245ec/dao/f32d7369-c7d7-4f5b-aed1-27c5f05245ec/file/2fce301b-cd13-4fdb-a2d3-52aeddc6ee2e",
+     "site": "mza.cz",
+     "label": "1775 urbarial survey of Telč: Lorenz Luchesi, owner of house no. 35",
+     "context": "Person",
+     "cid": "C0167",
+     "source": "MZA Brno, D 5 Urbariální fase — Panství Telč, majitel Lichtenštejn, 1775–1777, sign. 19/J (fascikl 71)",
+     "page": "Urbarial fassion of Telč, 1775: inner town, cottagers, no. 4 — Lorentz Lukesek, house no. 35",
+     "summary": "In the 1775 urbarial survey of Telč, Lorenz Luchesi ('Lorentz Lukesek') is entry no. 4 among the cottagers in the streets of the inner town, owner of house no. 35. 'Eingekauft' means he bought the house. In the last rectification survey (the tax rectification of about 1749) the house was listed under 'Wittib Carmasinin', the widow of a man named Carmasin (Karmasin). He paid 3 fl. 35 kr. tax a year and 4 kr. 3 d. ground rent on the house. The entry gives no trade; the description of him as chimney sweep in J. Mareček's thesis (2019, p. 98) comes from other records.",
+     "transcript": "Urbarial fassion of Telč, 1775 — inner town, cottagers in the streets, entry no. 4 — transcription:\n4. Lorentz Lukesek\nNro: des Haußes 35.\nEingekauft\nheißt nach dem letzten Rectifications Extract\nWittib Carmasinin\nSteuer jährlich : : : : : : 3 fl. 35 x\nan [statt?] grund hauß zinß . . . . 4 x 3 d"
+    },
+    {
      "url": "records/lorenz-luchesi-house-za-vodou-map-overlay.jpg",
      "site": "Family archive",
      "label": "The house beyond the water (Předměstí za Vodou), Telč: Stable Cadastre map over today's satellite view, Štěpnická street, house no. 260",
@@ -8361,7 +8377,15 @@
      "site": "Family archive",
      "label": "House no. 35, Na Můstku, Telč, today: Lorenz Luchesi's house in 1775 (street view)",
      "context": "Person",
-     "summary": "Why this is the house:\n1. In the 1775 urbarial survey of Telč, 'Lorenc Lukesek', chimney sweep (kominík), is listed as owner of house no. 35, taxed as a cottager (chalupník). He was the only chimney sweep in the inner town (J. Mareček, Osídlení v Telči v 18. století, master's thesis, České Budějovice 2019, p. 101 and p. 97; source: MZA Brno, D 5 Urbariální fase, fascl. 19 Y).\n2. Telč's inner-town house numbers were given in 1770–71 and have not changed since (same thesis, p. 87).\n3. The thesis places houses nos. 35–38 on Na Můstku lane (p. 90; n. 607: 'Ulice Na Můstku. Domy čp. 35, 36, 37, 38.'). This house on Na Můstku carries the number 35 (with street number 2).\n4. By 1777 Lorenz was building house no. 38, three doors along the same lane, where he died in 1779.",
+     "summary": "Why this is the house:\n1. In the 1775 urbarial survey of Telč, 'Lorentz Lukesek' is listed as owner of house no. 35, among the cottagers, having bought it ('Eingekauft') (MZA Brno, D 5 Urbariální fase, sign. 19/J). The thesis adds that he was a chimney sweep (kominík). He was the only chimney sweep in the inner town (J. Mareček, Osídlení v Telči v 18. století, master's thesis, České Budějovice 2019, p. 101 and p. 97).\n2. Telč's inner-town house numbers were given in 1770–71 and have not changed since (same thesis, p. 87).\n3. The thesis places houses nos. 35–38 on Na Můstku lane (p. 90; n. 607: 'Ulice Na Můstku. Domy čp. 35, 36, 37, 38.'). This house on Na Můstku carries the number 35 (with street number 2).\n4. By 1777 Lorenz was building house no. 38, three doors along the same lane, where he died in 1779.",
+     "summaryHead": "Notes"
+    },
+    {
+     "url": "records/lorenz-luchesi-urbarial-fassion-1775.jpg",
+     "site": "Family archive",
+     "label": "1775 urbarial survey of Telč: Lorenz Luchesi's entry, house no. 35 (detail)",
+     "context": "Person",
+     "summary": "Urbarial fassion of Telč, 1775 — inner town, cottagers in the streets, entry no. 4 — transcription:\n4. Lorentz Lukesek\nNro: des Haußes 35.\nEingekauft\nheißt nach dem letzten Rectifications Extract\nWittib Carmasinin\nSteuer jährlich : : : : : : 3 fl. 35 x\nan [statt?] grund hauß zinß . . . . 4 x 3 d",
      "summaryHead": "Notes"
     }
    ],
