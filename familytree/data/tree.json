@@ -1408,7 +1408,28 @@
     "date": "1818",
     "place": "Gaya (Kyjov)"
    },
+   "events": [
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 155, Kyjov (Gaya); listed as Redlich Hany, born 1818",
+     "date": "31 Dec 1880"
+    }
+   ],
    "links": [
+    {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
+    },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
      "site": "Czech National Archives",
@@ -1503,7 +1524,30 @@
    "living": false,
    "birth": {
     "place": "Gaya (Kyjov)"
-   }
+   },
+   "events": [
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 134, Kyjov (Gaya); listed as Redlich Alois, born 1844",
+     "date": "31 Dec 1880"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
+    }
+   ]
   },
   "I0039": {
    "id": "I0039",
@@ -1931,7 +1975,28 @@
    ],
    "given": "Bernhard",
    "living": false,
+   "events": [
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 72, Kyjov (Gaya); listed as Fischer Bernhard, born 1850",
+     "date": "31 Dec 1880"
+    }
+   ],
    "links": [
+    {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "Probably this person: 1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
+    },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c013658ec29c96cc360931b5a887bb20",
      "site": "Czech National Archives",
@@ -2280,6 +2345,13 @@
     "date": "19 Oct 1885",
     "place": "Gaya (Kyjov)"
    },
+   "events": [
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 19a, Kyjov (Gaya); listed as Mondschein Mathias, born 1807",
+     "date": "31 Dec 1880"
+    }
+   ],
    "links": [
     {
      "url": "https://www.mza.cz/aron/apu/62614ec9-42c4-4c37-a9b1-7fde2811c206/dao/62614ec9-42c4-4c37-a9b1-7fde2811c206/file/5569d262-3dc0-4c44-8ae9-56e7e05634bf",
@@ -2393,6 +2465,20 @@
      "page": "scan 79 right page (fol. 76; N. 408 Jud.)",
      "summary": "House share No. 19: Joachim Sonnenschein's receipt of 4 Feb 1844 for 800 fl. C.M. (the balance of the 1842 sale, F97) clears the charge; the receipt is handed to Abraham Mondschein; registered 17 Feb 1844. Followed by the \"Haupt- und Verzichtsquittung\" for 607 fl. 30 kr.",
      "transcript": "\"Mondschein Mathias · N. 408 Jud. · Dem […]amte wird aufgetragen, die Quittung des Joachim Sonnenschein ddo 4 Febr. 1844 über 800 f. C.M. zur Wirkung der Löschung auf den Judenhausantheil N. 19 zu intabuliren, und clausulirt dem Abraham Mondschein zuzustellen. Magistrat der k. Stadt Gaya am 17 Febr. 1844\" · \"Haupt- und Verzichtsquittung · Über Sechs Hundert und sieben Gulden 30 kr. Conv. Münze, welche ich Endesgefertigter Joachim Sonnenschein, und zwar: a. als den mir, aus dem zwischen mir und Abraham Mondschein …\""
+    },
+    {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
     },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=f79eaad3787ffcbbc678a038fd9a79b3",
@@ -2590,7 +2676,28 @@
    ],
    "given": "Markus",
    "living": false,
+   "events": [
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 145c, Kyjov (Gaya); listed as Redlich Markus, born 1815",
+     "date": "31 Dec 1880"
+    }
+   ],
    "links": [
+    {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
+    },
     {
      "url": "https://www.mza.cz/aron/apu/3b473cb9-dc98-4652-a8ea-18237333338a",
      "site": "mza.cz",
@@ -2671,6 +2778,11 @@
      "desc": "Leather dealer (Lederhändler)",
      "date": "1862",
      "place": "Gaya (Kyjov)"
+    },
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 134, Kyjov (Gaya); listed as Mondschein Abraham, born 1804",
+     "date": "31 Dec 1880"
     }
    ],
    "links": [
@@ -2888,6 +3000,20 @@
      "transcript": "\"Geschehen am 14ten Februar 1844 · Lazar Redlich als Käufer · Abraham Mondschein als Zeug · Lazar Fleischl(?) Verkäufer · Josef Müller als Zeug\""
     },
     {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
+    },
+    {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=f614ef0f-bb4f-4eb5-9902-24d30d38a96e&scan=c026d098aae6395df8e13418447661ec",
      "site": "Czech National Archives",
      "label": null,
@@ -2955,9 +3081,28 @@
      "desc": "Leather dealer (Lederhändler)",
      "date": "1869",
      "place": "Gaya (Kyjov)"
+    },
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 134, Kyjov (Gaya); listed as Mondschein Georg, born 1843",
+     "date": "31 Dec 1880"
     }
    ],
    "links": [
+    {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
+    },
     {
      "url": "https://www.geni.com/people/x/6000000084131958921",
      "site": "Geni",
@@ -4422,7 +4567,28 @@
    ],
    "given": "Salomon",
    "living": false,
+   "events": [
+    {
+     "type": "Residence",
+     "desc": "1880 census: house no. 138, Kyjov (Gaya); listed as Fischer Salomon, born 1815",
+     "date": "31 Dec 1880"
+    }
+   ],
    "links": [
+    {
+     "url": "https://worldofyesterday.github.io/moravia/Kyjov_HO0640.html",
+     "site": "worldofyesterday.github.io",
+     "label": "Probably this person: 1880 census of Kyjov: Jewish households and house numbers",
+     "context": "Person",
+     "cid": "C0166",
+     "source": "1880 census of Kyjov (Gaya) — Jewish heads of household (index, worldofyesterday.github.io; census film MZA HO0640)",
+     "page": "1880 census, Kyjov, Jewish households (MZA film HO0640)",
+     "more": [
+      "https://www.mza.cz/scitacioperaty/digisada/detail/10183"
+     ],
+     "summary": "Index of the Jewish heads of household in the 1880 census of Kyjov (MZA Brno, census film HO0640). It places Mathias Mondschein at house 19a; Abraham Mondschein, his son Georg (Gerson) and Alois Redlich (son of Lazar) together at house 134; Markus Redlich at 145c; and 'Hany Redlich', born 1818, at 155 — Chani née Fischer, Lazar's wife, here head of her own household. Salomon Fischer (born 1815, house 138) and Bernhard Fischer (born 1850, house 72) probably match the Salomon and Bernhard Fischer in the tree (unconfirmed). The house numbers match those in the 1830s–60s registers (e.g. Abraham's family at 134 since 1839), so Kyjov's Jewish house numbering stayed stable through 1880. Index only; the census sheets themselves are linked on MZA.",
+     "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
+    },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=c013658ec29c96cc360931b5a887bb20",
      "site": "Czech National Archives",
