@@ -1,7 +1,7 @@
 {
  "title": "Family Tree",
  "home": "I0013",
- "generated": "2026-11-19",
+ "generated": "2026-11-24",
  "people": {
   "I0000": {
    "id": "I0000",
@@ -620,6 +620,17 @@
      "cid": "C0163",
      "source": "Geni — online family tree profiles",
      "page": "Geni profile: Sigmund Wolf"
+    },
+    {
+     "url": "https://digi.archives.cz/da/permalink?xid=0f91c6ce-0146-4926-a13d-15d79e5410c7128091&scan=1#scan1",
+     "site": "digi.archives.cz",
+     "label": "1890 census of Nový Jičín: Julie Wolf's household, Niederthorstrasse 710",
+     "context": "Person",
+     "cid": "C0168",
+     "source": "Zemský archiv v Opavě — Sčítání lidu 1890, Nový Jičín (NAD 1461 Okresní úřad Nový Jičín, inv. č. 711)",
+     "page": "1890 census, Nový Jičín, Niederthorstrasse no. 710, flat 1 (scan 1)",
+     "summary": "1890 census return for Neutitschein (Nový Jičín), Niederthorstrasse no. 710, flat 1. Householder Julie Wolf, born 14 April 1843, Jewish, widowed, German-speaking, a [grocer?]; her sons Adolf (b. 7 June 1864), Siegmund (b. 7 August 1872, assistant/clerk), Max (b. 26 March 1876) and daughter Adele (b. 8 December 1878); Pepi Wolf, her mother-in-law (Schwiegermutter), widowed; Hugo Morgenstern, nephew (b. 10 March 1870); and three servants. Pepi Wolf being Julie's mother-in-law shows that Wolf was Julie's married name, so Sigmund's father was a Wolf who had died by 1890. The page was previously labelled as a marriage record. Birthplaces and some occupations are faint at the archive's maximum zoom; uncertain readings are marked [?]. Read by Claude, 24 Nov 2026.",
+     "transcript": "Anzeigezettel / Arch sčítací, Volkszählung 31. December 1890 — Neutitschein, Niederthorstrasse Nr. 710, Wohnung 1: 1. Wolf Julie, Wohnungsinhaberin, 14. April 1843, [Neutitschein?] Mähren, israelitisch, verwitwet, deutsch, [Specerei?]händlerin · 2. Wolf Adolf, Sohn, 7. Juni 1864, do., ledig, do., Lederhändler[?] · 3. Wolf Siegmund, Sohn, 7. August 1872, do., do., do., Gehilfe · 4. Wolf Max, Sohn, 26. März 1876, do., do., do., [Gymnasiast?] · 5. Wolf Adele, Tochter, 8. December 1878, do., do., do., Schülerin · 6. Wolf Pepi, Schwiegermutter, 9. August 18[0?]8, do., verwitwet, do., Private · 7. Morgenstern Hugo, Neffe, 10. März 1870, do., ledig, do., [Uhrmachergehilfe?] · 8. Dvorsky Theresia, Dienstbote, [10.] August 1851, römisch-katholisch, do., do., Köchin · 9. Balcarek Marie, Dienstbote, 15. August 1869, do., do., do., [Stubenmädchen?] · 10. Rabel Ernest, Hausknecht, August 1866, do., do., do., Hausknecht"
     },
     {
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/201213",
@@ -4417,8 +4428,13 @@
     {
      "url": "https://digi.archives.cz/da/permalink?xid=0f91c6ce-0146-4926-a13d-15d79e5410c7128091&scan=1#scan1",
      "site": "digi.archives.cz",
-     "label": "Marriage record",
-     "context": "Person"
+     "label": "1890 census of Nový Jičín: Julie Wolf's household, Niederthorstrasse 710",
+     "context": "Person",
+     "cid": "C0168",
+     "source": "Zemský archiv v Opavě — Sčítání lidu 1890, Nový Jičín (NAD 1461 Okresní úřad Nový Jičín, inv. č. 711)",
+     "page": "1890 census, Nový Jičín, Niederthorstrasse no. 710, flat 1 (scan 1)",
+     "summary": "1890 census return for Neutitschein (Nový Jičín), Niederthorstrasse no. 710, flat 1. Householder Julie Wolf, born 14 April 1843, Jewish, widowed, German-speaking, a [grocer?]; her sons Adolf (b. 7 June 1864), Siegmund (b. 7 August 1872, assistant/clerk), Max (b. 26 March 1876) and daughter Adele (b. 8 December 1878); Pepi Wolf, her mother-in-law (Schwiegermutter), widowed; Hugo Morgenstern, nephew (b. 10 March 1870); and three servants. Pepi Wolf being Julie's mother-in-law shows that Wolf was Julie's married name, so Sigmund's father was a Wolf who had died by 1890. The page was previously labelled as a marriage record. Birthplaces and some occupations are faint at the archive's maximum zoom; uncertain readings are marked [?]. Read by Claude, 24 Nov 2026.",
+     "transcript": "Anzeigezettel / Arch sčítací, Volkszählung 31. December 1890 — Neutitschein, Niederthorstrasse Nr. 710, Wohnung 1: 1. Wolf Julie, Wohnungsinhaberin, 14. April 1843, [Neutitschein?] Mähren, israelitisch, verwitwet, deutsch, [Specerei?]händlerin · 2. Wolf Adolf, Sohn, 7. Juni 1864, do., ledig, do., Lederhändler[?] · 3. Wolf Siegmund, Sohn, 7. August 1872, do., do., do., Gehilfe · 4. Wolf Max, Sohn, 26. März 1876, do., do., do., [Gymnasiast?] · 5. Wolf Adele, Tochter, 8. December 1878, do., do., do., Schülerin · 6. Wolf Pepi, Schwiegermutter, 9. August 18[0?]8, do., verwitwet, do., Private · 7. Morgenstern Hugo, Neffe, 10. März 1870, do., ledig, do., [Uhrmachergehilfe?] · 8. Dvorsky Theresia, Dienstbote, [10.] August 1851, römisch-katholisch, do., do., Köchin · 9. Balcarek Marie, Dienstbote, 15. August 1869, do., do., do., [Stubenmädchen?] · 10. Rabel Ernest, Hausknecht, August 1866, do., do., do., Hausknecht"
     }
    ]
   },
