@@ -64,6 +64,28 @@
    },
    "links": [
     {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1931, Mondschein entries",
+     "context": "Person",
+     "cid": "C0177",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1931",
+     "page": "I. Teil, p. 1009 (Mond – Mopils), Mondschein entries",
+     "summary": "The 1931 Vienna address book lists the Mondschein households. Among them: Ernst, merchant, Vienna II, Glockengasse 4; Heinrich, commercial traveller, Vienna III, Hohlweggasse 10; two men named Karl (a waiter at XVI, Kollburggasse 25, and a dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42); and Leo, manufacturer, VII, Kaiserstraße 14, of the firm Mondschein & Speyer. The book does not say which Karl is Karl Mondschein (b. 1866). Heinrich is probably Heinrich/Heinz (b. 1903),, but the entry gives no birth year. Ernest Fred (b. 1914) and Franz Wilhelm (b. 1915) were too young to have their own entries.",
+     "transcript": "Mondschein Adolf Fritz, Kaufm., XVIII/1 Cottageg. 48, s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. U-25-6-95. — Annie, Private, IX/2 Marianneng. 32. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-12-3-38. — Ernst, Kaufm., II/1 Glockeng. 4. — Heinrich, Reisender, III. Hohlwegg. 10. — Ida, Buchhalterin, III. Rechte Bahng. 10. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Kaufm., IX/1 Thurng. 15A, Telephon A-16-3-49, Clrg. — Karl, Kellner, XVI. Kollburgg. 25. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. Mondschein Leo, Fbrkt., VII. Kaiserstr. 14, T. B-39-0-79, s. Mondschein & Speyer."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/216683",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1935, Opernring 7 house listing",
+     "context": "Person",
+     "cid": "C0182",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1935",
+     "page": "Häuserverzeichnis Innere Stadt, p. 33, I. Opernring 7 (EZ 831)",
+     "summary": "The 1935 house-by-house directory for Vienna's Innere Stadt lists, at Opernring 7 (land register no. 831, also Operngasse 10), \"Mondschein H.\" with a telephone and the symbol for a leather goods business. This is Heinz Mondschein's leather goods shop, which the 1933 alphabetical listing places at Opernring 7. The entry names only \"H. Mondschein\" and does not mention Ernest Fred.",
+     "transcript": "7 EZ 831 s. a. Operngasse 10 E. Katscher J., Dr. u. Mitbesitzer H. Pfeiffer H. […] Lw Mondschein H. T."
+    },
+    {
      "url": "https://drive.google.com/file/d/1MEfB2xjbTXUSnfGeUt7Lqq4pMFdTMdLw/view",
      "site": "Family documents",
      "label": "Birth notice, Jewish Community of Vienna, 1914",
@@ -130,18 +152,6 @@
      "context": "Person"
     },
     {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/216683",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1935, business listing",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1931",
-     "context": "Person"
-    },
-    {
      "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19360510&query=%22heinz+mondschein%22&ref=anno-search&seite=42",
      "site": "ANNO newspapers",
      "label": "Newspaper, 10 May 1936, p. 42",
@@ -178,8 +188,68 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
      "site": "Czech National Archives",
-     "label": "kn 932",
-     "context": "Person"
+     "label": "Birth of Karl Mondschein, Bohuslavice 1866",
+     "context": "Person",
+     "cid": "C0176",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish birth register (kn. 932)",
+     "page": "Kyjov Jewish births, kn. 932, scan 130 — Karl Mondschein, 24 March 1866, Bohuslavice no. 177",
+     "summary": "Birth register of the Jewish community of Kyjov (Gaya), 1866. Karl, a boy, legitimate, was born on 24 March 1866 in Bohuslavice (Bohuslawitz) house no. 177 and named on 31 March. Father Heinrich Mondschein, son of Bernard Mondschein of Gaya, living in Bohuslavice no. 177; mother Netti, daughter of Lazar Redlich and Chani Fischer of Gaya. Godfather (Pathe) Gerson Mondschein of Gaya no. 46 — Heinrich's brother. Month and year are written as ditto marks under the March 1866 entries above. This confirms Netty's parents. The house is no. 177, so the tree's 'Bohuslavice no. 77' for Alois (1864) may be the same house misread. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "24 [März] [1866] Bohuslawitz No 177 31 [März] Karl 1 1 Heinrich Mondschein Sohn des Bernard Mondschein aus Gaya in Bohuslawitz No 177 Netti Tochter des Lazar Redlich und der Chani Fischer aus Gaya Gerson Mondschein No 46 Gaya"
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1931, Mondschein entries",
+     "context": "Person",
+     "cid": "C0177",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1931",
+     "page": "I. Teil, p. 1009 (Mond – Mopils), Mondschein entries",
+     "summary": "The 1931 Vienna address book lists the Mondschein households. Among them: Ernst, merchant, Vienna II, Glockengasse 4; Heinrich, commercial traveller, Vienna III, Hohlweggasse 10; two men named Karl (a waiter at XVI, Kollburggasse 25, and a dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42); and Leo, manufacturer, VII, Kaiserstraße 14, of the firm Mondschein & Speyer. The book does not say which Karl is Karl Mondschein (b. 1866). Heinrich is probably Heinrich/Heinz (b. 1903),, but the entry gives no birth year. Ernest Fred (b. 1914) and Franz Wilhelm (b. 1915) were too young to have their own entries.",
+     "transcript": "Mondschein Adolf Fritz, Kaufm., XVIII/1 Cottageg. 48, s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. U-25-6-95. — Annie, Private, IX/2 Marianneng. 32. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-12-3-38. — Ernst, Kaufm., II/1 Glockeng. 4. — Heinrich, Reisender, III. Hohlwegg. 10. — Ida, Buchhalterin, III. Rechte Bahng. 10. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Kaufm., IX/1 Thurng. 15A, Telephon A-16-3-49, Clrg. — Karl, Kellner, XVI. Kollburgg. 25. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. Mondschein Leo, Fbrkt., VII. Kaiserstr. 14, T. B-39-0-79, s. Mondschein & Speyer."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1932, Mondschein entries",
+     "context": "Person",
+     "cid": "C0178",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1932",
+     "page": "I. Teil, Mondschein entries (Adele – Katharina)",
+     "summary": "The 1932 Vienna address book lists Ernst as a sales representative at Vienna II, Glockengasse 4; Heinrich, commercial traveller, at III, Hohlweggasse 10 (now with a telephone, U-19-6-44); and again two men named Karl: a waiter at XVI, Habichergasse 6, and the dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42. A Franz Mondschein, merchant, is listed at I, Schellinggasse 5; Franz Wilhelm (b. 1915) would have been 16, so this is likely someone else. The page ends at Katharina; Leo's entry continues on the next page.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. T. R-23-1-10. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1933, Mondschein entries",
+     "context": "Person",
+     "cid": "C0179",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1933",
+     "page": "I. Teil, p. 1063 (Molner – Mondschein), Mondschein entries",
+     "summary": "The 1933 Vienna address book adds a new entry: Heinz Mondschein, leather goods, shop at Vienna I, Opernring 7 (telephone B-27-4-29), living at IX, Alserstraße 42. Karl, dealer in travel goods and leather wares, is still at VIII, Alserstraße 49, with his flat listed as no. 42. Because both are in the leather trade and both point to Alserstraße 42, this Karl is very likely Karl Mondschein (b. 1866) and Heinz his son Heinrich/Heinz (b. 1903). The other Heinrich (commercial traveller, III, Hohlweggasse 10) is then probably a different person. Also listed: Ernst, sales representative, II, Glockengasse 4; Leo, manufacturer, VII, Kaiserstraße 14, of Mondschein & Speyer (shoe factory, XIV/XV, Pfeifergasse 3); and Siegfried Mondschein's leather business at VII, Seidengasse 41, with his home at Kaiserstraße 14.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170 T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. Mondschein Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Heinz, Lederwr., I. Opernring 7, Telephon Nr. B-27-4-29, Wohn. IX. Alserstr. 42. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. T. B-39-0-79, s. Mondschein & Speyer. — Leopoldine, Näher., XIII. Kuefsteing. 48–50. — Markus, Portier, II. Tempelg. 3. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7. T. R-27-104, Wohn. III. Hetzg. 40. T. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, T. A-45-5-81, Wohn. II/1 Leopoldsgasse 16. T. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41. T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, recte Leiner, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Textilwr., II. Leopoldsg. 16. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer, pFa., Schuhwr.-Fbrk., XIV. (XV.) Pfeiferg. 3. T. R-36-3-18."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1934, Mondschein entries",
+     "context": "Person",
+     "cid": "C0180",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1934",
+     "page": "I. Teil, p. 871 (Molterer – Moody), Mondschein entries",
+     "summary": "In the 1934 Vienna address book Karl Mondschein, leather goods, is at Vienna VIII, Alserstraße 49, flat no. 42, now with telephone A-26-8-19. Heinz is listed twice: as a merchant at VI, Mariahilfer Straße 1C, and with a registered firm (\"Heinz Mondschein, see registered firms\"). Leo is still a manufacturer at VII, Kaiserstraße 14. Ernst no longer appears; he died in June 1934. Franz (merchant, I, Schellinggasse 5) is again listed; this is not likely Franz Wilhelm (b. 1915).",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Adolf Fritz, Kunsthdl., I. Graben 13. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apothek., VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. Mondschein Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. T. A-26-8-19. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. — Mathias, Schmied, V. Brandmayerg. 31. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7, Wohn. III. Hetzg. 40. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, Wohn. II. Leopoldsg. 16. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41, T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Schneider, II. Lichtenauerg. 7. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer s. pFa."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/215514",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1935, Mondschein entries",
+     "context": "Person",
+     "cid": "C0181",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1935",
+     "page": "I. Teil, Mondschein entries",
+     "summary": "The 1935 Vienna address book lists Karl Mondschein, leather goods, at Vienna VIII, Alserstraße 49, flat no. 42; Heinz, merchant, at VI, Mariahilfer Straße 1C, with a registered firm under his name; and Leo, manufacturer, at VII, Kaiserstraße 14. Franz Wilhelm (b. 1915) does not have an entry.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apotheke, XVI. Herbststraße 99, Wohn. VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Fritz, Kunsthdl., XVIII. Cottageg. 48. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14."
     },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=c16dccf7-36ae-4260-a3be-681ddd0b06b5&scan=1928c31f7338ebee1776f95e7ab95624",
@@ -203,36 +273,6 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/218996",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1936",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/215514",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1935",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1934",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1933",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1932",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1931",
      "context": "Person"
     },
     {
@@ -460,6 +500,17 @@
      "transcript": "10. Gaya 26. Mai 1888 Dr. V. Joklik 11 Uhr nachts 23. Mai 1888 Gaya No 150 25. Mai 1888 Gaya Heinrich Mondschein 1 - 53 - [Leucaemie?] [getraut?] 18. Mai 1862"
     },
     {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
+     "site": "Czech National Archives",
+     "label": "Birth of Karl Mondschein, Bohuslavice 1866",
+     "context": "Person",
+     "cid": "C0176",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish birth register (kn. 932)",
+     "page": "Kyjov Jewish births, kn. 932, scan 130 — Karl Mondschein, 24 March 1866, Bohuslavice no. 177",
+     "summary": "Birth register of the Jewish community of Kyjov (Gaya), 1866. Karl, a boy, legitimate, was born on 24 March 1866 in Bohuslavice (Bohuslawitz) house no. 177 and named on 31 March. Father Heinrich Mondschein, son of Bernard Mondschein of Gaya, living in Bohuslavice no. 177; mother Netti, daughter of Lazar Redlich and Chani Fischer of Gaya. Godfather (Pathe) Gerson Mondschein of Gaya no. 46 — Heinrich's brother. Month and year are written as ditto marks under the March 1866 entries above. This confirms Netty's parents. The house is no. 177, so the tree's 'Bohuslavice no. 77' for Alois (1864) may be the same house misread. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "24 [März] [1866] Bohuslawitz No 177 31 [März] Karl 1 1 Heinrich Mondschein Sohn des Bernard Mondschein aus Gaya in Bohuslawitz No 177 Netti Tochter des Lazar Redlich und der Chani Fischer aus Gaya Gerson Mondschein No 46 Gaya"
+    },
+    {
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
@@ -507,6 +558,17 @@
     "place": "Gaya (Kyjov)"
    },
    "links": [
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
+     "site": "Czech National Archives",
+     "label": "Birth of Karl Mondschein, Bohuslavice 1866",
+     "context": "Person",
+     "cid": "C0176",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish birth register (kn. 932)",
+     "page": "Kyjov Jewish births, kn. 932, scan 130 — Karl Mondschein, 24 March 1866, Bohuslavice no. 177",
+     "summary": "Birth register of the Jewish community of Kyjov (Gaya), 1866. Karl, a boy, legitimate, was born on 24 March 1866 in Bohuslavice (Bohuslawitz) house no. 177 and named on 31 March. Father Heinrich Mondschein, son of Bernard Mondschein of Gaya, living in Bohuslavice no. 177; mother Netti, daughter of Lazar Redlich and Chani Fischer of Gaya. Godfather (Pathe) Gerson Mondschein of Gaya no. 46 — Heinrich's brother. Month and year are written as ditto marks under the March 1866 entries above. This confirms Netty's parents. The house is no. 177, so the tree's 'Bohuslavice no. 77' for Alois (1864) may be the same house misread. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "24 [März] [1866] Bohuslawitz No 177 31 [März] Karl 1 1 Heinrich Mondschein Sohn des Bernard Mondschein aus Gaya in Bohuslawitz No 177 Netti Tochter des Lazar Redlich und der Chani Fischer aus Gaya Gerson Mondschein No 46 Gaya"
+    },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
      "site": "Czech National Archives",
@@ -966,8 +1028,35 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=868425f8f7c23e27410f06b1c77d3784",
      "site": "Czech National Archives",
-     "label": null,
-     "context": "Person"
+     "label": "Familianten book: Lazar Redlich, Familiant no. 7[3?]",
+     "context": "Person",
+     "cid": "C0172",
+     "source": "Národní archiv, České gubernium — Knihy židovských familiantů (Familianten books), inv. č. 30",
+     "page": "Familianten book, inv. č. 30, scan 74 — Familiant no. 7[3?], Lazar Redlich",
+     "summary": "Familianten book (register of Jewish heads of household allowed to marry). Familiant number 7[3?]: Lazar Redlich, first-born son (Erstgeborner), entered by decree of the provincial government (Gubernial-Verordnung) of 29 January 1818, no. 3598. Note: the tree gives Lazar's birth as 29 January 1818, the same date as this decree; that birth date may have been taken from this entry and should be checked against a birth record. Read by Claude, 24 Nov 2026.",
+     "transcript": "7[3?] Lazar Redlich Erstgebo. Gub. Vdg. 29. Jäner 818 Z. 3598"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=88e2864969c111168a4d2c0b5c9ccf91",
+     "site": "Czech National Archives",
+     "label": "Marriage of Lazar Redlich and Chani ([Fany?]) Fischer, Kyjov 1839",
+     "context": "Person",
+     "cid": "C0173",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish marriage register (kn. 935)",
+     "page": "Kyjov Jewish marriages, kn. 935, scan 9 — 23 January 1839, Lazar Redlich and [Fany?] Fischer",
+     "summary": "Marriage register of the Jewish community of Kyjov (Gaya), 1839. On 23 January 1839 Lazar Redlich, Familiant no. 14, Jewish, aged 2[7?], single, married [Fany?] Fischer (the tree's Chani Fischer), Jewish, aged 20, single. Witnesses: Mr Elias Fischer, cloth merchant (Schnittwarenhändler) — very probably the bride's father — and Nathan Redlich, grain merchant (Getreidehändler) — probably the groom's father. Married by Samuel Kornblüh, local rabbi. The remarks cite the marriage permit of the district office (Kreisamt) and a town-council notice of 19 January 1839, no. 74; the dates in the remarks are hard to read. Lazar's age is unclear; if it is 27, he was born about 1811–12, not 1818. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "1839 den 23ten Jänner 1839 Lazar Redlich Familiant No 14 Israelith 2[7?] 1 [Fany?] Fischer Israelith 20 1 Herr Elias Fischer Schnittwarenhändler Nathan Redlich Getreidehändler Samuel Kornblüh Lokal-Rabiner Diese Trauung erfolgte vermög [ertheilter?] Heirathsbewilligung des Hochlöblichen k.k. Kreisamts [ddo?] 8. Februar 1839 [Z. ...?] und gemäß löbl. Magistrats Intimat ddo 19ten Jänner 1839 Z. 74 [...]"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
+     "site": "Czech National Archives",
+     "label": "Birth of Karl Mondschein, Bohuslavice 1866",
+     "context": "Person",
+     "cid": "C0176",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish birth register (kn. 932)",
+     "page": "Kyjov Jewish births, kn. 932, scan 130 — Karl Mondschein, 24 March 1866, Bohuslavice no. 177",
+     "summary": "Birth register of the Jewish community of Kyjov (Gaya), 1866. Karl, a boy, legitimate, was born on 24 March 1866 in Bohuslavice (Bohuslawitz) house no. 177 and named on 31 March. Father Heinrich Mondschein, son of Bernard Mondschein of Gaya, living in Bohuslavice no. 177; mother Netti, daughter of Lazar Redlich and Chani Fischer of Gaya. Godfather (Pathe) Gerson Mondschein of Gaya no. 46 — Heinrich's brother. Month and year are written as ditto marks under the March 1866 entries above. This confirms Netty's parents. The house is no. 177, so the tree's 'Bohuslavice no. 77' for Alois (1864) may be the same house misread. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "24 [März] [1866] Bohuslawitz No 177 31 [März] Karl 1 1 Heinrich Mondschein Sohn des Bernard Mondschein aus Gaya in Bohuslawitz No 177 Netti Tochter des Lazar Redlich und der Chani Fischer aus Gaya Gerson Mondschein No 46 Gaya"
     },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
@@ -1144,8 +1233,13 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=4a902423-7a0d-43de-a1c3-a05a5791ff62&scan=d446fc843be70b8450d48df386edbace",
      "site": "Czech National Archives",
-     "label": "Familianten book: Bernard Mondschein junior, firstborn; governor's decree 19 Sep 1818, no. 15445",
-     "context": "Person"
+     "label": "Familianten book: Bernard Mondschein junior, Familiant no. 20 (1818)",
+     "context": "Person",
+     "cid": "C0171",
+     "source": "Národní archiv, České gubernium — Knihy židovských familiantů (Familianten books), inv. č. 30",
+     "page": "Familianten book, inv. č. 30, scan 21 — Familiant no. 20, Bernard Mondschein junior",
+     "summary": "Familianten book (register of Jewish heads of household allowed to marry). Familiant number 20: Bernard Mondschein junior, first-born son (Erstgeborner), entered by decree of the provincial government (Gubernial-Verordnung) of 19 September 1818, no. 13445. The facing page is blank on this scan. Read by Claude, 24 Nov 2026.",
+     "transcript": "20 Bernard Mondschein junior Erstgeborner Gub. Verord. 19. 7ber 818 Z. 13445"
     },
     {
      "url": "https://www.geni.com/people/x/6000000016899070886",
@@ -1192,6 +1286,72 @@
    },
    "links": [
     {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1931, Mondschein entries",
+     "context": "Person",
+     "cid": "C0177",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1931",
+     "page": "I. Teil, p. 1009 (Mond – Mopils), Mondschein entries",
+     "summary": "The 1931 Vienna address book lists the Mondschein households. Among them: Ernst, merchant, Vienna II, Glockengasse 4; Heinrich, commercial traveller, Vienna III, Hohlweggasse 10; two men named Karl (a waiter at XVI, Kollburggasse 25, and a dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42); and Leo, manufacturer, VII, Kaiserstraße 14, of the firm Mondschein & Speyer. The book does not say which Karl is Karl Mondschein (b. 1866). Heinrich is probably Heinrich/Heinz (b. 1903),, but the entry gives no birth year. Ernest Fred (b. 1914) and Franz Wilhelm (b. 1915) were too young to have their own entries.",
+     "transcript": "Mondschein Adolf Fritz, Kaufm., XVIII/1 Cottageg. 48, s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. U-25-6-95. — Annie, Private, IX/2 Marianneng. 32. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-12-3-38. — Ernst, Kaufm., II/1 Glockeng. 4. — Heinrich, Reisender, III. Hohlwegg. 10. — Ida, Buchhalterin, III. Rechte Bahng. 10. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Kaufm., IX/1 Thurng. 15A, Telephon A-16-3-49, Clrg. — Karl, Kellner, XVI. Kollburgg. 25. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. Mondschein Leo, Fbrkt., VII. Kaiserstr. 14, T. B-39-0-79, s. Mondschein & Speyer."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1932, Mondschein entries",
+     "context": "Person",
+     "cid": "C0178",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1932",
+     "page": "I. Teil, Mondschein entries (Adele – Katharina)",
+     "summary": "The 1932 Vienna address book lists Ernst as a sales representative at Vienna II, Glockengasse 4; Heinrich, commercial traveller, at III, Hohlweggasse 10 (now with a telephone, U-19-6-44); and again two men named Karl: a waiter at XVI, Habichergasse 6, and the dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42. A Franz Mondschein, merchant, is listed at I, Schellinggasse 5; Franz Wilhelm (b. 1915) would have been 16, so this is likely someone else. The page ends at Katharina; Leo's entry continues on the next page.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. T. R-23-1-10. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1933, Mondschein entries",
+     "context": "Person",
+     "cid": "C0179",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1933",
+     "page": "I. Teil, p. 1063 (Molner – Mondschein), Mondschein entries",
+     "summary": "The 1933 Vienna address book adds a new entry: Heinz Mondschein, leather goods, shop at Vienna I, Opernring 7 (telephone B-27-4-29), living at IX, Alserstraße 42. Karl, dealer in travel goods and leather wares, is still at VIII, Alserstraße 49, with his flat listed as no. 42. Because both are in the leather trade and both point to Alserstraße 42, this Karl is very likely Karl Mondschein (b. 1866) and Heinz his son Heinrich/Heinz (b. 1903). The other Heinrich (commercial traveller, III, Hohlweggasse 10) is then probably a different person. Also listed: Ernst, sales representative, II, Glockengasse 4; Leo, manufacturer, VII, Kaiserstraße 14, of Mondschein & Speyer (shoe factory, XIV/XV, Pfeifergasse 3); and Siegfried Mondschein's leather business at VII, Seidengasse 41, with his home at Kaiserstraße 14.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170 T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. Mondschein Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Heinz, Lederwr., I. Opernring 7, Telephon Nr. B-27-4-29, Wohn. IX. Alserstr. 42. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. T. B-39-0-79, s. Mondschein & Speyer. — Leopoldine, Näher., XIII. Kuefsteing. 48–50. — Markus, Portier, II. Tempelg. 3. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7. T. R-27-104, Wohn. III. Hetzg. 40. T. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, T. A-45-5-81, Wohn. II/1 Leopoldsgasse 16. T. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41. T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, recte Leiner, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Textilwr., II. Leopoldsg. 16. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer, pFa., Schuhwr.-Fbrk., XIV. (XV.) Pfeiferg. 3. T. R-36-3-18."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1934, Mondschein entries",
+     "context": "Person",
+     "cid": "C0180",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1934",
+     "page": "I. Teil, p. 871 (Molterer – Moody), Mondschein entries",
+     "summary": "In the 1934 Vienna address book Karl Mondschein, leather goods, is at Vienna VIII, Alserstraße 49, flat no. 42, now with telephone A-26-8-19. Heinz is listed twice: as a merchant at VI, Mariahilfer Straße 1C, and with a registered firm (\"Heinz Mondschein, see registered firms\"). Leo is still a manufacturer at VII, Kaiserstraße 14. Ernst no longer appears; he died in June 1934. Franz (merchant, I, Schellinggasse 5) is again listed; this is not likely Franz Wilhelm (b. 1915).",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Adolf Fritz, Kunsthdl., I. Graben 13. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apothek., VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. Mondschein Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. T. A-26-8-19. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. — Mathias, Schmied, V. Brandmayerg. 31. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7, Wohn. III. Hetzg. 40. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, Wohn. II. Leopoldsg. 16. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41, T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Schneider, II. Lichtenauerg. 7. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer s. pFa."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/215514",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1935, Mondschein entries",
+     "context": "Person",
+     "cid": "C0181",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1935",
+     "page": "I. Teil, Mondschein entries",
+     "summary": "The 1935 Vienna address book lists Karl Mondschein, leather goods, at Vienna VIII, Alserstraße 49, flat no. 42; Heinz, merchant, at VI, Mariahilfer Straße 1C, with a registered firm under his name; and Leo, manufacturer, at VII, Kaiserstraße 14. Franz Wilhelm (b. 1915) does not have an entry.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apotheke, XVI. Herbststraße 99, Wohn. VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Fritz, Kunsthdl., XVIII. Cottageg. 48. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/216683",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1935, Opernring 7 house listing",
+     "context": "Person",
+     "cid": "C0182",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1935",
+     "page": "Häuserverzeichnis Innere Stadt, p. 33, I. Opernring 7 (EZ 831)",
+     "summary": "The 1935 house-by-house directory for Vienna's Innere Stadt lists, at Opernring 7 (land register no. 831, also Operngasse 10), \"Mondschein H.\" with a telephone and the symbol for a leather goods business. This is Heinz Mondschein's leather goods shop, which the 1933 alphabetical listing places at Opernring 7. The entry names only \"H. Mondschein\" and does not mention Ernest Fred.",
+     "transcript": "7 EZ 831 s. a. Operngasse 10 E. Katscher J., Dr. u. Mitbesitzer H. Pfeiffer H. […] Lw Mondschein H. T."
+    },
+    {
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/268739",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1938, p. 855, Mondschein entries",
@@ -1225,36 +1385,6 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/218996",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1936",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/215514",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1935",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1934",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1933",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1932",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1931",
      "context": "Person"
     },
     {
@@ -1475,6 +1605,28 @@
      "transcript": "1880 census of Kyjov (Gaya), Jewish heads of household — index entries for the family (image | house | surname | first name | birth year):\n9 | 19a | Mondschein | Mathias | 1807\n85 | 134 | Mondschein | Georg | 1843\n89 | 134 | Mondschein | Abraham | 1804\n91 | 134 | Redlich | Alois | 1844\n140 | 145a | Redlich | Salomon | 1846\n142 | 145c | Redlich | Markus | 1815\n163 | 155 | Redlich | Hany | 1818\n17 | 23b/I | Fischer | Elias/Amalia | 1796\n56 | 72 | Fischer | Bernhard | 1850\n113 | 138 | Fischer | Salomon | 1815\n156 | 151 | Fischer | Nathan | 1814\n177 | 176 | Fischer | Hermann | 1833"
     },
     {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=88e2864969c111168a4d2c0b5c9ccf91",
+     "site": "Czech National Archives",
+     "label": "Marriage of Lazar Redlich and Chani ([Fany?]) Fischer, Kyjov 1839",
+     "context": "Person",
+     "cid": "C0173",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish marriage register (kn. 935)",
+     "page": "Kyjov Jewish marriages, kn. 935, scan 9 — 23 January 1839, Lazar Redlich and [Fany?] Fischer",
+     "summary": "Marriage register of the Jewish community of Kyjov (Gaya), 1839. On 23 January 1839 Lazar Redlich, Familiant no. 14, Jewish, aged 2[7?], single, married [Fany?] Fischer (the tree's Chani Fischer), Jewish, aged 20, single. Witnesses: Mr Elias Fischer, cloth merchant (Schnittwarenhändler) — very probably the bride's father — and Nathan Redlich, grain merchant (Getreidehändler) — probably the groom's father. Married by Samuel Kornblüh, local rabbi. The remarks cite the marriage permit of the district office (Kreisamt) and a town-council notice of 19 January 1839, no. 74; the dates in the remarks are hard to read. Lazar's age is unclear; if it is 27, he was born about 1811–12, not 1818. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "1839 den 23ten Jänner 1839 Lazar Redlich Familiant No 14 Israelith 2[7?] 1 [Fany?] Fischer Israelith 20 1 Herr Elias Fischer Schnittwarenhändler Nathan Redlich Getreidehändler Samuel Kornblüh Lokal-Rabiner Diese Trauung erfolgte vermög [ertheilter?] Heirathsbewilligung des Hochlöblichen k.k. Kreisamts [ddo?] 8. Februar 1839 [Z. ...?] und gemäß löbl. Magistrats Intimat ddo 19ten Jänner 1839 Z. 74 [...]"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
+     "site": "Czech National Archives",
+     "label": "Birth of Karl Mondschein, Bohuslavice 1866",
+     "context": "Person",
+     "cid": "C0176",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish birth register (kn. 932)",
+     "page": "Kyjov Jewish births, kn. 932, scan 130 — Karl Mondschein, 24 March 1866, Bohuslavice no. 177",
+     "summary": "Birth register of the Jewish community of Kyjov (Gaya), 1866. Karl, a boy, legitimate, was born on 24 March 1866 in Bohuslavice (Bohuslawitz) house no. 177 and named on 31 March. Father Heinrich Mondschein, son of Bernard Mondschein of Gaya, living in Bohuslavice no. 177; mother Netti, daughter of Lazar Redlich and Chani Fischer of Gaya. Godfather (Pathe) Gerson Mondschein of Gaya no. 46 — Heinrich's brother. Month and year are written as ditto marks under the March 1866 entries above. This confirms Netty's parents. The house is no. 177, so the tree's 'Bohuslavice no. 77' for Alois (1864) may be the same house misread. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "24 [März] [1866] Bohuslawitz No 177 31 [März] Karl 1 1 Heinrich Mondschein Sohn des Bernard Mondschein aus Gaya in Bohuslawitz No 177 Netti Tochter des Lazar Redlich und der Chani Fischer aus Gaya Gerson Mondschein No 46 Gaya"
+    },
+    {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=80568b82-7f6f-4617-be58-f124d82f8e15&scan=2fb94cc47805966355234af495a0bbdc",
      "site": "Czech National Archives",
      "label": null,
@@ -1505,15 +1657,53 @@
    },
    "links": [
     {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1931, Mondschein entries",
+     "context": "Person",
+     "cid": "C0177",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1931",
+     "page": "I. Teil, p. 1009 (Mond – Mopils), Mondschein entries",
+     "summary": "The 1931 Vienna address book lists the Mondschein households. Among them: Ernst, merchant, Vienna II, Glockengasse 4; Heinrich, commercial traveller, Vienna III, Hohlweggasse 10; two men named Karl (a waiter at XVI, Kollburggasse 25, and a dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42); and Leo, manufacturer, VII, Kaiserstraße 14, of the firm Mondschein & Speyer. The book does not say which Karl is Karl Mondschein (b. 1866). Heinrich is probably Heinrich/Heinz (b. 1903),, but the entry gives no birth year. Ernest Fred (b. 1914) and Franz Wilhelm (b. 1915) were too young to have their own entries.",
+     "transcript": "Mondschein Adolf Fritz, Kaufm., XVIII/1 Cottageg. 48, s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. U-25-6-95. — Annie, Private, IX/2 Marianneng. 32. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-12-3-38. — Ernst, Kaufm., II/1 Glockeng. 4. — Heinrich, Reisender, III. Hohlwegg. 10. — Ida, Buchhalterin, III. Rechte Bahng. 10. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Kaufm., IX/1 Thurng. 15A, Telephon A-16-3-49, Clrg. — Karl, Kellner, XVI. Kollburgg. 25. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. Mondschein Leo, Fbrkt., VII. Kaiserstr. 14, T. B-39-0-79, s. Mondschein & Speyer."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1932, Mondschein entries",
+     "context": "Person",
+     "cid": "C0178",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1932",
+     "page": "I. Teil, Mondschein entries (Adele – Katharina)",
+     "summary": "The 1932 Vienna address book lists Ernst as a sales representative at Vienna II, Glockengasse 4; Heinrich, commercial traveller, at III, Hohlweggasse 10 (now with a telephone, U-19-6-44); and again two men named Karl: a waiter at XVI, Habichergasse 6, and the dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42. A Franz Mondschein, merchant, is listed at I, Schellinggasse 5; Franz Wilhelm (b. 1915) would have been 16, so this is likely someone else. The page ends at Katharina; Leo's entry continues on the next page.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. T. R-23-1-10. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1933, Mondschein entries",
+     "context": "Person",
+     "cid": "C0179",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1933",
+     "page": "I. Teil, p. 1063 (Molner – Mondschein), Mondschein entries",
+     "summary": "The 1933 Vienna address book adds a new entry: Heinz Mondschein, leather goods, shop at Vienna I, Opernring 7 (telephone B-27-4-29), living at IX, Alserstraße 42. Karl, dealer in travel goods and leather wares, is still at VIII, Alserstraße 49, with his flat listed as no. 42. Because both are in the leather trade and both point to Alserstraße 42, this Karl is very likely Karl Mondschein (b. 1866) and Heinz his son Heinrich/Heinz (b. 1903). The other Heinrich (commercial traveller, III, Hohlweggasse 10) is then probably a different person. Also listed: Ernst, sales representative, II, Glockengasse 4; Leo, manufacturer, VII, Kaiserstraße 14, of Mondschein & Speyer (shoe factory, XIV/XV, Pfeifergasse 3); and Siegfried Mondschein's leather business at VII, Seidengasse 41, with his home at Kaiserstraße 14.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170 T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. Mondschein Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Heinz, Lederwr., I. Opernring 7, Telephon Nr. B-27-4-29, Wohn. IX. Alserstr. 42. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. T. B-39-0-79, s. Mondschein & Speyer. — Leopoldine, Näher., XIII. Kuefsteing. 48–50. — Markus, Portier, II. Tempelg. 3. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7. T. R-27-104, Wohn. III. Hetzg. 40. T. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, T. A-45-5-81, Wohn. II/1 Leopoldsgasse 16. T. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41. T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, recte Leiner, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Textilwr., II. Leopoldsg. 16. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer, pFa., Schuhwr.-Fbrk., XIV. (XV.) Pfeiferg. 3. T. R-36-3-18."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1934, Mondschein entries",
+     "context": "Person",
+     "cid": "C0180",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1934",
+     "page": "I. Teil, p. 871 (Molterer – Moody), Mondschein entries",
+     "summary": "In the 1934 Vienna address book Karl Mondschein, leather goods, is at Vienna VIII, Alserstraße 49, flat no. 42, now with telephone A-26-8-19. Heinz is listed twice: as a merchant at VI, Mariahilfer Straße 1C, and with a registered firm (\"Heinz Mondschein, see registered firms\"). Leo is still a manufacturer at VII, Kaiserstraße 14. Ernst no longer appears; he died in June 1934. Franz (merchant, I, Schellinggasse 5) is again listed; this is not likely Franz Wilhelm (b. 1915).",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Adolf Fritz, Kunsthdl., I. Graben 13. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apothek., VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. Mondschein Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. T. A-26-8-19. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. — Mathias, Schmied, V. Brandmayerg. 31. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7, Wohn. III. Hetzg. 40. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, Wohn. II. Leopoldsg. 16. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41, T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Schneider, II. Lichtenauerg. 7. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer s. pFa."
+    },
+    {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=a38ecc91dbc0dea1f2b2f12e15778bab",
      "site": "Czech National Archives",
      "label": null,
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1931",
      "context": "Person"
     },
     {
@@ -1678,6 +1868,61 @@
    },
    "links": [
     {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1931, Mondschein entries",
+     "context": "Person",
+     "cid": "C0177",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1931",
+     "page": "I. Teil, p. 1009 (Mond – Mopils), Mondschein entries",
+     "summary": "The 1931 Vienna address book lists the Mondschein households. Among them: Ernst, merchant, Vienna II, Glockengasse 4; Heinrich, commercial traveller, Vienna III, Hohlweggasse 10; two men named Karl (a waiter at XVI, Kollburggasse 25, and a dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42); and Leo, manufacturer, VII, Kaiserstraße 14, of the firm Mondschein & Speyer. The book does not say which Karl is Karl Mondschein (b. 1866). Heinrich is probably Heinrich/Heinz (b. 1903),, but the entry gives no birth year. Ernest Fred (b. 1914) and Franz Wilhelm (b. 1915) were too young to have their own entries.",
+     "transcript": "Mondschein Adolf Fritz, Kaufm., XVIII/1 Cottageg. 48, s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. U-25-6-95. — Annie, Private, IX/2 Marianneng. 32. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-12-3-38. — Ernst, Kaufm., II/1 Glockeng. 4. — Heinrich, Reisender, III. Hohlwegg. 10. — Ida, Buchhalterin, III. Rechte Bahng. 10. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Kaufm., IX/1 Thurng. 15A, Telephon A-16-3-49, Clrg. — Karl, Kellner, XVI. Kollburgg. 25. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. Mondschein Leo, Fbrkt., VII. Kaiserstr. 14, T. B-39-0-79, s. Mondschein & Speyer."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1932, Mondschein entries",
+     "context": "Person",
+     "cid": "C0178",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1932",
+     "page": "I. Teil, Mondschein entries (Adele – Katharina)",
+     "summary": "The 1932 Vienna address book lists Ernst as a sales representative at Vienna II, Glockengasse 4; Heinrich, commercial traveller, at III, Hohlweggasse 10 (now with a telephone, U-19-6-44); and again two men named Karl: a waiter at XVI, Habichergasse 6, and the dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42. A Franz Mondschein, merchant, is listed at I, Schellinggasse 5; Franz Wilhelm (b. 1915) would have been 16, so this is likely someone else. The page ends at Katharina; Leo's entry continues on the next page.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. T. R-23-1-10. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1933, Mondschein entries",
+     "context": "Person",
+     "cid": "C0179",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1933",
+     "page": "I. Teil, p. 1063 (Molner – Mondschein), Mondschein entries",
+     "summary": "The 1933 Vienna address book adds a new entry: Heinz Mondschein, leather goods, shop at Vienna I, Opernring 7 (telephone B-27-4-29), living at IX, Alserstraße 42. Karl, dealer in travel goods and leather wares, is still at VIII, Alserstraße 49, with his flat listed as no. 42. Because both are in the leather trade and both point to Alserstraße 42, this Karl is very likely Karl Mondschein (b. 1866) and Heinz his son Heinrich/Heinz (b. 1903). The other Heinrich (commercial traveller, III, Hohlweggasse 10) is then probably a different person. Also listed: Ernst, sales representative, II, Glockengasse 4; Leo, manufacturer, VII, Kaiserstraße 14, of Mondschein & Speyer (shoe factory, XIV/XV, Pfeifergasse 3); and Siegfried Mondschein's leather business at VII, Seidengasse 41, with his home at Kaiserstraße 14.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170 T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. Mondschein Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Heinz, Lederwr., I. Opernring 7, Telephon Nr. B-27-4-29, Wohn. IX. Alserstr. 42. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. T. B-39-0-79, s. Mondschein & Speyer. — Leopoldine, Näher., XIII. Kuefsteing. 48–50. — Markus, Portier, II. Tempelg. 3. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7. T. R-27-104, Wohn. III. Hetzg. 40. T. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, T. A-45-5-81, Wohn. II/1 Leopoldsgasse 16. T. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41. T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, recte Leiner, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Textilwr., II. Leopoldsg. 16. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer, pFa., Schuhwr.-Fbrk., XIV. (XV.) Pfeiferg. 3. T. R-36-3-18."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1934, Mondschein entries",
+     "context": "Person",
+     "cid": "C0180",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1934",
+     "page": "I. Teil, p. 871 (Molterer – Moody), Mondschein entries",
+     "summary": "In the 1934 Vienna address book Karl Mondschein, leather goods, is at Vienna VIII, Alserstraße 49, flat no. 42, now with telephone A-26-8-19. Heinz is listed twice: as a merchant at VI, Mariahilfer Straße 1C, and with a registered firm (\"Heinz Mondschein, see registered firms\"). Leo is still a manufacturer at VII, Kaiserstraße 14. Ernst no longer appears; he died in June 1934. Franz (merchant, I, Schellinggasse 5) is again listed; this is not likely Franz Wilhelm (b. 1915).",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Adolf Fritz, Kunsthdl., I. Graben 13. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apothek., VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. Mondschein Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. T. A-26-8-19. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. — Mathias, Schmied, V. Brandmayerg. 31. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7, Wohn. III. Hetzg. 40. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, Wohn. II. Leopoldsg. 16. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41, T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Schneider, II. Lichtenauerg. 7. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer s. pFa."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/215514",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1935, Mondschein entries",
+     "context": "Person",
+     "cid": "C0181",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1935",
+     "page": "I. Teil, Mondschein entries",
+     "summary": "The 1935 Vienna address book lists Karl Mondschein, leather goods, at Vienna VIII, Alserstraße 49, flat no. 42; Heinz, merchant, at VI, Mariahilfer Straße 1C, with a registered firm under his name; and Leo, manufacturer, at VII, Kaiserstraße 14. Franz Wilhelm (b. 1915) does not have an entry.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apotheke, XVI. Herbststraße 99, Wohn. VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Fritz, Kunsthdl., XVIII. Cottageg. 48. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14."
+    },
+    {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=91ba9eb4c8e7a5ef2ed05e7375f04392",
      "site": "Czech National Archives",
      "label": null,
@@ -1705,36 +1950,6 @@
      "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/218996",
      "site": "Wienbibliothek",
      "label": "Lehmann address book 1936",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/215514",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1935",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1934",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1933",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1932",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1931",
      "context": "Person"
     },
     {
@@ -2313,6 +2528,61 @@
    },
    "links": [
     {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1931, Mondschein entries",
+     "context": "Person",
+     "cid": "C0177",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1931",
+     "page": "I. Teil, p. 1009 (Mond – Mopils), Mondschein entries",
+     "summary": "The 1931 Vienna address book lists the Mondschein households. Among them: Ernst, merchant, Vienna II, Glockengasse 4; Heinrich, commercial traveller, Vienna III, Hohlweggasse 10; two men named Karl (a waiter at XVI, Kollburggasse 25, and a dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42); and Leo, manufacturer, VII, Kaiserstraße 14, of the firm Mondschein & Speyer. The book does not say which Karl is Karl Mondschein (b. 1866). Heinrich is probably Heinrich/Heinz (b. 1903),, but the entry gives no birth year. Ernest Fred (b. 1914) and Franz Wilhelm (b. 1915) were too young to have their own entries.",
+     "transcript": "Mondschein Adolf Fritz, Kaufm., XVIII/1 Cottageg. 48, s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. U-25-6-95. — Annie, Private, IX/2 Marianneng. 32. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-12-3-38. — Ernst, Kaufm., II/1 Glockeng. 4. — Heinrich, Reisender, III. Hohlwegg. 10. — Ida, Buchhalterin, III. Rechte Bahng. 10. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Kaufm., IX/1 Thurng. 15A, Telephon A-16-3-49, Clrg. — Karl, Kellner, XVI. Kollburgg. 25. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. Mondschein Leo, Fbrkt., VII. Kaiserstr. 14, T. B-39-0-79, s. Mondschein & Speyer."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1932, Mondschein entries",
+     "context": "Person",
+     "cid": "C0178",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1932",
+     "page": "I. Teil, Mondschein entries (Adele – Katharina)",
+     "summary": "The 1932 Vienna address book lists Ernst as a sales representative at Vienna II, Glockengasse 4; Heinrich, commercial traveller, at III, Hohlweggasse 10 (now with a telephone, U-19-6-44); and again two men named Karl: a waiter at XVI, Habichergasse 6, and the dealer in travel goods and leather wares at VIII, Alserstraße 49, flat no. 42. A Franz Mondschein, merchant, is listed at I, Schellinggasse 5; Franz Wilhelm (b. 1915) would have been 16, so this is likely someone else. The page ends at Katharina; Leo's entry continues on the next page.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. T. R-23-1-10. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1933, Mondschein entries",
+     "context": "Person",
+     "cid": "C0179",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1933",
+     "page": "I. Teil, p. 1063 (Molner – Mondschein), Mondschein entries",
+     "summary": "The 1933 Vienna address book adds a new entry: Heinz Mondschein, leather goods, shop at Vienna I, Opernring 7 (telephone B-27-4-29), living at IX, Alserstraße 42. Karl, dealer in travel goods and leather wares, is still at VIII, Alserstraße 49, with his flat listed as no. 42. Because both are in the leather trade and both point to Alserstraße 42, this Karl is very likely Karl Mondschein (b. 1866) and Heinz his son Heinrich/Heinz (b. 1903). The other Heinrich (commercial traveller, III, Hohlweggasse 10) is then probably a different person. Also listed: Ernst, sales representative, II, Glockengasse 4; Leo, manufacturer, VII, Kaiserstraße 14, of Mondschein & Speyer (shoe factory, XIV/XV, Pfeifergasse 3); and Siegfried Mondschein's leather business at VII, Seidengasse 41, with his home at Kaiserstraße 14.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170 T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. Mondschein Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Heinz, Lederwr., I. Opernring 7, Telephon Nr. B-27-4-29, Wohn. IX. Alserstr. 42. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. T. B-39-0-79, s. Mondschein & Speyer. — Leopoldine, Näher., XIII. Kuefsteing. 48–50. — Markus, Portier, II. Tempelg. 3. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7. T. R-27-104, Wohn. III. Hetzg. 40. T. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, T. A-45-5-81, Wohn. II/1 Leopoldsgasse 16. T. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41. T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, recte Leiner, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Textilwr., II. Leopoldsg. 16. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer, pFa., Schuhwr.-Fbrk., XIV. (XV.) Pfeiferg. 3. T. R-36-3-18."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1934, Mondschein entries",
+     "context": "Person",
+     "cid": "C0180",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1934",
+     "page": "I. Teil, p. 871 (Molterer – Moody), Mondschein entries",
+     "summary": "In the 1934 Vienna address book Karl Mondschein, leather goods, is at Vienna VIII, Alserstraße 49, flat no. 42, now with telephone A-26-8-19. Heinz is listed twice: as a merchant at VI, Mariahilfer Straße 1C, and with a registered firm (\"Heinz Mondschein, see registered firms\"). Leo is still a manufacturer at VII, Kaiserstraße 14. Ernst no longer appears; he died in June 1934. Franz (merchant, I, Schellinggasse 5) is again listed; this is not likely Franz Wilhelm (b. 1915).",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Adolf Fritz, Kunsthdl., I. Graben 13. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apothek., VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. Mondschein Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. T. A-26-8-19. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. — Mathias, Schmied, V. Brandmayerg. 31. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7, Wohn. III. Hetzg. 40. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, Wohn. II. Leopoldsg. 16. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41, T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Schneider, II. Lichtenauerg. 7. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer s. pFa."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/215514",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1935, Mondschein entries",
+     "context": "Person",
+     "cid": "C0181",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1935",
+     "page": "I. Teil, Mondschein entries",
+     "summary": "The 1935 Vienna address book lists Karl Mondschein, leather goods, at Vienna VIII, Alserstraße 49, flat no. 42; Heinz, merchant, at VI, Mariahilfer Straße 1C, with a registered firm under his name; and Leo, manufacturer, at VII, Kaiserstraße 14. Franz Wilhelm (b. 1915) does not have an entry.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apotheke, XVI. Herbststraße 99, Wohn. VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Fritz, Kunsthdl., XVIII. Cottageg. 48. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14."
+    },
+    {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=9c323f24-b818-4b9d-a81b-1b4d8becdb84&scan=f2839b10ea26bf57c034b72ee440d5e9",
      "site": "Czech National Archives",
      "label": null,
@@ -2322,30 +2592,6 @@
      "url": "https://www.geni.com/photo/view/6000000020758283233?album_type=photos_of_me&photo_id=6000000030757100201",
      "site": "Geni",
      "label": "Photo on Geni",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1934",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1933",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/203611",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1932",
-     "context": "Person"
-    },
-    {
-     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/200362",
-     "site": "Wienbibliothek",
-     "label": "Lehmann address book 1931",
      "context": "Person"
     },
     {
@@ -3463,6 +3709,28 @@
    },
    "links": [
     {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/208053",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1933, Mondschein entries",
+     "context": "Person",
+     "cid": "C0179",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1933",
+     "page": "I. Teil, p. 1063 (Molner – Mondschein), Mondschein entries",
+     "summary": "The 1933 Vienna address book adds a new entry: Heinz Mondschein, leather goods, shop at Vienna I, Opernring 7 (telephone B-27-4-29), living at IX, Alserstraße 42. Karl, dealer in travel goods and leather wares, is still at VIII, Alserstraße 49, with his flat listed as no. 42. Because both are in the leather trade and both point to Alserstraße 42, this Karl is very likely Karl Mondschein (b. 1866) and Heinz his son Heinrich/Heinz (b. 1903). The other Heinrich (commercial traveller, III, Hohlweggasse 10) is then probably a different person. Also listed: Ernst, sales representative, II, Glockengasse 4; Leo, manufacturer, VII, Kaiserstraße 14, of Mondschein & Speyer (shoe factory, XIV/XV, Pfeifergasse 3); and Siegfried Mondschein's leather business at VII, Seidengasse 41, with his home at Kaiserstraße 14.",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. T. A-14-7-31. — Adolf Fritz, Kaufm., XVIII/1 Cottagegasse 48, T. s. Galerie St. Lukas rc. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170 T. A-14-1-36. — Artur, PhMr., Apothek., VIII. Pfeilg. 23, T. B-47-6-54. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. T. A-17-7-59. — Engelbert, Maurer, XXI. Prager Str. 86. — Ernst, Vertr., II/1 Glockeng. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. Mondschein Heinrich, Reisender, III. Hohlwegg. 10. T. U-19-6-44. — Heinz, Lederwr., I. Opernring 7, Telephon Nr. B-27-4-29, Wohn. IX. Alserstr. 42. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. — Karl, Reiserequisiten- u. Lederwrhdlg., VIII. Alserstr. 49 T. Wohn. Nr. 42. — Katharina, Ww., II/1 Ennsg. 6. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. T. B-39-0-79, s. Mondschein & Speyer. — Leopoldine, Näher., XIII. Kuefsteing. 48–50. — Markus, Portier, II. Tempelg. 3. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7. T. R-27-104, Wohn. III. Hetzg. 40. T. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, T. A-45-5-81, Wohn. II/1 Leopoldsgasse 16. T. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41. T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, recte Leiner, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Textilwr., II. Leopoldsg. 16. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer, pFa., Schuhwr.-Fbrk., XIV. (XV.) Pfeiferg. 3. T. R-36-3-18."
+    },
+    {
+     "url": "https://www.digital.wienbibliothek.at/wbrobv/periodical/pageview/212020",
+     "site": "Wienbibliothek",
+     "label": "Lehmann 1934, Mondschein entries",
+     "context": "Person",
+     "cid": "C0180",
+     "source": "Lehmann's Allgemeiner Wohnungs-Anzeiger für Wien, 1934",
+     "page": "I. Teil, p. 871 (Molterer – Moody), Mondschein entries",
+     "summary": "In the 1934 Vienna address book Karl Mondschein, leather goods, is at Vienna VIII, Alserstraße 49, flat no. 42, now with telephone A-26-8-19. Heinz is listed twice: as a merchant at VI, Mariahilfer Straße 1C, and with a registered firm (\"Heinz Mondschein, see registered firms\"). Leo is still a manufacturer at VII, Kaiserstraße 14. Ernst no longer appears; he died in June 1934. Franz (merchant, I, Schellinggasse 5) is again listed; this is not likely Franz Wilhelm (b. 1915).",
+     "transcript": "Mondschein Adele, Priv., IX. Thurng. 15A. — Adolf Fritz, Kunsthdl., I. Graben 13. — Alexander, MDr., Zahnarzt, IX/1 Währinger Gürtel 170. — Artur, PhMr., Apothek., VIII. Pfeilg. 23. — David Wolf, Kaufm., IX/1 Nußdorfer Str. 4. — Franz, Kaufm., I. Schellingg. 5. — Gusta, Priv., III. Unt. Weißgärber Str. 26. — Heinrich, Reisender, III. Hohlwegg. 10. — Heinz Mondschein s. pFa. — Heinz, Kaufm., VI. Mariahilfer Str. 1C. — Ida, Lebensm., XX. Salzachstr. 40. — Johann, Werkzeugdreher, XIII/1 Trauttmansdorffg. 29 A. — Julius, Ing., IX. Pelikang. 15. — Karl, Kellner, XVI. Habicherg. 6. Mondschein Karl, Lederwr., VIII. Alserstr. 49, Wohn. Nr. 42. T. A-26-8-19. — Leib, Zwirnhdl., II/1 Miesbachg. 10. — Leo, Fbrkt., VII. Kaiserstr. 14. — Mathias, Schmied, V. Brandmayerg. 31. — Moritz, Wagenfhr., XXI/1 Jedleseer Straße Nr. 64–96, Stg. 1. — Pauline, Priv., II. Zirkusg. 14. — Salomon, JDr., Rechtsanwalt, I. Dorotheerg. 7, Wohn. III. Hetzg. 40. — Samuel, Kloth- u. Kopftücher, II. Gr. Sperlgasse 6, Wohn. II. Leopoldsg. 16. — Siegfried Mondschein, pFa., Lederhdlg., VII. Seideng. 41, T. B-36-1-28, Wohn. VII. Kaiserstraße 14. T. B-30-7-60. — Simon, Stampiglienerz., I. Laurenzerberg 3, Wohn. XX. Treustr. 3. — Wilhelm, Schneider, II. Lichtenauerg. 7. — Wilhelmine, Priv., XX. Staudingerg. 1. — Mondschein & Speyer s. pFa."
+    },
+    {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=17b7bc28720f34a19889d4a3349a4e70",
      "site": "Czech National Archives",
      "label": null,
@@ -3614,8 +3882,13 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=ec3cdaed-7149-426f-9f91-e93f81ecd7ba&scan=291433c009445514350016f290195b04",
      "site": "Czech National Archives",
-     "label": "Pathe? godfather at his nephew Karl Mondschein's birth, 1866",
-     "context": "Person"
+     "label": "Birth of Karl Mondschein, Bohuslavice 1866",
+     "context": "Person",
+     "cid": "C0176",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish birth register (kn. 932)",
+     "page": "Kyjov Jewish births, kn. 932, scan 130 — Karl Mondschein, 24 March 1866, Bohuslavice no. 177",
+     "summary": "Birth register of the Jewish community of Kyjov (Gaya), 1866. Karl, a boy, legitimate, was born on 24 March 1866 in Bohuslavice (Bohuslawitz) house no. 177 and named on 31 March. Father Heinrich Mondschein, son of Bernard Mondschein of Gaya, living in Bohuslavice no. 177; mother Netti, daughter of Lazar Redlich and Chani Fischer of Gaya. Godfather (Pathe) Gerson Mondschein of Gaya no. 46 — Heinrich's brother. Month and year are written as ditto marks under the March 1866 entries above. This confirms Netty's parents. The house is no. 177, so the tree's 'Bohuslavice no. 77' for Alois (1864) may be the same house misread. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "24 [März] [1866] Bohuslawitz No 177 31 [März] Karl 1 1 Heinrich Mondschein Sohn des Bernard Mondschein aus Gaya in Bohuslawitz No 177 Netti Tochter des Lazar Redlich und der Chani Fischer aus Gaya Gerson Mondschein No 46 Gaya"
     },
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=98a75aad-db81-410e-8587-ffa0c136f8ac&scan=11a59ae6ef3963abdd3cd4530275bf4a",
@@ -3983,8 +4256,13 @@
     {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=88e2864969c111168a4d2c0b5c9ccf91",
      "site": "Czech National Archives",
-     "label": "children's birth certificate",
-     "context": "Person"
+     "label": "Marriage of Lazar Redlich and Chani ([Fany?]) Fischer, Kyjov 1839",
+     "context": "Person",
+     "cid": "C0173",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish marriage register (kn. 935)",
+     "page": "Kyjov Jewish marriages, kn. 935, scan 9 — 23 January 1839, Lazar Redlich and [Fany?] Fischer",
+     "summary": "Marriage register of the Jewish community of Kyjov (Gaya), 1839. On 23 January 1839 Lazar Redlich, Familiant no. 14, Jewish, aged 2[7?], single, married [Fany?] Fischer (the tree's Chani Fischer), Jewish, aged 20, single. Witnesses: Mr Elias Fischer, cloth merchant (Schnittwarenhändler) — very probably the bride's father — and Nathan Redlich, grain merchant (Getreidehändler) — probably the groom's father. Married by Samuel Kornblüh, local rabbi. The remarks cite the marriage permit of the district office (Kreisamt) and a town-council notice of 19 January 1839, no. 74; the dates in the remarks are hard to read. Lazar's age is unclear; if it is 27, he was born about 1811–12, not 1818. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "1839 den 23ten Jänner 1839 Lazar Redlich Familiant No 14 Israelith 2[7?] 1 [Fany?] Fischer Israelith 20 1 Herr Elias Fischer Schnittwarenhändler Nathan Redlich Getreidehändler Samuel Kornblüh Lokal-Rabiner Diese Trauung erfolgte vermög [ertheilter?] Heirathsbewilligung des Hochlöblichen k.k. Kreisamts [ddo?] 8. Februar 1839 [Z. ...?] und gemäß löbl. Magistrats Intimat ddo 19ten Jänner 1839 Z. 74 [...]"
     },
     {
      "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/d143afad-b69b-4e3b-896c-13328e694f9f",
@@ -4186,6 +4464,17 @@
      "page": "fol. 260",
      "summary": "Continuation of the sub-lease (F17): as security (\"Caution\") of 280 fl. C.M. for the lease, Abraham Mondschein pledges his house No. 137 (\"seine … Hälfte vom Haus N. 137\") and Elias Fischer his house share No. 21 (2nd and 6th part)",
      "transcript": "\"… bestellen sie … eine fidejussorische Caution von 280 f C.M. und bestimmt als Hypothek … Abraham Mondschein … Hälfte vom Haus N. 137, und Elias Fischer seinen Judenhausantheil N. 21 2 und 6te Abtheilung, und geben beide ihre … Einwilligung …\""
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=e8af1d1d-8e35-4fd0-8132-a8842e65b842&scan=88e2864969c111168a4d2c0b5c9ccf91",
+     "site": "Czech National Archives",
+     "label": "Marriage of Lazar Redlich and Chani ([Fany?]) Fischer, Kyjov 1839",
+     "context": "Person",
+     "cid": "C0173",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish marriage register (kn. 935)",
+     "page": "Kyjov Jewish marriages, kn. 935, scan 9 — 23 January 1839, Lazar Redlich and [Fany?] Fischer",
+     "summary": "Marriage register of the Jewish community of Kyjov (Gaya), 1839. On 23 January 1839 Lazar Redlich, Familiant no. 14, Jewish, aged 2[7?], single, married [Fany?] Fischer (the tree's Chani Fischer), Jewish, aged 20, single. Witnesses: Mr Elias Fischer, cloth merchant (Schnittwarenhändler) — very probably the bride's father — and Nathan Redlich, grain merchant (Getreidehändler) — probably the groom's father. Married by Samuel Kornblüh, local rabbi. The remarks cite the marriage permit of the district office (Kreisamt) and a town-council notice of 19 January 1839, no. 74; the dates in the remarks are hard to read. Lazar's age is unclear; if it is 27, he was born about 1811–12, not 1818. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "1839 den 23ten Jänner 1839 Lazar Redlich Familiant No 14 Israelith 2[7?] 1 [Fany?] Fischer Israelith 20 1 Herr Elias Fischer Schnittwarenhändler Nathan Redlich Getreidehändler Samuel Kornblüh Lokal-Rabiner Diese Trauung erfolgte vermög [ertheilter?] Heirathsbewilligung des Hochlöblichen k.k. Kreisamts [ddo?] 8. Februar 1839 [Z. ...?] und gemäß löbl. Magistrats Intimat ddo 19ten Jänner 1839 Z. 74 [...]"
     },
     {
      "url": "https://www.mza.cz/aron/apu/247ed506-5a69-4a9c-9cc0-d334c86bebcf/dao/247ed506-5a69-4a9c-9cc0-d334c86bebcf/file/5595fb91-17f2-43ec-a573-48d9cc239d82",
@@ -4586,16 +4875,26 @@
      "transcript": "\"Ernestine Mondschein · an das […]amt. Dem […]amte wird verordnet die Schenkungsurkunde der Veronika Mondschein vom 20 Februar 1843 über die Hälfte der Weiberschulsessel N. 15 et 16 … für die Ernestine Placzek zu intabulieren … Schenkungsurkunde. Mittelst welcher ich endesgefertigte Veronika Mondschein hinterbliebene Witwe nach Bernard Mondschein bekenne, daß ich die mir eigenthümlich gehörige Hälfte von den Weiberschulsesseln N. 15 und 16 in der Gayer Synagoge bestehend, meiner Tochter Ernestine Mondschein verehelichte Israel Placzek Familiant in Gaya …\""
     },
     {
-     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=54666d12-896a-4758-a76a-e43e940849ca&scan=4fcc12481e3daaf06b824e28481fa7b1",
-     "site": "Czech National Archives",
-     "label": "kn 943, death index 1830-1846: Mondschein Bernard der alte, folio 20",
-     "context": "Person"
-    },
-    {
      "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=6bd1e7d2-60bf-417a-976f-d93645742b35&scan=1037b52cced7ae0640c300740378fa00",
      "site": "Czech National Archives",
-     "label": "kn 938, p. 20, death entry, 23 Aug 1835, age 67",
-     "context": "Person"
+     "label": "Death of Gerson Bernard Mondschein ('der Alte'), Kyjov 1835",
+     "context": "Person",
+     "cid": "C0174",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish death register (kn. 938)",
+     "page": "Kyjov Jewish deaths, kn. 938, p. 20 — Bernard Mondschein der Alte, 23 August 1835",
+     "summary": "Death register of the Jewish community of Kyjov (Gaya), 1835. Bernard Mondschein 'the elder' (der Alte), Jewish, male, died on 23 August 1835 at house no. 150, aged 67, of a haemorrhage (Blutsturz). The attendant and burial columns repeat the entries above (detto / dieselben). 'Der Alte' distinguishes him from his son Bernard junior. Read by Claude at the archive viewer's maximum zoom, 24 Nov 2026.",
+     "transcript": "den 23ten Augusti 1835 150 Bernard Mondschein der Alte Israelith 1 67 Blutsturz detto dieselben [Leichenbeschauer?] [...]"
+    },
+    {
+     "url": "https://vademecum.nacr.cz/vademecum/permalink?xid=54666d12-896a-4758-a76a-e43e940849ca&scan=4fcc12481e3daaf06b824e28481fa7b1",
+     "site": "Czech National Archives",
+     "label": "Death index: Bernard Mondschein 'der alte', Kyjov (folio 20)",
+     "context": "Person",
+     "cid": "C0175",
+     "source": "Národní archiv, HBMa — Kyjov (Gaya), Jewish death register name index 1830–1846 (kn. 943)",
+     "page": "Kyjov Jewish deaths 1830–1846, name index (kn. 943), letter M — Mondschein Bernard der alte, folio 20",
+     "summary": "Later name index to the Kyjov Jewish death register 1830–1846, letter M: 'Mondschein Bernard der alte (the elder)', folio 20 — pointing to his death entry of 23 August 1835. Other Mondschein entries on the same page: Barbara (27), Lenora (28), Isak (30), Katharina (32), Rosalie (44), Veronika (50), Karl (52). Read by Claude, 24 Nov 2026.",
+     "transcript": "Mondschein Bernard der alte 20"
     },
     {
      "url": "https://www.geni.com/people/x/6000000057903238876",
